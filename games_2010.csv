@@ -1,0 +1,2461 @@
+id,date,home_team,home_team_score,visit_team,visit_team_score
+291027005,2010-10-27,Cleveland,89,Boston Celtics,95
+291028002,2010-10-28,Boston Celtics,92,Charlotte,59
+291030002,2010-10-30,Boston Celtics,118,Chicago,90
+291101002,2010-11-01,Boston Celtics,97,New Orleans,87
+291103020,2010-11-03,Philadelphia,74,Boston Celtics,105
+291104016,2010-11-04,Minnesota,90,Boston Celtics,92
+291106002,2010-11-06,Boston Celtics,103,Phoenix,110
+291107017,2010-11-07,Brooklyn,76,Boston Celtics,86
+291111002,2010-11-11,Boston Celtics,105,Utah,86
+291113002,2010-11-13,Boston Celtics,86,Atlanta,97
+291114011,2010-11-14,Indiana,113,Boston Celtics,104
+291118002,2010-11-18,Boston Celtics,109,Golden State,95
+291120002,2010-11-20,Boston Celtics,78,Orlando,83
+291122018,2010-11-22,NY Knicks,105,Boston Celtics,107
+291125002,2010-11-25,Boston Celtics,113,Philadelphia,110
+291127002,2010-11-27,Boston Celtics,116,Toronto,103
+291129014,2010-11-29,Miami,85,Boston Celtics,92
+291201030,2010-12-01,Charlotte,90,Boston Celtics,108
+291203024,2010-12-03,San Antonio,83,Boston Celtics,90
+291204025,2010-12-04,Oklahoma City,87,Boston Celtics,105
+291208002,2010-12-08,Boston Celtics,98,Milwaukee,89
+291210027,2010-12-10,Washington,102,Boston Celtics,104
+291212004,2010-12-12,Chicago,80,Boston Celtics,106
+291214029,2010-12-14,Memphis,105,Boston Celtics,110
+291218002,2010-12-18,Boston Celtics,97,Philadelphia,98
+291220002,2010-12-20,Boston Celtics,122,Minnesota,104
+291222002,2010-12-22,Boston Celtics,103,Indiana,94
+291225019,2010-12-25,Orlando,77,Boston Celtics,86
+291227012,2010-12-27,LA,92,Boston Celtics,90
+291228009,2010-12-28,Golden State,103,Boston Celtics,99
+291230021,2010-12-30,Phoenix,116,Boston Celtics,98
+300102002,2010-01-02,Boston Celtics,103,Toronto,96
+300106014,2010-01-06,Miami,106,Boston Celtics,112
+300108001,2010-01-08,Atlanta,93,Boston Celtics,85
+300110028,2010-01-10,Toronto,107,Boston Celtics,114
+300111002,2010-01-11,Boston Celtics,96,Atlanta,102
+300113017,2010-01-13,Brooklyn,87,Boston Celtics,111
+300114002,2010-01-14,Boston Celtics,83,Chicago,96
+300118002,2010-01-18,Boston Celtics,90,Dallas,99
+300120008,2010-01-20,Detroit,92,Boston Celtics,86
+300122002,2010-01-22,Boston Celtics,98,Portland,95
+300125002,2010-01-25,Boston Celtics,95,LA,89
+300128019,2010-01-28,Orlando,96,Boston Celtics,94
+300129001,2010-01-29,Atlanta,100,Boston Celtics,91
+300131002,2010-01-31,Boston Celtics,89,Los Angeles,90
+300201027,2010-02-01,Washington,88,Boston Celtics,99
+300203002,2010-02-03,Boston Celtics,107,Miami,102
+300205002,2010-02-05,Boston Celtics,96,Brooklyn,87
+300207002,2010-02-07,Boston Celtics,89,Orlando,96
+300210003,2010-02-10,New Orleans,93,Boston Celtics,85
+300216023,2010-02-16,Sacramento,92,Boston Celtics,95
+300218013,2010-02-18,Los Angeles,86,Boston Celtics,87
+300219022,2010-02-19,Portland,76,Boston Celtics,96
+300221007,2010-02-21,Denver,114,Boston Celtics,105
+300223002,2010-02-23,Boston Celtics,110,NY Knicks,106
+300225002,2010-02-25,Boston Celtics,88,Cleveland,108
+300227002,2010-02-27,Boston Celtics,96,Brooklyn,104
+300302008,2010-03-02,Detroit,100,Boston Celtics,105
+300303002,2010-03-03,Boston Celtics,104,Charlotte,80
+300305020,2010-03-05,Philadelphia,86,Boston Celtics,96
+300307002,2010-03-07,Boston Celtics,86,Washington,83
+300309015,2010-03-09,Milwaukee,86,Boston Celtics,84
+300310002,2010-03-10,Boston Celtics,91,Memphis,111
+300312002,2010-03-12,Boston Celtics,122,Indiana,103
+300314005,2010-03-14,Cleveland,104,Boston Celtics,93
+300315002,2010-03-15,Boston Celtics,119,Detroit,93
+300317002,2010-03-17,Boston Celtics,109,NY Knicks,97
+300319010,2010-03-19,Houston,87,Boston Celtics,94
+300320006,2010-03-20,Dallas,93,Boston Celtics,102
+300322026,2010-03-22,Utah,110,Boston Celtics,97
+300324002,2010-03-24,Boston Celtics,113,Denver,99
+300326002,2010-03-26,Boston Celtics,94,Sacramento,86
+300328002,2010-03-28,Boston Celtics,73,San Antonio,94
+300331002,2010-03-31,Boston Celtics,104,Oklahoma City,109
+300402002,2010-04-02,Boston Celtics,114,Houston,119
+300404002,2010-04-04,Boston Celtics,117,Cleveland,113
+300406018,2010-04-06,NY Knicks,104,Boston Celtics,101
+300407028,2010-04-07,Toronto,104,Boston Celtics,115
+300409002,2010-04-09,Boston Celtics,96,Washington,106
+300410015,2010-04-10,Milwaukee,90,Boston Celtics,105
+300413004,2010-04-13,Chicago,101,Boston Celtics,93
+300414002,2010-04-14,Boston Celtics,95,Milwaukee,106
+291028016,2010-10-28,Minnesota,95,Brooklyn Nets,93
+291030017,2010-10-30,Brooklyn Nets,85,Orlando,95
+291031027,2010-10-31,Washington,123,Brooklyn Nets,104
+291102030,2010-11-02,Charlotte,79,Brooklyn Nets,68
+291104017,2010-11-04,Brooklyn Nets,94,Denver,122
+291106020,2010-11-06,Philadelphia,97,Brooklyn Nets,94
+291107017,2010-11-07,Brooklyn Nets,76,Boston,86
+291111017,2010-11-11,Brooklyn Nets,79,Philadelphia,82
+291113019,2010-11-13,Orlando,88,Brooklyn Nets,72
+291114014,2010-11-14,Miami,81,Brooklyn Nets,80
+291117017,2010-11-17,Brooklyn Nets,83,Indiana,91
+291118015,2010-11-18,Milwaukee,99,Brooklyn Nets,85
+291121017,2010-11-21,Brooklyn Nets,91,NY Knicks,98
+291124007,2010-11-24,Denver,101,Brooklyn Nets,87
+291125022,2010-11-25,Portland,93,Brooklyn Nets,83
+291127023,2010-11-27,Sacramento,109,Brooklyn Nets,96
+291129013,2010-11-29,Los Angeles,106,Brooklyn Nets,87
+291202017,2010-12-02,Brooklyn Nets,101,Dallas,117
+291204017,2010-12-04,Brooklyn Nets,97,Charlotte,91
+291206018,2010-12-06,NY Knicks,106,Brooklyn Nets,97
+291208004,2010-12-08,Chicago,101,Brooklyn Nets,103
+291209017,2010-12-09,Brooklyn Nets,89,Golden State,105
+291211011,2010-12-11,Indiana,107,Brooklyn Nets,91
+291213001,2010-12-13,Atlanta,130,Brooklyn Nets,107
+291215005,2010-12-15,Cleveland,99,Brooklyn Nets,89
+291216017,2010-12-16,Brooklyn Nets,92,Utah,108
+291218028,2010-12-18,Toronto,118,Brooklyn Nets,95
+291219017,2010-12-19,Brooklyn Nets,84,Los Angeles,103
+291223017,2010-12-23,Brooklyn Nets,99,Minnesota,103
+291226017,2010-12-26,Brooklyn Nets,93,Houston,98
+291228017,2010-12-28,Brooklyn Nets,89,Oklahoma City,105
+291230017,2010-12-30,Brooklyn Nets,104,NY Knicks,95
+300102017,2010-01-02,Brooklyn Nets,86,Cleveland,94
+300105017,2010-01-05,Brooklyn Nets,76,Milwaukee,98
+300106001,2010-01-06,Atlanta,119,Brooklyn Nets,89
+300108003,2010-01-08,New Orleans,103,Brooklyn Nets,99
+300110024,2010-01-10,San Antonio,97,Brooklyn Nets,85
+300113017,2010-01-13,Brooklyn Nets,87,Boston,111
+300115017,2010-01-15,Brooklyn Nets,105,Indiana,121
+300118012,2010-01-18,LA,106,Brooklyn Nets,95
+300120021,2010-01-20,Phoenix,118,Brooklyn Nets,94
+300122009,2010-01-22,Golden State,111,Brooklyn Nets,79
+300123026,2010-01-23,Utah,116,Brooklyn Nets,83
+300127017,2010-01-27,Brooklyn Nets,103,LA,87
+300129017,2010-01-29,Brooklyn Nets,79,Washington,81
+300131017,2010-01-31,Brooklyn Nets,79,Philadelphia,83
+300202017,2010-02-02,Brooklyn Nets,93,Detroit,97
+300203028,2010-02-03,Toronto,108,Brooklyn Nets,99
+300205002,2010-02-05,Boston,96,Brooklyn Nets,87
+300206008,2010-02-06,Detroit,99,Brooklyn Nets,92
+300209005,2010-02-09,Cleveland,104,Brooklyn Nets,97
+300210017,2010-02-10,Brooklyn Nets,77,Milwaukee,97
+300216030,2010-02-16,Charlotte,94,Brooklyn Nets,103
+300217017,2010-02-17,Brooklyn Nets,84,Miami,87
+300219017,2010-02-19,Brooklyn Nets,89,Toronto,106
+300221017,2010-02-21,Brooklyn Nets,94,Memphis,104
+300223017,2010-02-23,Brooklyn Nets,93,Portland,102
+300227002,2010-02-27,Boston,96,Brooklyn Nets,104
+300228017,2010-02-28,Brooklyn Nets,85,Washington,89
+300303017,2010-03-03,Brooklyn Nets,92,Cleveland,111
+300305017,2010-03-05,Brooklyn Nets,87,Orlando,97
+300306018,2010-03-06,NY Knicks,93,Brooklyn Nets,113
+300308029,2010-03-08,Memphis,107,Brooklyn Nets,101
+300310006,2010-03-10,Dallas,96,Brooklyn Nets,87
+300312025,2010-03-12,Oklahoma City,104,Brooklyn Nets,102
+300313010,2010-03-13,Houston,116,Brooklyn Nets,108
+300316017,2010-03-16,Brooklyn Nets,84,Atlanta,108
+300317020,2010-03-17,Philadelphia,108,Brooklyn Nets,97
+300320017,2010-03-20,Brooklyn Nets,90,Toronto,100
+300322017,2010-03-22,Brooklyn Nets,89,Miami,99
+300324017,2010-03-24,Brooklyn Nets,93,Sacramento,79
+300326017,2010-03-26,Brooklyn Nets,118,Detroit,110
+300327004,2010-03-27,Chicago,106,Brooklyn Nets,83
+300329017,2010-03-29,Brooklyn Nets,90,San Antonio,84
+300331017,2010-03-31,Brooklyn Nets,105,Phoenix,116
+300403017,2010-04-03,Brooklyn Nets,115,New Orleans,87
+300404027,2010-04-04,Washington,109,Brooklyn Nets,99
+300407015,2010-04-07,Milwaukee,108,Brooklyn Nets,89
+300409017,2010-04-09,Brooklyn Nets,127,Chicago,116
+300410011,2010-04-10,Indiana,115,Brooklyn Nets,102
+300412017,2010-04-12,Brooklyn Nets,95,Charlotte,105
+300414014,2010-04-14,Miami,94,Brooklyn Nets,86
+291028014,2010-10-28,Miami,115,New York Knicks,93
+291030030,2010-10-30,Charlotte,102,New York Knicks,100
+291031018,2010-10-31,New York Knicks,127,Philadelphia,141
+291102018,2010-11-02,New York Knicks,117,New Orleans,111
+291104018,2010-11-04,New York Knicks,89,Indiana,101
+291106018,2010-11-06,New York Knicks,91,Cleveland,100
+291107015,2010-11-07,Milwaukee,102,New York Knicks,87
+291109018,2010-11-09,New York Knicks,93,Utah,95
+291111018,2010-11-11,New York Knicks,101,Atlanta,114
+291113018,2010-11-13,New York Knicks,107,Golden State,121
+291118011,2010-11-18,Indiana,103,New York Knicks,110
+291121017,2010-11-21,Brooklyn,91,New York Knicks,98
+291122018,2010-11-22,New York Knicks,105,Boston,107
+291124013,2010-11-24,Los Angeles,100,New York Knicks,90
+291125023,2010-11-25,Sacramento,111,New York Knicks,97
+291127007,2010-11-27,Denver,128,New York Knicks,125
+291129018,2010-11-29,New York Knicks,102,Orlando,114
+291201018,2010-12-01,New York Knicks,126,Phoenix,99
+291202019,2010-12-02,Orlando,118,New York Knicks,104
+291204001,2010-12-04,Atlanta,107,New York Knicks,114
+291206018,2010-12-06,New York Knicks,106,Brooklyn,97
+291207018,2010-12-07,New York Knicks,93,Portland,84
+291211003,2010-12-11,New Orleans,96,New York Knicks,113
+291215030,2010-12-15,Charlotte,94,New York Knicks,87
+291217004,2010-12-17,Chicago,98,New York Knicks,89
+291218018,2010-12-18,New York Knicks,95,LA,91
+291220018,2010-12-20,New York Knicks,98,Charlotte,94
+291222018,2010-12-22,New York Knicks,88,Chicago,81
+291225018,2010-12-25,New York Knicks,87,Miami,93
+291227018,2010-12-27,New York Knicks,88,San Antonio,95
+291229008,2010-12-29,Detroit,87,New York Knicks,104
+291230017,2010-12-30,Brooklyn,104,New York Knicks,95
+300101001,2010-01-01,Atlanta,108,New York Knicks,112
+300103018,2010-01-03,New York Knicks,132,Indiana,89
+300107018,2010-01-07,New York Knicks,97,Charlotte,93
+300109010,2010-01-09,Houston,105,New York Knicks,96
+300111025,2010-01-11,Oklahoma City,106,New York Knicks,88
+300113020,2010-01-13,Philadelphia,92,New York Knicks,93
+300115018,2010-01-15,New York Knicks,104,Toronto,112
+300116008,2010-01-16,Detroit,94,New York Knicks,90
+300118018,2010-01-18,New York Knicks,99,Detroit,91
+300122018,2010-01-22,New York Knicks,105,Los Angeles,115
+300124018,2010-01-24,New York Knicks,78,Dallas,128
+300126018,2010-01-26,New York Knicks,132,Minnesota,105
+300128018,2010-01-28,New York Knicks,104,Toronto,106
+300130027,2010-01-30,Washington,106,New York Knicks,96
+300131016,2010-01-31,Minnesota,112,New York Knicks,91
+300203018,2010-02-03,New York Knicks,107,Washington,85
+300205018,2010-02-05,New York Knicks,107,Milwaukee,114
+300206005,2010-02-06,Cleveland,113,New York Knicks,106
+300209018,2010-02-09,New York Knicks,114,Sacramento,118
+300216004,2010-02-16,Chicago,118,New York Knicks,85
+300217018,2010-02-17,New York Knicks,109,Chicago,115
+300220018,2010-02-20,New York Knicks,118,Oklahoma City,121
+300222018,2010-02-22,New York Knicks,67,Milwaukee,83
+300223002,2010-02-23,Boston,110,New York Knicks,106
+300226027,2010-02-26,Washington,116,New York Knicks,118
+300227018,2010-02-27,New York Knicks,109,Memphis,120
+300301005,2010-03-01,Cleveland,124,New York Knicks,93
+300303018,2010-03-03,New York Knicks,128,Detroit,104
+300305028,2010-03-05,Toronto,102,New York Knicks,96
+300306018,2010-03-06,New York Knicks,93,Brooklyn,113
+300308018,2010-03-08,New York Knicks,99,Atlanta,98
+300310024,2010-03-10,San Antonio,97,New York Knicks,87
+300312029,2010-03-12,Memphis,119,New York Knicks,112
+300313006,2010-03-13,Dallas,94,New York Knicks,128
+300315020,2010-03-15,Philadelphia,84,New York Knicks,94
+300317002,2010-03-17,Boston,109,New York Knicks,97
+300319018,2010-03-19,New York Knicks,92,Philadelphia,88
+300321018,2010-03-21,New York Knicks,112,Houston,116
+300323018,2010-03-23,New York Knicks,109,Denver,104
+300326021,2010-03-26,Phoenix,132,New York Knicks,96
+300329026,2010-03-29,Utah,103,New York Knicks,98
+300331022,2010-03-31,Portland,118,New York Knicks,90
+300402009,2010-04-02,Golden State,128,New York Knicks,117
+300404012,2010-04-04,LA,107,New York Knicks,113
+300406018,2010-04-06,New York Knicks,104,Boston,101
+300407011,2010-04-07,Indiana,113,New York Knicks,105
+300409019,2010-04-09,Orlando,118,New York Knicks,103
+300411018,2010-04-11,New York Knicks,98,Miami,111
+300412018,2010-04-12,New York Knicks,114,Washington,103
+300414028,2010-04-14,Toronto,131,New York Knicks,113
+291028019,2010-10-28,Orlando,120,Philadelphia 76ers,106
+291030020,2010-10-30,Philadelphia 76ers,99,Milwaukee,86
+291031018,2010-10-31,NY Knicks,127,Philadelphia 76ers,141
+291103020,2010-11-03,Philadelphia 76ers,74,Boston,105
+291106020,2010-11-06,Philadelphia 76ers,97,Brooklyn,94
+291108008,2010-11-08,Detroit,88,Philadelphia 76ers,81
+291109020,2010-11-09,Philadelphia 76ers,115,Phoenix,119
+291111017,2010-11-11,Brooklyn,79,Philadelphia 76ers,82
+291113020,2010-11-13,Philadelphia 76ers,90,Utah,112
+291114004,2010-11-14,Chicago,94,Philadelphia 76ers,88
+291118020,2010-11-18,Philadelphia 76ers,86,Charlotte,84
+291120020,2010-11-20,Philadelphia 76ers,97,Memphis,102
+291121005,2010-11-21,Cleveland,97,Philadelphia 76ers,91
+291124027,2010-11-24,Washington,108,Philadelphia 76ers,107
+291125002,2010-11-25,Boston,113,Philadelphia 76ers,110
+291127020,2010-11-27,Philadelphia 76ers,86,Atlanta,100
+291129024,2010-11-29,San Antonio,97,Philadelphia 76ers,89
+291130006,2010-11-30,Dallas,104,Philadelphia 76ers,102
+291202025,2010-12-02,Oklahoma City,117,Philadelphia 76ers,106
+291205030,2010-12-05,Charlotte,106,Philadelphia 76ers,105
+291207020,2010-12-07,Philadelphia 76ers,83,Denver,93
+291209020,2010-12-09,Philadelphia 76ers,86,Detroit,90
+291211020,2010-12-11,Philadelphia 76ers,91,Houston,96
+291214020,2010-12-14,Philadelphia 76ers,117,Golden State,101
+291216020,2010-12-16,Philadelphia 76ers,101,Cleveland,108
+291218002,2010-12-18,Boston,97,Philadelphia 76ers,98
+291219020,2010-12-19,Philadelphia 76ers,107,LA,112
+291222027,2010-12-22,Washington,105,Philadelphia 76ers,98
+291226026,2010-12-26,Utah,97,Philadelphia 76ers,76
+291228022,2010-12-28,Portland,93,Philadelphia 76ers,104
+291230023,2010-12-30,Sacramento,106,Philadelphia 76ers,116
+291231012,2010-12-31,LA,104,Philadelphia 76ers,88
+300103007,2010-01-03,Denver,105,Philadelphia 76ers,108
+300105020,2010-01-05,Philadelphia 76ers,97,Washington,104
+300108020,2010-01-08,Philadelphia 76ers,106,Toronto,108
+300109008,2010-01-09,Detroit,94,Philadelphia 76ers,104
+300111020,2010-01-11,Philadelphia 76ers,96,New Orleans,92
+300113020,2010-01-13,Philadelphia 76ers,92,NY Knicks,93
+300115020,2010-01-15,Philadelphia 76ers,98,Sacramento,86
+300118016,2010-01-18,Minnesota,108,Philadelphia 76ers,103
+300120020,2010-01-20,Philadelphia 76ers,90,Portland,98
+300122020,2010-01-22,Philadelphia 76ers,92,Dallas,81
+300123011,2010-01-23,Indiana,97,Philadelphia 76ers,107
+300125020,2010-01-25,Philadelphia 76ers,98,Indiana,109
+300127015,2010-01-27,Milwaukee,91,Philadelphia 76ers,88
+300129020,2010-01-29,Philadelphia 76ers,91,Los Angeles,99
+300131017,2010-01-31,Brooklyn,79,Philadelphia 76ers,83
+300203020,2010-02-03,Philadelphia 76ers,106,Chicago,103
+300205003,2010-02-05,New Orleans,94,Philadelphia 76ers,101
+300206010,2010-02-06,Houston,95,Philadelphia 76ers,102
+300209020,2010-02-09,Philadelphia 76ers,119,Minnesota,97
+300210028,2010-02-10,Toronto,104,Philadelphia 76ers,93
+300216020,2010-02-16,Philadelphia 76ers,78,Miami,105
+300219020,2010-02-19,Philadelphia 76ers,106,San Antonio,94
+300220004,2010-02-20,Chicago,122,Philadelphia 76ers,90
+300223009,2010-02-23,Golden State,102,Philadelphia 76ers,110
+300224021,2010-02-24,Phoenix,106,Philadelphia 76ers,95
+300226013,2010-02-26,Los Angeles,99,Philadelphia 76ers,90
+300301020,2010-03-01,Philadelphia 76ers,105,Orlando,126
+300303001,2010-03-03,Atlanta,112,Philadelphia 76ers,93
+300305020,2010-03-05,Philadelphia 76ers,86,Boston,96
+300307028,2010-03-07,Toronto,101,Philadelphia 76ers,114
+300309011,2010-03-09,Indiana,107,Philadelphia 76ers,96
+300310020,2010-03-10,Philadelphia 76ers,87,Charlotte,102
+300312020,2010-03-12,Philadelphia 76ers,95,Cleveland,100
+300314014,2010-03-14,Miami,104,Philadelphia 76ers,91
+300315020,2010-03-15,Philadelphia 76ers,84,NY Knicks,94
+300317020,2010-03-17,Philadelphia 76ers,108,Brooklyn,97
+300319018,2010-03-19,NY Knicks,92,Philadelphia 76ers,88
+300320020,2010-03-20,Philadelphia 76ers,84,Chicago,98
+300322020,2010-03-22,Philadelphia 76ers,93,Orlando,109
+300324015,2010-03-24,Milwaukee,86,Philadelphia 76ers,101
+300326020,2010-03-26,Philadelphia 76ers,105,Atlanta,98
+300330020,2010-03-30,Philadelphia 76ers,93,Oklahoma City,111
+300331030,2010-03-31,Charlotte,103,Philadelphia 76ers,84
+300403020,2010-04-03,Philadelphia 76ers,123,Toronto,128
+300406020,2010-04-06,Philadelphia 76ers,103,Detroit,124
+300407014,2010-04-07,Miami,99,Philadelphia 76ers,95
+300409020,2010-04-09,Philadelphia 76ers,90,Milwaukee,95
+300410029,2010-04-10,Memphis,101,Philadelphia 76ers,120
+300412020,2010-04-12,Philadelphia 76ers,105,Miami,107
+300414019,2010-04-14,Orlando,125,Philadelphia 76ers,111
+291028028,2010-10-28,Toronto Raptors,101,Cleveland,91
+291030029,2010-10-30,Memphis,115,Toronto Raptors,107
+291101028,2010-11-01,Toronto Raptors,116,Orlando,125
+291104028,2010-11-04,Toronto Raptors,110,Detroit,99
+291106003,2010-11-06,New Orleans,90,Toronto Raptors,107
+291107006,2010-11-07,Dallas,129,Toronto Raptors,101
+291109024,2010-11-09,San Antonio,131,Toronto Raptors,124
+291111028,2010-11-11,Toronto Raptors,99,Chicago,89
+291113012,2010-11-13,LA,89,Toronto Raptors,104
+291115021,2010-11-15,Phoenix,101,Toronto Raptors,100
+291117007,2010-11-17,Denver,130,Toronto Raptors,112
+291118026,2010-11-18,Utah,104,Toronto Raptors,91
+291120028,2010-11-20,Toronto Raptors,120,Miami,113
+291122028,2010-11-22,Toronto Raptors,96,Orlando,104
+291124028,2010-11-24,Toronto Raptors,123,Indiana,112
+291125030,2010-11-25,Charlotte,116,Toronto Raptors,81
+291127002,2010-11-27,Boston,116,Toronto Raptors,103
+291129028,2010-11-29,Toronto Raptors,94,Phoenix,113
+291201028,2010-12-01,Toronto Raptors,102,Washington,106
+291202001,2010-12-02,Atlanta,146,Toronto Raptors,115
+291204027,2010-12-04,Washington,107,Toronto Raptors,109
+291205004,2010-12-05,Chicago,78,Toronto Raptors,110
+291208028,2010-12-08,Toronto Raptors,94,Minnesota,88
+291209015,2010-12-09,Milwaukee,117,Toronto Raptors,95
+291211028,2010-12-11,Toronto Raptors,89,Atlanta,111
+291213028,2010-12-13,Toronto Raptors,101,Houston,88
+291215014,2010-12-15,Miami,115,Toronto Raptors,95
+291216019,2010-12-16,Orlando,118,Toronto Raptors,99
+291218028,2010-12-18,Toronto Raptors,118,Brooklyn,95
+291220028,2010-12-20,Toronto Raptors,98,New Orleans,92
+291223008,2010-12-23,Detroit,64,Toronto Raptors,94
+291227028,2010-12-27,Toronto Raptors,102,Detroit,95
+291230028,2010-12-30,Toronto Raptors,107,Charlotte,103
+300102002,2010-01-02,Boston,103,Toronto Raptors,96
+300103028,2010-01-03,Toronto Raptors,91,San Antonio,86
+300106019,2010-01-06,Orlando,103,Toronto Raptors,108
+300108020,2010-01-08,Philadelphia,106,Toronto Raptors,108
+300110028,2010-01-10,Toronto Raptors,107,Boston,114
+300111011,2010-01-11,Indiana,105,Toronto Raptors,101
+300115018,2010-01-15,NY Knicks,104,Toronto Raptors,112
+300117028,2010-01-17,Toronto Raptors,110,Dallas,88
+300119005,2010-01-19,Cleveland,108,Toronto Raptors,100
+300120015,2010-01-20,Milwaukee,113,Toronto Raptors,107
+300122028,2010-01-22,Toronto Raptors,101,Milwaukee,96
+300124028,2010-01-24,Toronto Raptors,106,Los Angeles,105
+300127028,2010-01-27,Toronto Raptors,111,Miami,103
+300128018,2010-01-28,NY Knicks,104,Toronto Raptors,106
+300131028,2010-01-31,Toronto Raptors,117,Indiana,102
+300202011,2010-02-02,Indiana,130,Toronto Raptors,115
+300203028,2010-02-03,Toronto Raptors,108,Brooklyn,99
+300207028,2010-02-07,Toronto Raptors,115,Sacramento,104
+300210028,2010-02-10,Toronto Raptors,104,Philadelphia,93
+300217028,2010-02-17,Toronto Raptors,102,Memphis,109
+300219017,2010-02-19,Brooklyn,89,Toronto Raptors,106
+300220028,2010-02-20,Toronto Raptors,109,Washington,104
+300224028,2010-02-24,Toronto Raptors,87,Portland,101
+300226028,2010-02-26,Toronto Raptors,118,Cleveland,126
+300228025,2010-02-28,Oklahoma City,119,Toronto Raptors,99
+300301010,2010-03-01,Houston,116,Toronto Raptors,92
+300305028,2010-03-05,Toronto Raptors,102,NY Knicks,96
+300307028,2010-03-07,Toronto Raptors,101,Philadelphia,114
+300309013,2010-03-09,Los Angeles,109,Toronto Raptors,107
+300310023,2010-03-10,Sacramento,113,Toronto Raptors,90
+300313009,2010-03-13,Golden State,124,Toronto Raptors,112
+300314022,2010-03-14,Portland,109,Toronto Raptors,98
+300317028,2010-03-17,Toronto Raptors,106,Atlanta,105
+300319028,2010-03-19,Toronto Raptors,89,Oklahoma City,115
+300320017,2010-03-20,Brooklyn,90,Toronto Raptors,100
+300322016,2010-03-22,Minnesota,100,Toronto Raptors,106
+300324028,2010-03-24,Toronto Raptors,87,Utah,113
+300326028,2010-03-26,Toronto Raptors,96,Denver,97
+300328014,2010-03-28,Miami,97,Toronto Raptors,94
+300329030,2010-03-29,Charlotte,101,Toronto Raptors,103
+300331028,2010-03-31,Toronto Raptors,114,LA,92
+300403020,2010-04-03,Philadelphia,123,Toronto Raptors,128
+300404028,2010-04-04,Toronto Raptors,112,Golden State,113
+300406005,2010-04-06,Cleveland,113,Toronto Raptors,101
+300407028,2010-04-07,Toronto Raptors,104,Boston,115
+300409001,2010-04-09,Atlanta,107,Toronto Raptors,101
+300411028,2010-04-11,Toronto Raptors,88,Chicago,104
+300412008,2010-04-12,Detroit,97,Toronto Raptors,111
+300414028,2010-04-14,Toronto Raptors,131,NY Knicks,113
+291028009,2010-10-28,Golden State Warriors,107,Houston,108
+291030021,2010-10-30,Phoenix,123,Golden State Warriors,101
+291104009,2010-11-04,Golden State Warriors,113,Memphis,105
+291106009,2010-11-06,Golden State Warriors,90,LA,118
+291108023,2010-11-08,Sacramento,120,Golden State Warriors,107
+291109009,2010-11-09,Golden State Warriors,146,Minnesota,105
+291111011,2010-11-11,Indiana,108,Golden State Warriors,94
+291113018,2010-11-13,NY Knicks,107,Golden State Warriors,121
+291114015,2010-11-14,Milwaukee,129,Golden State Warriors,125
+291117005,2010-11-17,Cleveland,114,Golden State Warriors,108
+291118002,2010-11-18,Boston,109,Golden State Warriors,95
+291120009,2010-11-20,Golden State Warriors,108,Portland,94
+291124006,2010-11-24,Dallas,103,Golden State Warriors,111
+291125024,2010-11-25,San Antonio,118,Golden State Warriors,104
+291128009,2010-11-28,Golden State Warriors,97,Los Angeles,130
+291130009,2010-11-30,Golden State Warriors,126,Indiana,107
+291201007,2010-12-01,Denver,135,Golden State Warriors,107
+291203009,2010-12-03,Golden State Warriors,109,Houston,111
+291205009,2010-12-05,Golden State Warriors,118,Orlando,126
+291207025,2010-12-07,Oklahoma City,104,Golden State Warriors,88
+291209017,2010-12-09,Brooklyn,89,Golden State Warriors,105
+291211004,2010-12-11,Chicago,96,Golden State Warriors,91
+291212008,2010-12-12,Detroit,104,Golden State Warriors,95
+291214020,2010-12-14,Philadelphia,117,Golden State Warriors,101
+291216009,2010-12-16,Golden State Warriors,91,San Antonio,103
+291218009,2010-12-18,Golden State Warriors,109,Washington,118
+291222029,2010-12-22,Memphis,121,Golden State Warriors,108
+291223003,2010-12-23,New Orleans,108,Golden State Warriors,102
+291226009,2010-12-26,Golden State Warriors,132,Phoenix,127
+291228009,2010-12-28,Golden State Warriors,103,Boston,99
+291229013,2010-12-29,Los Angeles,124,Golden State Warriors,118
+300102022,2010-01-02,Portland,105,Golden State Warriors,89
+300105007,2010-01-05,Denver,123,Golden State Warriors,122
+300106016,2010-01-06,Minnesota,101,Golden State Warriors,107
+300108009,2010-01-08,Golden State Warriors,108,Sacramento,101
+300111009,2010-01-11,Golden State Warriors,114,Cleveland,117
+300113009,2010-01-13,Golden State Warriors,102,Miami,115
+300115009,2010-01-15,Golden State Warriors,104,Milwaukee,113
+300118009,2010-01-18,Golden State Warriors,114,Chicago,97
+300120009,2010-01-20,Golden State Warriors,118,Denver,123
+300122009,2010-01-22,Golden State Warriors,111,Brooklyn,79
+300123021,2010-01-23,Phoenix,112,Golden State Warriors,103
+300126023,2010-01-26,Sacramento,99,Golden State Warriors,96
+300127009,2010-01-27,Golden State Warriors,110,New Orleans,123
+300129009,2010-01-29,Golden State Warriors,110,Charlotte,121
+300131025,2010-01-31,Oklahoma City,112,Golden State Warriors,104
+300202010,2010-02-02,Houston,119,Golden State Warriors,97
+300203006,2010-02-03,Dallas,110,Golden State Warriors,101
+300206009,2010-02-06,Golden State Warriors,95,Oklahoma City,104
+300208009,2010-02-08,Golden State Warriors,117,Dallas,127
+300210009,2010-02-10,Golden State Warriors,132,LA,102
+300216013,2010-02-16,Los Angeles,104,Golden State Warriors,94
+300217009,2010-02-17,Golden State Warriors,130,Sacramento,98
+300219009,2010-02-19,Golden State Warriors,89,Utah,100
+300221009,2010-02-21,Golden State Warriors,108,Atlanta,104
+300223009,2010-02-23,Golden State Warriors,102,Philadelphia,110
+300225009,2010-02-25,Golden State Warriors,112,Denver,127
+300227009,2010-02-27,Golden State Warriors,95,Detroit,88
+300302014,2010-03-02,Miami,110,Golden State Warriors,106
+300303019,2010-03-03,Orlando,117,Golden State Warriors,90
+300305001,2010-03-05,Atlanta,127,Golden State Warriors,122
+300306030,2010-03-06,Charlotte,101,Golden State Warriors,90
+300308003,2010-03-08,New Orleans,135,Golden State Warriors,131
+300311009,2010-03-11,Golden State Warriors,105,Portland,110
+300313009,2010-03-13,Golden State Warriors,124,Toronto,112
+300315009,2010-03-15,Golden State Warriors,121,Los Angeles,124
+300317009,2010-03-17,Golden State Warriors,131,New Orleans,121
+300319024,2010-03-19,San Antonio,147,Golden State Warriors,116
+300320029,2010-03-20,Memphis,123,Golden State Warriors,107
+300322009,2010-03-22,Golden State Warriors,131,Phoenix,133
+300324009,2010-03-24,Golden State Warriors,128,Memphis,110
+300327009,2010-03-27,Golden State Warriors,90,Dallas,111
+300328012,2010-03-28,LA,103,Golden State Warriors,121
+300331026,2010-03-31,Utah,128,Golden State Warriors,104
+300402009,2010-04-02,Golden State Warriors,128,NY Knicks,117
+300404028,2010-04-04,Toronto,112,Golden State Warriors,113
+300406027,2010-04-06,Washington,112,Golden State Warriors,94
+300407016,2010-04-07,Minnesota,107,Golden State Warriors,116
+300410012,2010-04-10,LA,107,Golden State Warriors,104
+300411009,2010-04-11,Golden State Warriors,120,Oklahoma City,117
+300413009,2010-04-13,Golden State Warriors,94,Utah,103
+300414022,2010-04-14,Portland,116,Golden State Warriors,122
+291027013,2010-10-27,Los Angeles,99,LA Clippers,92
+291028012,2010-10-28,LA Clippers,107,Phoenix,109
+291030026,2010-10-30,Utah,111,LA Clippers,98
+291031012,2010-10-31,LA Clippers,84,Dallas,93
+291102012,2010-11-02,LA Clippers,93,Minnesota,90
+291106009,2010-11-06,Golden State,90,LA Clippers,118
+291107012,2010-11-07,LA Clippers,113,Memphis,110
+291109012,2010-11-09,LA Clippers,84,New Orleans,112
+291111012,2010-11-11,LA Clippers,79,Oklahoma City,83
+291113012,2010-11-13,LA Clippers,89,Toronto,104
+291115025,2010-11-15,Oklahoma City,93,LA Clippers,101
+291117003,2010-11-17,New Orleans,110,LA Clippers,102
+291118029,2010-11-18,Memphis,106,LA Clippers,91
+291120012,2010-11-20,LA Clippers,106,Denver,99
+291123012,2010-11-23,LA Clippers,91,Minnesota,87
+291125011,2010-11-25,Indiana,86,LA Clippers,73
+291127008,2010-11-27,Detroit,96,LA Clippers,104
+291129012,2010-11-29,LA Clippers,98,Memphis,88
+291202012,2010-12-02,LA Clippers,85,Houston,102
+291205012,2010-12-05,LA Clippers,88,Indiana,72
+291208012,2010-12-08,LA Clippers,86,Orlando,97
+291213012,2010-12-13,LA Clippers,90,San Antonio,115
+291214012,2010-12-14,LA Clippers,97,Washington,95
+291216016,2010-12-16,Minnesota,95,LA Clippers,120
+291218018,2010-12-18,NY Knicks,95,LA Clippers,91
+291219020,2010-12-19,Philadelphia,107,LA Clippers,112
+291221024,2010-12-21,San Antonio,103,LA Clippers,87
+291222010,2010-12-22,Houston,108,LA Clippers,99
+291225021,2010-12-25,Phoenix,124,LA Clippers,93
+291227012,2010-12-27,LA Clippers,92,Boston,90
+291230022,2010-12-30,Portland,103,LA Clippers,99
+291231012,2010-12-31,LA Clippers,104,Philadelphia,88
+300104012,2010-01-04,LA Clippers,105,Portland,95
+300106012,2010-01-06,LA Clippers,102,Los Angeles,91
+300110012,2010-01-10,LA Clippers,94,Miami,84
+300112029,2010-01-12,Memphis,104,LA Clippers,102
+300113003,2010-01-13,New Orleans,108,LA Clippers,94
+300115013,2010-01-15,Los Angeles,126,LA Clippers,86
+300116012,2010-01-16,LA Clippers,101,Cleveland,102
+300118012,2010-01-18,LA Clippers,106,Brooklyn,95
+300120012,2010-01-20,LA Clippers,104,Chicago,97
+300121007,2010-01-21,Denver,105,LA Clippers,85
+300124027,2010-01-24,Washington,78,LA Clippers,92
+300125002,2010-01-25,Boston,95,LA Clippers,89
+300127017,2010-01-27,Brooklyn,103,LA Clippers,87
+300129016,2010-01-29,Minnesota,111,LA Clippers,97
+300131005,2010-01-31,Cleveland,114,LA Clippers,89
+300202004,2010-02-02,Chicago,82,LA Clippers,90
+300203001,2010-02-03,Atlanta,103,LA Clippers,97
+300206012,2010-02-06,LA Clippers,81,San Antonio,98
+300209012,2010-02-09,LA Clippers,99,Utah,109
+300210009,2010-02-10,Golden State,132,LA Clippers,102
+300216022,2010-02-16,Portland,109,LA Clippers,87
+300217012,2010-02-17,LA Clippers,92,Atlanta,110
+300220012,2010-02-20,LA Clippers,99,Sacramento,89
+300222012,2010-02-22,LA Clippers,98,Charlotte,94
+300224012,2010-02-24,LA Clippers,97,Detroit,91
+300226021,2010-02-26,Phoenix,125,LA Clippers,112
+300228023,2010-02-28,Sacramento,97,LA Clippers,92
+300301012,2010-03-01,LA Clippers,108,Utah,104
+300303012,2010-03-03,LA Clippers,101,Phoenix,127
+300305012,2010-03-05,LA Clippers,87,Oklahoma City,104
+300306026,2010-03-06,Utah,107,LA Clippers,85
+300309019,2010-03-09,Orlando,113,LA Clippers,87
+300310014,2010-03-10,Miami,108,LA Clippers,97
+300312030,2010-03-12,Charlotte,106,LA Clippers,98
+300313024,2010-03-13,San Antonio,118,LA Clippers,88
+300315012,2010-03-15,LA Clippers,100,New Orleans,108
+300317012,2010-03-17,LA Clippers,101,Milwaukee,93
+300321012,2010-03-21,LA Clippers,89,Sacramento,102
+300323006,2010-03-23,Dallas,106,LA Clippers,96
+300325010,2010-03-25,Houston,93,LA Clippers,99
+300328012,2010-03-28,LA Clippers,103,Golden State,121
+300330015,2010-03-30,Milwaukee,107,LA Clippers,89
+300331028,2010-03-31,Toronto,114,LA Clippers,92
+300403007,2010-04-03,Denver,98,LA Clippers,90
+300404012,2010-04-04,LA Clippers,107,NY Knicks,113
+300407012,2010-04-07,LA Clippers,85,Portland,93
+300408023,2010-04-08,Sacramento,116,LA Clippers,94
+300410012,2010-04-10,LA Clippers,107,Golden State,104
+300412012,2010-04-12,LA Clippers,94,Dallas,117
+300414012,2010-04-14,LA Clippers,107,Los Angeles,91
+291027013,2010-10-27,Los Angeles Lakers,99,LA,92
+291030013,2010-10-30,Los Angeles Lakers,80,Dallas,94
+291101013,2010-11-01,Los Angeles Lakers,118,Atlanta,110
+291103025,2010-11-03,Oklahoma City,98,Los Angeles Lakers,101
+291104010,2010-11-04,Houston,102,Los Angeles Lakers,103
+291106013,2010-11-06,Los Angeles Lakers,114,Memphis,98
+291108013,2010-11-08,Los Angeles Lakers,104,New Orleans,88
+291112013,2010-11-12,Los Angeles Lakers,121,Phoenix,102
+291113007,2010-11-13,Denver,105,Los Angeles Lakers,79
+291115013,2010-11-15,Los Angeles Lakers,91,Houston,101
+291117013,2010-11-17,Los Angeles Lakers,106,Detroit,93
+291119013,2010-11-19,Los Angeles Lakers,108,Chicago,93
+291122013,2010-11-22,Los Angeles Lakers,101,Oklahoma City,85
+291124013,2010-11-24,Los Angeles Lakers,100,NY Knicks,90
+291128009,2010-11-28,Golden State,97,Los Angeles Lakers,130
+291129013,2010-11-29,Los Angeles Lakers,106,Brooklyn,87
+291201013,2010-12-01,Los Angeles Lakers,110,New Orleans,99
+291204013,2010-12-04,Los Angeles Lakers,108,Miami,107
+291206013,2010-12-06,Los Angeles Lakers,108,Phoenix,88
+291209013,2010-12-09,Los Angeles Lakers,101,Utah,77
+291211013,2010-12-11,Los Angeles Lakers,104,Minnesota,92
+291212026,2010-12-12,Utah,102,Los Angeles Lakers,94
+291215004,2010-12-15,Chicago,87,Los Angeles Lakers,96
+291216015,2010-12-16,Milwaukee,106,Los Angeles Lakers,107
+291219017,2010-12-19,Brooklyn,84,Los Angeles Lakers,103
+291220008,2010-12-20,Detroit,81,Los Angeles Lakers,93
+291222013,2010-12-22,Los Angeles Lakers,111,Oklahoma City,108
+291225013,2010-12-25,Los Angeles Lakers,87,Cleveland,102
+291226023,2010-12-26,Sacramento,103,Los Angeles Lakers,112
+291228021,2010-12-28,Phoenix,118,Los Angeles Lakers,103
+291229013,2010-12-29,Los Angeles Lakers,124,Golden State,118
+300101013,2010-01-01,Los Angeles Lakers,109,Sacramento,108
+300103013,2010-01-03,Los Angeles Lakers,131,Dallas,96
+300105013,2010-01-05,Los Angeles Lakers,88,Houston,79
+300106012,2010-01-06,LA,102,Los Angeles Lakers,91
+300108022,2010-01-08,Portland,107,Los Angeles Lakers,98
+300110013,2010-01-10,Los Angeles Lakers,95,Milwaukee,77
+300112024,2010-01-12,San Antonio,105,Los Angeles Lakers,85
+300113006,2010-01-13,Dallas,95,Los Angeles Lakers,100
+300115013,2010-01-15,Los Angeles Lakers,126,LA,86
+300118013,2010-01-18,Los Angeles Lakers,98,Orlando,92
+300121005,2010-01-21,Cleveland,93,Los Angeles Lakers,87
+300122018,2010-01-22,NY Knicks,105,Los Angeles Lakers,115
+300124028,2010-01-24,Toronto,106,Los Angeles Lakers,105
+300126027,2010-01-26,Washington,103,Los Angeles Lakers,115
+300127011,2010-01-27,Indiana,96,Los Angeles Lakers,118
+300129020,2010-01-29,Philadelphia,91,Los Angeles Lakers,99
+300131002,2010-01-31,Boston,89,Los Angeles Lakers,90
+300201029,2010-02-01,Memphis,95,Los Angeles Lakers,93
+300203013,2010-02-03,Los Angeles Lakers,99,Charlotte,97
+300205013,2010-02-05,Los Angeles Lakers,113,Denver,126
+300206022,2010-02-06,Portland,82,Los Angeles Lakers,99
+300208013,2010-02-08,Los Angeles Lakers,101,San Antonio,89
+300210026,2010-02-10,Utah,81,Los Angeles Lakers,96
+300216013,2010-02-16,Los Angeles Lakers,104,Golden State,94
+300218013,2010-02-18,Los Angeles Lakers,86,Boston,87
+300223029,2010-02-23,Memphis,98,Los Angeles Lakers,99
+300224006,2010-02-24,Dallas,101,Los Angeles Lakers,96
+300226013,2010-02-26,Los Angeles Lakers,99,Philadelphia,90
+300228013,2010-02-28,Los Angeles Lakers,95,Denver,89
+300302013,2010-03-02,Los Angeles Lakers,122,Indiana,99
+300304014,2010-03-04,Miami,114,Los Angeles Lakers,111
+300305030,2010-03-05,Charlotte,98,Los Angeles Lakers,83
+300307019,2010-03-07,Orlando,96,Los Angeles Lakers,94
+300309013,2010-03-09,Los Angeles Lakers,109,Toronto,107
+300312021,2010-03-12,Phoenix,96,Los Angeles Lakers,102
+300315009,2010-03-15,Golden State,121,Los Angeles Lakers,124
+300316023,2010-03-16,Sacramento,99,Los Angeles Lakers,106
+300319013,2010-03-19,Los Angeles Lakers,104,Minnesota,96
+300321013,2010-03-21,Los Angeles Lakers,99,Washington,92
+300324024,2010-03-24,San Antonio,83,Los Angeles Lakers,92
+300326025,2010-03-26,Oklahoma City,91,Los Angeles Lakers,75
+300327010,2010-03-27,Houston,101,Los Angeles Lakers,109
+300329003,2010-03-29,New Orleans,108,Los Angeles Lakers,100
+300331001,2010-03-31,Atlanta,109,Los Angeles Lakers,92
+300402013,2010-04-02,Los Angeles Lakers,106,Utah,92
+300404013,2010-04-04,Los Angeles Lakers,81,San Antonio,100
+300408007,2010-04-08,Denver,98,Los Angeles Lakers,96
+300409016,2010-04-09,Minnesota,88,Los Angeles Lakers,97
+300411013,2010-04-11,Los Angeles Lakers,88,Portland,91
+300413013,2010-04-13,Los Angeles Lakers,106,Sacramento,100
+300414012,2010-04-14,LA,107,Los Angeles Lakers,91
+291028012,2010-10-28,LA,107,Phoenix Suns,109
+291030021,2010-10-30,Phoenix Suns,123,Golden State,101
+291101021,2010-11-01,Phoenix Suns,120,Minnesota,112
+291103014,2010-11-03,Miami,96,Phoenix Suns,104
+291104019,2010-11-04,Orlando,122,Phoenix Suns,100
+291106002,2010-11-06,Boston,103,Phoenix Suns,110
+291108027,2010-11-08,Washington,90,Phoenix Suns,102
+291109020,2010-11-09,Philadelphia,115,Phoenix Suns,119
+291111021,2010-11-11,Phoenix Suns,124,New Orleans,104
+291112013,2010-11-12,Los Angeles,121,Phoenix Suns,102
+291115021,2010-11-15,Phoenix Suns,101,Toronto,100
+291117010,2010-11-17,Houston,105,Phoenix Suns,111
+291119003,2010-11-19,New Orleans,110,Phoenix Suns,103
+291122021,2010-11-22,Phoenix Suns,117,Detroit,91
+291125021,2010-11-25,Phoenix Suns,126,Memphis,111
+291127016,2010-11-27,Minnesota,95,Phoenix Suns,120
+291129028,2010-11-29,Toronto,94,Phoenix Suns,113
+291201018,2010-12-01,NY Knicks,126,Phoenix Suns,99
+291202005,2010-12-02,Cleveland,107,Phoenix Suns,90
+291205021,2010-12-05,Phoenix Suns,115,Sacramento,107
+291206013,2010-12-06,Los Angeles,108,Phoenix Suns,88
+291208006,2010-12-08,Dallas,102,Phoenix Suns,101
+291211021,2010-12-11,Phoenix Suns,106,Orlando,103
+291212007,2010-12-12,Denver,105,Phoenix Suns,99
+291215021,2010-12-15,Phoenix Suns,116,San Antonio,104
+291217022,2010-12-17,Portland,105,Phoenix Suns,102
+291219021,2010-12-19,Phoenix Suns,121,Washington,95
+291221021,2010-12-21,Phoenix Suns,91,Cleveland,109
+291223021,2010-12-23,Phoenix Suns,113,Oklahoma City,117
+291225021,2010-12-25,Phoenix Suns,124,LA,93
+291226009,2010-12-26,Golden State,132,Phoenix Suns,127
+291228021,2010-12-28,Phoenix Suns,118,Los Angeles,103
+291230021,2010-12-30,Phoenix Suns,116,Boston,98
+300102021,2010-01-02,Phoenix Suns,103,Memphis,128
+300105023,2010-01-05,Sacramento,109,Phoenix Suns,113
+300106021,2010-01-06,Phoenix Suns,118,Houston,110
+300108021,2010-01-08,Phoenix Suns,105,Miami,109
+300111021,2010-01-11,Phoenix Suns,105,Milwaukee,101
+300113011,2010-01-13,Indiana,122,Phoenix Suns,114
+300115001,2010-01-15,Atlanta,102,Phoenix Suns,101
+300116030,2010-01-16,Charlotte,125,Phoenix Suns,99
+300118029,2010-01-18,Memphis,125,Phoenix Suns,118
+300120021,2010-01-20,Phoenix Suns,118,Brooklyn,94
+300122021,2010-01-22,Phoenix Suns,104,Chicago,115
+300123021,2010-01-23,Phoenix Suns,112,Golden State,103
+300125026,2010-01-25,Utah,124,Phoenix Suns,115
+300126021,2010-01-26,Phoenix Suns,109,Charlotte,114
+300128021,2010-01-28,Phoenix Suns,112,Dallas,106
+300131010,2010-01-31,Houston,111,Phoenix Suns,115
+300201003,2010-02-01,New Orleans,100,Phoenix Suns,109
+300203007,2010-02-03,Denver,97,Phoenix Suns,109
+300205023,2010-02-05,Sacramento,102,Phoenix Suns,114
+300210021,2010-02-10,Phoenix Suns,101,Portland,108
+300216029,2010-02-16,Memphis,95,Phoenix Suns,109
+300217006,2010-02-17,Dallas,107,Phoenix Suns,97
+300219021,2010-02-19,Phoenix Suns,88,Atlanta,80
+300221021,2010-02-21,Phoenix Suns,104,Sacramento,88
+300223025,2010-02-23,Oklahoma City,102,Phoenix Suns,104
+300224021,2010-02-24,Phoenix Suns,106,Philadelphia,95
+300226021,2010-02-26,Phoenix Suns,125,LA,112
+300228024,2010-02-28,San Antonio,113,Phoenix Suns,110
+300301021,2010-03-01,Phoenix Suns,101,Denver,85
+300303012,2010-03-03,LA,101,Phoenix Suns,127
+300304021,2010-03-04,Phoenix Suns,108,Utah,116
+300306021,2010-03-06,Phoenix Suns,113,Indiana,105
+300312021,2010-03-12,Phoenix Suns,96,Los Angeles,102
+300314021,2010-03-14,Phoenix Suns,120,New Orleans,106
+300316021,2010-03-16,Phoenix Suns,152,Minnesota,114
+300319021,2010-03-19,Phoenix Suns,110,Utah,100
+300321021,2010-03-21,Phoenix Suns,93,Portland,87
+300322009,2010-03-22,Golden State,131,Phoenix Suns,133
+300326021,2010-03-26,Phoenix Suns,132,NY Knicks,96
+300328016,2010-03-28,Minnesota,105,Phoenix Suns,111
+300330004,2010-03-30,Chicago,105,Phoenix Suns,111
+300331017,2010-03-31,Brooklyn,105,Phoenix Suns,116
+300402008,2010-04-02,Detroit,94,Phoenix Suns,109
+300403015,2010-04-03,Milwaukee,107,Phoenix Suns,98
+300407021,2010-04-07,Phoenix Suns,112,San Antonio,101
+300409025,2010-04-09,Oklahoma City,96,Phoenix Suns,91
+300411021,2010-04-11,Phoenix Suns,116,Houston,106
+300413021,2010-04-13,Phoenix Suns,123,Denver,101
+300414026,2010-04-14,Utah,86,Phoenix Suns,100
+291028025,2010-10-28,Oklahoma City,102,Sacramento Kings,89
+291030003,2010-10-30,New Orleans,97,Sacramento Kings,92
+291031024,2010-10-31,San Antonio,113,Sacramento Kings,94
+291102023,2010-11-02,Sacramento Kings,127,Memphis,116
+291104023,2010-11-04,Sacramento Kings,105,Atlanta,113
+291107026,2010-11-07,Utah,99,Sacramento Kings,104
+291108023,2010-11-08,Sacramento Kings,120,Golden State,107
+291110023,2010-11-10,Sacramento Kings,101,Oklahoma City,98
+291113023,2010-11-13,Sacramento Kings,109,Houston,100
+291117023,2010-11-17,Sacramento Kings,87,Chicago,101
+291120006,2010-11-20,Dallas,104,Sacramento Kings,102
+291121010,2010-11-21,Houston,113,Sacramento Kings,106
+291123029,2010-11-23,Memphis,116,Sacramento Kings,105
+291125023,2010-11-25,Sacramento Kings,111,NY Knicks,97
+291127023,2010-11-27,Sacramento Kings,109,Brooklyn,96
+291129023,2010-11-29,Sacramento Kings,112,New Orleans,96
+291202023,2010-12-02,Sacramento Kings,110,Indiana,105
+291205021,2010-12-05,Phoenix,115,Sacramento Kings,107
+291206023,2010-12-06,Sacramento Kings,102,Miami,115
+291208003,2010-12-08,New Orleans,96,Sacramento Kings,94
+291209024,2010-12-09,San Antonio,118,Sacramento Kings,106
+291212023,2010-12-12,Sacramento Kings,120,Minnesota,100
+291215022,2010-12-15,Portland,95,Sacramento Kings,88
+291216023,2010-12-16,Sacramento Kings,112,Washington,109
+291218016,2010-12-18,Minnesota,112,Sacramento Kings,96
+291219015,2010-12-19,Milwaukee,95,Sacramento Kings,96
+291221004,2010-12-21,Chicago,98,Sacramento Kings,102
+291223023,2010-12-23,Sacramento Kings,104,Cleveland,117
+291226023,2010-12-26,Sacramento Kings,103,Los Angeles,112
+291228023,2010-12-28,Sacramento Kings,106,Denver,101
+291230023,2010-12-30,Sacramento Kings,106,Philadelphia,116
+300101013,2010-01-01,Los Angeles,109,Sacramento Kings,108
+300102023,2010-01-02,Sacramento Kings,91,Dallas,99
+300105023,2010-01-05,Sacramento Kings,109,Phoenix,113
+300108009,2010-01-08,Golden State,108,Sacramento Kings,101
+300109023,2010-01-09,Sacramento Kings,102,Denver,100
+300112023,2010-01-12,Sacramento Kings,88,Orlando,109
+300115020,2010-01-15,Philadelphia,98,Sacramento Kings,86
+300116027,2010-01-16,Washington,96,Sacramento Kings,86
+300118030,2010-01-18,Charlotte,105,Sacramento Kings,103
+300120001,2010-01-20,Atlanta,108,Sacramento Kings,97
+300122019,2010-01-22,Orlando,100,Sacramento Kings,84
+300123014,2010-01-23,Miami,115,Sacramento Kings,84
+300126023,2010-01-26,Sacramento Kings,99,Golden State,96
+300129026,2010-01-29,Utah,101,Sacramento Kings,94
+300130023,2010-01-30,Sacramento Kings,96,Charlotte,103
+300201007,2010-02-01,Denver,112,Sacramento Kings,109
+300203023,2010-02-03,Sacramento Kings,113,San Antonio,115
+300205023,2010-02-05,Sacramento Kings,102,Phoenix,114
+300207028,2010-02-07,Toronto,115,Sacramento Kings,104
+300209018,2010-02-09,NY Knicks,114,Sacramento Kings,118
+300210008,2010-02-10,Detroit,97,Sacramento Kings,103
+300216023,2010-02-16,Sacramento Kings,92,Boston,95
+300217009,2010-02-17,Golden State,130,Sacramento Kings,98
+300220012,2010-02-20,LA,99,Sacramento Kings,89
+300221021,2010-02-21,Phoenix,104,Sacramento Kings,88
+300223023,2010-02-23,Sacramento Kings,89,Detroit,101
+300226023,2010-02-26,Sacramento Kings,103,Utah,99
+300228023,2010-02-28,Sacramento Kings,97,LA,92
+300302025,2010-03-02,Oklahoma City,113,Sacramento Kings,107
+300303010,2010-03-03,Houston,81,Sacramento Kings,84
+300305006,2010-03-05,Dallas,108,Sacramento Kings,100
+300307023,2010-03-07,Sacramento Kings,102,Oklahoma City,108
+300309022,2010-03-09,Portland,88,Sacramento Kings,81
+300310023,2010-03-10,Sacramento Kings,113,Toronto,90
+300312023,2010-03-12,Sacramento Kings,94,Portland,110
+300314023,2010-03-14,Sacramento Kings,114,Minnesota,100
+300316023,2010-03-16,Sacramento Kings,99,Los Angeles,106
+300319023,2010-03-19,Sacramento Kings,108,Milwaukee,114
+300321012,2010-03-21,LA,89,Sacramento Kings,102
+300322023,2010-03-22,Sacramento Kings,85,Memphis,102
+300324017,2010-03-24,Brooklyn,93,Sacramento Kings,79
+300326002,2010-03-26,Boston,94,Sacramento Kings,86
+300328005,2010-03-28,Cleveland,97,Sacramento Kings,90
+300330011,2010-03-30,Indiana,102,Sacramento Kings,95
+300331016,2010-03-31,Minnesota,108,Sacramento Kings,99
+300403023,2010-04-03,Sacramento Kings,87,Portland,98
+300406023,2010-04-06,Sacramento Kings,86,San Antonio,95
+300408023,2010-04-08,Sacramento Kings,116,LA,94
+300410023,2010-04-10,Sacramento Kings,108,Dallas,126
+300412023,2010-04-12,Sacramento Kings,107,Houston,117
+300413013,2010-04-13,Los Angeles,106,Sacramento Kings,100
+291029004,2010-10-29,Chicago Bulls,92,San Antonio,85
+291030002,2010-10-30,Boston,118,Chicago Bulls,90
+291101014,2010-11-01,Miami,95,Chicago Bulls,87
+291103004,2010-11-03,Chicago Bulls,83,Milwaukee,81
+291105005,2010-11-05,Cleveland,85,Chicago Bulls,86
+291107004,2010-11-07,Chicago Bulls,93,Charlotte,90
+291110004,2010-11-10,Chicago Bulls,89,Denver,90
+291111028,2010-11-11,Toronto,99,Chicago Bulls,89
+291114004,2010-11-14,Chicago Bulls,94,Philadelphia,88
+291117023,2010-11-17,Sacramento,87,Chicago Bulls,101
+291119013,2010-11-19,Los Angeles,108,Chicago Bulls,93
+291121007,2010-11-21,Denver,112,Chicago Bulls,93
+291123022,2010-11-23,Portland,122,Chicago Bulls,98
+291126026,2010-11-26,Utah,105,Chicago Bulls,86
+291130015,2010-11-30,Milwaukee,99,Chicago Bulls,97
+291202004,2010-12-02,Chicago Bulls,92,Detroit,85
+291204005,2010-12-04,Cleveland,101,Chicago Bulls,87
+291205004,2010-12-05,Chicago Bulls,78,Toronto,110
+291208004,2010-12-08,Chicago Bulls,101,Brooklyn,103
+291209001,2010-12-09,Atlanta,118,Chicago Bulls,83
+291211004,2010-12-11,Chicago Bulls,96,Golden State,91
+291212004,2010-12-12,Chicago Bulls,80,Boston,106
+291215004,2010-12-15,Chicago Bulls,87,Los Angeles,96
+291217004,2010-12-17,Chicago Bulls,98,NY Knicks,89
+291219004,2010-12-19,Chicago Bulls,101,Atlanta,98
+291221004,2010-12-21,Chicago Bulls,98,Sacramento,102
+291222018,2010-12-22,NY Knicks,88,Chicago Bulls,81
+291226004,2010-12-26,Chicago Bulls,96,New Orleans,85
+291229004,2010-12-29,Chicago Bulls,104,Indiana,95
+291231008,2010-12-31,Detroit,87,Chicago Bulls,98
+300102004,2010-01-02,Chicago Bulls,101,Orlando,93
+300104004,2010-01-04,Chicago Bulls,85,Oklahoma City,98
+300105030,2010-01-05,Charlotte,113,Chicago Bulls,108
+300108015,2010-01-08,Milwaukee,96,Chicago Bulls,93
+300109004,2010-01-09,Chicago Bulls,110,Minnesota,96
+300111004,2010-01-11,Chicago Bulls,120,Detroit,87
+300114002,2010-01-14,Boston,83,Chicago Bulls,96
+300115004,2010-01-15,Chicago Bulls,121,Washington,119
+300118009,2010-01-18,Golden State,114,Chicago Bulls,97
+300120012,2010-01-20,LA,104,Chicago Bulls,97
+300122021,2010-01-22,Phoenix,104,Chicago Bulls,115
+300123010,2010-01-23,Houston,97,Chicago Bulls,104
+300125024,2010-01-25,San Antonio,93,Chicago Bulls,98
+300127025,2010-01-27,Oklahoma City,86,Chicago Bulls,96
+300129003,2010-01-29,New Orleans,106,Chicago Bulls,108
+300202004,2010-02-02,Chicago Bulls,82,LA,90
+300203020,2010-02-03,Philadelphia,106,Chicago Bulls,103
+300205001,2010-02-05,Atlanta,91,Chicago Bulls,81
+300206004,2010-02-06,Chicago Bulls,95,Miami,91
+300209011,2010-02-09,Indiana,101,Chicago Bulls,109
+300210004,2010-02-10,Chicago Bulls,87,Orlando,107
+300216004,2010-02-16,Chicago Bulls,118,NY Knicks,85
+300217018,2010-02-17,NY Knicks,109,Chicago Bulls,115
+300219016,2010-02-19,Minnesota,94,Chicago Bulls,100
+300220004,2010-02-20,Chicago Bulls,122,Philadelphia,90
+300222027,2010-02-22,Washington,101,Chicago Bulls,95
+300224004,2010-02-24,Chicago Bulls,120,Indiana,110
+300226004,2010-02-26,Chicago Bulls,115,Portland,111
+300227011,2010-02-27,Indiana,100,Chicago Bulls,90
+300301004,2010-03-01,Chicago Bulls,92,Atlanta,116
+300304004,2010-03-04,Chicago Bulls,96,Memphis,105
+300306004,2010-03-06,Chicago Bulls,116,Dallas,122
+300309004,2010-03-09,Chicago Bulls,108,Utah,132
+300311019,2010-03-11,Orlando,111,Chicago Bulls,82
+300312014,2010-03-12,Miami,108,Chicago Bulls,95
+300316029,2010-03-16,Memphis,104,Chicago Bulls,97
+300317006,2010-03-17,Dallas,113,Chicago Bulls,106
+300319004,2010-03-19,Chicago Bulls,85,Cleveland,92
+300320020,2010-03-20,Philadelphia,84,Chicago Bulls,98
+300322004,2010-03-22,Chicago Bulls,98,Houston,88
+300325004,2010-03-25,Chicago Bulls,74,Miami,103
+300327004,2010-03-27,Chicago Bulls,106,Brooklyn,83
+300328008,2010-03-28,Detroit,103,Chicago Bulls,110
+300330004,2010-03-30,Chicago Bulls,105,Phoenix,111
+300402027,2010-04-02,Washington,87,Chicago Bulls,95
+300403004,2010-04-03,Chicago Bulls,96,Charlotte,88
+300406004,2010-04-06,Chicago Bulls,74,Milwaukee,79
+300408004,2010-04-08,Chicago Bulls,109,Cleveland,108
+300409017,2010-04-09,Brooklyn,127,Chicago Bulls,116
+300411028,2010-04-11,Toronto,88,Chicago Bulls,104
+300413004,2010-04-13,Chicago Bulls,101,Boston,93
+300414030,2010-04-14,Charlotte,89,Chicago Bulls,98
+291027005,2010-10-27,Cleveland Cavaliers,89,Boston,95
+291028028,2010-10-28,Toronto,101,Cleveland Cavaliers,91
+291030016,2010-10-30,Minnesota,87,Cleveland Cavaliers,104
+291031005,2010-10-31,Cleveland Cavaliers,90,Charlotte,79
+291103005,2010-11-03,Cleveland Cavaliers,102,Washington,90
+291105005,2010-11-05,Cleveland Cavaliers,85,Chicago,86
+291106018,2010-11-06,NY Knicks,91,Cleveland Cavaliers,100
+291111019,2010-11-11,Orlando,93,Cleveland Cavaliers,102
+291112014,2010-11-12,Miami,104,Cleveland Cavaliers,111
+291114005,2010-11-14,Cleveland Cavaliers,107,Utah,103
+291117005,2010-11-17,Cleveland Cavaliers,114,Golden State,108
+291118027,2010-11-18,Washington,108,Cleveland Cavaliers,91
+291120011,2010-11-20,Indiana,95,Cleveland Cavaliers,105
+291121005,2010-11-21,Cleveland Cavaliers,97,Philadelphia,91
+291125008,2010-11-25,Detroit,88,Cleveland Cavaliers,98
+291127030,2010-11-27,Charlotte,94,Cleveland Cavaliers,87
+291128005,2010-11-28,Cleveland Cavaliers,111,Dallas,95
+291202005,2010-12-02,Cleveland Cavaliers,107,Phoenix,90
+291204005,2010-12-04,Cleveland Cavaliers,101,Chicago,87
+291206015,2010-12-06,Milwaukee,86,Cleveland Cavaliers,101
+291208029,2010-12-08,Memphis,111,Cleveland Cavaliers,109
+291209010,2010-12-09,Houston,95,Cleveland Cavaliers,85
+291211005,2010-12-11,Cleveland Cavaliers,104,Portland,99
+291213025,2010-12-13,Oklahoma City,89,Cleveland Cavaliers,102
+291215005,2010-12-15,Cleveland Cavaliers,99,Brooklyn,89
+291216020,2010-12-16,Philadelphia,101,Cleveland Cavaliers,108
+291218005,2010-12-18,Cleveland Cavaliers,85,Milwaukee,82
+291220006,2010-12-20,Dallas,102,Cleveland Cavaliers,95
+291221021,2010-12-21,Phoenix,91,Cleveland Cavaliers,109
+291223023,2010-12-23,Sacramento,104,Cleveland Cavaliers,117
+291225013,2010-12-25,Los Angeles,87,Cleveland Cavaliers,102
+291227005,2010-12-27,Cleveland Cavaliers,108,Houston,83
+291229001,2010-12-29,Atlanta,84,Cleveland Cavaliers,95
+291230005,2010-12-30,Cleveland Cavaliers,106,Atlanta,101
+300102017,2010-01-02,Brooklyn,86,Cleveland Cavaliers,94
+300103005,2010-01-03,Cleveland Cavaliers,88,Charlotte,91
+300106005,2010-01-06,Cleveland Cavaliers,121,Washington,98
+300108007,2010-01-08,Denver,99,Cleveland Cavaliers,97
+300110022,2010-01-10,Portland,94,Cleveland Cavaliers,106
+300111009,2010-01-11,Golden State,114,Cleveland Cavaliers,117
+300114026,2010-01-14,Utah,97,Cleveland Cavaliers,96
+300116012,2010-01-16,LA,101,Cleveland Cavaliers,102
+300119005,2010-01-19,Cleveland Cavaliers,108,Toronto,100
+300121005,2010-01-21,Cleveland Cavaliers,93,Los Angeles,87
+300123005,2010-01-23,Cleveland Cavaliers,100,Oklahoma City,99
+300125014,2010-01-25,Miami,91,Cleveland Cavaliers,92
+300127005,2010-01-27,Cleveland Cavaliers,109,Minnesota,95
+300129011,2010-01-29,Indiana,73,Cleveland Cavaliers,94
+300131005,2010-01-31,Cleveland Cavaliers,114,LA,89
+300202005,2010-02-02,Cleveland Cavaliers,105,Memphis,89
+300204005,2010-02-04,Cleveland Cavaliers,102,Miami,86
+300206005,2010-02-06,Cleveland Cavaliers,113,NY Knicks,106
+300209005,2010-02-09,Cleveland Cavaliers,104,Brooklyn,97
+300211005,2010-02-11,Cleveland Cavaliers,115,Orlando,106
+300218005,2010-02-18,Cleveland Cavaliers,116,Denver,118
+300219030,2010-02-19,Charlotte,110,Cleveland Cavaliers,93
+300221019,2010-02-21,Orlando,101,Cleveland Cavaliers,95
+300223005,2010-02-23,Cleveland Cavaliers,105,New Orleans,95
+300225002,2010-02-25,Boston,88,Cleveland Cavaliers,108
+300226028,2010-02-26,Toronto,118,Cleveland Cavaliers,126
+300301005,2010-03-01,Cleveland Cavaliers,124,NY Knicks,93
+300303017,2010-03-03,Brooklyn,92,Cleveland Cavaliers,111
+300305005,2010-03-05,Cleveland Cavaliers,99,Detroit,92
+300306015,2010-03-06,Milwaukee,92,Cleveland Cavaliers,85
+300308005,2010-03-08,Cleveland Cavaliers,97,San Antonio,95
+300312020,2010-03-12,Philadelphia,95,Cleveland Cavaliers,100
+300314005,2010-03-14,Cleveland Cavaliers,104,Boston,93
+300316008,2010-03-16,Detroit,101,Cleveland Cavaliers,113
+300317005,2010-03-17,Cleveland Cavaliers,99,Indiana,94
+300319004,2010-03-19,Chicago,85,Cleveland Cavaliers,92
+300321005,2010-03-21,Cleveland Cavaliers,104,Detroit,79
+300324003,2010-03-24,New Orleans,92,Cleveland Cavaliers,105
+300326024,2010-03-26,San Antonio,102,Cleveland Cavaliers,97
+300328005,2010-03-28,Cleveland Cavaliers,97,Sacramento,90
+300331005,2010-03-31,Cleveland Cavaliers,101,Milwaukee,98
+300402005,2010-04-02,Cleveland Cavaliers,93,Atlanta,88
+300404002,2010-04-04,Boston,117,Cleveland Cavaliers,113
+300406005,2010-04-06,Cleveland Cavaliers,113,Toronto,101
+300408004,2010-04-08,Chicago,109,Cleveland Cavaliers,108
+300409005,2010-04-09,Cleveland Cavaliers,113,Indiana,116
+300411005,2010-04-11,Cleveland Cavaliers,92,Orlando,98
+300414001,2010-04-14,Atlanta,99,Cleveland Cavaliers,83
+291028029,2010-10-28,Memphis,74,Detroit Pistons,96
+291030008,2010-10-30,Detroit Pistons,83,Oklahoma City,91
+291031015,2010-10-31,Milwaukee,96,Detroit Pistons,85
+291103008,2010-11-03,Detroit Pistons,85,Orlando,80
+291104028,2010-11-04,Toronto,110,Detroit Pistons,99
+291106019,2010-11-06,Orlando,110,Detroit Pistons,103
+291108008,2010-11-08,Detroit Pistons,88,Philadelphia,81
+291111008,2010-11-11,Detroit Pistons,98,Charlotte,75
+291114027,2010-11-14,Washington,103,Detroit Pistons,106
+291115008,2010-11-15,Detroit Pistons,90,Dallas,95
+291117013,2010-11-17,Los Angeles,106,Detroit Pistons,93
+291118022,2010-11-18,Portland,87,Detroit Pistons,81
+291121026,2010-11-21,Utah,100,Detroit Pistons,97
+291122021,2010-11-22,Phoenix,117,Detroit Pistons,91
+291125008,2010-11-25,Detroit Pistons,88,Cleveland,98
+291127008,2010-11-27,Detroit Pistons,96,LA,104
+291129008,2010-11-29,Detroit Pistons,94,Atlanta,88
+291202004,2010-12-02,Chicago,92,Detroit Pistons,85
+291204008,2010-12-04,Detroit Pistons,105,Milwaukee,96
+291206008,2010-12-06,Detroit Pistons,98,Washington,94
+291209020,2010-12-09,Philadelphia,86,Detroit Pistons,90
+291210008,2010-12-10,Detroit Pistons,101,Denver,99
+291212008,2010-12-12,Detroit Pistons,104,Golden State,95
+291215010,2010-12-15,Houston,107,Detroit Pistons,96
+291216003,2010-12-16,New Orleans,95,Detroit Pistons,87
+291218025,2010-12-18,Oklahoma City,109,Detroit Pistons,98
+291220008,2010-12-20,Detroit Pistons,81,Los Angeles,93
+291222030,2010-12-22,Charlotte,88,Detroit Pistons,76
+291223008,2010-12-23,Detroit Pistons,64,Toronto,94
+291227028,2010-12-27,Toronto,102,Detroit Pistons,95
+291229008,2010-12-29,Detroit Pistons,87,NY Knicks,104
+291231008,2010-12-31,Detroit Pistons,87,Chicago,98
+300105006,2010-01-05,Dallas,98,Detroit Pistons,93
+300106024,2010-01-06,San Antonio,112,Detroit Pistons,92
+300109008,2010-01-09,Detroit Pistons,94,Philadelphia,104
+300111004,2010-01-11,Chicago,120,Detroit Pistons,87
+300112027,2010-01-12,Washington,90,Detroit Pistons,99
+300115008,2010-01-15,Detroit Pistons,110,New Orleans,104
+300116008,2010-01-16,Detroit Pistons,94,NY Knicks,90
+300118018,2010-01-18,NY Knicks,99,Detroit Pistons,91
+300120008,2010-01-20,Detroit Pistons,92,Boston,86
+300122008,2010-01-22,Detroit Pistons,93,Indiana,105
+300123008,2010-01-23,Detroit Pistons,93,Portland,97
+300127008,2010-01-27,Detroit Pistons,93,Memphis,99
+300129008,2010-01-29,Detroit Pistons,65,Miami,92
+300131008,2010-01-31,Detroit Pistons,86,Orlando,91
+300202017,2010-02-02,Brooklyn,93,Detroit Pistons,97
+300205011,2010-02-05,Indiana,107,Detroit Pistons,83
+300206008,2010-02-06,Detroit Pistons,99,Brooklyn,92
+300209015,2010-02-09,Milwaukee,81,Detroit Pistons,93
+300210008,2010-02-10,Detroit Pistons,97,Sacramento,103
+300216008,2010-02-16,Detroit Pistons,108,Minnesota,85
+300217019,2010-02-17,Orlando,116,Detroit Pistons,91
+300219008,2010-02-19,Detroit Pistons,85,Milwaukee,91
+300221008,2010-02-21,Detroit Pistons,109,San Antonio,101
+300223023,2010-02-23,Sacramento,89,Detroit Pistons,101
+300224012,2010-02-24,LA,97,Detroit Pistons,91
+300226007,2010-02-26,Denver,107,Detroit Pistons,102
+300227009,2010-02-27,Golden State,95,Detroit Pistons,88
+300302008,2010-03-02,Detroit Pistons,100,Boston,105
+300303018,2010-03-03,NY Knicks,128,Detroit Pistons,104
+300305005,2010-03-05,Cleveland,99,Detroit Pistons,92
+300307008,2010-03-07,Detroit Pistons,110,Houston,107
+300310008,2010-03-10,Detroit Pistons,104,Utah,115
+300312008,2010-03-12,Detroit Pistons,101,Washington,87
+300313001,2010-03-13,Atlanta,112,Detroit Pistons,99
+300315002,2010-03-15,Boston,119,Detroit Pistons,93
+300316008,2010-03-16,Detroit Pistons,101,Cleveland,113
+300319011,2010-03-19,Indiana,106,Detroit Pistons,102
+300321005,2010-03-21,Cleveland,104,Detroit Pistons,79
+300323008,2010-03-23,Detroit Pistons,83,Indiana,98
+300326017,2010-03-26,Brooklyn,118,Detroit Pistons,110
+300328008,2010-03-28,Detroit Pistons,103,Chicago,110
+300331008,2010-03-31,Detroit Pistons,81,Miami,98
+300402008,2010-04-02,Detroit Pistons,94,Phoenix,109
+300403001,2010-04-03,Atlanta,91,Detroit Pistons,85
+300406020,2010-04-06,Philadelphia,103,Detroit Pistons,124
+300407008,2010-04-07,Detroit Pistons,90,Atlanta,88
+300409014,2010-04-09,Miami,99,Detroit Pistons,106
+300410030,2010-04-10,Charlotte,99,Detroit Pistons,95
+300412008,2010-04-12,Detroit Pistons,97,Toronto,111
+300414016,2010-04-14,Minnesota,98,Detroit Pistons,103
+291028001,2010-10-28,Atlanta,120,Indiana Pacers,109
+291030011,2010-10-30,Indiana Pacers,83,Miami,96
+291103011,2010-11-03,Indiana Pacers,93,Denver,111
+291104018,2010-11-04,NY Knicks,89,Indiana Pacers,101
+291106011,2010-11-06,Indiana Pacers,102,Washington,86
+291111011,2010-11-11,Indiana Pacers,108,Golden State,94
+291114011,2010-11-14,Indiana Pacers,113,Boston,104
+291117017,2010-11-17,Brooklyn,83,Indiana Pacers,91
+291118011,2010-11-18,Indiana Pacers,103,NY Knicks,110
+291120011,2010-11-20,Indiana Pacers,95,Cleveland,105
+291122030,2010-11-22,Charlotte,104,Indiana Pacers,88
+291124028,2010-11-24,Toronto,123,Indiana Pacers,112
+291125011,2010-11-25,Indiana Pacers,86,LA,73
+291127011,2010-11-27,Indiana Pacers,92,Dallas,113
+291130009,2010-11-30,Golden State,126,Indiana Pacers,107
+291202023,2010-12-02,Sacramento,110,Indiana Pacers,105
+291204026,2010-12-04,Utah,96,Indiana Pacers,87
+291205012,2010-12-05,LA,88,Indiana Pacers,72
+291209011,2010-12-09,Indiana Pacers,91,Portland,102
+291211011,2010-12-11,Indiana Pacers,107,Brooklyn,91
+291212027,2010-12-12,Washington,113,Indiana Pacers,114
+291214019,2010-12-14,Orlando,106,Indiana Pacers,98
+291216011,2010-12-16,Indiana Pacers,101,Charlotte,98
+291218029,2010-12-18,Memphis,107,Indiana Pacers,94
+291219024,2010-12-19,San Antonio,100,Indiana Pacers,99
+291221011,2010-12-21,Indiana Pacers,81,Milwaukee,84
+291222002,2010-12-22,Boston,103,Indiana Pacers,94
+291226011,2010-12-26,Indiana Pacers,98,Atlanta,110
+291227014,2010-12-27,Miami,114,Indiana Pacers,80
+291229004,2010-12-29,Chicago,104,Indiana Pacers,95
+291230011,2010-12-30,Indiana Pacers,110,Memphis,121
+300102011,2010-01-02,Indiana Pacers,122,Minnesota,111
+300103018,2010-01-03,NY Knicks,132,Indiana Pacers,89
+300105011,2010-01-05,Indiana Pacers,97,Orlando,90
+300108016,2010-01-08,Minnesota,116,Indiana Pacers,109
+300109025,2010-01-09,Oklahoma City,108,Indiana Pacers,102
+300111011,2010-01-11,Indiana Pacers,105,Toronto,101
+300113011,2010-01-13,Indiana Pacers,122,Phoenix,114
+300115017,2010-01-15,Brooklyn,105,Indiana Pacers,121
+300116011,2010-01-16,Indiana Pacers,96,New Orleans,101
+300119014,2010-01-19,Miami,113,Indiana Pacers,83
+300120019,2010-01-20,Orlando,109,Indiana Pacers,98
+300122008,2010-01-22,Detroit,93,Indiana Pacers,105
+300123011,2010-01-23,Indiana Pacers,97,Philadelphia,107
+300125020,2010-01-25,Philadelphia,98,Indiana Pacers,109
+300127011,2010-01-27,Indiana Pacers,96,Los Angeles,118
+300129011,2010-01-29,Indiana Pacers,73,Cleveland,94
+300131028,2010-01-31,Toronto,117,Indiana Pacers,102
+300202011,2010-02-02,Indiana Pacers,130,Toronto,115
+300205011,2010-02-05,Indiana Pacers,107,Detroit,83
+300206015,2010-02-06,Milwaukee,93,Indiana Pacers,81
+300209011,2010-02-09,Indiana Pacers,101,Chicago,109
+300217011,2010-02-17,Indiana Pacers,87,San Antonio,90
+300219003,2010-02-19,New Orleans,107,Indiana Pacers,101
+300220010,2010-02-20,Houston,115,Indiana Pacers,125
+300222006,2010-02-22,Dallas,91,Indiana Pacers,82
+300224004,2010-02-24,Chicago,120,Indiana Pacers,110
+300225011,2010-02-25,Indiana Pacers,110,Milwaukee,112
+300227011,2010-02-27,Indiana Pacers,100,Chicago,90
+300302013,2010-03-02,Los Angeles,122,Indiana Pacers,99
+300303022,2010-03-03,Portland,102,Indiana Pacers,79
+300305007,2010-03-05,Denver,122,Indiana Pacers,114
+300306021,2010-03-06,Phoenix,113,Indiana Pacers,105
+300309011,2010-03-09,Indiana Pacers,107,Philadelphia,96
+300312002,2010-03-12,Boston,122,Indiana Pacers,103
+300314015,2010-03-14,Milwaukee,98,Indiana Pacers,94
+300316011,2010-03-16,Indiana Pacers,99,Charlotte,94
+300317005,2010-03-17,Cleveland,99,Indiana Pacers,94
+300319011,2010-03-19,Indiana Pacers,106,Detroit,102
+300321011,2010-03-21,Indiana Pacers,121,Oklahoma City,101
+300323008,2010-03-23,Detroit,83,Indiana Pacers,98
+300324011,2010-03-24,Indiana Pacers,99,Washington,82
+300326011,2010-03-26,Indiana Pacers,122,Utah,106
+300328001,2010-03-28,Atlanta,94,Indiana Pacers,84
+300330011,2010-03-30,Indiana Pacers,102,Sacramento,95
+300402011,2010-04-02,Indiana Pacers,96,Miami,105
+300404011,2010-04-04,Indiana Pacers,133,Houston,102
+300407011,2010-04-07,Indiana Pacers,113,NY Knicks,105
+300409005,2010-04-09,Cleveland,113,Indiana Pacers,116
+300410011,2010-04-10,Indiana Pacers,115,Brooklyn,102
+300412011,2010-04-12,Indiana Pacers,98,Orlando,118
+300414027,2010-04-14,Washington,98,Indiana Pacers,97
+291030020,2010-10-30,Philadelphia,99,Milwaukee Bucks,86
+291031015,2010-10-31,Milwaukee Bucks,96,Detroit,85
+291103004,2010-11-03,Chicago,83,Milwaukee Bucks,81
+291106016,2010-11-06,Minnesota,72,Milwaukee Bucks,87
+291107015,2010-11-07,Milwaukee Bucks,102,NY Knicks,87
+291111015,2010-11-11,Milwaukee Bucks,108,Denver,102
+291114015,2010-11-14,Milwaukee Bucks,129,Golden State,125
+291116015,2010-11-16,Milwaukee Bucks,113,Dallas,115
+291118015,2010-11-18,Milwaukee Bucks,99,Brooklyn,85
+291120015,2010-11-20,Milwaukee Bucks,95,Charlotte,88
+291121029,2010-11-21,Memphis,98,Milwaukee Bucks,103
+291123024,2010-11-23,San Antonio,112,Milwaukee Bucks,98
+291125003,2010-11-25,New Orleans,102,Milwaukee Bucks,99
+291127025,2010-11-27,Oklahoma City,108,Milwaukee Bucks,90
+291128015,2010-11-28,Milwaukee Bucks,98,Orlando,100
+291130015,2010-11-30,Milwaukee Bucks,99,Chicago,97
+291202027,2010-12-02,Washington,104,Milwaukee Bucks,102
+291204008,2010-12-04,Detroit,105,Milwaukee Bucks,96
+291206015,2010-12-06,Milwaukee Bucks,86,Cleveland,101
+291208002,2010-12-08,Boston,98,Milwaukee Bucks,89
+291209015,2010-12-09,Milwaukee Bucks,117,Toronto,95
+291212015,2010-12-12,Milwaukee Bucks,108,Portland,101
+291216015,2010-12-16,Milwaukee Bucks,106,Los Angeles,107
+291218005,2010-12-18,Cleveland,85,Milwaukee Bucks,82
+291219015,2010-12-19,Milwaukee Bucks,95,Sacramento,96
+291221011,2010-12-21,Indiana,81,Milwaukee Bucks,84
+291223015,2010-12-23,Milwaukee Bucks,97,Washington,109
+291226015,2010-12-26,Milwaukee Bucks,97,San Antonio,112
+291228030,2010-12-28,Charlotte,94,Milwaukee Bucks,84
+291230019,2010-12-30,Orlando,117,Milwaukee Bucks,92
+300102015,2010-01-02,Milwaukee Bucks,103,Oklahoma City,97
+300105017,2010-01-05,Brooklyn,76,Milwaukee Bucks,98
+300108015,2010-01-08,Milwaukee Bucks,96,Chicago,93
+300110013,2010-01-10,Los Angeles,95,Milwaukee Bucks,77
+300111021,2010-01-11,Phoenix,105,Milwaukee Bucks,101
+300113022,2010-01-13,Portland,120,Milwaukee Bucks,108
+300115009,2010-01-15,Golden State,104,Milwaukee Bucks,113
+300116026,2010-01-16,Utah,112,Milwaukee Bucks,95
+300118010,2010-01-18,Houston,101,Milwaukee Bucks,98
+300120015,2010-01-20,Milwaukee Bucks,113,Toronto,107
+300122028,2010-01-22,Toronto,101,Milwaukee Bucks,96
+300123015,2010-01-23,Milwaukee Bucks,127,Minnesota,94
+300126006,2010-01-26,Dallas,108,Milwaukee Bucks,107
+300127015,2010-01-27,Milwaukee Bucks,91,Philadelphia,88
+300130015,2010-01-30,Milwaukee Bucks,95,Miami,84
+300201014,2010-02-01,Miami,81,Milwaukee Bucks,97
+300202019,2010-02-02,Orlando,99,Milwaukee Bucks,82
+300205018,2010-02-05,NY Knicks,107,Milwaukee Bucks,114
+300206015,2010-02-06,Milwaukee Bucks,93,Indiana,81
+300209015,2010-02-09,Milwaukee Bucks,81,Detroit,93
+300210017,2010-02-10,Brooklyn,77,Milwaukee Bucks,97
+300217015,2010-02-17,Milwaukee Bucks,99,Houston,127
+300219008,2010-02-19,Detroit,85,Milwaukee Bucks,91
+300220015,2010-02-20,Milwaukee Bucks,93,Charlotte,88
+300222018,2010-02-22,NY Knicks,67,Milwaukee Bucks,83
+300224015,2010-02-24,Milwaukee Bucks,115,New Orleans,95
+300225011,2010-02-25,Indiana,110,Milwaukee Bucks,112
+300227014,2010-02-27,Miami,71,Milwaukee Bucks,94
+300228001,2010-02-28,Atlanta,106,Milwaukee Bucks,102
+300303015,2010-03-03,Milwaukee Bucks,100,Washington,87
+300305027,2010-03-05,Washington,74,Milwaukee Bucks,102
+300306015,2010-03-06,Milwaukee Bucks,92,Cleveland,85
+300309015,2010-03-09,Milwaukee Bucks,86,Boston,84
+300312015,2010-03-12,Milwaukee Bucks,95,Utah,87
+300314015,2010-03-14,Milwaukee Bucks,98,Indiana,94
+300317012,2010-03-17,LA,101,Milwaukee Bucks,93
+300319023,2010-03-19,Sacramento,108,Milwaukee Bucks,114
+300320007,2010-03-20,Denver,97,Milwaukee Bucks,102
+300322015,2010-03-22,Milwaukee Bucks,98,Atlanta,95
+300324015,2010-03-24,Milwaukee Bucks,86,Philadelphia,101
+300326015,2010-03-26,Milwaukee Bucks,74,Miami,87
+300328015,2010-03-28,Milwaukee Bucks,108,Memphis,103
+300330015,2010-03-30,Milwaukee Bucks,107,LA,89
+300331005,2010-03-31,Cleveland,101,Milwaukee Bucks,98
+300402030,2010-04-02,Charlotte,87,Milwaukee Bucks,86
+300403015,2010-04-03,Milwaukee Bucks,107,Phoenix,98
+300406004,2010-04-06,Chicago,74,Milwaukee Bucks,79
+300407015,2010-04-07,Milwaukee Bucks,108,Brooklyn,89
+300409020,2010-04-09,Philadelphia,90,Milwaukee Bucks,95
+300410015,2010-04-10,Milwaukee Bucks,90,Boston,105
+300412015,2010-04-12,Milwaukee Bucks,96,Atlanta,104
+300414002,2010-04-14,Boston,95,Milwaukee Bucks,106
+291027006,2010-10-27,Dallas Mavericks,91,Washington,102
+291030013,2010-10-30,Los Angeles,80,Dallas Mavericks,94
+291031012,2010-10-31,LA,84,Dallas Mavericks,93
+291103006,2010-11-03,Dallas Mavericks,96,Utah,85
+291104003,2010-11-04,New Orleans,114,Dallas Mavericks,107
+291107006,2010-11-07,Dallas Mavericks,129,Toronto,101
+291110006,2010-11-10,Dallas Mavericks,121,Houston,103
+291111024,2010-11-11,San Antonio,92,Dallas Mavericks,83
+291113016,2010-11-13,Minnesota,77,Dallas Mavericks,89
+291115008,2010-11-15,Detroit,90,Dallas Mavericks,95
+291116015,2010-11-16,Milwaukee,113,Dallas Mavericks,115
+291118006,2010-11-18,Dallas Mavericks,99,San Antonio,94
+291120006,2010-11-20,Dallas Mavericks,104,Sacramento,102
+291124006,2010-11-24,Dallas Mavericks,103,Golden State,111
+291125010,2010-11-25,Houston,99,Dallas Mavericks,130
+291127011,2010-11-27,Indiana,92,Dallas Mavericks,113
+291128005,2010-11-28,Cleveland,111,Dallas Mavericks,95
+291130006,2010-11-30,Dallas Mavericks,104,Philadelphia,102
+291202017,2010-12-02,Brooklyn,101,Dallas Mavericks,117
+291204029,2010-12-04,Memphis,98,Dallas Mavericks,82
+291205006,2010-12-05,Dallas Mavericks,75,Atlanta,80
+291208006,2010-12-08,Dallas Mavericks,102,Phoenix,101
+291211014,2010-12-11,Miami,93,Dallas Mavericks,106
+291212006,2010-12-12,Dallas Mavericks,98,Charlotte,97
+291214006,2010-12-14,Dallas Mavericks,94,New Orleans,90
+291216025,2010-12-16,Oklahoma City,86,Dallas Mavericks,100
+291218006,2010-12-18,Dallas Mavericks,108,Houston,116
+291220006,2010-12-20,Dallas Mavericks,102,Cleveland,95
+291222006,2010-12-22,Dallas Mavericks,81,Portland,85
+291226006,2010-12-26,Dallas Mavericks,106,Memphis,101
+291227007,2010-12-27,Denver,96,Dallas Mavericks,104
+291231010,2010-12-31,Houston,97,Dallas Mavericks,94
+300102023,2010-01-02,Sacramento,91,Dallas Mavericks,99
+300103013,2010-01-03,Los Angeles,131,Dallas Mavericks,96
+300105006,2010-01-05,Dallas Mavericks,98,Detroit,93
+300108024,2010-01-08,San Antonio,103,Dallas Mavericks,112
+300109006,2010-01-09,Dallas Mavericks,93,Utah,111
+300113006,2010-01-13,Dallas Mavericks,95,Los Angeles,100
+300115006,2010-01-15,Dallas Mavericks,99,Oklahoma City,98
+300117028,2010-01-17,Toronto,110,Dallas Mavericks,88
+300118002,2010-01-18,Boston,90,Dallas Mavericks,99
+300120027,2010-01-20,Washington,93,Dallas Mavericks,94
+300122020,2010-01-22,Philadelphia,92,Dallas Mavericks,81
+300124018,2010-01-24,NY Knicks,78,Dallas Mavericks,128
+300126006,2010-01-26,Dallas Mavericks,108,Milwaukee,107
+300128021,2010-01-28,Phoenix,112,Dallas Mavericks,106
+300130006,2010-01-30,Dallas Mavericks,112,Portland,114
+300201026,2010-02-01,Utah,104,Dallas Mavericks,92
+300203006,2010-02-03,Dallas Mavericks,110,Golden State,101
+300205006,2010-02-05,Dallas Mavericks,108,Minnesota,117
+300208009,2010-02-08,Golden State,117,Dallas Mavericks,127
+300209007,2010-02-09,Denver,127,Dallas Mavericks,91
+300216025,2010-02-16,Oklahoma City,99,Dallas Mavericks,86
+300217006,2010-02-17,Dallas Mavericks,107,Phoenix,97
+300219019,2010-02-19,Orlando,85,Dallas Mavericks,95
+300220006,2010-02-20,Dallas Mavericks,97,Miami,91
+300222006,2010-02-22,Dallas Mavericks,91,Indiana,82
+300224006,2010-02-24,Dallas Mavericks,101,Los Angeles,96
+300226001,2010-02-26,Atlanta,103,Dallas Mavericks,111
+300228006,2010-02-28,Dallas Mavericks,108,New Orleans,100
+300301030,2010-03-01,Charlotte,84,Dallas Mavericks,89
+300303006,2010-03-03,Dallas Mavericks,112,Minnesota,109
+300305006,2010-03-05,Dallas Mavericks,108,Sacramento,100
+300306004,2010-03-06,Chicago,116,Dallas Mavericks,122
+300308016,2010-03-08,Minnesota,112,Dallas Mavericks,125
+300310006,2010-03-10,Dallas Mavericks,96,Brooklyn,87
+300313006,2010-03-13,Dallas Mavericks,94,NY Knicks,128
+300317006,2010-03-17,Dallas Mavericks,113,Chicago,106
+300320006,2010-03-20,Dallas Mavericks,93,Boston,102
+300322003,2010-03-22,New Orleans,115,Dallas Mavericks,99
+300323006,2010-03-23,Dallas Mavericks,106,LA,96
+300325022,2010-03-25,Portland,101,Dallas Mavericks,89
+300327009,2010-03-27,Golden State,90,Dallas Mavericks,111
+300329006,2010-03-29,Dallas Mavericks,109,Denver,93
+300331029,2010-03-31,Memphis,102,Dallas Mavericks,106
+300401006,2010-04-01,Dallas Mavericks,82,Orlando,97
+300403006,2010-04-03,Dallas Mavericks,116,Oklahoma City,121
+300407006,2010-04-07,Dallas Mavericks,110,Memphis,84
+300409022,2010-04-09,Portland,77,Dallas Mavericks,83
+300410023,2010-04-10,Sacramento,108,Dallas Mavericks,126
+300412012,2010-04-12,LA,94,Dallas Mavericks,117
+300414006,2010-04-14,Dallas Mavericks,96,San Antonio,89
+291027022,2010-10-27,Portland,96,Houston Rockets,87
+291028009,2010-10-28,Golden State,107,Houston Rockets,108
+291031010,2010-10-31,Houston Rockets,111,Portland,107
+291102026,2010-11-02,Utah,96,Houston Rockets,113
+291104010,2010-11-04,Houston Rockets,102,Los Angeles,103
+291106010,2010-11-06,Houston Rockets,105,Oklahoma City,94
+291110006,2010-11-10,Dallas,121,Houston Rockets,103
+291111010,2010-11-11,Houston Rockets,104,Memphis,79
+291113023,2010-11-13,Sacramento,109,Houston Rockets,100
+291115013,2010-11-15,Los Angeles,91,Houston Rockets,101
+291117010,2010-11-17,Houston Rockets,105,Phoenix,111
+291118016,2010-11-18,Minnesota,84,Houston Rockets,97
+291120001,2010-11-20,Atlanta,105,Houston Rockets,103
+291121010,2010-11-21,Houston Rockets,113,Sacramento,106
+291125010,2010-11-25,Houston Rockets,99,Dallas,130
+291127010,2010-11-27,Houston Rockets,84,San Antonio,92
+291129025,2010-11-29,Oklahoma City,91,Houston Rockets,100
+291202012,2010-12-02,LA,85,Houston Rockets,102
+291203009,2010-12-03,Golden State,109,Houston Rockets,111
+291205022,2010-12-05,Portland,90,Houston Rockets,89
+291209010,2010-12-09,Houston Rockets,95,Cleveland,85
+291211020,2010-12-11,Philadelphia,91,Houston Rockets,96
+291213028,2010-12-13,Toronto,101,Houston Rockets,88
+291215010,2010-12-15,Houston Rockets,107,Detroit,96
+291216007,2010-12-16,Denver,111,Houston Rockets,101
+291218006,2010-12-18,Dallas,108,Houston Rockets,116
+291219010,2010-12-19,Houston Rockets,95,Oklahoma City,90
+291222010,2010-12-22,Houston Rockets,108,LA,99
+291223019,2010-12-23,Orlando,102,Houston Rockets,87
+291226017,2010-12-26,Brooklyn,93,Houston Rockets,98
+291227005,2010-12-27,Cleveland,108,Houston Rockets,83
+291229010,2010-12-29,Houston Rockets,108,New Orleans,100
+291231010,2010-12-31,Houston Rockets,97,Dallas,94
+300102003,2010-01-02,New Orleans,99,Houston Rockets,95
+300105013,2010-01-05,Los Angeles,88,Houston Rockets,79
+300106021,2010-01-06,Phoenix,118,Houston Rockets,110
+300109010,2010-01-09,Houston Rockets,105,NY Knicks,96
+300112030,2010-01-12,Charlotte,102,Houston Rockets,94
+300113010,2010-01-13,Houston Rockets,120,Minnesota,114
+300115010,2010-01-15,Houston Rockets,106,Miami,115
+300118010,2010-01-18,Houston Rockets,101,Milwaukee,98
+300122024,2010-01-22,San Antonio,109,Houston Rockets,116
+300123010,2010-01-23,Houston Rockets,97,Chicago,104
+300125010,2010-01-25,Houston Rockets,95,Atlanta,102
+300127010,2010-01-27,Houston Rockets,92,Denver,97
+300129010,2010-01-29,Houston Rockets,104,Portland,100
+300131010,2010-01-31,Houston Rockets,111,Phoenix,115
+300202010,2010-02-02,Houston Rockets,119,Golden State,97
+300205029,2010-02-05,Memphis,83,Houston Rockets,101
+300206010,2010-02-06,Houston Rockets,95,Philadelphia,102
+300209014,2010-02-09,Miami,99,Houston Rockets,66
+300216010,2010-02-16,Houston Rockets,95,Utah,104
+300217015,2010-02-17,Milwaukee,99,Houston Rockets,127
+300220010,2010-02-20,Houston Rockets,115,Indiana,125
+300221003,2010-02-21,New Orleans,102,Houston Rockets,94
+300224010,2010-02-24,Houston Rockets,92,Orlando,110
+300226010,2010-02-26,Houston Rockets,109,San Antonio,104
+300227026,2010-02-27,Utah,133,Houston Rockets,110
+300301010,2010-03-01,Houston Rockets,116,Toronto,92
+300303010,2010-03-03,Houston Rockets,81,Sacramento,84
+300306016,2010-03-06,Minnesota,98,Houston Rockets,112
+300307008,2010-03-07,Detroit,110,Houston Rockets,107
+300309027,2010-03-09,Washington,88,Houston Rockets,96
+300313010,2010-03-13,Houston Rockets,116,Brooklyn,108
+300315010,2010-03-15,Houston Rockets,125,Denver,123
+300317010,2010-03-17,Houston Rockets,107,Memphis,94
+300319010,2010-03-19,Houston Rockets,87,Boston,94
+300321018,2010-03-21,NY Knicks,112,Houston Rockets,116
+300322004,2010-03-22,Chicago,98,Houston Rockets,88
+300324025,2010-03-24,Oklahoma City,122,Houston Rockets,104
+300325010,2010-03-25,Houston Rockets,93,LA,99
+300327010,2010-03-27,Houston Rockets,101,Los Angeles,109
+300330010,2010-03-30,Houston Rockets,98,Washington,94
+300331024,2010-03-31,San Antonio,119,Houston Rockets,102
+300402002,2010-04-02,Boston,114,Houston Rockets,119
+300404011,2010-04-04,Indiana,133,Houston Rockets,102
+300406029,2010-04-06,Memphis,103,Houston Rockets,113
+300407010,2010-04-07,Houston Rockets,113,Utah,96
+300409010,2010-04-09,Houston Rockets,97,Charlotte,90
+300411021,2010-04-11,Phoenix,116,Houston Rockets,106
+300412023,2010-04-12,Sacramento,107,Houston Rockets,117
+300414010,2010-04-14,Houston Rockets,115,New Orleans,123
+291028029,2010-10-28,Memphis Grizzlies,74,Detroit,96
+291030029,2010-10-30,Memphis Grizzlies,115,Toronto,107
+291101007,2010-11-01,Denver,133,Memphis Grizzlies,123
+291102023,2010-11-02,Sacramento,127,Memphis Grizzlies,116
+291104009,2010-11-04,Golden State,113,Memphis Grizzlies,105
+291106013,2010-11-06,Los Angeles,114,Memphis Grizzlies,98
+291107012,2010-11-07,LA,113,Memphis Grizzlies,110
+291110029,2010-11-10,Memphis Grizzlies,79,Portland,93
+291111010,2010-11-11,Houston,104,Memphis Grizzlies,79
+291114029,2010-11-14,Memphis Grizzlies,97,Minnesota,87
+291118029,2010-11-18,Memphis Grizzlies,106,LA,91
+291120020,2010-11-20,Philadelphia,97,Memphis Grizzlies,102
+291121029,2010-11-21,Memphis Grizzlies,98,Milwaukee,103
+291123029,2010-11-23,Memphis Grizzlies,116,Sacramento,105
+291125021,2010-11-25,Phoenix,126,Memphis Grizzlies,111
+291127022,2010-11-27,Portland,96,Memphis Grizzlies,106
+291129012,2010-11-29,LA,98,Memphis Grizzlies,88
+291130026,2010-11-30,Utah,120,Memphis Grizzlies,93
+291202016,2010-12-02,Minnesota,95,Memphis Grizzlies,97
+291204029,2010-12-04,Memphis Grizzlies,98,Dallas,82
+291208029,2010-12-08,Memphis Grizzlies,111,Cleveland,109
+291211029,2010-12-11,Memphis Grizzlies,94,Oklahoma City,102
+291213014,2010-12-13,Miami,90,Memphis Grizzlies,118
+291214029,2010-12-14,Memphis Grizzlies,105,Boston,110
+291216001,2010-12-16,Atlanta,110,Memphis Grizzlies,97
+291218029,2010-12-18,Memphis Grizzlies,107,Indiana,94
+291220029,2010-12-20,Memphis Grizzlies,102,Denver,96
+291222029,2010-12-22,Memphis Grizzlies,121,Golden State,108
+291226006,2010-12-26,Dallas,106,Memphis Grizzlies,101
+291228029,2010-12-28,Memphis Grizzlies,116,Washington,111
+291230011,2010-12-30,Indiana,110,Memphis Grizzlies,121
+300102021,2010-01-02,Phoenix,103,Memphis Grizzlies,128
+300105022,2010-01-05,Portland,105,Memphis Grizzlies,109
+300106026,2010-01-06,Utah,117,Memphis Grizzlies,94
+300108029,2010-01-08,Memphis Grizzlies,91,Utah,89
+300109030,2010-01-09,Charlotte,89,Memphis Grizzlies,87
+300112029,2010-01-12,Memphis Grizzlies,104,LA,102
+300115029,2010-01-15,Memphis Grizzlies,135,Minnesota,110
+300116029,2010-01-16,Memphis Grizzlies,92,San Antonio,86
+300118029,2010-01-18,Memphis Grizzlies,125,Phoenix,118
+300120003,2010-01-20,New Orleans,113,Memphis Grizzlies,111
+300122029,2010-01-22,Memphis Grizzlies,86,Oklahoma City,84
+300125029,2010-01-25,Memphis Grizzlies,99,Orlando,94
+300127008,2010-01-27,Detroit,93,Memphis Grizzlies,99
+300129024,2010-01-29,San Antonio,104,Memphis Grizzlies,97
+300130029,2010-01-30,Memphis Grizzlies,102,New Orleans,109
+300201029,2010-02-01,Memphis Grizzlies,95,Los Angeles,93
+300202005,2010-02-02,Cleveland,105,Memphis Grizzlies,89
+300205029,2010-02-05,Memphis Grizzlies,83,Houston,101
+300206016,2010-02-06,Minnesota,109,Memphis Grizzlies,102
+300209029,2010-02-09,Memphis Grizzlies,94,Atlanta,108
+300216029,2010-02-16,Memphis Grizzlies,95,Phoenix,109
+300217028,2010-02-17,Toronto,102,Memphis Grizzlies,109
+300219029,2010-02-19,Memphis Grizzlies,87,Miami,100
+300221017,2010-02-21,Brooklyn,94,Memphis Grizzlies,104
+300223029,2010-02-23,Memphis Grizzlies,98,Los Angeles,99
+300224027,2010-02-24,Washington,94,Memphis Grizzlies,99
+300226029,2010-02-26,Memphis Grizzlies,89,Charlotte,93
+300227018,2010-02-27,NY Knicks,109,Memphis Grizzlies,120
+300301029,2010-03-01,Memphis Grizzlies,93,Portland,103
+300303003,2010-03-03,New Orleans,100,Memphis Grizzlies,104
+300304004,2010-03-04,Chicago,96,Memphis Grizzlies,105
+300306029,2010-03-06,Memphis Grizzlies,92,San Antonio,102
+300308029,2010-03-08,Memphis Grizzlies,107,Brooklyn,101
+300310002,2010-03-10,Boston,91,Memphis Grizzlies,111
+300312029,2010-03-12,Memphis Grizzlies,119,NY Knicks,112
+300313029,2010-03-13,Memphis Grizzlies,108,Denver,125
+300316029,2010-03-16,Memphis Grizzlies,104,Chicago,97
+300317010,2010-03-17,Houston,107,Memphis Grizzlies,94
+300320029,2010-03-20,Memphis Grizzlies,123,Golden State,107
+300322023,2010-03-22,Sacramento,85,Memphis Grizzlies,102
+300324009,2010-03-24,Golden State,128,Memphis Grizzlies,110
+300328015,2010-03-28,Milwaukee,108,Memphis Grizzlies,103
+300331029,2010-03-31,Memphis Grizzlies,102,Dallas,106
+300402029,2010-04-02,Memphis Grizzlies,107,New Orleans,96
+300404019,2010-04-04,Orlando,107,Memphis Grizzlies,92
+300406029,2010-04-06,Memphis Grizzlies,103,Houston,113
+300407006,2010-04-07,Dallas,110,Memphis Grizzlies,84
+300409024,2010-04-09,San Antonio,99,Memphis Grizzlies,107
+300410029,2010-04-10,Memphis Grizzlies,101,Philadelphia,120
+300412007,2010-04-12,Denver,123,Memphis Grizzlies,101
+300414025,2010-04-14,Oklahoma City,114,Memphis Grizzlies,105
+291028024,2010-10-28,San Antonio,113,New Orleans Pelicans,96
+291030003,2010-10-30,New Orleans Pelicans,97,Sacramento,92
+291101002,2010-11-01,Boston,97,New Orleans Pelicans,87
+291102018,2010-11-02,NY Knicks,117,New Orleans Pelicans,111
+291104003,2010-11-04,New Orleans Pelicans,114,Dallas,107
+291106003,2010-11-06,New Orleans Pelicans,90,Toronto,107
+291108013,2010-11-08,Los Angeles,104,New Orleans Pelicans,88
+291109012,2010-11-09,LA,84,New Orleans Pelicans,112
+291111021,2010-11-11,Phoenix,124,New Orleans Pelicans,104
+291113003,2010-11-13,New Orleans Pelicans,78,Portland,86
+291114001,2010-11-14,Atlanta,121,New Orleans Pelicans,98
+291117003,2010-11-17,New Orleans Pelicans,110,LA,102
+291119003,2010-11-19,New Orleans Pelicans,110,Phoenix,103
+291121003,2010-11-21,New Orleans Pelicans,96,Atlanta,88
+291122014,2010-11-22,Miami,102,New Orleans Pelicans,101
+291125003,2010-11-25,New Orleans Pelicans,102,Milwaukee,99
+291129023,2010-11-29,Sacramento,112,New Orleans Pelicans,96
+291201013,2010-12-01,Los Angeles,110,New Orleans Pelicans,99
+291204003,2010-12-04,New Orleans Pelicans,98,Minnesota,89
+291208003,2010-12-08,New Orleans Pelicans,96,Sacramento,94
+291209016,2010-12-09,Minnesota,96,New Orleans Pelicans,97
+291211003,2010-12-11,New Orleans Pelicans,96,NY Knicks,113
+291214006,2010-12-14,Dallas,94,New Orleans Pelicans,90
+291216003,2010-12-16,New Orleans Pelicans,95,Detroit,87
+291218003,2010-12-18,New Orleans Pelicans,98,Denver,92
+291220028,2010-12-20,Toronto,98,New Orleans Pelicans,92
+291223003,2010-12-23,New Orleans Pelicans,108,Golden State,102
+291226004,2010-12-26,Chicago,96,New Orleans Pelicans,85
+291229010,2010-12-29,Houston,108,New Orleans Pelicans,100
+291230003,2010-12-30,New Orleans Pelicans,95,Miami,91
+300102003,2010-01-02,New Orleans Pelicans,99,Houston,95
+300104026,2010-01-04,Utah,87,New Orleans Pelicans,91
+300106025,2010-01-06,Oklahoma City,92,New Orleans Pelicans,97
+300108003,2010-01-08,New Orleans Pelicans,103,Brooklyn,99
+300110027,2010-01-10,Washington,110,New Orleans Pelicans,115
+300111020,2010-01-11,Philadelphia,96,New Orleans Pelicans,92
+300113003,2010-01-13,New Orleans Pelicans,108,LA,94
+300115008,2010-01-15,Detroit,110,New Orleans Pelicans,104
+300116011,2010-01-16,Indiana,96,New Orleans Pelicans,101
+300118003,2010-01-18,New Orleans Pelicans,90,San Antonio,97
+300120003,2010-01-20,New Orleans Pelicans,113,Memphis,111
+300122016,2010-01-22,Minnesota,94,New Orleans Pelicans,96
+300123007,2010-01-23,Denver,116,New Orleans Pelicans,110
+300125022,2010-01-25,Portland,97,New Orleans Pelicans,98
+300127009,2010-01-27,Golden State,110,New Orleans Pelicans,123
+300129003,2010-01-29,New Orleans Pelicans,106,Chicago,108
+300130029,2010-01-30,Memphis,102,New Orleans Pelicans,109
+300201003,2010-02-01,New Orleans Pelicans,100,Phoenix,109
+300203003,2010-02-03,New Orleans Pelicans,99,Oklahoma City,103
+300205003,2010-02-05,New Orleans Pelicans,94,Philadelphia,101
+300206030,2010-02-06,Charlotte,99,New Orleans Pelicans,104
+300208019,2010-02-08,Orlando,123,New Orleans Pelicans,117
+300210003,2010-02-10,New Orleans Pelicans,93,Boston,85
+300217003,2010-02-17,New Orleans Pelicans,90,Utah,98
+300219003,2010-02-19,New Orleans Pelicans,107,Indiana,101
+300221003,2010-02-21,New Orleans Pelicans,102,Houston,94
+300223005,2010-02-23,Cleveland,105,New Orleans Pelicans,95
+300224015,2010-02-24,Milwaukee,115,New Orleans Pelicans,95
+300226003,2010-02-26,New Orleans Pelicans,100,Orlando,93
+300228006,2010-02-28,Dallas,108,New Orleans Pelicans,100
+300301003,2010-03-01,New Orleans Pelicans,92,San Antonio,106
+300303003,2010-03-03,New Orleans Pelicans,100,Memphis,104
+300305024,2010-03-05,San Antonio,102,New Orleans Pelicans,91
+300308003,2010-03-08,New Orleans Pelicans,135,Golden State,131
+300310025,2010-03-10,Oklahoma City,98,New Orleans Pelicans,83
+300312003,2010-03-12,New Orleans Pelicans,95,Denver,102
+300314021,2010-03-14,Phoenix,120,New Orleans Pelicans,106
+300315012,2010-03-15,LA,100,New Orleans Pelicans,108
+300317009,2010-03-17,Golden State,131,New Orleans Pelicans,121
+300318007,2010-03-18,Denver,93,New Orleans Pelicans,80
+300320026,2010-03-20,Utah,106,New Orleans Pelicans,86
+300322003,2010-03-22,New Orleans Pelicans,115,Dallas,99
+300324003,2010-03-24,New Orleans Pelicans,92,Cleveland,105
+300327003,2010-03-27,New Orleans Pelicans,101,Portland,112
+300329003,2010-03-29,New Orleans Pelicans,108,Los Angeles,100
+300331003,2010-03-31,New Orleans Pelicans,91,Washington,96
+300402029,2010-04-02,Memphis,107,New Orleans Pelicans,96
+300403017,2010-04-03,Brooklyn,115,New Orleans Pelicans,87
+300407003,2010-04-07,New Orleans Pelicans,103,Charlotte,104
+300409003,2010-04-09,New Orleans Pelicans,103,Utah,114
+300411003,2010-04-11,New Orleans Pelicans,114,Minnesota,86
+300414010,2010-04-14,Houston,115,New Orleans Pelicans,123
+291028024,2010-10-28,San Antonio Spurs,113,New Orleans,96
+291029004,2010-10-29,Chicago,92,San Antonio Spurs,85
+291031024,2010-10-31,San Antonio Spurs,113,Sacramento,94
+291105026,2010-11-05,Utah,113,San Antonio Spurs,99
+291106022,2010-11-06,Portland,96,San Antonio Spurs,84
+291109024,2010-11-09,San Antonio Spurs,131,Toronto,124
+291111024,2010-11-11,San Antonio Spurs,92,Dallas,83
+291114024,2010-11-14,San Antonio Spurs,98,Oklahoma City,101
+291118006,2010-11-18,Dallas,99,San Antonio Spurs,94
+291119024,2010-11-19,San Antonio Spurs,83,Utah,90
+291121024,2010-11-21,San Antonio Spurs,106,Washington,84
+291123024,2010-11-23,San Antonio Spurs,112,Milwaukee,98
+291125024,2010-11-25,San Antonio Spurs,118,Golden State,104
+291127010,2010-11-27,Houston,84,San Antonio Spurs,92
+291129024,2010-11-29,San Antonio Spurs,97,Philadelphia,89
+291203024,2010-12-03,San Antonio Spurs,83,Boston,90
+291205024,2010-12-05,San Antonio Spurs,99,Denver,106
+291207026,2010-12-07,Utah,104,San Antonio Spurs,101
+291209024,2010-12-09,San Antonio Spurs,118,Sacramento,106
+291211024,2010-12-11,San Antonio Spurs,104,Charlotte,85
+291213012,2010-12-13,LA,90,San Antonio Spurs,115
+291215021,2010-12-15,Phoenix,116,San Antonio Spurs,104
+291216009,2010-12-16,Golden State,91,San Antonio Spurs,103
+291219024,2010-12-19,San Antonio Spurs,100,Indiana,99
+291221024,2010-12-21,San Antonio Spurs,103,LA,87
+291223024,2010-12-23,San Antonio Spurs,94,Portland,98
+291226015,2010-12-26,Milwaukee,97,San Antonio Spurs,112
+291227018,2010-12-27,NY Knicks,88,San Antonio Spurs,95
+291229024,2010-12-29,San Antonio Spurs,117,Minnesota,99
+291231024,2010-12-31,San Antonio Spurs,108,Miami,78
+300102027,2010-01-02,Washington,86,San Antonio Spurs,97
+300103028,2010-01-03,Toronto,91,San Antonio Spurs,86
+300106024,2010-01-06,San Antonio Spurs,112,Detroit,92
+300108024,2010-01-08,San Antonio Spurs,103,Dallas,112
+300110024,2010-01-10,San Antonio Spurs,97,Brooklyn,85
+300112024,2010-01-12,San Antonio Spurs,105,Los Angeles,85
+300113025,2010-01-13,Oklahoma City,108,San Antonio Spurs,109
+300115030,2010-01-15,Charlotte,92,San Antonio Spurs,76
+300116029,2010-01-16,Memphis,92,San Antonio Spurs,86
+300118003,2010-01-18,New Orleans,90,San Antonio Spurs,97
+300120024,2010-01-20,San Antonio Spurs,98,Utah,105
+300122024,2010-01-22,San Antonio Spurs,109,Houston,116
+300125024,2010-01-25,San Antonio Spurs,93,Chicago,98
+300127024,2010-01-27,San Antonio Spurs,105,Atlanta,90
+300129024,2010-01-29,San Antonio Spurs,104,Memphis,97
+300131024,2010-01-31,San Antonio Spurs,89,Denver,103
+300203023,2010-02-03,Sacramento,113,San Antonio Spurs,115
+300204022,2010-02-04,Portland,96,San Antonio Spurs,93
+300206012,2010-02-06,LA,81,San Antonio Spurs,98
+300208013,2010-02-08,Los Angeles,101,San Antonio Spurs,89
+300211007,2010-02-11,Denver,92,San Antonio Spurs,111
+300217011,2010-02-17,Indiana,87,San Antonio Spurs,90
+300219020,2010-02-19,Philadelphia,106,San Antonio Spurs,94
+300221008,2010-02-21,Detroit,109,San Antonio Spurs,101
+300224024,2010-02-24,San Antonio Spurs,95,Oklahoma City,87
+300226010,2010-02-26,Houston,109,San Antonio Spurs,104
+300228024,2010-02-28,San Antonio Spurs,113,Phoenix,110
+300301003,2010-03-01,New Orleans,92,San Antonio Spurs,106
+300305024,2010-03-05,San Antonio Spurs,102,New Orleans,91
+300306029,2010-03-06,Memphis,92,San Antonio Spurs,102
+300308005,2010-03-08,Cleveland,97,San Antonio Spurs,95
+300310024,2010-03-10,San Antonio Spurs,97,NY Knicks,87
+300312016,2010-03-12,Minnesota,85,San Antonio Spurs,103
+300313024,2010-03-13,San Antonio Spurs,118,LA,88
+300316014,2010-03-16,Miami,76,San Antonio Spurs,88
+300317019,2010-03-17,Orlando,110,San Antonio Spurs,84
+300319024,2010-03-19,San Antonio Spurs,147,Golden State,116
+300321001,2010-03-21,Atlanta,119,San Antonio Spurs,114
+300322025,2010-03-22,Oklahoma City,96,San Antonio Spurs,99
+300324024,2010-03-24,San Antonio Spurs,83,Los Angeles,92
+300326024,2010-03-26,San Antonio Spurs,102,Cleveland,97
+300328002,2010-03-28,Boston,73,San Antonio Spurs,94
+300329017,2010-03-29,Brooklyn,90,San Antonio Spurs,84
+300331024,2010-03-31,San Antonio Spurs,119,Houston,102
+300402024,2010-04-02,San Antonio Spurs,112,Orlando,100
+300404013,2010-04-04,Los Angeles,81,San Antonio Spurs,100
+300406023,2010-04-06,Sacramento,86,San Antonio Spurs,95
+300407021,2010-04-07,Phoenix,112,San Antonio Spurs,101
+300409024,2010-04-09,San Antonio Spurs,99,Memphis,107
+300410007,2010-04-10,Denver,85,San Antonio Spurs,104
+300412024,2010-04-12,San Antonio Spurs,133,Minnesota,111
+300414006,2010-04-14,Dallas,96,San Antonio Spurs,89
+291028001,2010-10-28,Atlanta Hawks,120,Indiana,109
+291030001,2010-10-30,Atlanta Hawks,100,Washington,89
+291101013,2010-11-01,Los Angeles,118,Atlanta Hawks,110
+291103022,2010-11-03,Portland,91,Atlanta Hawks,97
+291104023,2010-11-04,Sacramento,105,Atlanta Hawks,113
+291106030,2010-11-06,Charlotte,103,Atlanta Hawks,83
+291107001,2010-11-07,Atlanta Hawks,125,Denver,100
+291111018,2010-11-11,NY Knicks,101,Atlanta Hawks,114
+291113002,2010-11-13,Boston,86,Atlanta Hawks,97
+291114001,2010-11-14,Atlanta Hawks,121,New Orleans,98
+291116001,2010-11-16,Atlanta Hawks,99,Portland,95
+291118001,2010-11-18,Atlanta Hawks,105,Miami,90
+291120001,2010-11-20,Atlanta Hawks,105,Houston,103
+291121003,2010-11-21,New Orleans,96,Atlanta Hawks,88
+291126001,2010-11-26,Atlanta Hawks,76,Orlando,93
+291127020,2010-11-27,Philadelphia,86,Atlanta Hawks,100
+291129008,2010-11-29,Detroit,94,Atlanta Hawks,88
+291202001,2010-12-02,Atlanta Hawks,146,Toronto,115
+291204001,2010-12-04,Atlanta Hawks,107,NY Knicks,114
+291205006,2010-12-05,Dallas,75,Atlanta Hawks,80
+291209001,2010-12-09,Atlanta Hawks,118,Chicago,83
+291211028,2010-12-11,Toronto,89,Atlanta Hawks,111
+291213001,2010-12-13,Atlanta Hawks,130,Brooklyn,107
+291216001,2010-12-16,Atlanta Hawks,110,Memphis,97
+291218001,2010-12-18,Atlanta Hawks,96,Utah,83
+291219004,2010-12-19,Chicago,101,Atlanta Hawks,98
+291222016,2010-12-22,Minnesota,87,Atlanta Hawks,112
+291223007,2010-12-23,Denver,124,Atlanta Hawks,104
+291226011,2010-12-26,Indiana,98,Atlanta Hawks,110
+291229001,2010-12-29,Atlanta Hawks,84,Cleveland,95
+291230005,2010-12-30,Cleveland,106,Atlanta Hawks,101
+300101001,2010-01-01,Atlanta Hawks,108,NY Knicks,112
+300104014,2010-01-04,Miami,92,Atlanta Hawks,75
+300106001,2010-01-06,Atlanta Hawks,119,Brooklyn,89
+300108001,2010-01-08,Atlanta Hawks,93,Boston,85
+300109019,2010-01-09,Orlando,113,Atlanta Hawks,81
+300111002,2010-01-11,Boston,96,Atlanta Hawks,102
+300113001,2010-01-13,Atlanta Hawks,94,Washington,82
+300115001,2010-01-15,Atlanta Hawks,102,Phoenix,101
+300118001,2010-01-18,Atlanta Hawks,91,Oklahoma City,94
+300120001,2010-01-20,Atlanta Hawks,108,Sacramento,97
+300122001,2010-01-22,Atlanta Hawks,103,Charlotte,89
+300125010,2010-01-25,Houston,95,Atlanta Hawks,102
+300127024,2010-01-27,San Antonio,105,Atlanta Hawks,90
+300129001,2010-01-29,Atlanta Hawks,100,Boston,91
+300130019,2010-01-30,Orlando,104,Atlanta Hawks,86
+300202025,2010-02-02,Oklahoma City,106,Atlanta Hawks,99
+300203001,2010-02-03,Atlanta Hawks,103,LA,97
+300205001,2010-02-05,Atlanta Hawks,91,Chicago,81
+300209029,2010-02-09,Memphis,94,Atlanta Hawks,108
+300210001,2010-02-10,Atlanta Hawks,76,Miami,94
+300217012,2010-02-17,LA,92,Atlanta Hawks,110
+300219021,2010-02-19,Phoenix,88,Atlanta Hawks,80
+300221009,2010-02-21,Golden State,108,Atlanta Hawks,104
+300222026,2010-02-22,Utah,100,Atlanta Hawks,105
+300224001,2010-02-24,Atlanta Hawks,98,Minnesota,92
+300226001,2010-02-26,Atlanta Hawks,103,Dallas,111
+300228001,2010-02-28,Atlanta Hawks,106,Milwaukee,102
+300301004,2010-03-01,Chicago,92,Atlanta Hawks,116
+300303001,2010-03-03,Atlanta Hawks,112,Philadelphia,93
+300305001,2010-03-05,Atlanta Hawks,127,Golden State,122
+300306014,2010-03-06,Miami,100,Atlanta Hawks,94
+300308018,2010-03-08,NY Knicks,99,Atlanta Hawks,98
+300311027,2010-03-11,Washington,99,Atlanta Hawks,105
+300313001,2010-03-13,Atlanta Hawks,112,Detroit,99
+300316017,2010-03-16,Brooklyn,84,Atlanta Hawks,108
+300317028,2010-03-17,Toronto,106,Atlanta Hawks,105
+300319001,2010-03-19,Atlanta Hawks,93,Charlotte,92
+300321001,2010-03-21,Atlanta Hawks,119,San Antonio,114
+300322015,2010-03-22,Milwaukee,98,Atlanta Hawks,95
+300324001,2010-03-24,Atlanta Hawks,86,Orlando,84
+300326020,2010-03-26,Philadelphia,105,Atlanta Hawks,98
+300328001,2010-03-28,Atlanta Hawks,94,Indiana,84
+300331001,2010-03-31,Atlanta Hawks,109,Los Angeles,92
+300402005,2010-04-02,Cleveland,93,Atlanta Hawks,88
+300403001,2010-04-03,Atlanta Hawks,91,Detroit,85
+300406030,2010-04-06,Charlotte,109,Atlanta Hawks,100
+300407008,2010-04-07,Detroit,90,Atlanta Hawks,88
+300409001,2010-04-09,Atlanta Hawks,107,Toronto,101
+300410027,2010-04-10,Washington,95,Atlanta Hawks,105
+300412015,2010-04-12,Milwaukee,96,Atlanta Hawks,104
+300414001,2010-04-14,Atlanta Hawks,99,Cleveland,83
+291028002,2010-10-28,Boston,92,Charlotte Hornets,59
+291030030,2010-10-30,Charlotte Hornets,102,NY Knicks,100
+291031005,2010-10-31,Cleveland,90,Charlotte Hornets,79
+291102030,2010-11-02,Charlotte Hornets,79,Brooklyn,68
+291106030,2010-11-06,Charlotte Hornets,103,Atlanta,83
+291107004,2010-11-07,Chicago,93,Charlotte Hornets,90
+291110030,2010-11-10,Charlotte Hornets,81,Orlando,93
+291111008,2010-11-11,Detroit,98,Charlotte Hornets,75
+291114030,2010-11-14,Charlotte Hornets,74,Portland,80
+291116019,2010-11-16,Orlando,97,Charlotte Hornets,91
+291118020,2010-11-18,Philadelphia,86,Charlotte Hornets,84
+291120015,2010-11-20,Milwaukee,95,Charlotte Hornets,88
+291122030,2010-11-22,Charlotte Hornets,104,Indiana,88
+291125030,2010-11-25,Charlotte Hornets,116,Toronto,81
+291127030,2010-11-27,Charlotte Hornets,94,Cleveland,87
+291128027,2010-11-28,Washington,76,Charlotte Hornets,92
+291201030,2010-12-01,Charlotte Hornets,90,Boston,108
+291204017,2010-12-04,Brooklyn,97,Charlotte Hornets,91
+291205030,2010-12-05,Charlotte Hornets,106,Philadelphia,105
+291208030,2010-12-08,Charlotte Hornets,107,Denver,95
+291211024,2010-12-11,San Antonio,104,Charlotte Hornets,85
+291212006,2010-12-12,Dallas,98,Charlotte Hornets,97
+291215030,2010-12-15,Charlotte Hornets,94,NY Knicks,87
+291216011,2010-12-16,Indiana,101,Charlotte Hornets,98
+291219030,2010-12-19,Charlotte Hornets,102,Utah,110
+291220018,2010-12-20,NY Knicks,98,Charlotte Hornets,94
+291222030,2010-12-22,Charlotte Hornets,88,Detroit,76
+291226025,2010-12-26,Oklahoma City,98,Charlotte Hornets,91
+291228030,2010-12-28,Charlotte Hornets,94,Milwaukee,84
+291230028,2010-12-30,Toronto,107,Charlotte Hornets,103
+300102014,2010-01-02,Miami,97,Charlotte Hornets,107
+300103005,2010-01-03,Cleveland,88,Charlotte Hornets,91
+300105030,2010-01-05,Charlotte Hornets,113,Chicago,108
+300107018,2010-01-07,NY Knicks,97,Charlotte Hornets,93
+300109030,2010-01-09,Charlotte Hornets,89,Memphis,87
+300112030,2010-01-12,Charlotte Hornets,102,Houston,94
+300115030,2010-01-15,Charlotte Hornets,92,San Antonio,76
+300116030,2010-01-16,Charlotte Hornets,125,Phoenix,99
+300118030,2010-01-18,Charlotte Hornets,105,Sacramento,103
+300120030,2010-01-20,Charlotte Hornets,104,Miami,65
+300122001,2010-01-22,Atlanta,103,Charlotte Hornets,89
+300123030,2010-01-23,Charlotte Hornets,95,Orlando,106
+300125007,2010-01-25,Denver,104,Charlotte Hornets,93
+300126021,2010-01-26,Phoenix,109,Charlotte Hornets,114
+300129009,2010-01-29,Golden State,110,Charlotte Hornets,121
+300130023,2010-01-30,Sacramento,96,Charlotte Hornets,103
+300201022,2010-02-01,Portland,98,Charlotte Hornets,79
+300203013,2010-02-03,Los Angeles,99,Charlotte Hornets,97
+300206030,2010-02-06,Charlotte Hornets,99,New Orleans,104
+300209030,2010-02-09,Charlotte Hornets,94,Washington,92
+300210016,2010-02-10,Minnesota,92,Charlotte Hornets,93
+300216030,2010-02-16,Charlotte Hornets,94,Brooklyn,103
+300219030,2010-02-19,Charlotte Hornets,110,Cleveland,93
+300220015,2010-02-20,Milwaukee,93,Charlotte Hornets,88
+300222012,2010-02-22,LA,98,Charlotte Hornets,94
+300224026,2010-02-24,Utah,102,Charlotte Hornets,93
+300226029,2010-02-26,Memphis,89,Charlotte Hornets,93
+300301030,2010-03-01,Charlotte Hornets,84,Dallas,89
+300303002,2010-03-03,Boston,104,Charlotte Hornets,80
+300305030,2010-03-05,Charlotte Hornets,98,Los Angeles,83
+300306030,2010-03-06,Charlotte Hornets,101,Golden State,90
+300309030,2010-03-09,Charlotte Hornets,83,Miami,78
+300310020,2010-03-10,Philadelphia,87,Charlotte Hornets,102
+300312030,2010-03-12,Charlotte Hornets,106,LA,98
+300314019,2010-03-14,Orlando,89,Charlotte Hornets,96
+300316011,2010-03-16,Indiana,99,Charlotte Hornets,94
+300317030,2010-03-17,Charlotte Hornets,100,Oklahoma City,92
+300319001,2010-03-19,Atlanta,93,Charlotte Hornets,92
+300320014,2010-03-20,Miami,77,Charlotte Hornets,71
+300323027,2010-03-23,Washington,86,Charlotte Hornets,95
+300324030,2010-03-24,Charlotte Hornets,108,Minnesota,95
+300326030,2010-03-26,Charlotte Hornets,107,Washington,96
+300329030,2010-03-29,Charlotte Hornets,101,Toronto,103
+300331030,2010-03-31,Charlotte Hornets,103,Philadelphia,84
+300402030,2010-04-02,Charlotte Hornets,87,Milwaukee,86
+300403004,2010-04-03,Chicago,96,Charlotte Hornets,88
+300406030,2010-04-06,Charlotte Hornets,109,Atlanta,100
+300407003,2010-04-07,New Orleans,103,Charlotte Hornets,104
+300409010,2010-04-09,Houston,97,Charlotte Hornets,90
+300410030,2010-04-10,Charlotte Hornets,99,Detroit,95
+300412017,2010-04-12,Brooklyn,95,Charlotte Hornets,105
+300414030,2010-04-14,Charlotte Hornets,89,Chicago,98
+291028014,2010-10-28,Miami Heat,115,NY Knicks,93
+291030011,2010-10-30,Indiana,83,Miami Heat,96
+291101014,2010-11-01,Miami Heat,95,Chicago,87
+291103014,2010-11-03,Miami Heat,96,Phoenix,104
+291104027,2010-11-04,Washington,89,Miami Heat,93
+291106014,2010-11-06,Miami Heat,96,Denver,88
+291110014,2010-11-10,Miami Heat,90,Washington,76
+291112014,2010-11-12,Miami Heat,104,Cleveland,111
+291114014,2010-11-14,Miami Heat,81,Brooklyn,80
+291117014,2010-11-17,Miami Heat,87,Oklahoma City,100
+291118001,2010-11-18,Atlanta,105,Miami Heat,90
+291120028,2010-11-20,Toronto,120,Miami Heat,113
+291122014,2010-11-22,Miami Heat,102,New Orleans,101
+291125019,2010-11-25,Orlando,98,Miami Heat,99
+291127014,2010-11-27,Miami Heat,84,Washington,94
+291129014,2010-11-29,Miami Heat,85,Boston,92
+291201022,2010-12-01,Portland,100,Miami Heat,107
+291203007,2010-12-03,Denver,114,Miami Heat,96
+291204013,2010-12-04,Los Angeles,108,Miami Heat,107
+291206023,2010-12-06,Sacramento,102,Miami Heat,115
+291211014,2010-12-11,Miami Heat,93,Dallas,106
+291213014,2010-12-13,Miami Heat,90,Memphis,118
+291215014,2010-12-15,Miami Heat,115,Toronto,95
+291217014,2010-12-17,Miami Heat,104,Orlando,86
+291220014,2010-12-20,Miami Heat,95,Portland,102
+291223014,2010-12-23,Miami Heat,80,Utah,70
+291225018,2010-12-25,NY Knicks,87,Miami Heat,93
+291227014,2010-12-27,Miami Heat,114,Indiana,80
+291230003,2010-12-30,New Orleans,95,Miami Heat,91
+291231024,2010-12-31,San Antonio,108,Miami Heat,78
+300102014,2010-01-02,Miami Heat,97,Charlotte,107
+300104014,2010-01-04,Miami Heat,92,Atlanta,75
+300106014,2010-01-06,Miami Heat,106,Boston,112
+300108021,2010-01-08,Phoenix,105,Miami Heat,109
+300110012,2010-01-10,LA,94,Miami Heat,84
+300111026,2010-01-11,Utah,118,Miami Heat,89
+300113009,2010-01-13,Golden State,102,Miami Heat,115
+300115010,2010-01-15,Houston,106,Miami Heat,115
+300116025,2010-01-16,Oklahoma City,98,Miami Heat,80
+300119014,2010-01-19,Miami Heat,113,Indiana,83
+300120030,2010-01-20,Charlotte,104,Miami Heat,65
+300122027,2010-01-22,Washington,88,Miami Heat,112
+300123014,2010-01-23,Miami Heat,115,Sacramento,84
+300125014,2010-01-25,Miami Heat,91,Cleveland,92
+300127028,2010-01-27,Toronto,111,Miami Heat,103
+300129008,2010-01-29,Detroit,65,Miami Heat,92
+300130015,2010-01-30,Milwaukee,95,Miami Heat,84
+300201014,2010-02-01,Miami Heat,81,Milwaukee,97
+300203002,2010-02-03,Boston,107,Miami Heat,102
+300204005,2010-02-04,Cleveland,102,Miami Heat,86
+300206004,2010-02-06,Chicago,95,Miami Heat,91
+300209014,2010-02-09,Miami Heat,99,Houston,66
+300210001,2010-02-10,Atlanta,76,Miami Heat,94
+300216020,2010-02-16,Philadelphia,78,Miami Heat,105
+300217017,2010-02-17,Brooklyn,84,Miami Heat,87
+300219029,2010-02-19,Memphis,87,Miami Heat,100
+300220006,2010-02-20,Dallas,97,Miami Heat,91
+300223014,2010-02-23,Miami Heat,88,Minnesota,91
+300227014,2010-02-27,Miami Heat,71,Milwaukee,94
+300228019,2010-02-28,Orlando,96,Miami Heat,80
+300302014,2010-03-02,Miami Heat,110,Golden State,106
+300304014,2010-03-04,Miami Heat,114,Los Angeles,111
+300306014,2010-03-06,Miami Heat,100,Atlanta,94
+300309030,2010-03-09,Charlotte,83,Miami Heat,78
+300310014,2010-03-10,Miami Heat,108,LA,97
+300312014,2010-03-12,Miami Heat,108,Chicago,95
+300314014,2010-03-14,Miami Heat,104,Philadelphia,91
+300316014,2010-03-16,Miami Heat,76,San Antonio,88
+300318014,2010-03-18,Miami Heat,102,Orlando,108
+300320014,2010-03-20,Miami Heat,77,Charlotte,71
+300322017,2010-03-22,Brooklyn,89,Miami Heat,99
+300325004,2010-03-25,Chicago,74,Miami Heat,103
+300326015,2010-03-26,Milwaukee,74,Miami Heat,87
+300328014,2010-03-28,Miami Heat,97,Toronto,94
+300331008,2010-03-31,Detroit,81,Miami Heat,98
+300402011,2010-04-02,Indiana,96,Miami Heat,105
+300403016,2010-04-03,Minnesota,84,Miami Heat,97
+300407014,2010-04-07,Miami Heat,99,Philadelphia,95
+300409014,2010-04-09,Miami Heat,99,Detroit,106
+300411018,2010-04-11,NY Knicks,98,Miami Heat,111
+300412020,2010-04-12,Philadelphia,105,Miami Heat,107
+300414014,2010-04-14,Miami Heat,94,Brooklyn,86
+291028019,2010-10-28,Orlando Magic,120,Philadelphia,106
+291030017,2010-10-30,Brooklyn,85,Orlando Magic,95
+291101028,2010-11-01,Toronto,116,Orlando Magic,125
+291103008,2010-11-03,Detroit,85,Orlando Magic,80
+291104019,2010-11-04,Orlando Magic,122,Phoenix,100
+291106019,2010-11-06,Orlando Magic,110,Detroit,103
+291108025,2010-11-08,Oklahoma City,102,Orlando Magic,74
+291110030,2010-11-10,Charlotte,81,Orlando Magic,93
+291111019,2010-11-11,Orlando Magic,93,Cleveland,102
+291113019,2010-11-13,Orlando Magic,88,Brooklyn,72
+291116019,2010-11-16,Orlando Magic,97,Charlotte,91
+291118019,2010-11-18,Orlando Magic,108,Oklahoma City,94
+291120002,2010-11-20,Boston,78,Orlando Magic,83
+291122028,2010-11-22,Toronto,96,Orlando Magic,104
+291125019,2010-11-25,Orlando Magic,98,Miami,99
+291126001,2010-11-26,Atlanta,76,Orlando Magic,93
+291128015,2010-11-28,Milwaukee,98,Orlando Magic,100
+291129018,2010-11-29,NY Knicks,102,Orlando Magic,114
+291202019,2010-12-02,Orlando Magic,118,NY Knicks,104
+291205009,2010-12-05,Golden State,118,Orlando Magic,126
+291208012,2010-12-08,LA,86,Orlando Magic,97
+291210026,2010-12-10,Utah,120,Orlando Magic,111
+291211021,2010-12-11,Phoenix,106,Orlando Magic,103
+291214019,2010-12-14,Orlando Magic,106,Indiana,98
+291216019,2010-12-16,Orlando Magic,118,Toronto,99
+291217014,2010-12-17,Miami,104,Orlando Magic,86
+291219019,2010-12-19,Orlando Magic,92,Portland,83
+291221019,2010-12-21,Orlando Magic,104,Utah,99
+291223019,2010-12-23,Orlando Magic,102,Houston,87
+291225019,2010-12-25,Orlando Magic,77,Boston,86
+291230019,2010-12-30,Orlando Magic,117,Milwaukee,92
+300101016,2010-01-01,Minnesota,94,Orlando Magic,106
+300102004,2010-01-02,Chicago,101,Orlando Magic,93
+300105011,2010-01-05,Indiana,97,Orlando Magic,90
+300106019,2010-01-06,Orlando Magic,103,Toronto,108
+300108027,2010-01-08,Washington,104,Orlando Magic,97
+300109019,2010-01-09,Orlando Magic,113,Atlanta,81
+300112023,2010-01-12,Sacramento,88,Orlando Magic,109
+300113007,2010-01-13,Denver,115,Orlando Magic,97
+300115022,2010-01-15,Portland,102,Orlando Magic,87
+300118013,2010-01-18,Los Angeles,98,Orlando Magic,92
+300120019,2010-01-20,Orlando Magic,109,Indiana,98
+300122019,2010-01-22,Orlando Magic,100,Sacramento,84
+300123030,2010-01-23,Charlotte,95,Orlando Magic,106
+300125029,2010-01-25,Memphis,99,Orlando Magic,94
+300128019,2010-01-28,Orlando Magic,96,Boston,94
+300130019,2010-01-30,Orlando Magic,104,Atlanta,86
+300131008,2010-01-31,Detroit,86,Orlando Magic,91
+300202019,2010-02-02,Orlando Magic,99,Milwaukee,82
+300205019,2010-02-05,Orlando Magic,91,Washington,92
+300207002,2010-02-07,Boston,89,Orlando Magic,96
+300208019,2010-02-08,Orlando Magic,123,New Orleans,117
+300210004,2010-02-10,Chicago,87,Orlando Magic,107
+300211005,2010-02-11,Cleveland,115,Orlando Magic,106
+300217019,2010-02-17,Orlando Magic,116,Detroit,91
+300219019,2010-02-19,Orlando Magic,85,Dallas,95
+300221019,2010-02-21,Orlando Magic,101,Cleveland,95
+300224010,2010-02-24,Houston,92,Orlando Magic,110
+300226003,2010-02-26,New Orleans,100,Orlando Magic,93
+300228019,2010-02-28,Orlando Magic,96,Miami,80
+300301020,2010-03-01,Philadelphia,105,Orlando Magic,126
+300303019,2010-03-03,Orlando Magic,117,Golden State,90
+300305017,2010-03-05,Brooklyn,87,Orlando Magic,97
+300307019,2010-03-07,Orlando Magic,96,Los Angeles,94
+300309019,2010-03-09,Orlando Magic,113,LA,87
+300311019,2010-03-11,Orlando Magic,111,Chicago,82
+300313027,2010-03-13,Washington,95,Orlando Magic,109
+300314019,2010-03-14,Orlando Magic,89,Charlotte,96
+300317019,2010-03-17,Orlando Magic,110,San Antonio,84
+300318014,2010-03-18,Miami,102,Orlando Magic,108
+300322020,2010-03-22,Philadelphia,93,Orlando Magic,109
+300324001,2010-03-24,Atlanta,86,Orlando Magic,84
+300326019,2010-03-26,Orlando Magic,106,Minnesota,97
+300328019,2010-03-28,Orlando Magic,103,Denver,97
+300401006,2010-04-01,Dallas,82,Orlando Magic,97
+300402024,2010-04-02,San Antonio,112,Orlando Magic,100
+300404019,2010-04-04,Orlando Magic,107,Memphis,92
+300407019,2010-04-07,Orlando Magic,121,Washington,94
+300409019,2010-04-09,Orlando Magic,118,NY Knicks,103
+300411005,2010-04-11,Cleveland,92,Orlando Magic,98
+300412011,2010-04-12,Indiana,98,Orlando Magic,118
+300414019,2010-04-14,Orlando Magic,125,Philadelphia,111
+291027006,2010-10-27,Dallas,91,Washington Wizards,102
+291030001,2010-10-30,Atlanta,100,Washington Wizards,89
+291031027,2010-10-31,Washington Wizards,123,Brooklyn,104
+291103005,2010-11-03,Cleveland,102,Washington Wizards,90
+291104027,2010-11-04,Washington Wizards,89,Miami,93
+291106011,2010-11-06,Indiana,102,Washington Wizards,86
+291108027,2010-11-08,Washington Wizards,90,Phoenix,102
+291110014,2010-11-10,Miami,90,Washington Wizards,76
+291114027,2010-11-14,Washington Wizards,103,Detroit,106
+291118027,2010-11-18,Washington Wizards,108,Cleveland,91
+291120025,2010-11-20,Oklahoma City,127,Washington Wizards,108
+291121024,2010-11-21,San Antonio,106,Washington Wizards,84
+291124027,2010-11-24,Washington Wizards,108,Philadelphia,107
+291127014,2010-11-27,Miami,84,Washington Wizards,94
+291128027,2010-11-28,Washington Wizards,76,Charlotte,92
+291201028,2010-12-01,Toronto,102,Washington Wizards,106
+291202027,2010-12-02,Washington Wizards,104,Milwaukee,102
+291204027,2010-12-04,Washington Wizards,107,Toronto,109
+291206008,2010-12-06,Detroit,98,Washington Wizards,94
+291210027,2010-12-10,Washington Wizards,102,Boston,104
+291212027,2010-12-12,Washington Wizards,113,Indiana,114
+291214012,2010-12-14,LA,97,Washington Wizards,95
+291216023,2010-12-16,Sacramento,112,Washington Wizards,109
+291218009,2010-12-18,Golden State,109,Washington Wizards,118
+291219021,2010-12-19,Phoenix,121,Washington Wizards,95
+291222027,2010-12-22,Washington Wizards,105,Philadelphia,98
+291223015,2010-12-23,Milwaukee,97,Washington Wizards,109
+291226016,2010-12-26,Minnesota,101,Washington Wizards,89
+291228029,2010-12-28,Memphis,116,Washington Wizards,111
+291229027,2010-12-29,Washington Wizards,98,Oklahoma City,110
+300102027,2010-01-02,Washington Wizards,86,San Antonio,97
+300105020,2010-01-05,Philadelphia,97,Washington Wizards,104
+300106005,2010-01-06,Cleveland,121,Washington Wizards,98
+300108027,2010-01-08,Washington Wizards,104,Orlando,97
+300110027,2010-01-10,Washington Wizards,110,New Orleans,115
+300112027,2010-01-12,Washington Wizards,90,Detroit,99
+300113001,2010-01-13,Atlanta,94,Washington Wizards,82
+300115004,2010-01-15,Chicago,121,Washington Wizards,119
+300116027,2010-01-16,Washington Wizards,96,Sacramento,86
+300118027,2010-01-18,Washington Wizards,97,Portland,92
+300120027,2010-01-20,Washington Wizards,93,Dallas,94
+300122027,2010-01-22,Washington Wizards,88,Miami,112
+300124027,2010-01-24,Washington Wizards,78,LA,92
+300126027,2010-01-26,Washington Wizards,103,Los Angeles,115
+300129017,2010-01-29,Brooklyn,79,Washington Wizards,81
+300130027,2010-01-30,Washington Wizards,106,NY Knicks,96
+300201027,2010-02-01,Washington Wizards,88,Boston,99
+300203018,2010-02-03,NY Knicks,107,Washington Wizards,85
+300205019,2010-02-05,Orlando,91,Washington Wizards,92
+300209030,2010-02-09,Charlotte,94,Washington Wizards,92
+300217027,2010-02-17,Washington Wizards,108,Minnesota,99
+300219027,2010-02-19,Washington Wizards,107,Denver,97
+300220028,2010-02-20,Toronto,109,Washington Wizards,104
+300222027,2010-02-22,Washington Wizards,101,Chicago,95
+300224027,2010-02-24,Washington Wizards,94,Memphis,99
+300226027,2010-02-26,Washington Wizards,116,NY Knicks,118
+300228017,2010-02-28,Brooklyn,85,Washington Wizards,89
+300303015,2010-03-03,Milwaukee,100,Washington Wizards,87
+300305027,2010-03-05,Washington Wizards,74,Milwaukee,102
+300307002,2010-03-07,Boston,86,Washington Wizards,83
+300309027,2010-03-09,Washington Wizards,88,Houston,96
+300311027,2010-03-11,Washington Wizards,99,Atlanta,105
+300312008,2010-03-12,Detroit,101,Washington Wizards,87
+300313027,2010-03-13,Washington Wizards,95,Orlando,109
+300315026,2010-03-15,Utah,112,Washington Wizards,89
+300316007,2010-03-16,Denver,97,Washington Wizards,87
+300319022,2010-03-19,Portland,76,Washington Wizards,74
+300321013,2010-03-21,Los Angeles,99,Washington Wizards,92
+300323027,2010-03-23,Washington Wizards,86,Charlotte,95
+300324011,2010-03-24,Indiana,99,Washington Wizards,82
+300326030,2010-03-26,Charlotte,107,Washington Wizards,96
+300327027,2010-03-27,Washington Wizards,87,Utah,103
+300330010,2010-03-30,Houston,98,Washington Wizards,94
+300331003,2010-03-31,New Orleans,91,Washington Wizards,96
+300402027,2010-04-02,Washington Wizards,87,Chicago,95
+300404027,2010-04-04,Washington Wizards,109,Brooklyn,99
+300406027,2010-04-06,Washington Wizards,112,Golden State,94
+300407019,2010-04-07,Orlando,121,Washington Wizards,94
+300409002,2010-04-09,Boston,96,Washington Wizards,106
+300410027,2010-04-10,Washington Wizards,95,Atlanta,105
+300412018,2010-04-12,NY Knicks,114,Washington Wizards,103
+300414027,2010-04-14,Washington Wizards,98,Indiana,97
+291028007,2010-10-28,Denver Nuggets,114,Utah,105
+291029022,2010-10-29,Portland,94,Denver Nuggets,97
+291101007,2010-11-01,Denver Nuggets,133,Memphis,123
+291103011,2010-11-03,Indiana,93,Denver Nuggets,111
+291104017,2010-11-04,Brooklyn,94,Denver Nuggets,122
+291106014,2010-11-06,Miami,96,Denver Nuggets,88
+291107001,2010-11-07,Atlanta,125,Denver Nuggets,100
+291110004,2010-11-10,Chicago,89,Denver Nuggets,90
+291111015,2010-11-11,Milwaukee,108,Denver Nuggets,102
+291113007,2010-11-13,Denver Nuggets,105,Los Angeles,79
+291117007,2010-11-17,Denver Nuggets,130,Toronto,112
+291120012,2010-11-20,LA,106,Denver Nuggets,99
+291121007,2010-11-21,Denver Nuggets,112,Chicago,93
+291124007,2010-11-24,Denver Nuggets,101,Brooklyn,87
+291125016,2010-11-25,Minnesota,111,Denver Nuggets,124
+291127007,2010-11-27,Denver Nuggets,128,NY Knicks,125
+291129007,2010-11-29,Denver Nuggets,100,Minnesota,106
+291201007,2010-12-01,Denver Nuggets,135,Golden State,107
+291203007,2010-12-03,Denver Nuggets,114,Miami,96
+291205024,2010-12-05,San Antonio,99,Denver Nuggets,106
+291207020,2010-12-07,Philadelphia,83,Denver Nuggets,93
+291208030,2010-12-08,Charlotte,107,Denver Nuggets,95
+291210008,2010-12-10,Detroit,101,Denver Nuggets,99
+291212007,2010-12-12,Denver Nuggets,105,Phoenix,99
+291214007,2010-12-14,Denver Nuggets,102,Oklahoma City,93
+291216007,2010-12-16,Denver Nuggets,111,Houston,101
+291218003,2010-12-18,New Orleans,98,Denver Nuggets,92
+291220029,2010-12-20,Memphis,102,Denver Nuggets,96
+291223007,2010-12-23,Denver Nuggets,124,Atlanta,104
+291225022,2010-12-25,Portland,107,Denver Nuggets,96
+291227007,2010-12-27,Denver Nuggets,96,Dallas,104
+291228023,2010-12-28,Sacramento,106,Denver Nuggets,101
+300102026,2010-01-02,Utah,95,Denver Nuggets,105
+300103007,2010-01-03,Denver Nuggets,105,Philadelphia,108
+300105007,2010-01-05,Denver Nuggets,123,Golden State,122
+300108007,2010-01-08,Denver Nuggets,99,Cleveland,97
+300109023,2010-01-09,Sacramento,102,Denver Nuggets,100
+300111007,2010-01-11,Denver Nuggets,105,Minnesota,94
+300113007,2010-01-13,Denver Nuggets,115,Orlando,97
+300117007,2010-01-17,Denver Nuggets,119,Utah,112
+300120009,2010-01-20,Golden State,118,Denver Nuggets,123
+300121007,2010-01-21,Denver Nuggets,105,LA,85
+300123007,2010-01-23,Denver Nuggets,116,New Orleans,110
+300125007,2010-01-25,Denver Nuggets,104,Charlotte,93
+300127010,2010-01-27,Houston,92,Denver Nuggets,97
+300129025,2010-01-29,Oklahoma City,101,Denver Nuggets,84
+300131024,2010-01-31,San Antonio,89,Denver Nuggets,103
+300201007,2010-02-01,Denver Nuggets,112,Sacramento,109
+300203007,2010-02-03,Denver Nuggets,97,Phoenix,109
+300205013,2010-02-05,Los Angeles,113,Denver Nuggets,126
+300206026,2010-02-06,Utah,116,Denver Nuggets,106
+300209007,2010-02-09,Denver Nuggets,127,Dallas,91
+300211007,2010-02-11,Denver Nuggets,92,San Antonio,111
+300218005,2010-02-18,Cleveland,116,Denver Nuggets,118
+300219027,2010-02-19,Washington,107,Denver Nuggets,97
+300221007,2010-02-21,Denver Nuggets,114,Boston,105
+300225009,2010-02-25,Golden State,112,Denver Nuggets,127
+300226007,2010-02-26,Denver Nuggets,107,Detroit,102
+300228013,2010-02-28,Los Angeles,95,Denver Nuggets,89
+300301021,2010-03-01,Phoenix,101,Denver Nuggets,85
+300303007,2010-03-03,Denver Nuggets,119,Oklahoma City,90
+300305007,2010-03-05,Denver Nuggets,122,Indiana,114
+300307007,2010-03-07,Denver Nuggets,118,Portland,106
+300310016,2010-03-10,Minnesota,102,Denver Nuggets,110
+300312003,2010-03-12,New Orleans,95,Denver Nuggets,102
+300313029,2010-03-13,Memphis,108,Denver Nuggets,125
+300315010,2010-03-15,Houston,125,Denver Nuggets,123
+300316007,2010-03-16,Denver Nuggets,97,Washington,87
+300318007,2010-03-18,Denver Nuggets,93,New Orleans,80
+300320007,2010-03-20,Denver Nuggets,97,Milwaukee,102
+300323018,2010-03-23,NY Knicks,109,Denver Nuggets,104
+300324002,2010-03-24,Boston,113,Denver Nuggets,99
+300326028,2010-03-26,Toronto,96,Denver Nuggets,97
+300328019,2010-03-28,Orlando,103,Denver Nuggets,97
+300329006,2010-03-29,Dallas,109,Denver Nuggets,93
+300401007,2010-04-01,Denver Nuggets,109,Portland,92
+300403007,2010-04-03,Denver Nuggets,98,LA,90
+300407025,2010-04-07,Oklahoma City,94,Denver Nuggets,98
+300408007,2010-04-08,Denver Nuggets,98,Los Angeles,96
+300410007,2010-04-10,Denver Nuggets,85,San Antonio,104
+300412007,2010-04-12,Denver Nuggets,123,Memphis,101
+300413021,2010-04-13,Phoenix,123,Denver Nuggets,101
+291028016,2010-10-28,Minnesota Timberwolves,95,Brooklyn,93
+291030016,2010-10-30,Minnesota Timberwolves,87,Cleveland,104
+291101021,2010-11-01,Phoenix,120,Minnesota Timberwolves,112
+291102012,2010-11-02,LA,93,Minnesota Timberwolves,90
+291104016,2010-11-04,Minnesota Timberwolves,90,Boston,92
+291106016,2010-11-06,Minnesota Timberwolves,72,Milwaukee,87
+291108022,2010-11-08,Portland,116,Minnesota Timberwolves,93
+291109009,2010-11-09,Golden State,146,Minnesota Timberwolves,105
+291111016,2010-11-11,Minnesota Timberwolves,84,Portland,107
+291113016,2010-11-13,Minnesota Timberwolves,77,Dallas,89
+291114029,2010-11-14,Memphis,97,Minnesota Timberwolves,87
+291118016,2010-11-18,Minnesota Timberwolves,84,Houston,97
+291121022,2010-11-21,Portland,106,Minnesota Timberwolves,78
+291123012,2010-11-23,LA,91,Minnesota Timberwolves,87
+291125016,2010-11-25,Minnesota Timberwolves,111,Denver,124
+291127016,2010-11-27,Minnesota Timberwolves,95,Phoenix,120
+291129007,2010-11-29,Denver,100,Minnesota Timberwolves,106
+291202016,2010-12-02,Minnesota Timberwolves,95,Memphis,97
+291204003,2010-12-04,New Orleans,98,Minnesota Timberwolves,89
+291205016,2010-12-05,Minnesota Timberwolves,108,Utah,101
+291208028,2010-12-08,Toronto,94,Minnesota Timberwolves,88
+291209016,2010-12-09,Minnesota Timberwolves,96,New Orleans,97
+291211013,2010-12-11,Los Angeles,104,Minnesota Timberwolves,92
+291212023,2010-12-12,Sacramento,120,Minnesota Timberwolves,100
+291214026,2010-12-14,Utah,108,Minnesota Timberwolves,110
+291216016,2010-12-16,Minnesota Timberwolves,95,LA,120
+291218016,2010-12-18,Minnesota Timberwolves,112,Sacramento,96
+291220002,2010-12-20,Boston,122,Minnesota Timberwolves,104
+291222016,2010-12-22,Minnesota Timberwolves,87,Atlanta,112
+291223017,2010-12-23,Brooklyn,99,Minnesota Timberwolves,103
+291226016,2010-12-26,Minnesota Timberwolves,101,Washington,89
+291229024,2010-12-29,San Antonio,117,Minnesota Timberwolves,99
+291230016,2010-12-30,Minnesota Timberwolves,103,Utah,107
+300101016,2010-01-01,Minnesota Timberwolves,94,Orlando,106
+300102011,2010-01-02,Indiana,122,Minnesota Timberwolves,111
+300106016,2010-01-06,Minnesota Timberwolves,101,Golden State,107
+300108016,2010-01-08,Minnesota Timberwolves,116,Indiana,109
+300109004,2010-01-09,Chicago,110,Minnesota Timberwolves,96
+300111007,2010-01-11,Denver,105,Minnesota Timberwolves,94
+300113010,2010-01-13,Houston,120,Minnesota Timberwolves,114
+300115029,2010-01-15,Memphis,135,Minnesota Timberwolves,110
+300118016,2010-01-18,Minnesota Timberwolves,108,Philadelphia,103
+300120016,2010-01-20,Minnesota Timberwolves,92,Oklahoma City,94
+300122016,2010-01-22,Minnesota Timberwolves,94,New Orleans,96
+300123015,2010-01-23,Milwaukee,127,Minnesota Timberwolves,94
+300126018,2010-01-26,NY Knicks,132,Minnesota Timberwolves,105
+300127005,2010-01-27,Cleveland,109,Minnesota Timberwolves,95
+300129016,2010-01-29,Minnesota Timberwolves,111,LA,97
+300131016,2010-01-31,Minnesota Timberwolves,112,NY Knicks,91
+300205006,2010-02-05,Dallas,108,Minnesota Timberwolves,117
+300206016,2010-02-06,Minnesota Timberwolves,109,Memphis,102
+300209020,2010-02-09,Philadelphia,119,Minnesota Timberwolves,97
+300210016,2010-02-10,Minnesota Timberwolves,92,Charlotte,93
+300216008,2010-02-16,Detroit,108,Minnesota Timberwolves,85
+300217027,2010-02-17,Washington,108,Minnesota Timberwolves,99
+300219016,2010-02-19,Minnesota Timberwolves,94,Chicago,100
+300221016,2010-02-21,Minnesota Timberwolves,107,Oklahoma City,109
+300223014,2010-02-23,Miami,88,Minnesota Timberwolves,91
+300224001,2010-02-24,Atlanta,98,Minnesota Timberwolves,92
+300226025,2010-02-26,Oklahoma City,109,Minnesota Timberwolves,92
+300227016,2010-02-27,Minnesota Timberwolves,91,Portland,110
+300303006,2010-03-03,Dallas,112,Minnesota Timberwolves,109
+300306016,2010-03-06,Minnesota Timberwolves,98,Houston,112
+300308016,2010-03-08,Minnesota Timberwolves,112,Dallas,125
+300310016,2010-03-10,Minnesota Timberwolves,102,Denver,110
+300312016,2010-03-12,Minnesota Timberwolves,85,San Antonio,103
+300314023,2010-03-14,Sacramento,114,Minnesota Timberwolves,100
+300316021,2010-03-16,Phoenix,152,Minnesota Timberwolves,114
+300317026,2010-03-17,Utah,122,Minnesota Timberwolves,100
+300319013,2010-03-19,Los Angeles,104,Minnesota Timberwolves,96
+300322016,2010-03-22,Minnesota Timberwolves,100,Toronto,106
+300324030,2010-03-24,Charlotte,108,Minnesota Timberwolves,95
+300326019,2010-03-26,Orlando,106,Minnesota Timberwolves,97
+300328016,2010-03-28,Minnesota Timberwolves,105,Phoenix,111
+300331016,2010-03-31,Minnesota Timberwolves,108,Sacramento,99
+300403016,2010-04-03,Minnesota Timberwolves,84,Miami,97
+300404025,2010-04-04,Oklahoma City,116,Minnesota Timberwolves,108
+300407016,2010-04-07,Minnesota Timberwolves,107,Golden State,116
+300409016,2010-04-09,Minnesota Timberwolves,88,Los Angeles,97
+300411003,2010-04-11,New Orleans,114,Minnesota Timberwolves,86
+300412024,2010-04-12,San Antonio,133,Minnesota Timberwolves,111
+300414016,2010-04-14,Minnesota Timberwolves,98,Detroit,103
+291028025,2010-10-28,Oklahoma City Thunder,102,Sacramento,89
+291030008,2010-10-30,Detroit,83,Oklahoma City Thunder,91
+291101025,2010-11-01,Oklahoma City Thunder,74,Portland,83
+291103025,2010-11-03,Oklahoma City Thunder,98,Los Angeles,101
+291106010,2010-11-06,Houston,105,Oklahoma City Thunder,94
+291108025,2010-11-08,Oklahoma City Thunder,102,Orlando,74
+291110023,2010-11-10,Sacramento,101,Oklahoma City Thunder,98
+291111012,2010-11-11,LA,79,Oklahoma City Thunder,83
+291114024,2010-11-14,San Antonio,98,Oklahoma City Thunder,101
+291115025,2010-11-15,Oklahoma City Thunder,93,LA,101
+291117014,2010-11-17,Miami,87,Oklahoma City Thunder,100
+291118019,2010-11-18,Orlando,108,Oklahoma City Thunder,94
+291120025,2010-11-20,Oklahoma City Thunder,127,Washington,108
+291122013,2010-11-22,Los Angeles,101,Oklahoma City Thunder,85
+291124026,2010-11-24,Utah,94,Oklahoma City Thunder,104
+291127025,2010-11-27,Oklahoma City Thunder,108,Milwaukee,90
+291129025,2010-11-29,Oklahoma City Thunder,91,Houston,100
+291202025,2010-12-02,Oklahoma City Thunder,117,Philadelphia,106
+291204025,2010-12-04,Oklahoma City Thunder,87,Boston,105
+291207025,2010-12-07,Oklahoma City Thunder,104,Golden State,88
+291211029,2010-12-11,Memphis,94,Oklahoma City Thunder,102
+291213025,2010-12-13,Oklahoma City Thunder,89,Cleveland,102
+291214007,2010-12-14,Denver,102,Oklahoma City Thunder,93
+291216025,2010-12-16,Oklahoma City Thunder,86,Dallas,100
+291218025,2010-12-18,Oklahoma City Thunder,109,Detroit,98
+291219010,2010-12-19,Houston,95,Oklahoma City Thunder,90
+291222013,2010-12-22,Los Angeles,111,Oklahoma City Thunder,108
+291223021,2010-12-23,Phoenix,113,Oklahoma City Thunder,117
+291226025,2010-12-26,Oklahoma City Thunder,98,Charlotte,91
+291228017,2010-12-28,Brooklyn,89,Oklahoma City Thunder,105
+291229027,2010-12-29,Washington,98,Oklahoma City Thunder,110
+291231025,2010-12-31,Oklahoma City Thunder,87,Utah,86
+300102015,2010-01-02,Milwaukee,103,Oklahoma City Thunder,97
+300104004,2010-01-04,Chicago,85,Oklahoma City Thunder,98
+300106025,2010-01-06,Oklahoma City Thunder,92,New Orleans,97
+300109025,2010-01-09,Oklahoma City Thunder,108,Indiana,102
+300111025,2010-01-11,Oklahoma City Thunder,106,NY Knicks,88
+300113025,2010-01-13,Oklahoma City Thunder,108,San Antonio,109
+300115006,2010-01-15,Dallas,99,Oklahoma City Thunder,98
+300116025,2010-01-16,Oklahoma City Thunder,98,Miami,80
+300118001,2010-01-18,Atlanta,91,Oklahoma City Thunder,94
+300120016,2010-01-20,Minnesota,92,Oklahoma City Thunder,94
+300122029,2010-01-22,Memphis,86,Oklahoma City Thunder,84
+300123005,2010-01-23,Cleveland,100,Oklahoma City Thunder,99
+300127025,2010-01-27,Oklahoma City Thunder,86,Chicago,96
+300129025,2010-01-29,Oklahoma City Thunder,101,Denver,84
+300131025,2010-01-31,Oklahoma City Thunder,112,Golden State,104
+300202025,2010-02-02,Oklahoma City Thunder,106,Atlanta,99
+300203003,2010-02-03,New Orleans,99,Oklahoma City Thunder,103
+300206009,2010-02-06,Golden State,95,Oklahoma City Thunder,104
+300209022,2010-02-09,Portland,77,Oklahoma City Thunder,89
+300216025,2010-02-16,Oklahoma City Thunder,99,Dallas,86
+300220018,2010-02-20,NY Knicks,118,Oklahoma City Thunder,121
+300221016,2010-02-21,Minnesota,107,Oklahoma City Thunder,109
+300223025,2010-02-23,Oklahoma City Thunder,102,Phoenix,104
+300224024,2010-02-24,San Antonio,95,Oklahoma City Thunder,87
+300226025,2010-02-26,Oklahoma City Thunder,109,Minnesota,92
+300228025,2010-02-28,Oklahoma City Thunder,119,Toronto,99
+300302025,2010-03-02,Oklahoma City Thunder,113,Sacramento,107
+300303007,2010-03-03,Denver,119,Oklahoma City Thunder,90
+300305012,2010-03-05,LA,87,Oklahoma City Thunder,104
+300307023,2010-03-07,Sacramento,102,Oklahoma City Thunder,108
+300310025,2010-03-10,Oklahoma City Thunder,98,New Orleans,83
+300312025,2010-03-12,Oklahoma City Thunder,104,Brooklyn,102
+300314025,2010-03-14,Oklahoma City Thunder,119,Utah,111
+300317030,2010-03-17,Charlotte,100,Oklahoma City Thunder,92
+300319028,2010-03-19,Toronto,89,Oklahoma City Thunder,115
+300321011,2010-03-21,Indiana,121,Oklahoma City Thunder,101
+300322025,2010-03-22,Oklahoma City Thunder,96,San Antonio,99
+300324025,2010-03-24,Oklahoma City Thunder,122,Houston,104
+300326025,2010-03-26,Oklahoma City Thunder,91,Los Angeles,75
+300328025,2010-03-28,Oklahoma City Thunder,87,Portland,92
+300330020,2010-03-30,Philadelphia,93,Oklahoma City Thunder,111
+300331002,2010-03-31,Boston,104,Oklahoma City Thunder,109
+300403006,2010-04-03,Dallas,116,Oklahoma City Thunder,121
+300404025,2010-04-04,Oklahoma City Thunder,116,Minnesota,108
+300406026,2010-04-06,Utah,140,Oklahoma City Thunder,139
+300407025,2010-04-07,Oklahoma City Thunder,94,Denver,98
+300409025,2010-04-09,Oklahoma City Thunder,96,Phoenix,91
+300411009,2010-04-11,Golden State,120,Oklahoma City Thunder,117
+300412022,2010-04-12,Portland,103,Oklahoma City Thunder,95
+300414025,2010-04-14,Oklahoma City Thunder,114,Memphis,105
+291027022,2010-10-27,Portland Trail Blazers,96,Houston,87
+291029022,2010-10-29,Portland Trail Blazers,94,Denver,97
+291031010,2010-10-31,Houston,111,Portland Trail Blazers,107
+291101025,2010-11-01,Oklahoma City,74,Portland Trail Blazers,83
+291103022,2010-11-03,Portland Trail Blazers,91,Atlanta,97
+291106022,2010-11-06,Portland Trail Blazers,96,San Antonio,84
+291108022,2010-11-08,Portland Trail Blazers,116,Minnesota,93
+291110029,2010-11-10,Memphis,79,Portland Trail Blazers,93
+291111016,2010-11-11,Minnesota,84,Portland Trail Blazers,107
+291113003,2010-11-13,New Orleans,78,Portland Trail Blazers,86
+291114030,2010-11-14,Charlotte,74,Portland Trail Blazers,80
+291116001,2010-11-16,Atlanta,99,Portland Trail Blazers,95
+291118022,2010-11-18,Portland Trail Blazers,87,Detroit,81
+291120009,2010-11-20,Golden State,108,Portland Trail Blazers,94
+291121022,2010-11-21,Portland Trail Blazers,106,Minnesota,78
+291123022,2010-11-23,Portland Trail Blazers,122,Chicago,98
+291125022,2010-11-25,Portland Trail Blazers,93,Brooklyn,83
+291127022,2010-11-27,Portland Trail Blazers,96,Memphis,106
+291128026,2010-11-28,Utah,108,Portland Trail Blazers,92
+291201022,2010-12-01,Portland Trail Blazers,100,Miami,107
+291205022,2010-12-05,Portland Trail Blazers,90,Houston,89
+291207018,2010-12-07,NY Knicks,93,Portland Trail Blazers,84
+291209011,2010-12-09,Indiana,91,Portland Trail Blazers,102
+291211005,2010-12-11,Cleveland,104,Portland Trail Blazers,99
+291212015,2010-12-12,Milwaukee,108,Portland Trail Blazers,101
+291215022,2010-12-15,Portland Trail Blazers,95,Sacramento,88
+291217022,2010-12-17,Portland Trail Blazers,105,Phoenix,102
+291219019,2010-12-19,Orlando,92,Portland Trail Blazers,83
+291220014,2010-12-20,Miami,95,Portland Trail Blazers,102
+291222006,2010-12-22,Dallas,81,Portland Trail Blazers,85
+291223024,2010-12-23,San Antonio,94,Portland Trail Blazers,98
+291225022,2010-12-25,Portland Trail Blazers,107,Denver,96
+291228022,2010-12-28,Portland Trail Blazers,93,Philadelphia,104
+291230022,2010-12-30,Portland Trail Blazers,103,LA,99
+300102022,2010-01-02,Portland Trail Blazers,105,Golden State,89
+300104012,2010-01-04,LA,105,Portland Trail Blazers,95
+300105022,2010-01-05,Portland Trail Blazers,105,Memphis,109
+300108022,2010-01-08,Portland Trail Blazers,107,Los Angeles,98
+300110022,2010-01-10,Portland Trail Blazers,94,Cleveland,106
+300113022,2010-01-13,Portland Trail Blazers,120,Milwaukee,108
+300115022,2010-01-15,Portland Trail Blazers,102,Orlando,87
+300118027,2010-01-18,Washington,97,Portland Trail Blazers,92
+300120020,2010-01-20,Philadelphia,90,Portland Trail Blazers,98
+300122002,2010-01-22,Boston,98,Portland Trail Blazers,95
+300123008,2010-01-23,Detroit,93,Portland Trail Blazers,97
+300125022,2010-01-25,Portland Trail Blazers,97,New Orleans,98
+300127022,2010-01-27,Portland Trail Blazers,95,Utah,106
+300129010,2010-01-29,Houston,104,Portland Trail Blazers,100
+300130006,2010-01-30,Dallas,112,Portland Trail Blazers,114
+300201022,2010-02-01,Portland Trail Blazers,98,Charlotte,79
+300203026,2010-02-03,Utah,118,Portland Trail Blazers,105
+300204022,2010-02-04,Portland Trail Blazers,96,San Antonio,93
+300206022,2010-02-06,Portland Trail Blazers,82,Los Angeles,99
+300209022,2010-02-09,Portland Trail Blazers,77,Oklahoma City,89
+300210021,2010-02-10,Phoenix,101,Portland Trail Blazers,108
+300216022,2010-02-16,Portland Trail Blazers,109,LA,87
+300219022,2010-02-19,Portland Trail Blazers,76,Boston,96
+300221022,2010-02-21,Portland Trail Blazers,89,Utah,93
+300223017,2010-02-23,Brooklyn,93,Portland Trail Blazers,102
+300224028,2010-02-24,Toronto,87,Portland Trail Blazers,101
+300226004,2010-02-26,Chicago,115,Portland Trail Blazers,111
+300227016,2010-02-27,Minnesota,91,Portland Trail Blazers,110
+300301029,2010-03-01,Memphis,93,Portland Trail Blazers,103
+300303022,2010-03-03,Portland Trail Blazers,102,Indiana,79
+300307007,2010-03-07,Denver,118,Portland Trail Blazers,106
+300309022,2010-03-09,Portland Trail Blazers,88,Sacramento,81
+300311009,2010-03-11,Golden State,105,Portland Trail Blazers,110
+300312023,2010-03-12,Sacramento,94,Portland Trail Blazers,110
+300314022,2010-03-14,Portland Trail Blazers,109,Toronto,98
+300319022,2010-03-19,Portland Trail Blazers,76,Washington,74
+300321021,2010-03-21,Phoenix,93,Portland Trail Blazers,87
+300325022,2010-03-25,Portland Trail Blazers,101,Dallas,89
+300327003,2010-03-27,New Orleans,101,Portland Trail Blazers,112
+300328025,2010-03-28,Oklahoma City,87,Portland Trail Blazers,92
+300331022,2010-03-31,Portland Trail Blazers,118,NY Knicks,90
+300401007,2010-04-01,Denver,109,Portland Trail Blazers,92
+300403023,2010-04-03,Sacramento,87,Portland Trail Blazers,98
+300407012,2010-04-07,LA,85,Portland Trail Blazers,93
+300409022,2010-04-09,Portland Trail Blazers,77,Dallas,83
+300411013,2010-04-11,Los Angeles,88,Portland Trail Blazers,91
+300412022,2010-04-12,Portland Trail Blazers,103,Oklahoma City,95
+300414022,2010-04-14,Portland Trail Blazers,116,Golden State,122
+291028007,2010-10-28,Denver,114,Utah Jazz,105
+291030026,2010-10-30,Utah Jazz,111,LA,98
+291102026,2010-11-02,Utah Jazz,96,Houston,113
+291103006,2010-11-03,Dallas,96,Utah Jazz,85
+291105026,2010-11-05,Utah Jazz,113,San Antonio,99
+291107026,2010-11-07,Utah Jazz,99,Sacramento,104
+291109018,2010-11-09,NY Knicks,93,Utah Jazz,95
+291111002,2010-11-11,Boston,105,Utah Jazz,86
+291113020,2010-11-13,Philadelphia,90,Utah Jazz,112
+291114005,2010-11-14,Cleveland,107,Utah Jazz,103
+291118026,2010-11-18,Utah Jazz,104,Toronto,91
+291119024,2010-11-19,San Antonio,83,Utah Jazz,90
+291121026,2010-11-21,Utah Jazz,100,Detroit,97
+291124026,2010-11-24,Utah Jazz,94,Oklahoma City,104
+291126026,2010-11-26,Utah Jazz,105,Chicago,86
+291128026,2010-11-28,Utah Jazz,108,Portland,92
+291130026,2010-11-30,Utah Jazz,120,Memphis,93
+291204026,2010-12-04,Utah Jazz,96,Indiana,87
+291205016,2010-12-05,Minnesota,108,Utah Jazz,101
+291207026,2010-12-07,Utah Jazz,104,San Antonio,101
+291209013,2010-12-09,Los Angeles,101,Utah Jazz,77
+291210026,2010-12-10,Utah Jazz,120,Orlando,111
+291212026,2010-12-12,Utah Jazz,102,Los Angeles,94
+291214026,2010-12-14,Utah Jazz,108,Minnesota,110
+291216017,2010-12-16,Brooklyn,92,Utah Jazz,108
+291218001,2010-12-18,Atlanta,96,Utah Jazz,83
+291219030,2010-12-19,Charlotte,102,Utah Jazz,110
+291221019,2010-12-21,Orlando,104,Utah Jazz,99
+291223014,2010-12-23,Miami,80,Utah Jazz,70
+291226026,2010-12-26,Utah Jazz,97,Philadelphia,76
+291230016,2010-12-30,Minnesota,103,Utah Jazz,107
+291231025,2010-12-31,Oklahoma City,87,Utah Jazz,86
+300102026,2010-01-02,Utah Jazz,95,Denver,105
+300104026,2010-01-04,Utah Jazz,87,New Orleans,91
+300106026,2010-01-06,Utah Jazz,117,Memphis,94
+300108029,2010-01-08,Memphis,91,Utah Jazz,89
+300109006,2010-01-09,Dallas,93,Utah Jazz,111
+300111026,2010-01-11,Utah Jazz,118,Miami,89
+300114026,2010-01-14,Utah Jazz,97,Cleveland,96
+300116026,2010-01-16,Utah Jazz,112,Milwaukee,95
+300117007,2010-01-17,Denver,119,Utah Jazz,112
+300120024,2010-01-20,San Antonio,98,Utah Jazz,105
+300123026,2010-01-23,Utah Jazz,116,Brooklyn,83
+300125026,2010-01-25,Utah Jazz,124,Phoenix,115
+300127022,2010-01-27,Portland,95,Utah Jazz,106
+300129026,2010-01-29,Utah Jazz,101,Sacramento,94
+300201026,2010-02-01,Utah Jazz,104,Dallas,92
+300203026,2010-02-03,Utah Jazz,118,Portland,105
+300206026,2010-02-06,Utah Jazz,116,Denver,106
+300209012,2010-02-09,LA,99,Utah Jazz,109
+300210026,2010-02-10,Utah Jazz,81,Los Angeles,96
+300216010,2010-02-16,Houston,95,Utah Jazz,104
+300217003,2010-02-17,New Orleans,90,Utah Jazz,98
+300219009,2010-02-19,Golden State,89,Utah Jazz,100
+300221022,2010-02-21,Portland,89,Utah Jazz,93
+300222026,2010-02-22,Utah Jazz,100,Atlanta,105
+300224026,2010-02-24,Utah Jazz,102,Charlotte,93
+300226023,2010-02-26,Sacramento,103,Utah Jazz,99
+300227026,2010-02-27,Utah Jazz,133,Houston,110
+300301012,2010-03-01,LA,108,Utah Jazz,104
+300304021,2010-03-04,Phoenix,108,Utah Jazz,116
+300306026,2010-03-06,Utah Jazz,107,LA,85
+300309004,2010-03-09,Chicago,108,Utah Jazz,132
+300310008,2010-03-10,Detroit,104,Utah Jazz,115
+300312015,2010-03-12,Milwaukee,95,Utah Jazz,87
+300314025,2010-03-14,Oklahoma City,119,Utah Jazz,111
+300315026,2010-03-15,Utah Jazz,112,Washington,89
+300317026,2010-03-17,Utah Jazz,122,Minnesota,100
+300319021,2010-03-19,Phoenix,110,Utah Jazz,100
+300320026,2010-03-20,Utah Jazz,106,New Orleans,86
+300322026,2010-03-22,Utah Jazz,110,Boston,97
+300324028,2010-03-24,Toronto,87,Utah Jazz,113
+300326011,2010-03-26,Indiana,122,Utah Jazz,106
+300327027,2010-03-27,Washington,87,Utah Jazz,103
+300329026,2010-03-29,Utah Jazz,103,NY Knicks,98
+300331026,2010-03-31,Utah Jazz,128,Golden State,104
+300402013,2010-04-02,Los Angeles,106,Utah Jazz,92
+300406026,2010-04-06,Utah Jazz,140,Oklahoma City,139
+300407010,2010-04-07,Houston,113,Utah Jazz,96
+300409003,2010-04-09,New Orleans,103,Utah Jazz,114
+300413009,2010-04-13,Golden State,94,Utah Jazz,103
+300414026,2010-04-14,Utah Jazz,86,Phoenix,100

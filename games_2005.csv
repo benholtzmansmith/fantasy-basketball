@@ -1,0 +1,2461 @@
+id,date,home_team,home_team_score,visit_team,visit_team_score
+241103002,2005-11-03,Boston Celtics,95,Philadelphia,98
+241105002,2005-11-05,Boston Celtics,94,Indiana,100
+241106018,2005-11-06,NY Knicks,73,Boston Celtics,107
+241110002,2005-11-10,Boston Celtics,90,Portland,88
+241112002,2005-11-12,Boston Celtics,91,Charlotte,74
+241117027,2005-11-17,Washington,110,Boston Celtics,105
+241119002,2005-11-19,Boston Celtics,84,San Antonio,92
+241121002,2005-11-21,Boston Celtics,102,Oklahoma City,83
+241123011,2005-11-23,Indiana,106,Boston Celtics,96
+241124020,2005-11-24,Philadelphia,110,Boston Celtics,97
+241126002,2005-11-26,Boston Celtics,96,Cleveland,98
+241128014,2005-11-28,Miami,106,Boston Celtics,104
+241129019,2005-11-29,Orlando,101,Boston Celtics,117
+241201002,2005-12-01,Boston Celtics,101,Milwaukee,100
+241203002,2005-12-03,Boston Celtics,91,Toronto,89
+241205023,2005-12-05,Sacramento,119,Boston Celtics,105
+241206009,2005-12-06,Golden State,110,Boston Celtics,106
+241209022,2005-12-09,Portland,89,Boston Celtics,87
+241211025,2005-12-11,Oklahoma City,84,Boston Celtics,98
+241213012,2005-12-13,LA,127,Boston Celtics,134
+241215002,2005-12-15,Boston Celtics,99,Denver,100
+241217002,2005-12-17,Boston Celtics,114,Utah,106
+241218005,2005-12-18,Cleveland,107,Boston Celtics,114
+241221014,2005-12-21,Miami,108,Boston Celtics,100
+241222002,2005-12-22,Boston Celtics,114,NY Knicks,109
+241226024,2005-12-26,San Antonio,107,Boston Celtics,90
+241228006,2005-12-28,Dallas,113,Boston Celtics,94
+241229029,2005-12-29,Memphis,117,Boston Celtics,109
+241231002,2005-12-31,Boston Celtics,108,Washington,103
+250102008,2005-01-02,Detroit,100,Boston Celtics,88
+250103002,2005-01-03,Boston Celtics,108,New Orleans,90
+250105002,2005-01-05,Boston Celtics,84,Golden State,83
+250107002,2005-01-07,Boston Celtics,104,Detroit,110
+250108004,2005-01-08,Chicago,102,Boston Celtics,91
+250110002,2005-01-10,Boston Celtics,119,Orlando,101
+250112028,2005-01-12,Toronto,104,Boston Celtics,93
+250114002,2005-01-14,Boston Celtics,106,Atlanta,94
+250119002,2005-01-19,Boston Celtics,92,Chicago,83
+250121017,2005-01-21,Brooklyn,104,Boston Celtics,98
+250122001,2005-01-22,Atlanta,100,Boston Celtics,96
+250125030,2005-01-25,Charlotte,92,Boston Celtics,97
+250126002,2005-01-26,Boston Celtics,100,Indiana,86
+250128002,2005-01-28,Boston Celtics,119,Phoenix,128
+250129004,2005-01-29,Chicago,97,Boston Celtics,101
+250131002,2005-01-31,Boston Celtics,94,Houston,97
+250202002,2005-02-02,Boston Celtics,110,Brooklyn,89
+250204002,2005-02-04,Boston Celtics,112,Orlando,100
+250206016,2005-02-06,Minnesota,100,Boston Celtics,103
+250208015,2005-02-08,Milwaukee,121,Boston Celtics,97
+250209002,2005-02-09,Boston Celtics,94,LA,89
+250211002,2005-02-11,Boston Celtics,111,NY Knicks,94
+250213002,2005-02-13,Boston Celtics,100,Sacramento,104
+250216002,2005-02-16,Boston Celtics,90,Memphis,88
+250222013,2005-02-22,Los Angeles,104,Boston Celtics,95
+250223007,2005-02-23,Denver,107,Boston Celtics,86
+250225026,2005-02-25,Utah,102,Boston Celtics,109
+250227021,2005-02-27,Phoenix,113,Boston Celtics,120
+250302002,2005-03-02,Boston Celtics,104,Los Angeles,101
+250304002,2005-03-04,Boston Celtics,104,Charlotte,84
+250306002,2005-03-06,Boston Celtics,97,Minnesota,99
+250309002,2005-03-09,Boston Celtics,95,Atlanta,91
+250311002,2005-03-11,Boston Celtics,115,Detroit,113
+250313002,2005-03-13,Boston Celtics,105,Washington,101
+250314030,2005-03-14,Charlotte,110,Boston Celtics,119
+250316002,2005-03-16,Boston Celtics,110,Toronto,109
+250318010,2005-03-18,Houston,92,Boston Celtics,103
+250319003,2005-03-19,New Orleans,100,Boston Celtics,113
+250323018,2005-03-23,NY Knicks,107,Boston Celtics,82
+250325002,2005-03-25,Boston Celtics,86,Chicago,94
+250326008,2005-03-26,Detroit,105,Boston Celtics,99
+250330002,2005-03-30,Boston Celtics,100,Dallas,112
+250401001,2005-04-01,Atlanta,100,Boston Celtics,116
+250403002,2005-04-03,Boston Celtics,93,Philadelphia,97
+250405027,2005-04-05,Washington,108,Boston Celtics,116
+250406002,2005-04-06,Boston Celtics,103,Milwaukee,97
+250409017,2005-04-09,Brooklyn,99,Boston Celtics,86
+250412020,2005-04-12,Philadelphia,98,Boston Celtics,105
+250413015,2005-04-13,Milwaukee,108,Boston Celtics,111
+250415002,2005-04-15,Boston Celtics,101,Miami,99
+250417028,2005-04-17,Toronto,98,Boston Celtics,103
+250419005,2005-04-19,Cleveland,100,Boston Celtics,86
+250420002,2005-04-20,Boston Celtics,93,Brooklyn,102
+241103017,2005-11-03,Brooklyn Nets,77,Miami,100
+241105004,2005-11-05,Chicago,106,Brooklyn Nets,111
+241106017,2005-11-06,Brooklyn Nets,80,Phoenix,112
+241109017,2005-11-09,Brooklyn Nets,64,Portland,60
+241110020,2005-11-10,Philadelphia,108,Brooklyn Nets,100
+241113017,2005-11-13,Brooklyn Nets,78,Dallas,94
+241115017,2005-11-15,Brooklyn Nets,69,Houston,80
+241117017,2005-11-17,Brooklyn Nets,68,Oklahoma City,79
+241120017,2005-11-20,Brooklyn Nets,86,Washington,97
+241123007,2005-11-23,Denver,90,Brooklyn Nets,88
+241125012,2005-11-25,LA,101,Brooklyn Nets,88
+241126025,2005-11-26,Oklahoma City,92,Brooklyn Nets,79
+241128022,2005-11-28,Portland,83,Brooklyn Nets,71
+241130017,2005-11-30,Brooklyn Nets,99,Charlotte,86
+241201027,2005-12-01,Washington,95,Brooklyn Nets,68
+241204017,2005-12-04,Brooklyn Nets,109,Atlanta,88
+241206017,2005-12-06,Brooklyn Nets,88,Toronto,86
+241207005,2005-12-07,Cleveland,103,Brooklyn Nets,97
+241210017,2005-12-10,Brooklyn Nets,94,New Orleans,91
+241211001,2005-12-11,Atlanta,90,Brooklyn Nets,95
+241214017,2005-12-14,Brooklyn Nets,79,NY Knicks,87
+241217029,2005-12-17,Memphis,89,Brooklyn Nets,84
+241219028,2005-12-19,Toronto,110,Brooklyn Nets,99
+241221030,2005-12-21,Charlotte,91,Brooklyn Nets,94
+241222017,2005-12-22,Brooklyn Nets,92,Cleveland,90
+241227008,2005-12-27,Detroit,100,Brooklyn Nets,90
+241228004,2005-12-28,Chicago,80,Brooklyn Nets,84
+241230017,2005-12-30,Brooklyn Nets,83,Indiana,96
+250101018,2005-01-01,NY Knicks,87,Brooklyn Nets,93
+250104027,2005-01-04,Washington,112,Brooklyn Nets,88
+250105015,2005-01-05,Milwaukee,97,Brooklyn Nets,74
+250107017,2005-01-07,Brooklyn Nets,82,Golden State,72
+250108019,2005-01-08,Orlando,104,Brooklyn Nets,101
+250111017,2005-01-11,Brooklyn Nets,80,Detroit,89
+250113010,2005-01-13,Houston,94,Brooklyn Nets,85
+250115006,2005-01-15,Dallas,98,Brooklyn Nets,93
+250117001,2005-01-17,Atlanta,84,Brooklyn Nets,85
+250119017,2005-01-19,Brooklyn Nets,96,Milwaukee,90
+250121017,2005-01-21,Brooklyn Nets,104,Boston,98
+250123021,2005-01-23,Phoenix,113,Brooklyn Nets,105
+250125023,2005-01-25,Sacramento,113,Brooklyn Nets,93
+250126009,2005-01-26,Golden State,99,Brooklyn Nets,113
+250128013,2005-01-28,Los Angeles,103,Brooklyn Nets,109
+250129026,2005-01-29,Utah,82,Brooklyn Nets,99
+250201017,2005-02-01,Brooklyn Nets,107,Chicago,97
+250202002,2005-02-02,Boston,110,Brooklyn Nets,89
+250205017,2005-02-05,Brooklyn Nets,107,Detroit,85
+250207017,2005-02-07,Brooklyn Nets,107,Philadelphia,97
+250209017,2005-02-09,Brooklyn Nets,103,Los Angeles,104
+250211017,2005-02-11,Brooklyn Nets,91,San Antonio,101
+250213017,2005-02-13,Brooklyn Nets,94,Denver,79
+250215016,2005-02-15,Minnesota,82,Brooklyn Nets,71
+250216017,2005-02-16,Brooklyn Nets,96,Sacramento,85
+250222017,2005-02-22,Brooklyn Nets,82,Toronto,100
+250223015,2005-02-23,Milwaukee,100,Brooklyn Nets,81
+250225017,2005-02-25,Brooklyn Nets,93,Charlotte,86
+250227017,2005-02-27,Brooklyn Nets,104,Cleveland,98
+250302020,2005-03-02,Philadelphia,93,Brooklyn Nets,99
+250303017,2005-03-03,Brooklyn Nets,90,Miami,106
+250305017,2005-03-05,Brooklyn Nets,81,Orlando,105
+250308024,2005-03-08,San Antonio,90,Brooklyn Nets,74
+250309003,2005-03-09,New Orleans,85,Brooklyn Nets,86
+250312014,2005-03-12,Miami,90,Brooklyn Nets,65
+250313019,2005-03-13,Orlando,82,Brooklyn Nets,98
+250316017,2005-03-16,Brooklyn Nets,100,Chicago,84
+250318017,2005-03-18,Brooklyn Nets,94,Utah,80
+250320011,2005-03-20,Indiana,85,Brooklyn Nets,94
+250322017,2005-03-22,Brooklyn Nets,98,Indiana,91
+250324017,2005-03-24,Brooklyn Nets,96,Memphis,105
+250326017,2005-03-26,Brooklyn Nets,75,Minnesota,96
+250328030,2005-03-28,Charlotte,91,Brooklyn Nets,95
+250330017,2005-03-30,Brooklyn Nets,95,LA,78
+250401018,2005-04-01,NY Knicks,91,Brooklyn Nets,93
+250402017,2005-04-02,Brooklyn Nets,102,Orlando,103
+250405005,2005-04-05,Cleveland,80,Brooklyn Nets,111
+250407017,2005-04-07,Brooklyn Nets,110,NY Knicks,98
+250409017,2005-04-09,Brooklyn Nets,99,Boston,86
+250413011,2005-04-13,Indiana,90,Brooklyn Nets,86
+250415028,2005-04-15,Toronto,90,Brooklyn Nets,101
+250417017,2005-04-17,Brooklyn Nets,104,Philadelphia,83
+250419017,2005-04-19,Brooklyn Nets,109,Washington,101
+250420002,2005-04-20,Boston,93,Brooklyn Nets,102
+241103016,2005-11-03,Minnesota,99,New York Knicks,93
+241106018,2005-11-06,New York Knicks,73,Boston,107
+241109018,2005-11-09,New York Knicks,96,Philadelphia,88
+241112018,2005-11-12,New York Knicks,110,LA,96
+241113011,2005-11-13,Indiana,103,New York Knicks,97
+241116024,2005-11-16,San Antonio,99,New York Knicks,81
+241118010,2005-11-18,Houston,92,New York Knicks,93
+241119006,2005-11-19,Dallas,103,New York Knicks,101
+241121018,2005-11-21,New York Knicks,98,Cleveland,88
+241123018,2005-11-23,New York Knicks,104,Atlanta,88
+241124028,2005-11-24,Toronto,114,New York Knicks,91
+241127018,2005-11-27,New York Knicks,108,Toronto,102
+241130001,2005-11-30,Atlanta,109,New York Knicks,110
+241201018,2005-12-01,New York Knicks,90,Memphis,82
+241203018,2005-12-03,New York Knicks,98,Orlando,104
+241204030,2005-12-04,Charlotte,107,New York Knicks,101
+241207029,2005-12-07,Memphis,96,New York Knicks,88
+241208003,2005-12-08,New Orleans,79,New York Knicks,86
+241210027,2005-12-10,Washington,106,New York Knicks,104
+241212018,2005-12-12,New York Knicks,107,Denver,96
+241214017,2005-12-14,Brooklyn,79,New York Knicks,87
+241215018,2005-12-15,New York Knicks,93,Detroit,94
+241217020,2005-12-17,Philadelphia,107,New York Knicks,113
+241219018,2005-12-19,New York Knicks,94,Utah,93
+241221018,2005-12-21,New York Knicks,94,Dallas,123
+241222002,2005-12-22,Boston,114,New York Knicks,109
+241226018,2005-12-26,New York Knicks,91,Charlotte,82
+241227019,2005-12-27,Orlando,111,New York Knicks,119
+241229018,2005-12-29,New York Knicks,100,Minnesota,87
+250101018,2005-01-01,New York Knicks,87,Brooklyn,93
+250104018,2005-01-04,New York Knicks,98,Sacramento,105
+250105014,2005-01-05,Miami,102,New York Knicks,94
+250108005,2005-01-08,Cleveland,104,New York Knicks,79
+250109018,2005-01-09,New York Knicks,113,Portland,105
+250111018,2005-01-11,New York Knicks,82,New Orleans,88
+250115004,2005-01-15,Chicago,86,New York Knicks,84
+250117018,2005-01-17,New York Knicks,86,Chicago,88
+250119028,2005-01-19,Toronto,98,New York Knicks,81
+250121018,2005-01-21,New York Knicks,91,Houston,92
+250123018,2005-01-23,New York Knicks,96,Milwaukee,101
+250125018,2005-01-25,New York Knicks,118,Phoenix,133
+250128018,2005-01-28,New York Knicks,99,Cleveland,96
+250129008,2005-01-29,Detroit,91,New York Knicks,61
+250131012,2005-01-31,LA,96,New York Knicks,89
+250201007,2005-02-01,Denver,96,New York Knicks,76
+250204023,2005-02-04,Sacramento,116,New York Knicks,115
+250205021,2005-02-05,Phoenix,114,New York Knicks,106
+250207026,2005-02-07,Utah,99,New York Knicks,102
+250209018,2005-02-09,New York Knicks,110,Miami,116
+250211002,2005-02-11,Boston,111,New York Knicks,94
+250213018,2005-02-13,New York Knicks,102,Charlotte,99
+250214020,2005-02-14,Philadelphia,106,New York Knicks,105
+250216018,2005-02-16,New York Knicks,108,Milwaukee,90
+250222008,2005-02-22,Detroit,97,New York Knicks,88
+250224018,2005-02-24,New York Knicks,113,Philadelphia,101
+250226018,2005-02-26,New York Knicks,90,Indiana,79
+250228018,2005-02-28,New York Knicks,117,Los Angeles,115
+250304019,2005-03-04,Orlando,111,New York Knicks,89
+250306018,2005-03-06,New York Knicks,115,Golden State,99
+250308018,2005-03-08,New York Knicks,93,Washington,83
+250313018,2005-03-13,New York Knicks,80,Oklahoma City,90
+250315018,2005-03-15,New York Knicks,96,Miami,98
+250318001,2005-03-18,Atlanta,92,New York Knicks,106
+250319014,2005-03-19,Miami,97,New York Knicks,82
+250321018,2005-03-21,New York Knicks,88,San Antonio,75
+250323018,2005-03-23,New York Knicks,107,Boston,82
+250325025,2005-03-25,Oklahoma City,109,New York Knicks,101
+250326022,2005-03-26,Portland,103,New York Knicks,96
+250328009,2005-03-28,Golden State,108,New York Knicks,100
+250329013,2005-03-29,Los Angeles,117,New York Knicks,107
+250401018,2005-04-01,New York Knicks,91,Brooklyn,93
+250403015,2005-04-03,Milwaukee,106,New York Knicks,102
+250405018,2005-04-05,New York Knicks,79,Indiana,97
+250407017,2005-04-07,Brooklyn,110,New York Knicks,98
+250408018,2005-04-08,New York Knicks,94,Chicago,102
+250410011,2005-04-10,Indiana,112,New York Knicks,113
+250412018,2005-04-12,New York Knicks,93,Toronto,105
+250414005,2005-04-14,Cleveland,89,New York Knicks,95
+250416030,2005-04-16,Charlotte,98,New York Knicks,100
+250417018,2005-04-17,New York Knicks,135,Atlanta,139
+250419004,2005-04-19,Chicago,92,New York Knicks,91
+250420018,2005-04-20,New York Knicks,113,Washington,105
+241103002,2005-11-03,Boston,95,Philadelphia 76ers,98
+241105020,2005-11-05,Philadelphia 76ers,98,Phoenix,108
+241106008,2005-11-06,Detroit,99,Philadelphia 76ers,91
+241109018,2005-11-09,NY Knicks,96,Philadelphia 76ers,88
+241110020,2005-11-10,Philadelphia 76ers,108,Brooklyn,100
+241112020,2005-11-12,Philadelphia 76ers,106,Indiana,104
+241114020,2005-11-14,Philadelphia 76ers,96,Orlando,87
+241116020,2005-11-16,Philadelphia 76ers,95,Oklahoma City,103
+241118020,2005-11-18,Philadelphia 76ers,80,San Antonio,88
+241121014,2005-11-21,Miami,93,Philadelphia 76ers,83
+241124020,2005-11-24,Philadelphia 76ers,110,Boston,97
+241126020,2005-11-26,Philadelphia 76ers,116,Washington,114
+241127019,2005-11-27,Orlando,105,Philadelphia 76ers,99
+241201024,2005-12-01,San Antonio,105,Philadelphia 76ers,72
+241203029,2005-12-03,Memphis,94,Philadelphia 76ers,86
+241204010,2005-12-04,Houston,77,Philadelphia 76ers,76
+241206001,2005-12-06,Atlanta,96,Philadelphia 76ers,92
+241208020,2005-12-08,Philadelphia 76ers,84,Minnesota,119
+241210004,2005-12-10,Chicago,88,Philadelphia 76ers,93
+241212020,2005-12-12,Philadelphia 76ers,107,Milwaukee,101
+241214020,2005-12-14,Philadelphia 76ers,110,Denver,102
+241217020,2005-12-17,Philadelphia 76ers,107,NY Knicks,113
+241218015,2005-12-18,Milwaukee,97,Philadelphia 76ers,116
+241220020,2005-12-20,Philadelphia 76ers,101,Utah,103
+241222011,2005-12-22,Indiana,90,Philadelphia 76ers,102
+241227022,2005-12-27,Portland,104,Philadelphia 76ers,111
+241228025,2005-12-28,Oklahoma City,107,Philadelphia 76ers,114
+241231007,2005-12-31,Denver,97,Philadelphia 76ers,92
+250102012,2005-01-02,LA,89,Philadelphia 76ers,83
+250103009,2005-01-03,Golden State,104,Philadelphia 76ers,112
+250105026,2005-01-05,Utah,99,Philadelphia 76ers,106
+250107016,2005-01-07,Minnesota,89,Philadelphia 76ers,84
+250110020,2005-01-10,Philadelphia 76ers,100,Portland,109
+250112004,2005-01-12,Chicago,110,Philadelphia 76ers,78
+250114020,2005-01-14,Philadelphia 76ers,106,Toronto,96
+250115008,2005-01-15,Detroit,99,Philadelphia 76ers,95
+250117020,2005-01-17,Philadelphia 76ers,95,New Orleans,91
+250119030,2005-01-19,Charlotte,105,Philadelphia 76ers,107
+250122019,2005-01-22,Orlando,115,Philadelphia 76ers,111
+250124020,2005-01-24,Philadelphia 76ers,106,Miami,98
+250126027,2005-01-26,Washington,117,Philadelphia 76ers,107
+250128003,2005-01-28,New Orleans,99,Philadelphia 76ers,95
+250129006,2005-01-29,Dallas,89,Philadelphia 76ers,93
+250131020,2005-01-31,Philadelphia 76ers,89,Indiana,88
+250202020,2005-02-02,Philadelphia 76ers,95,Houston,118
+250204020,2005-02-04,Philadelphia 76ers,103,Atlanta,85
+250206020,2005-02-06,Philadelphia 76ers,106,LA,104
+250207017,2005-02-07,Brooklyn,107,Philadelphia 76ers,97
+250209020,2005-02-09,Philadelphia 76ers,95,Memphis,98
+250211028,2005-02-11,Toronto,91,Philadelphia 76ers,106
+250212020,2005-02-12,Philadelphia 76ers,112,Orlando,99
+250214020,2005-02-14,Philadelphia 76ers,106,NY Knicks,105
+250216020,2005-02-16,Philadelphia 76ers,75,Detroit,93
+250224018,2005-02-24,NY Knicks,113,Philadelphia 76ers,101
+250226020,2005-02-26,Philadelphia 76ers,99,Sacramento,101
+250301015,2005-03-01,Milwaukee,111,Philadelphia 76ers,118
+250302020,2005-03-02,Philadelphia 76ers,93,Brooklyn,99
+250304020,2005-03-04,Philadelphia 76ers,98,Cleveland,89
+250305001,2005-03-05,Atlanta,97,Philadelphia 76ers,98
+250307014,2005-03-07,Miami,108,Philadelphia 76ers,100
+250308020,2005-03-08,Philadelphia 76ers,85,Golden State,104
+250311020,2005-03-11,Philadelphia 76ers,112,Charlotte,80
+250313028,2005-03-13,Toronto,128,Philadelphia 76ers,110
+250315020,2005-03-15,Philadelphia 76ers,108,Los Angeles,91
+250318005,2005-03-18,Cleveland,81,Philadelphia 76ers,93
+250319020,2005-03-19,Philadelphia 76ers,88,Chicago,94
+250323020,2005-03-23,Philadelphia 76ers,107,Detroit,84
+250325020,2005-03-25,Philadelphia 76ers,103,Toronto,101
+250327013,2005-03-27,Los Angeles,89,Philadelphia 76ers,96
+250328023,2005-03-28,Sacramento,118,Philadelphia 76ers,109
+250330021,2005-03-30,Phoenix,116,Philadelphia 76ers,87
+250401020,2005-04-01,Philadelphia 76ers,83,Dallas,100
+250403002,2005-04-03,Boston,93,Philadelphia 76ers,97
+250406020,2005-04-06,Philadelphia 76ers,106,Charlotte,103
+250408020,2005-04-08,Philadelphia 76ers,103,Cleveland,98
+250409027,2005-04-09,Washington,106,Philadelphia 76ers,112
+250412020,2005-04-12,Philadelphia 76ers,98,Boston,105
+250414020,2005-04-14,Philadelphia 76ers,126,Miami,119
+250415011,2005-04-15,Indiana,86,Philadelphia 76ers,90
+250417017,2005-04-17,Brooklyn,104,Philadelphia 76ers,83
+250418020,2005-04-18,Philadelphia 76ers,122,Milwaukee,106
+250420020,2005-04-20,Philadelphia 76ers,110,Atlanta,86
+241103028,2005-11-03,Toronto Raptors,95,Houston,88
+241105028,2005-11-05,Toronto Raptors,101,Detroit,89
+241107028,2005-11-07,Toronto Raptors,101,Portland,97
+241109023,2005-11-09,Sacramento,108,Toronto Raptors,92
+241110026,2005-11-10,Utah,95,Toronto Raptors,104
+241112025,2005-11-12,Oklahoma City,88,Toronto Raptors,87
+241113022,2005-11-13,Portland,105,Toronto Raptors,102
+241116012,2005-11-16,LA,101,Toronto Raptors,89
+241117007,2005-11-17,Denver,112,Toronto Raptors,106
+241119028,2005-11-19,Toronto Raptors,94,Oklahoma City,101
+241121028,2005-11-21,Toronto Raptors,96,San Antonio,91
+241123027,2005-11-23,Washington,102,Toronto Raptors,86
+241124028,2005-11-24,Toronto Raptors,114,NY Knicks,91
+241127018,2005-11-27,NY Knicks,108,Toronto Raptors,102
+241128028,2005-11-28,Toronto Raptors,109,Washington,114
+241130014,2005-11-30,Miami,92,Toronto Raptors,94
+241201019,2005-12-01,Orlando,129,Toronto Raptors,108
+241203002,2005-12-03,Boston,91,Toronto Raptors,89
+241204005,2005-12-04,Cleveland,105,Toronto Raptors,97
+241206017,2005-12-06,Brooklyn,88,Toronto Raptors,86
+241208008,2005-12-08,Detroit,90,Toronto Raptors,86
+241210028,2005-12-10,Toronto Raptors,87,Denver,101
+241212028,2005-12-12,Toronto Raptors,98,Miami,106
+241215028,2005-12-15,Toronto Raptors,96,Minnesota,90
+241217011,2005-12-17,Indiana,89,Toronto Raptors,86
+241219028,2005-12-19,Toronto Raptors,110,Brooklyn,99
+241220010,2005-12-20,Houston,114,Toronto Raptors,102
+241222028,2005-12-22,Toronto Raptors,98,Utah,86
+241226021,2005-12-26,Phoenix,106,Toronto Raptors,94
+241228013,2005-12-28,Los Angeles,117,Toronto Raptors,99
+241229009,2005-12-29,Golden State,111,Toronto Raptors,105
+250103028,2005-01-03,Toronto Raptors,105,Orlando,94
+250105028,2005-01-05,Toronto Raptors,96,Sacramento,93
+250107028,2005-01-07,Toronto Raptors,105,Milwaukee,107
+250109028,2005-01-09,Toronto Raptors,109,Golden State,87
+250112028,2005-01-12,Toronto Raptors,104,Boston,93
+250114020,2005-01-14,Philadelphia,106,Toronto Raptors,96
+250116028,2005-01-16,Toronto Raptors,102,New Orleans,99
+250117016,2005-01-17,Minnesota,91,Toronto Raptors,100
+250119028,2005-01-19,Toronto Raptors,98,NY Knicks,81
+250121027,2005-01-21,Washington,118,Toronto Raptors,109
+250123028,2005-01-23,Toronto Raptors,103,Charlotte,92
+250126028,2005-01-26,Toronto Raptors,96,Miami,111
+250128030,2005-01-28,Charlotte,101,Toronto Raptors,94
+250130028,2005-01-30,Toronto Raptors,105,Phoenix,123
+250202011,2005-02-02,Indiana,97,Toronto Raptors,98
+250204028,2005-02-04,Toronto Raptors,103,Washington,100
+250206028,2005-02-06,Toronto Raptors,113,Dallas,122
+250208005,2005-02-08,Cleveland,104,Toronto Raptors,91
+250209028,2005-02-09,Toronto Raptors,107,Milwaukee,110
+250211028,2005-02-11,Toronto Raptors,91,Philadelphia,106
+250213028,2005-02-13,Toronto Raptors,109,LA,106
+250216028,2005-02-16,Toronto Raptors,115,Chicago,121
+250222017,2005-02-22,Brooklyn,82,Toronto Raptors,100
+250225015,2005-02-25,Milwaukee,102,Toronto Raptors,106
+250227028,2005-02-27,Toronto Raptors,108,Los Angeles,102
+250302024,2005-03-02,San Antonio,92,Toronto Raptors,86
+250304029,2005-03-04,Memphis,86,Toronto Raptors,75
+250306003,2005-03-06,New Orleans,84,Toronto Raptors,95
+250307006,2005-03-07,Dallas,113,Toronto Raptors,105
+250309028,2005-03-09,Toronto Raptors,106,Orlando,96
+250311028,2005-03-11,Toronto Raptors,112,Atlanta,116
+250313028,2005-03-13,Toronto Raptors,128,Philadelphia,110
+250316002,2005-03-16,Boston,110,Toronto Raptors,109
+250318008,2005-03-18,Detroit,103,Toronto Raptors,92
+250320028,2005-03-20,Toronto Raptors,105,Cleveland,98
+250323028,2005-03-23,Toronto Raptors,85,Chicago,94
+250325020,2005-03-25,Philadelphia,103,Toronto Raptors,101
+250326001,2005-03-26,Atlanta,104,Toronto Raptors,109
+250329014,2005-03-29,Miami,103,Toronto Raptors,91
+250330019,2005-03-30,Orlando,108,Toronto Raptors,96
+250401030,2005-04-01,Charlotte,107,Toronto Raptors,119
+250403028,2005-04-03,Toronto Raptors,103,Detroit,113
+250406028,2005-04-06,Toronto Raptors,74,Memphis,104
+250408028,2005-04-08,Toronto Raptors,109,Atlanta,101
+250409004,2005-04-09,Chicago,110,Toronto Raptors,97
+250411028,2005-04-11,Toronto Raptors,90,Indiana,94
+250412018,2005-04-12,NY Knicks,93,Toronto Raptors,105
+250415028,2005-04-15,Toronto Raptors,90,Brooklyn,101
+250417028,2005-04-17,Toronto Raptors,98,Boston,103
+250419015,2005-04-19,Milwaukee,109,Toronto Raptors,127
+250420028,2005-04-20,Toronto Raptors,95,Cleveland,104
+241103009,2005-11-03,Golden State Warriors,75,Portland,78
+241105009,2005-11-05,Golden State Warriors,80,Utah,102
+241106009,2005-11-06,Golden State Warriors,86,LA,94
+241108006,2005-11-08,Dallas,101,Golden State Warriors,98
+241110024,2005-11-10,San Antonio,91,Golden State Warriors,71
+241112029,2005-11-12,Memphis,96,Golden State Warriors,67
+241113030,2005-11-13,Charlotte,87,Golden State Warriors,103
+241115005,2005-11-15,Cleveland,99,Golden State Warriors,88
+241117009,2005-11-17,Golden State Warriors,98,Chicago,85
+241120009,2005-11-20,Golden State Warriors,87,Memphis,100
+241123009,2005-11-23,Golden State Warriors,115,New Orleans,109
+241126009,2005-11-26,Golden State Warriors,87,LA,98
+241128012,2005-11-28,LA,103,Golden State Warriors,91
+241201009,2005-12-01,Golden State Warriors,99,Minnesota,107
+241203013,2005-12-03,Los Angeles,97,Golden State Warriors,88
+241204009,2005-12-04,Golden State Warriors,104,Indiana,96
+241206009,2005-12-06,Golden State Warriors,110,Boston,106
+241207021,2005-12-07,Phoenix,118,Golden State Warriors,104
+241210009,2005-12-10,Golden State Warriors,109,Orlando,113
+241212009,2005-12-12,Golden State Warriors,99,Charlotte,87
+241214006,2005-12-14,Dallas,107,Golden State Warriors,111
+241215003,2005-12-15,New Orleans,98,Golden State Warriors,89
+241217010,2005-12-17,Houston,100,Golden State Warriors,83
+241218024,2005-12-18,San Antonio,104,Golden State Warriors,85
+241220009,2005-12-20,Golden State Warriors,101,Washington,103
+241222009,2005-12-22,Golden State Warriors,109,Memphis,99
+241226023,2005-12-26,Sacramento,94,Golden State Warriors,98
+241227009,2005-12-27,Golden State Warriors,104,Denver,101
+241229009,2005-12-29,Golden State Warriors,111,Toronto,105
+250101022,2005-01-01,Portland,97,Golden State Warriors,88
+250103009,2005-01-03,Golden State Warriors,104,Philadelphia,112
+250105002,2005-01-05,Boston,84,Golden State Warriors,83
+250107017,2005-01-07,Brooklyn,82,Golden State Warriors,72
+250109028,2005-01-09,Toronto,109,Golden State Warriors,87
+250110004,2005-01-10,Chicago,94,Golden State Warriors,85
+250112009,2005-01-12,Golden State Warriors,91,Miami,98
+250114025,2005-01-14,Oklahoma City,103,Golden State Warriors,84
+250115009,2005-01-15,Golden State Warriors,102,Los Angeles,104
+250117009,2005-01-17,Golden State Warriors,107,Denver,97
+250121013,2005-01-21,Los Angeles,105,Golden State Warriors,101
+250122009,2005-01-22,Golden State Warriors,87,Cleveland,105
+250126009,2005-01-26,Golden State Warriors,99,Brooklyn,113
+250128009,2005-01-28,Golden State Warriors,85,Oklahoma City,88
+250129012,2005-01-29,LA,96,Golden State Warriors,85
+250202009,2005-02-02,Golden State Warriors,107,Sacramento,111
+250204009,2005-02-04,Golden State Warriors,90,New Orleans,82
+250205007,2005-02-05,Denver,107,Golden State Warriors,91
+250207014,2005-02-07,Miami,105,Golden State Warriors,96
+250208019,2005-02-08,Orlando,109,Golden State Warriors,113
+250211003,2005-02-11,New Orleans,111,Golden State Warriors,108
+250213009,2005-02-13,Golden State Warriors,102,Phoenix,106
+250215009,2005-02-15,Golden State Warriors,107,Dallas,114
+250216025,2005-02-16,Oklahoma City,110,Golden State Warriors,117
+250223009,2005-02-23,Golden State Warriors,101,Atlanta,96
+250227009,2005-02-27,Golden State Warriors,88,Detroit,94
+250301029,2005-03-01,Memphis,99,Golden State Warriors,97
+250302016,2005-03-02,Minnesota,93,Golden State Warriors,99
+250304027,2005-03-04,Washington,90,Golden State Warriors,103
+250306018,2005-03-06,NY Knicks,115,Golden State Warriors,99
+250308020,2005-03-08,Philadelphia,85,Golden State Warriors,104
+250309008,2005-03-09,Detroit,92,Golden State Warriors,88
+250311011,2005-03-11,Indiana,101,Golden State Warriors,83
+250312001,2005-03-12,Atlanta,92,Golden State Warriors,105
+250314009,2005-03-14,Golden State Warriors,94,Houston,97
+250317009,2005-03-17,Golden State Warriors,100,Sacramento,97
+250318021,2005-03-18,Phoenix,100,Golden State Warriors,110
+250320023,2005-03-20,Sacramento,94,Golden State Warriors,104
+250323009,2005-03-23,Golden State Warriors,97,Dallas,109
+250325009,2005-03-25,Golden State Warriors,118,Milwaukee,117
+250328009,2005-03-28,Golden State Warriors,108,NY Knicks,100
+250330015,2005-03-30,Milwaukee,109,Golden State Warriors,113
+250401026,2005-04-01,Utah,91,Golden State Warriors,108
+250403009,2005-04-03,Golden State Warriors,101,Oklahoma City,92
+250405009,2005-04-05,Golden State Warriors,122,Houston,117
+250406022,2005-04-06,Portland,102,Golden State Warriors,104
+250408009,2005-04-08,Golden State Warriors,127,Phoenix,119
+250410009,2005-04-10,Golden State Warriors,134,San Antonio,136
+250411007,2005-04-11,Denver,122,Golden State Warriors,106
+250413016,2005-04-13,Minnesota,116,Golden State Warriors,100
+250415009,2005-04-15,Golden State Warriors,108,Portland,88
+250418009,2005-04-18,Golden State Warriors,126,Los Angeles,99
+250420009,2005-04-20,Golden State Warriors,106,Utah,89
+241103012,2005-11-03,LA Clippers,114,Oklahoma City,84
+241105022,2005-11-05,Portland,94,LA Clippers,81
+241106009,2005-11-06,Golden State,86,LA Clippers,94
+241108012,2005-11-08,LA Clippers,96,Detroit,99
+241110011,2005-11-10,Indiana,68,LA Clippers,102
+241112018,2005-11-12,NY Knicks,110,LA Clippers,96
+241113004,2005-11-13,Chicago,96,LA Clippers,97
+241116012,2005-11-16,LA Clippers,101,Toronto,89
+241117013,2005-11-17,Los Angeles,103,LA Clippers,89
+241120012,2005-11-20,LA Clippers,86,Houston,91
+241121012,2005-11-21,LA Clippers,111,Phoenix,122
+241125012,2005-11-25,LA Clippers,101,Brooklyn,88
+241126009,2005-11-26,Golden State,87,LA Clippers,98
+241128012,2005-11-28,LA Clippers,103,Golden State,91
+241129012,2005-11-29,LA Clippers,94,Cleveland,82
+241201012,2005-12-01,LA Clippers,88,Indiana,76
+241204012,2005-12-04,LA Clippers,100,Minnesota,107
+241206012,2005-12-06,LA Clippers,99,Charlotte,93
+241211012,2005-12-11,LA Clippers,87,Los Angeles,89
+241213012,2005-12-13,LA Clippers,127,Boston,134
+241214026,2005-12-14,Utah,93,LA Clippers,91
+241217016,2005-12-17,Minnesota,113,LA Clippers,86
+241219012,2005-12-19,LA Clippers,82,Memphis,92
+241221012,2005-12-21,LA Clippers,100,New Orleans,91
+241226010,2005-12-26,Houston,96,LA Clippers,79
+241227029,2005-12-27,Memphis,96,LA Clippers,76
+241229012,2005-12-29,LA Clippers,101,Utah,90
+241231012,2005-12-31,LA Clippers,79,San Antonio,98
+250102012,2005-01-02,LA Clippers,89,Philadelphia,83
+250103007,2005-01-03,Denver,98,LA Clippers,102
+250105012,2005-01-05,LA Clippers,102,Portland,98
+250108012,2005-01-08,LA Clippers,91,Phoenix,108
+250111025,2005-01-11,Oklahoma City,104,LA Clippers,99
+250112012,2005-01-12,LA Clippers,103,Oklahoma City,92
+250114012,2005-01-14,LA Clippers,114,Miami,112
+250115023,2005-01-15,Sacramento,99,LA Clippers,95
+250117012,2005-01-17,LA Clippers,83,Sacramento,89
+250119024,2005-01-19,San Antonio,80,LA Clippers,79
+250120006,2005-01-20,Dallas,99,LA Clippers,77
+250122003,2005-01-22,New Orleans,88,LA Clippers,85
+250124012,2005-01-24,LA Clippers,97,Dallas,87
+250126012,2005-01-26,LA Clippers,105,Los Angeles,89
+250128022,2005-01-28,Portland,90,LA Clippers,86
+250129012,2005-01-29,LA Clippers,96,Golden State,85
+250131012,2005-01-31,LA Clippers,96,NY Knicks,89
+250203029,2005-02-03,Memphis,103,LA Clippers,106
+250204015,2005-02-04,Milwaukee,92,LA Clippers,90
+250206020,2005-02-06,Philadelphia,106,LA Clippers,104
+250209002,2005-02-09,Boston,94,LA Clippers,89
+250211027,2005-02-11,Washington,94,LA Clippers,91
+250213028,2005-02-13,Toronto,109,LA Clippers,106
+250215019,2005-02-15,Orlando,99,LA Clippers,94
+250216014,2005-02-16,Miami,113,LA Clippers,95
+250223021,2005-02-23,Phoenix,118,LA Clippers,101
+250224012,2005-02-24,LA Clippers,92,Minnesota,86
+250227012,2005-02-27,LA Clippers,111,Atlanta,104
+250228026,2005-02-28,Utah,87,LA Clippers,86
+250302012,2005-03-02,LA Clippers,101,Dallas,92
+250305012,2005-03-05,LA Clippers,89,Denver,105
+250307012,2005-03-07,LA Clippers,102,Memphis,105
+250308013,2005-03-08,Los Angeles,101,LA Clippers,110
+250311023,2005-03-11,Sacramento,113,LA Clippers,112
+250313012,2005-03-13,LA Clippers,83,Chicago,78
+250316012,2005-03-16,LA Clippers,110,Orlando,102
+250318007,2005-03-18,Denver,115,LA Clippers,96
+250319012,2005-03-19,LA Clippers,107,Sacramento,111
+250321012,2005-03-21,LA Clippers,96,Portland,89
+250323012,2005-03-23,LA Clippers,116,Milwaukee,108
+250325012,2005-03-25,LA Clippers,98,Washington,94
+250327016,2005-03-27,Minnesota,89,LA Clippers,85
+250329005,2005-03-29,Cleveland,94,LA Clippers,84
+250330017,2005-03-30,Brooklyn,95,LA Clippers,78
+250401008,2005-04-01,Detroit,97,LA Clippers,84
+250403001,2005-04-03,Atlanta,91,LA Clippers,111
+250405030,2005-04-05,Charlotte,102,LA Clippers,104
+250406024,2005-04-06,San Antonio,91,LA Clippers,82
+250409012,2005-04-09,LA Clippers,124,San Antonio,125
+250412012,2005-04-12,LA Clippers,94,Utah,85
+250415021,2005-04-15,Phoenix,98,LA Clippers,91
+250416012,2005-04-16,LA Clippers,94,New Orleans,89
+250418010,2005-04-18,Houston,115,LA Clippers,90
+250420003,2005-04-20,New Orleans,75,LA Clippers,86
+241102013,2005-11-02,Los Angeles Lakers,89,Denver,78
+241103026,2005-11-03,Utah,104,Los Angeles Lakers,78
+241105013,2005-11-05,Los Angeles Lakers,96,San Antonio,105
+241107013,2005-11-07,Los Angeles Lakers,106,Atlanta,90
+241109003,2005-11-09,New Orleans,98,Los Angeles Lakers,106
+241110029,2005-11-10,Memphis,110,Los Angeles Lakers,87
+241112019,2005-11-12,Orlando,122,Los Angeles Lakers,113
+241113010,2005-11-13,Houston,79,Los Angeles Lakers,84
+241117013,2005-11-17,Los Angeles Lakers,103,LA,89
+241119021,2005-11-19,Phoenix,107,Los Angeles Lakers,102
+241121013,2005-11-21,Los Angeles Lakers,102,Chicago,93
+241123013,2005-11-23,Los Angeles Lakers,100,Milwaukee,96
+241126013,2005-11-26,Los Angeles Lakers,106,Sacramento,109
+241128013,2005-11-28,Los Angeles Lakers,89,New Orleans,76
+241130015,2005-11-30,Milwaukee,90,Los Angeles Lakers,95
+241201004,2005-12-01,Chicago,92,Los Angeles Lakers,84
+241203013,2005-12-03,Los Angeles Lakers,97,Golden State,88
+241208013,2005-12-08,Los Angeles Lakers,110,Phoenix,113
+241211012,2005-12-11,LA,87,Los Angeles Lakers,89
+241212013,2005-12-12,Los Angeles Lakers,105,Orlando,98
+241214025,2005-12-14,Oklahoma City,108,Los Angeles Lakers,93
+241216023,2005-12-16,Sacramento,99,Los Angeles Lakers,115
+241217013,2005-12-17,Los Angeles Lakers,116,Washington,120
+241220013,2005-12-20,Los Angeles Lakers,72,Memphis,82
+241222013,2005-12-22,Los Angeles Lakers,101,New Orleans,89
+241225013,2005-12-25,Los Angeles Lakers,102,Miami,104
+241228013,2005-12-28,Los Angeles Lakers,117,Toronto,99
+250102013,2005-01-02,Los Angeles Lakers,99,Denver,91
+250104024,2005-01-04,San Antonio,100,Los Angeles Lakers,83
+250105006,2005-01-05,Dallas,118,Los Angeles Lakers,104
+250107013,2005-01-07,Los Angeles Lakers,111,Houston,104
+250110016,2005-01-10,Minnesota,96,Los Angeles Lakers,105
+250112007,2005-01-12,Denver,95,Los Angeles Lakers,83
+250113013,2005-01-13,Los Angeles Lakers,98,Cleveland,94
+250115009,2005-01-15,Golden State,102,Los Angeles Lakers,104
+250117013,2005-01-17,Los Angeles Lakers,94,Utah,102
+250119013,2005-01-19,Los Angeles Lakers,93,Minnesota,90
+250121013,2005-01-21,Los Angeles Lakers,105,Golden State,101
+250125013,2005-01-25,Los Angeles Lakers,93,Oklahoma City,104
+250126012,2005-01-26,LA,105,Los Angeles Lakers,89
+250128013,2005-01-28,Los Angeles Lakers,103,Brooklyn,109
+250130013,2005-01-30,Los Angeles Lakers,101,Charlotte,90
+250201013,2005-02-01,Los Angeles Lakers,92,Portland,79
+250203013,2005-02-03,Los Angeles Lakers,91,San Antonio,103
+250206010,2005-02-06,Houston,103,Los Angeles Lakers,102
+250207001,2005-02-07,Atlanta,114,Los Angeles Lakers,108
+250209017,2005-02-09,Brooklyn,103,Los Angeles Lakers,104
+250210008,2005-02-10,Detroit,103,Los Angeles Lakers,81
+250213005,2005-02-13,Cleveland,103,Los Angeles Lakers,89
+250215013,2005-02-15,Los Angeles Lakers,102,Utah,95
+250222013,2005-02-22,Los Angeles Lakers,104,Boston,95
+250223022,2005-02-23,Portland,83,Los Angeles Lakers,86
+250225013,2005-02-25,Los Angeles Lakers,90,Detroit,111
+250227028,2005-02-27,Toronto,108,Los Angeles Lakers,102
+250228018,2005-02-28,NY Knicks,117,Los Angeles Lakers,115
+250302002,2005-03-02,Boston,104,Los Angeles Lakers,101
+250304013,2005-03-04,Los Angeles Lakers,108,Dallas,103
+250306013,2005-03-06,Los Angeles Lakers,103,Indiana,94
+250308013,2005-03-08,Los Angeles Lakers,101,LA,110
+250310006,2005-03-10,Dallas,95,Los Angeles Lakers,100
+250312030,2005-03-12,Charlotte,116,Los Angeles Lakers,117
+250314027,2005-03-14,Washington,95,Los Angeles Lakers,81
+250315020,2005-03-15,Philadelphia,108,Los Angeles Lakers,91
+250317014,2005-03-17,Miami,102,Los Angeles Lakers,89
+250318011,2005-03-18,Indiana,103,Los Angeles Lakers,97
+250320013,2005-03-20,Los Angeles Lakers,100,Oklahoma City,102
+250322026,2005-03-22,Utah,115,Los Angeles Lakers,107
+250324007,2005-03-24,Denver,117,Los Angeles Lakers,96
+250327013,2005-03-27,Los Angeles Lakers,89,Philadelphia,96
+250329013,2005-03-29,Los Angeles Lakers,117,NY Knicks,107
+250331013,2005-03-31,Los Angeles Lakers,96,Minnesota,105
+250402024,2005-04-02,San Antonio,95,Los Angeles Lakers,94
+250403029,2005-04-03,Memphis,102,Los Angeles Lakers,82
+250405021,2005-04-05,Phoenix,125,Los Angeles Lakers,99
+250407013,2005-04-07,Los Angeles Lakers,100,Houston,114
+250408025,2005-04-08,Oklahoma City,94,Los Angeles Lakers,117
+250410023,2005-04-10,Sacramento,124,Los Angeles Lakers,105
+250411013,2005-04-11,Los Angeles Lakers,97,Phoenix,108
+250415013,2005-04-15,Los Angeles Lakers,106,Sacramento,115
+250417013,2005-04-17,Los Angeles Lakers,112,Dallas,114
+250418009,2005-04-18,Golden State,126,Los Angeles Lakers,99
+250420022,2005-04-20,Portland,106,Los Angeles Lakers,103
+241103021,2005-11-03,Phoenix Suns,112,Atlanta,82
+241105020,2005-11-05,Philadelphia,98,Phoenix Suns,108
+241106017,2005-11-06,Brooklyn,80,Phoenix Suns,112
+241109004,2005-11-09,Chicago,74,Phoenix Suns,94
+241110005,2005-11-10,Cleveland,114,Phoenix Suns,109
+241113021,2005-11-13,Phoenix Suns,111,Sacramento,113
+241116006,2005-11-16,Dallas,101,Phoenix Suns,107
+241117003,2005-11-17,New Orleans,84,Phoenix Suns,95
+241119021,2005-11-19,Phoenix Suns,107,Los Angeles,102
+241121012,2005-11-21,LA,111,Phoenix Suns,122
+241122021,2005-11-22,Phoenix Suns,100,Chicago,82
+241124021,2005-11-24,Phoenix Suns,111,Milwaukee,104
+241126021,2005-11-26,Phoenix Suns,95,New Orleans,86
+241130026,2005-11-30,Utah,102,Phoenix Suns,115
+241201021,2005-12-01,Phoenix Suns,120,Cleveland,101
+241203021,2005-12-03,Phoenix Suns,93,Minnesota,97
+241205022,2005-12-05,Portland,99,Phoenix Suns,121
+241207021,2005-12-07,Phoenix Suns,118,Golden State,104
+241208013,2005-12-08,Los Angeles,110,Phoenix Suns,113
+241210021,2005-12-10,Phoenix Suns,115,Charlotte,106
+241213021,2005-12-13,Phoenix Suns,121,Orlando,100
+241215021,2005-12-15,Phoenix Suns,108,Utah,86
+241217025,2005-12-17,Oklahoma City,110,Phoenix Suns,112
+241218021,2005-12-18,Phoenix Suns,110,Washington,96
+241220007,2005-12-20,Denver,105,Phoenix Suns,107
+241223021,2005-12-23,Phoenix Suns,109,Memphis,102
+241226021,2005-12-26,Phoenix Suns,106,Toronto,94
+241228024,2005-12-28,San Antonio,115,Phoenix Suns,94
+241229003,2005-12-29,New Orleans,96,Phoenix Suns,107
+250102021,2005-01-02,Phoenix Suns,117,Portland,98
+250104016,2005-01-04,Minnesota,115,Phoenix Suns,122
+250105010,2005-01-05,Houston,98,Phoenix Suns,108
+250108012,2005-01-08,LA,91,Phoenix Suns,108
+250109021,2005-01-09,Phoenix Suns,124,Indiana,89
+250111021,2005-01-11,Phoenix Suns,122,Miami,107
+250112026,2005-01-12,Utah,115,Phoenix Suns,108
+250114011,2005-01-14,Indiana,101,Phoenix Suns,83
+250115027,2005-01-15,Washington,108,Phoenix Suns,103
+250117008,2005-01-17,Detroit,94,Phoenix Suns,80
+250119021,2005-01-19,Phoenix Suns,79,Memphis,88
+250121021,2005-01-21,Phoenix Suns,123,San Antonio,128
+250123021,2005-01-23,Phoenix Suns,113,Brooklyn,105
+250125018,2005-01-25,NY Knicks,118,Phoenix Suns,133
+250126015,2005-01-26,Milwaukee,115,Phoenix Suns,121
+250128002,2005-01-28,Boston,119,Phoenix Suns,128
+250130028,2005-01-30,Toronto,105,Phoenix Suns,123
+250201029,2005-02-01,Memphis,108,Phoenix Suns,97
+250202016,2005-02-02,Minnesota,79,Phoenix Suns,108
+250205021,2005-02-05,Phoenix Suns,114,NY Knicks,106
+250208023,2005-02-08,Sacramento,123,Phoenix Suns,125
+250211021,2005-02-11,Phoenix Suns,105,Oklahoma City,113
+250213009,2005-02-13,Golden State,102,Phoenix Suns,106
+250214021,2005-02-14,Phoenix Suns,136,Utah,128
+250217021,2005-02-17,Phoenix Suns,113,Dallas,119
+250223021,2005-02-23,Phoenix Suns,118,LA,101
+250226006,2005-02-26,Dallas,123,Phoenix Suns,124
+250227021,2005-02-27,Phoenix Suns,113,Boston,120
+250303021,2005-03-03,Phoenix Suns,100,Detroit,97
+250305021,2005-03-05,Phoenix Suns,129,Portland,116
+250306025,2005-03-06,Oklahoma City,99,Phoenix Suns,110
+250309021,2005-03-09,Phoenix Suns,107,San Antonio,101
+250311021,2005-03-11,Phoenix Suns,107,Houston,127
+250313007,2005-03-13,Denver,101,Phoenix Suns,106
+250318021,2005-03-18,Phoenix Suns,100,Golden State,110
+250320029,2005-03-20,Memphis,91,Phoenix Suns,97
+250322001,2005-03-22,Atlanta,94,Phoenix Suns,105
+250323030,2005-03-23,Charlotte,105,Phoenix Suns,120
+250325014,2005-03-25,Miami,125,Phoenix Suns,115
+250326019,2005-03-26,Orlando,116,Phoenix Suns,118
+250328021,2005-03-28,Phoenix Suns,123,Denver,114
+250330021,2005-03-30,Phoenix Suns,116,Philadelphia,87
+250401021,2005-04-01,Phoenix Suns,107,Minnesota,98
+250403010,2005-04-03,Houston,78,Phoenix Suns,91
+250405021,2005-04-05,Phoenix Suns,125,Los Angeles,99
+250408009,2005-04-08,Golden State,127,Phoenix Suns,119
+250409021,2005-04-09,Phoenix Suns,97,Houston,98
+250411013,2005-04-11,Los Angeles,97,Phoenix Suns,108
+250412021,2005-04-12,Phoenix Suns,99,New Orleans,85
+250415021,2005-04-15,Phoenix Suns,98,LA,91
+250416021,2005-04-16,Phoenix Suns,116,Sacramento,98
+250418021,2005-04-18,Phoenix Suns,128,Denver,114
+250420023,2005-04-20,Sacramento,132,Phoenix Suns,107
+241102006,2005-11-02,Dallas,107,Sacramento Kings,98
+241103024,2005-11-03,San Antonio,101,Sacramento Kings,85
+241106010,2005-11-06,Houston,104,Sacramento Kings,101
+241109023,2005-11-09,Sacramento Kings,108,Toronto,92
+241110025,2005-11-10,Oklahoma City,108,Sacramento Kings,78
+241113021,2005-11-13,Phoenix,111,Sacramento Kings,113
+241114023,2005-11-14,Sacramento Kings,101,Denver,89
+241116023,2005-11-16,Sacramento Kings,113,Chicago,106
+241119023,2005-11-19,Sacramento Kings,107,Memphis,105
+241121023,2005-11-21,Sacramento Kings,88,Milwaukee,79
+241123023,2005-11-23,Sacramento Kings,102,Houston,96
+241126013,2005-11-26,Los Angeles,106,Sacramento Kings,109
+241128023,2005-11-28,Sacramento Kings,110,Minnesota,121
+241130029,2005-11-30,Memphis,93,Sacramento Kings,98
+241201003,2005-12-01,New Orleans,81,Sacramento Kings,94
+241203023,2005-12-03,Sacramento Kings,113,Indiana,87
+241205023,2005-12-05,Sacramento Kings,119,Boston,105
+241207023,2005-12-07,Sacramento Kings,109,Charlotte,92
+241210016,2005-12-10,Minnesota,113,Sacramento Kings,105
+241211011,2005-12-11,Indiana,92,Sacramento Kings,97
+241214015,2005-12-14,Milwaukee,86,Sacramento Kings,89
+241216023,2005-12-16,Sacramento Kings,99,Los Angeles,115
+241219023,2005-12-19,Sacramento Kings,107,New Orleans,71
+241221023,2005-12-21,Sacramento Kings,104,Washington,93
+241223023,2005-12-23,Sacramento Kings,107,Miami,109
+241226023,2005-12-26,Sacramento Kings,94,Golden State,98
+241231026,2005-12-31,Utah,102,Sacramento Kings,109
+250102023,2005-01-02,Sacramento Kings,86,San Antonio,81
+250104018,2005-01-04,NY Knicks,98,Sacramento Kings,105
+250105028,2005-01-05,Toronto,96,Sacramento Kings,93
+250107001,2005-01-07,Atlanta,97,Sacramento Kings,100
+250108003,2005-01-08,New Orleans,121,Sacramento Kings,117
+250111023,2005-01-11,Sacramento Kings,109,Denver,100
+250113023,2005-01-13,Sacramento Kings,107,Utah,93
+250115023,2005-01-15,Sacramento Kings,99,LA,95
+250117012,2005-01-17,LA,83,Sacramento Kings,89
+250118023,2005-01-18,Sacramento Kings,113,Portland,107
+250120023,2005-01-20,Sacramento Kings,123,Cleveland,96
+250123023,2005-01-23,Sacramento Kings,73,San Antonio,103
+250125023,2005-01-25,Sacramento Kings,113,Brooklyn,93
+250127024,2005-01-27,San Antonio,90,Sacramento Kings,80
+250128010,2005-01-28,Houston,111,Sacramento Kings,117
+250130016,2005-01-30,Minnesota,84,Sacramento Kings,94
+250201023,2005-02-01,Sacramento Kings,101,Oklahoma City,106
+250202009,2005-02-02,Golden State,107,Sacramento Kings,111
+250204023,2005-02-04,Sacramento Kings,116,NY Knicks,115
+250205022,2005-02-05,Portland,114,Sacramento Kings,108
+250208023,2005-02-08,Sacramento Kings,123,Phoenix,125
+250210025,2005-02-10,Oklahoma City,115,Sacramento Kings,107
+250211023,2005-02-11,Sacramento Kings,113,Dallas,115
+250213002,2005-02-13,Boston,100,Sacramento Kings,104
+250215004,2005-02-15,Chicago,107,Sacramento Kings,102
+250216017,2005-02-16,Brooklyn,96,Sacramento Kings,85
+250222023,2005-02-22,Sacramento Kings,114,Atlanta,104
+250224006,2005-02-24,Dallas,122,Sacramento Kings,113
+250226020,2005-02-26,Philadelphia,99,Sacramento Kings,101
+250227027,2005-02-27,Washington,108,Sacramento Kings,110
+250301030,2005-03-01,Charlotte,94,Sacramento Kings,87
+250302019,2005-03-02,Orlando,114,Sacramento Kings,111
+250304014,2005-03-04,Miami,104,Sacramento Kings,83
+250306023,2005-03-06,Sacramento Kings,100,Detroit,85
+250308023,2005-03-08,Sacramento Kings,85,Memphis,82
+250311023,2005-03-11,Sacramento Kings,113,LA,112
+250313023,2005-03-13,Sacramento Kings,96,Houston,111
+250315023,2005-03-15,Sacramento Kings,105,Orlando,94
+250317009,2005-03-17,Golden State,100,Sacramento Kings,97
+250319012,2005-03-19,LA,107,Sacramento Kings,111
+250320023,2005-03-20,Sacramento Kings,94,Golden State,104
+250322023,2005-03-22,Sacramento Kings,112,Portland,93
+250324023,2005-03-24,Sacramento Kings,109,Dallas,101
+250326007,2005-03-26,Denver,113,Sacramento Kings,99
+250328023,2005-03-28,Sacramento Kings,118,Philadelphia,109
+250330008,2005-03-30,Detroit,99,Sacramento Kings,82
+250401005,2005-04-01,Cleveland,109,Sacramento Kings,128
+250403023,2005-04-03,Sacramento Kings,100,Minnesota,112
+250405023,2005-04-05,Sacramento Kings,122,Oklahoma City,101
+250408022,2005-04-08,Portland,115,Sacramento Kings,119
+250410023,2005-04-10,Sacramento Kings,124,Los Angeles,105
+250415013,2005-04-15,Los Angeles,106,Sacramento Kings,115
+250416021,2005-04-16,Phoenix,116,Sacramento Kings,98
+250418026,2005-04-18,Utah,92,Sacramento Kings,82
+250420023,2005-04-20,Sacramento Kings,132,Phoenix,107
+241105004,2005-11-05,Chicago Bulls,106,Brooklyn,111
+241106011,2005-11-06,Indiana,100,Chicago Bulls,90
+241109004,2005-11-09,Chicago Bulls,74,Phoenix,94
+241113004,2005-11-13,Chicago Bulls,96,LA,97
+241116023,2005-11-16,Sacramento,113,Chicago Bulls,106
+241117009,2005-11-17,Golden State,98,Chicago Bulls,85
+241119007,2005-11-19,Denver,99,Chicago Bulls,81
+241121013,2005-11-21,Los Angeles,102,Chicago Bulls,93
+241122021,2005-11-22,Phoenix,100,Chicago Bulls,82
+241124026,2005-11-24,Utah,99,Chicago Bulls,101
+241127005,2005-11-27,Cleveland,96,Chicago Bulls,74
+241201004,2005-12-01,Chicago Bulls,92,Los Angeles,84
+241203004,2005-12-03,Chicago Bulls,81,Miami,105
+241204027,2005-12-04,Washington,95,Chicago Bulls,88
+241206004,2005-12-06,Chicago Bulls,75,San Antonio,91
+241208004,2005-12-08,Chicago Bulls,113,Cleveland,85
+241210004,2005-12-10,Chicago Bulls,88,Philadelphia,93
+241211004,2005-12-11,Chicago Bulls,99,Minnesota,88
+241213004,2005-12-13,Chicago Bulls,93,Dallas,94
+241215029,2005-12-15,Memphis,88,Chicago Bulls,96
+241216004,2005-12-16,Chicago Bulls,85,Milwaukee,77
+241218004,2005-12-18,Chicago Bulls,85,Indiana,71
+241220004,2005-12-20,Chicago Bulls,92,Portland,87
+241222008,2005-12-22,Detroit,82,Chicago Bulls,89
+241226015,2005-12-26,Milwaukee,99,Chicago Bulls,92
+241228004,2005-12-28,Chicago Bulls,80,Brooklyn,84
+250101004,2005-01-01,Chicago Bulls,105,Orlando,90
+250103004,2005-01-03,Chicago Bulls,80,Detroit,87
+250105003,2005-01-05,New Orleans,89,Chicago Bulls,95
+250107004,2005-01-07,Chicago Bulls,84,Utah,78
+250108004,2005-01-08,Chicago Bulls,102,Boston,91
+250110004,2005-01-10,Chicago Bulls,94,Golden State,85
+250112004,2005-01-12,Chicago Bulls,110,Philadelphia,78
+250115004,2005-01-15,Chicago Bulls,86,NY Knicks,84
+250117018,2005-01-17,NY Knicks,86,Chicago Bulls,88
+250119002,2005-01-19,Boston,92,Chicago Bulls,83
+250121004,2005-01-21,Chicago Bulls,95,Atlanta,85
+250122008,2005-01-22,Detroit,89,Chicago Bulls,100
+250124001,2005-01-24,Atlanta,82,Chicago Bulls,107
+250125004,2005-01-25,Chicago Bulls,111,Denver,107
+250127004,2005-01-27,Chicago Bulls,101,Charlotte,93
+250129004,2005-01-29,Chicago Bulls,97,Boston,101
+250201017,2005-02-01,Brooklyn,107,Chicago Bulls,97
+250205014,2005-02-05,Miami,108,Chicago Bulls,97
+250208006,2005-02-08,Dallas,100,Chicago Bulls,107
+250209010,2005-02-09,Houston,105,Chicago Bulls,92
+250213016,2005-02-13,Minnesota,83,Chicago Bulls,87
+250215004,2005-02-15,Chicago Bulls,107,Sacramento,102
+250216028,2005-02-16,Toronto,115,Chicago Bulls,121
+250222004,2005-02-22,Chicago Bulls,105,Miami,101
+250223005,2005-02-23,Cleveland,100,Chicago Bulls,91
+250225004,2005-02-25,Chicago Bulls,97,Washington,90
+250226030,2005-02-26,Charlotte,90,Chicago Bulls,94
+250301004,2005-03-01,Chicago Bulls,89,Houston,119
+250304024,2005-03-04,San Antonio,102,Chicago Bulls,99
+250305015,2005-03-05,Milwaukee,95,Chicago Bulls,87
+250307004,2005-03-07,Chicago Bulls,90,Milwaukee,85
+250309022,2005-03-09,Portland,84,Chicago Bulls,97
+250311025,2005-03-11,Oklahoma City,97,Chicago Bulls,100
+250313012,2005-03-13,LA,83,Chicago Bulls,78
+250315004,2005-03-15,Chicago Bulls,93,Oklahoma City,99
+250316017,2005-03-16,Brooklyn,100,Chicago Bulls,84
+250318004,2005-03-18,Chicago Bulls,90,New Orleans,94
+250319020,2005-03-19,Philadelphia,88,Chicago Bulls,94
+250321004,2005-03-21,Chicago Bulls,105,Atlanta,91
+250323028,2005-03-23,Toronto,85,Chicago Bulls,94
+250325002,2005-03-25,Boston,86,Chicago Bulls,94
+250326004,2005-03-26,Chicago Bulls,100,Indiana,96
+250328004,2005-03-28,Chicago Bulls,94,Memphis,86
+250330030,2005-03-30,Charlotte,99,Chicago Bulls,102
+250331004,2005-03-31,Chicago Bulls,102,Cleveland,90
+250402004,2005-04-02,Chicago Bulls,112,Charlotte,97
+250405014,2005-04-05,Miami,104,Chicago Bulls,86
+250406019,2005-04-06,Orlando,101,Chicago Bulls,102
+250408018,2005-04-08,NY Knicks,94,Chicago Bulls,102
+250409004,2005-04-09,Chicago Bulls,110,Toronto,97
+250411004,2005-04-11,Chicago Bulls,84,Detroit,85
+250413027,2005-04-13,Washington,93,Chicago Bulls,82
+250415004,2005-04-15,Chicago Bulls,117,Orlando,77
+250416001,2005-04-16,Atlanta,105,Chicago Bulls,114
+250419004,2005-04-19,Chicago Bulls,92,NY Knicks,91
+250420011,2005-04-20,Indiana,85,Chicago Bulls,83
+241103005,2005-11-03,Cleveland Cavaliers,104,Indiana,109
+241104014,2005-11-04,Miami,92,Cleveland Cavaliers,86
+241106015,2005-11-06,Milwaukee,102,Cleveland Cavaliers,88
+241109001,2005-11-09,Atlanta,79,Cleveland Cavaliers,93
+241110005,2005-11-10,Cleveland Cavaliers,114,Phoenix,109
+241113005,2005-11-13,Cleveland Cavaliers,105,Washington,74
+241115005,2005-11-15,Cleveland Cavaliers,99,Golden State,88
+241118030,2005-11-18,Charlotte,89,Cleveland Cavaliers,106
+241120005,2005-11-20,Cleveland Cavaliers,100,Charlotte,84
+241121018,2005-11-21,NY Knicks,98,Cleveland Cavaliers,88
+241124005,2005-11-24,Cleveland Cavaliers,92,Detroit,76
+241126002,2005-11-26,Boston,96,Cleveland Cavaliers,98
+241127005,2005-11-27,Cleveland Cavaliers,96,Chicago,74
+241129012,2005-11-29,LA,94,Cleveland Cavaliers,82
+241201021,2005-12-01,Phoenix,120,Cleveland Cavaliers,101
+241202007,2005-12-02,Denver,73,Cleveland Cavaliers,92
+241204005,2005-12-04,Cleveland Cavaliers,105,Toronto,97
+241207005,2005-12-07,Cleveland Cavaliers,103,Brooklyn,97
+241208004,2005-12-08,Chicago,113,Cleveland Cavaliers,85
+241211024,2005-12-11,San Antonio,116,Cleveland Cavaliers,97
+241213029,2005-12-13,Memphis,86,Cleveland Cavaliers,92
+241215005,2005-12-15,Cleveland Cavaliers,112,Portland,88
+241216008,2005-12-16,Detroit,81,Cleveland Cavaliers,69
+241218005,2005-12-18,Cleveland Cavaliers,107,Boston,114
+241221005,2005-12-21,Cleveland Cavaliers,107,Minnesota,97
+241222017,2005-12-22,Brooklyn,92,Cleveland Cavaliers,90
+241226005,2005-12-26,Cleveland Cavaliers,100,New Orleans,91
+241228001,2005-12-28,Atlanta,102,Cleveland Cavaliers,111
+241229005,2005-12-29,Cleveland Cavaliers,87,Houston,98
+250103030,2005-01-03,Charlotte,83,Cleveland Cavaliers,94
+250105005,2005-01-05,Cleveland Cavaliers,101,Atlanta,85
+250108005,2005-01-08,Cleveland Cavaliers,104,NY Knicks,79
+250111005,2005-01-11,Cleveland Cavaliers,100,Charlotte,98
+250113013,2005-01-13,Los Angeles,98,Cleveland Cavaliers,94
+250115026,2005-01-15,Utah,71,Cleveland Cavaliers,84
+250116025,2005-01-16,Oklahoma City,105,Cleveland Cavaliers,97
+250119022,2005-01-19,Portland,101,Cleveland Cavaliers,107
+250120023,2005-01-20,Sacramento,123,Cleveland Cavaliers,96
+250122009,2005-01-22,Golden State,87,Cleveland Cavaliers,105
+250124005,2005-01-24,Cleveland Cavaliers,97,Washington,106
+250126005,2005-01-26,Cleveland Cavaliers,114,Memphis,111
+250128018,2005-01-28,NY Knicks,99,Cleveland Cavaliers,96
+250130005,2005-01-30,Cleveland Cavaliers,104,Milwaukee,87
+250201019,2005-02-01,Orlando,105,Cleveland Cavaliers,102
+250203014,2005-02-03,Miami,100,Cleveland Cavaliers,88
+250205005,2005-02-05,Cleveland Cavaliers,101,Orlando,92
+250208005,2005-02-08,Cleveland Cavaliers,104,Toronto,91
+250211005,2005-02-11,Cleveland Cavaliers,101,Denver,106
+250213005,2005-02-13,Cleveland Cavaliers,103,Los Angeles,89
+250216005,2005-02-16,Cleveland Cavaliers,111,Atlanta,89
+250217016,2005-02-17,Minnesota,94,Cleveland Cavaliers,88
+250223005,2005-02-23,Cleveland Cavaliers,100,Chicago,91
+250225011,2005-02-25,Indiana,106,Cleveland Cavaliers,82
+250227017,2005-02-27,Brooklyn,104,Cleveland Cavaliers,98
+250228005,2005-02-28,Cleveland Cavaliers,92,San Antonio,94
+250302005,2005-03-02,Cleveland Cavaliers,86,Oklahoma City,103
+250304020,2005-03-04,Philadelphia,98,Cleveland Cavaliers,89
+250306005,2005-03-06,Cleveland Cavaliers,82,Miami,102
+250308005,2005-03-08,Cleveland Cavaliers,111,Orlando,92
+250313005,2005-03-13,Cleveland Cavaliers,98,Indiana,86
+250315005,2005-03-15,Cleveland Cavaliers,92,Utah,73
+250316015,2005-03-16,Milwaukee,96,Cleveland Cavaliers,88
+250318005,2005-03-18,Cleveland Cavaliers,81,Philadelphia,93
+250320028,2005-03-20,Toronto,105,Cleveland Cavaliers,98
+250322005,2005-03-22,Cleveland Cavaliers,91,Detroit,76
+250324010,2005-03-24,Houston,99,Cleveland Cavaliers,80
+250326006,2005-03-26,Dallas,117,Cleveland Cavaliers,86
+250328003,2005-03-28,New Orleans,108,Cleveland Cavaliers,109
+250329005,2005-03-29,Cleveland Cavaliers,94,LA,84
+250331004,2005-03-31,Chicago,102,Cleveland Cavaliers,90
+250401005,2005-04-01,Cleveland Cavaliers,109,Sacramento,128
+250403005,2005-04-03,Cleveland Cavaliers,100,Dallas,80
+250405005,2005-04-05,Cleveland Cavaliers,80,Brooklyn,111
+250406011,2005-04-06,Indiana,98,Cleveland Cavaliers,77
+250408020,2005-04-08,Philadelphia,103,Cleveland Cavaliers,98
+250409005,2005-04-09,Cleveland Cavaliers,98,Milwaukee,81
+250411019,2005-04-11,Orlando,106,Cleveland Cavaliers,114
+250414005,2005-04-14,Cleveland Cavaliers,89,NY Knicks,95
+250415027,2005-04-15,Washington,119,Cleveland Cavaliers,111
+250417008,2005-04-17,Detroit,90,Cleveland Cavaliers,87
+250419005,2005-04-19,Cleveland Cavaliers,100,Boston,86
+250420028,2005-04-20,Toronto,95,Cleveland Cavaliers,104
+241102008,2005-11-02,Detroit Pistons,87,Houston,79
+241105028,2005-11-05,Toronto,101,Detroit Pistons,89
+241106008,2005-11-06,Detroit Pistons,99,Philadelphia,91
+241108012,2005-11-08,LA,96,Detroit Pistons,99
+241111007,2005-11-11,Denver,117,Detroit Pistons,109
+241113026,2005-11-13,Utah,108,Detroit Pistons,93
+241117008,2005-11-17,Detroit Pistons,93,Minnesota,85
+241119008,2005-11-19,Detroit Pistons,82,Indiana,97
+241121008,2005-11-21,Detroit Pistons,117,Charlotte,116
+241123030,2005-11-23,Charlotte,91,Detroit Pistons,89
+241124005,2005-11-24,Cleveland,92,Detroit Pistons,76
+241126008,2005-11-26,Detroit Pistons,78,Miami,77
+241127015,2005-11-27,Milwaukee,96,Detroit Pistons,90
+241130010,2005-11-30,Houston,72,Detroit Pistons,93
+241203024,2005-12-03,San Antonio,80,Detroit Pistons,77
+241204003,2005-12-04,New Orleans,69,Detroit Pistons,92
+241206006,2005-12-06,Dallas,85,Detroit Pistons,101
+241208008,2005-12-08,Detroit Pistons,90,Toronto,86
+241210008,2005-12-10,Detroit Pistons,72,Atlanta,88
+241211029,2005-12-11,Memphis,72,Detroit Pistons,68
+241215018,2005-12-15,NY Knicks,93,Detroit Pistons,94
+241216008,2005-12-16,Detroit Pistons,81,Cleveland,69
+241218008,2005-12-18,Detroit Pistons,74,Portland,75
+241222008,2005-12-22,Detroit Pistons,82,Chicago,89
+241225011,2005-12-25,Indiana,93,Detroit Pistons,98
+241227008,2005-12-27,Detroit Pistons,100,Brooklyn,90
+241229027,2005-12-29,Washington,105,Detroit Pistons,107
+241230008,2005-12-30,Detroit Pistons,78,Miami,89
+250102008,2005-01-02,Detroit Pistons,100,Boston,88
+250103004,2005-01-03,Chicago,80,Detroit Pistons,87
+250106008,2005-01-06,Detroit Pistons,79,Memphis,101
+250107002,2005-01-07,Boston,104,Detroit Pistons,110
+250111017,2005-01-11,Brooklyn,80,Detroit Pistons,89
+250112008,2005-01-12,Detroit Pistons,90,New Orleans,76
+250114008,2005-01-14,Detroit Pistons,101,Orlando,94
+250115008,2005-01-15,Detroit Pistons,99,Philadelphia,95
+250117008,2005-01-17,Detroit Pistons,94,Phoenix,80
+250118019,2005-01-18,Orlando,103,Detroit Pistons,101
+250121015,2005-01-21,Milwaukee,89,Detroit Pistons,86
+250122008,2005-01-22,Detroit Pistons,89,Chicago,100
+250124016,2005-01-24,Minnesota,86,Detroit Pistons,83
+250126008,2005-01-26,Detroit Pistons,87,Denver,70
+250127011,2005-01-27,Indiana,76,Detroit Pistons,88
+250129008,2005-01-29,Detroit Pistons,91,NY Knicks,61
+250201027,2005-02-01,Washington,96,Detroit Pistons,105
+250202008,2005-02-02,Detroit Pistons,99,Atlanta,84
+250205017,2005-02-05,Brooklyn,107,Detroit Pistons,85
+250210008,2005-02-10,Detroit Pistons,103,Los Angeles,81
+250212008,2005-02-12,Detroit Pistons,107,Washington,86
+250214008,2005-02-14,Detroit Pistons,107,Milwaukee,83
+250216020,2005-02-16,Philadelphia,75,Detroit Pistons,93
+250222008,2005-02-22,Detroit Pistons,97,NY Knicks,88
+250225013,2005-02-25,Los Angeles,90,Detroit Pistons,111
+250227009,2005-02-27,Golden State,88,Detroit Pistons,94
+250301022,2005-03-01,Portland,93,Detroit Pistons,103
+250303021,2005-03-03,Phoenix,100,Detroit Pistons,97
+250304025,2005-03-04,Oklahoma City,95,Detroit Pistons,87
+250306023,2005-03-06,Sacramento,100,Detroit Pistons,85
+250309008,2005-03-09,Detroit Pistons,92,Golden State,88
+250311002,2005-03-11,Boston,115,Detroit Pistons,113
+250313008,2005-03-13,Detroit Pistons,64,Utah,62
+250314001,2005-03-14,Atlanta,108,Detroit Pistons,114
+250316008,2005-03-16,Detroit Pistons,102,Oklahoma City,95
+250318008,2005-03-18,Detroit Pistons,103,Toronto,92
+250320008,2005-03-20,Detroit Pistons,110,San Antonio,101
+250322005,2005-03-22,Cleveland,91,Detroit Pistons,76
+250323020,2005-03-23,Philadelphia,107,Detroit Pistons,84
+250325008,2005-03-25,Detroit Pistons,81,Indiana,94
+250326008,2005-03-26,Detroit Pistons,105,Boston,99
+250328008,2005-03-28,Detroit Pistons,88,Dallas,95
+250330008,2005-03-30,Detroit Pistons,99,Sacramento,82
+250401008,2005-04-01,Detroit Pistons,97,LA,84
+250403028,2005-04-03,Toronto,103,Detroit Pistons,113
+250406008,2005-04-06,Detroit Pistons,105,Washington,93
+250408019,2005-04-08,Orlando,102,Detroit Pistons,114
+250410014,2005-04-10,Miami,72,Detroit Pistons,80
+250411004,2005-04-11,Chicago,84,Detroit Pistons,85
+250413008,2005-04-13,Detroit Pistons,103,Orlando,94
+250415008,2005-04-15,Detroit Pistons,99,Milwaukee,73
+250417008,2005-04-17,Detroit Pistons,90,Cleveland,87
+250419001,2005-04-19,Atlanta,68,Detroit Pistons,95
+250420030,2005-04-20,Charlotte,97,Detroit Pistons,86
+241103005,2005-11-03,Cleveland,104,Indiana Pacers,109
+241105002,2005-11-05,Boston,94,Indiana Pacers,100
+241106011,2005-11-06,Indiana Pacers,100,Chicago,90
+241109016,2005-11-09,Minnesota,101,Indiana Pacers,102
+241110011,2005-11-10,Indiana Pacers,68,LA,102
+241112020,2005-11-12,Philadelphia,106,Indiana Pacers,104
+241113011,2005-11-13,Indiana Pacers,103,NY Knicks,97
+241117011,2005-11-17,Indiana Pacers,93,Atlanta,86
+241119008,2005-11-19,Detroit,82,Indiana Pacers,97
+241120011,2005-11-20,Indiana Pacers,83,Orlando,86
+241123011,2005-11-23,Indiana Pacers,106,Boston,96
+241125011,2005-11-25,Indiana Pacers,106,Minnesota,102
+241126011,2005-11-26,Indiana Pacers,82,Charlotte,77
+241128025,2005-11-28,Oklahoma City,103,Indiana Pacers,95
+241201012,2005-12-01,LA,88,Indiana Pacers,76
+241203023,2005-12-03,Sacramento,113,Indiana Pacers,87
+241204009,2005-12-04,Golden State,104,Indiana Pacers,96
+241207011,2005-12-07,Indiana Pacers,86,Milwaukee,89
+241210015,2005-12-10,Milwaukee,95,Indiana Pacers,86
+241211011,2005-12-11,Indiana Pacers,92,Sacramento,97
+241214001,2005-12-14,Atlanta,97,Indiana Pacers,108
+241217011,2005-12-17,Indiana Pacers,89,Toronto,86
+241218004,2005-12-18,Chicago,85,Indiana Pacers,71
+241222011,2005-12-22,Indiana Pacers,90,Philadelphia,102
+241225011,2005-12-25,Indiana Pacers,93,Detroit,98
+241227011,2005-12-27,Indiana Pacers,100,New Orleans,82
+241229030,2005-12-29,Charlotte,71,Indiana Pacers,74
+241230017,2005-12-30,Brooklyn,83,Indiana Pacers,96
+250104011,2005-01-04,Indiana Pacers,116,Milwaukee,99
+250106024,2005-01-06,San Antonio,111,Indiana Pacers,98
+250108006,2005-01-08,Dallas,121,Indiana Pacers,101
+250109021,2005-01-09,Phoenix,124,Indiana Pacers,89
+250111029,2005-01-11,Memphis,85,Indiana Pacers,86
+250114011,2005-01-14,Indiana Pacers,101,Phoenix,83
+250115011,2005-01-15,Indiana Pacers,84,Orlando,85
+250118010,2005-01-18,Houston,74,Indiana Pacers,87
+250119003,2005-01-19,New Orleans,90,Indiana Pacers,87
+250121014,2005-01-21,Miami,100,Indiana Pacers,106
+250122011,2005-01-22,Indiana Pacers,93,Washington,95
+250126002,2005-01-26,Boston,100,Indiana Pacers,86
+250127011,2005-01-27,Indiana Pacers,76,Detroit,88
+250129011,2005-01-29,Indiana Pacers,88,Denver,95
+250131020,2005-01-31,Philadelphia,89,Indiana Pacers,88
+250202011,2005-02-02,Indiana Pacers,97,Toronto,98
+250204011,2005-02-04,Indiana Pacers,95,Dallas,94
+250205001,2005-02-05,Atlanta,79,Indiana Pacers,84
+250207027,2005-02-07,Washington,108,Indiana Pacers,104
+250209011,2005-02-09,Indiana Pacers,94,Charlotte,87
+250211011,2005-02-11,Indiana Pacers,83,Houston,91
+250213011,2005-02-13,Indiana Pacers,76,Memphis,73
+250216011,2005-02-16,Indiana Pacers,95,Portland,87
+250222019,2005-02-22,Orlando,84,Indiana Pacers,108
+250223011,2005-02-23,Indiana Pacers,93,Miami,91
+250225011,2005-02-25,Indiana Pacers,106,Cleveland,82
+250226018,2005-02-26,NY Knicks,90,Indiana Pacers,79
+250301011,2005-03-01,Indiana Pacers,93,Oklahoma City,101
+250303007,2005-03-03,Denver,96,Indiana Pacers,87
+250304022,2005-03-04,Portland,97,Indiana Pacers,106
+250306013,2005-03-06,Los Angeles,103,Indiana Pacers,94
+250308026,2005-03-08,Utah,83,Indiana Pacers,89
+250311011,2005-03-11,Indiana Pacers,101,Golden State,83
+250313005,2005-03-13,Cleveland,98,Indiana Pacers,86
+250316011,2005-03-16,Indiana Pacers,103,Utah,84
+250318011,2005-03-18,Indiana Pacers,103,Los Angeles,97
+250320011,2005-03-20,Indiana Pacers,85,Brooklyn,94
+250322017,2005-03-22,Brooklyn,98,Indiana Pacers,91
+250323011,2005-03-23,Indiana Pacers,100,San Antonio,93
+250325008,2005-03-25,Detroit,81,Indiana Pacers,94
+250326004,2005-03-26,Chicago,100,Indiana Pacers,96
+250328015,2005-03-28,Milwaukee,76,Indiana Pacers,90
+250331011,2005-03-31,Indiana Pacers,114,Miami,108
+250403027,2005-04-03,Washington,76,Indiana Pacers,79
+250405018,2005-04-05,NY Knicks,79,Indiana Pacers,97
+250406011,2005-04-06,Indiana Pacers,98,Cleveland,77
+250408011,2005-04-08,Indiana Pacers,93,Washington,83
+250410011,2005-04-10,Indiana Pacers,112,NY Knicks,113
+250411028,2005-04-11,Toronto,90,Indiana Pacers,94
+250413011,2005-04-13,Indiana Pacers,90,Brooklyn,86
+250415011,2005-04-15,Indiana Pacers,86,Philadelphia,90
+250417014,2005-04-17,Miami,84,Indiana Pacers,80
+250418019,2005-04-18,Orlando,92,Indiana Pacers,88
+250420011,2005-04-20,Indiana Pacers,85,Chicago,83
+241103019,2005-11-03,Orlando,93,Milwaukee Bucks,92
+241106015,2005-11-06,Milwaukee Bucks,102,Cleveland,88
+241110015,2005-11-10,Milwaukee Bucks,102,Charlotte,100
+241113015,2005-11-13,Milwaukee Bucks,94,New Orleans,91
+241114014,2005-11-14,Miami,112,Milwaukee Bucks,110
+241117015,2005-11-17,Milwaukee Bucks,106,Miami,113
+241119022,2005-11-19,Portland,110,Milwaukee Bucks,98
+241121023,2005-11-21,Sacramento,88,Milwaukee Bucks,79
+241123013,2005-11-23,Los Angeles,100,Milwaukee Bucks,96
+241124021,2005-11-24,Phoenix,111,Milwaukee Bucks,104
+241127015,2005-11-27,Milwaukee Bucks,96,Detroit,90
+241130015,2005-11-30,Milwaukee Bucks,90,Los Angeles,95
+241201002,2005-12-01,Boston,101,Milwaukee Bucks,100
+241204015,2005-12-04,Milwaukee Bucks,83,San Antonio,104
+241207011,2005-12-07,Indiana,86,Milwaukee Bucks,89
+241208015,2005-12-08,Milwaukee Bucks,96,Miami,101
+241210015,2005-12-10,Milwaukee Bucks,95,Indiana,86
+241212020,2005-12-12,Philadelphia,107,Milwaukee Bucks,101
+241214015,2005-12-14,Milwaukee Bucks,86,Sacramento,89
+241216004,2005-12-16,Chicago,85,Milwaukee Bucks,77
+241218015,2005-12-18,Milwaukee Bucks,97,Philadelphia,116
+241222015,2005-12-22,Milwaukee Bucks,95,Portland,104
+241226015,2005-12-26,Milwaukee Bucks,99,Chicago,92
+241228015,2005-12-28,Milwaukee Bucks,115,Houston,87
+241229019,2005-12-29,Orlando,105,Milwaukee Bucks,111
+241231010,2005-12-31,Houston,105,Milwaukee Bucks,90
+250102006,2005-01-02,Dallas,123,Milwaukee Bucks,104
+250104011,2005-01-04,Indiana,116,Milwaukee Bucks,99
+250105015,2005-01-05,Milwaukee Bucks,97,Brooklyn,74
+250107028,2005-01-07,Toronto,105,Milwaukee Bucks,107
+250108015,2005-01-08,Milwaukee Bucks,89,Utah,86
+250111001,2005-01-11,Atlanta,103,Milwaukee Bucks,80
+250112024,2005-01-12,San Antonio,94,Milwaukee Bucks,79
+250114015,2005-01-14,Milwaukee Bucks,103,Washington,105
+250115029,2005-01-15,Memphis,101,Milwaukee Bucks,82
+250117030,2005-01-17,Charlotte,92,Milwaukee Bucks,99
+250119017,2005-01-19,Brooklyn,96,Milwaukee Bucks,90
+250121015,2005-01-21,Milwaukee Bucks,89,Detroit,86
+250123018,2005-01-23,NY Knicks,96,Milwaukee Bucks,101
+250126015,2005-01-26,Milwaukee Bucks,115,Phoenix,121
+250128015,2005-01-28,Milwaukee Bucks,100,Denver,106
+250130005,2005-01-30,Cleveland,104,Milwaukee Bucks,87
+250201015,2005-02-01,Milwaukee Bucks,91,Minnesota,86
+250204015,2005-02-04,Milwaukee Bucks,92,LA,90
+250205027,2005-02-05,Washington,112,Milwaukee Bucks,94
+250208015,2005-02-08,Milwaukee Bucks,121,Boston,97
+250209028,2005-02-09,Toronto,107,Milwaukee Bucks,110
+250212015,2005-02-12,Milwaukee Bucks,113,Atlanta,83
+250214008,2005-02-14,Detroit,107,Milwaukee Bucks,83
+250216018,2005-02-16,NY Knicks,108,Milwaukee Bucks,90
+250222030,2005-02-22,Charlotte,102,Milwaukee Bucks,112
+250223015,2005-02-23,Milwaukee Bucks,100,Brooklyn,81
+250225015,2005-02-25,Milwaukee Bucks,102,Toronto,106
+250227015,2005-02-27,Milwaukee Bucks,99,Oklahoma City,73
+250301015,2005-03-01,Milwaukee Bucks,111,Philadelphia,118
+250304016,2005-03-04,Minnesota,103,Milwaukee Bucks,97
+250305015,2005-03-05,Milwaukee Bucks,95,Chicago,87
+250307004,2005-03-07,Chicago,90,Milwaukee Bucks,85
+250308015,2005-03-08,Milwaukee Bucks,105,Atlanta,101
+250311015,2005-03-11,Milwaukee Bucks,110,Dallas,112
+250312003,2005-03-12,New Orleans,111,Milwaukee Bucks,107
+250314014,2005-03-14,Miami,110,Milwaukee Bucks,71
+250316015,2005-03-16,Milwaukee Bucks,96,Cleveland,88
+250318015,2005-03-18,Milwaukee Bucks,99,Washington,90
+250320007,2005-03-20,Denver,114,Milwaukee Bucks,103
+250322025,2005-03-22,Oklahoma City,92,Milwaukee Bucks,84
+250323012,2005-03-23,LA,116,Milwaukee Bucks,108
+250325009,2005-03-25,Golden State,118,Milwaukee Bucks,117
+250326026,2005-03-26,Utah,94,Milwaukee Bucks,89
+250328015,2005-03-28,Milwaukee Bucks,76,Indiana,90
+250330015,2005-03-30,Milwaukee Bucks,109,Golden State,113
+250401015,2005-04-01,Milwaukee Bucks,82,Memphis,93
+250403015,2005-04-03,Milwaukee Bucks,106,NY Knicks,102
+250406002,2005-04-06,Boston,103,Milwaukee Bucks,97
+250408015,2005-04-08,Milwaukee Bucks,93,Charlotte,75
+250409005,2005-04-09,Cleveland,98,Milwaukee Bucks,81
+250411027,2005-04-11,Washington,119,Milwaukee Bucks,112
+250413015,2005-04-13,Milwaukee Bucks,108,Boston,111
+250415008,2005-04-15,Detroit,99,Milwaukee Bucks,73
+250416015,2005-04-16,Milwaukee Bucks,113,Orlando,103
+250418020,2005-04-18,Philadelphia,122,Milwaukee Bucks,106
+250419015,2005-04-19,Milwaukee Bucks,109,Toronto,127
+241102006,2005-11-02,Dallas Mavericks,107,Sacramento,98
+241103003,2005-11-03,New Orleans,91,Dallas Mavericks,106
+241106006,2005-11-06,Dallas Mavericks,112,Memphis,88
+241108006,2005-11-08,Dallas Mavericks,101,Golden State,98
+241109019,2005-11-09,Orlando,94,Dallas Mavericks,84
+241111014,2005-11-11,Miami,93,Dallas Mavericks,113
+241113017,2005-11-13,Brooklyn,78,Dallas Mavericks,94
+241114027,2005-11-14,Washington,113,Dallas Mavericks,122
+241116006,2005-11-16,Dallas Mavericks,101,Phoenix,107
+241119006,2005-11-19,Dallas Mavericks,103,NY Knicks,101
+241121007,2005-11-21,Denver,110,Dallas Mavericks,82
+241122006,2005-11-22,Dallas Mavericks,82,Minnesota,83
+241124024,2005-11-24,San Antonio,94,Dallas Mavericks,80
+241126006,2005-11-26,Dallas Mavericks,92,Portland,83
+241127029,2005-11-27,Memphis,85,Dallas Mavericks,98
+241130006,2005-11-30,Dallas Mavericks,89,San Antonio,107
+241202006,2005-12-02,Dallas Mavericks,113,Houston,106
+241204006,2005-12-04,Dallas Mavericks,109,Utah,86
+241206006,2005-12-06,Dallas Mavericks,85,Detroit,101
+241207016,2005-12-07,Minnesota,87,Dallas Mavericks,97
+241209006,2005-12-09,Dallas Mavericks,102,Oklahoma City,107
+241211010,2005-12-11,Houston,78,Dallas Mavericks,102
+241213004,2005-12-13,Chicago,93,Dallas Mavericks,94
+241214006,2005-12-14,Dallas Mavericks,107,Golden State,111
+241218006,2005-12-18,Dallas Mavericks,90,Atlanta,68
+241221018,2005-12-21,NY Knicks,94,Dallas Mavericks,123
+241222001,2005-12-22,Atlanta,113,Dallas Mavericks,100
+241226007,2005-12-26,Denver,88,Dallas Mavericks,102
+241228006,2005-12-28,Dallas Mavericks,113,Boston,94
+250102006,2005-01-02,Dallas Mavericks,123,Milwaukee,104
+250105006,2005-01-05,Dallas Mavericks,118,Los Angeles,104
+250108006,2005-01-08,Dallas Mavericks,121,Indiana,101
+250112006,2005-01-12,Dallas Mavericks,114,Houston,124
+250114024,2005-01-14,San Antonio,98,Dallas Mavericks,95
+250115006,2005-01-15,Dallas Mavericks,98,Brooklyn,93
+250118006,2005-01-18,Dallas Mavericks,137,Washington,120
+250120006,2005-01-20,Dallas Mavericks,99,LA,77
+250121030,2005-01-21,Charlotte,99,Dallas Mavericks,105
+250123006,2005-01-23,Dallas Mavericks,95,Denver,93
+250124012,2005-01-24,LA,97,Dallas Mavericks,87
+250126022,2005-01-26,Portland,88,Dallas Mavericks,95
+250129006,2005-01-29,Dallas Mavericks,89,Philadelphia,93
+250201006,2005-02-01,Dallas Mavericks,109,Miami,104
+250202003,2005-02-02,New Orleans,82,Dallas Mavericks,90
+250204011,2005-02-04,Indiana,95,Dallas Mavericks,94
+250206028,2005-02-06,Toronto,113,Dallas Mavericks,122
+250208006,2005-02-08,Dallas Mavericks,100,Chicago,107
+250211023,2005-02-11,Sacramento,113,Dallas Mavericks,115
+250213025,2005-02-13,Oklahoma City,92,Dallas Mavericks,95
+250215009,2005-02-15,Golden State,107,Dallas Mavericks,114
+250217021,2005-02-17,Phoenix,113,Dallas Mavericks,119
+250223026,2005-02-23,Utah,83,Dallas Mavericks,101
+250224006,2005-02-24,Dallas Mavericks,122,Sacramento,113
+250226006,2005-02-26,Dallas Mavericks,123,Phoenix,124
+250228006,2005-02-28,Dallas Mavericks,90,New Orleans,86
+250302012,2005-03-02,LA,101,Dallas Mavericks,92
+250304013,2005-03-04,Los Angeles,108,Dallas Mavericks,103
+250306010,2005-03-06,Houston,90,Dallas Mavericks,69
+250307006,2005-03-07,Dallas Mavericks,113,Toronto,105
+250310006,2005-03-10,Dallas Mavericks,95,Los Angeles,100
+250311015,2005-03-11,Milwaukee,110,Dallas Mavericks,112
+250313016,2005-03-13,Minnesota,93,Dallas Mavericks,102
+250315006,2005-03-15,Dallas Mavericks,91,Minnesota,100
+250317006,2005-03-17,Dallas Mavericks,98,Portland,94
+250319006,2005-03-19,Dallas Mavericks,104,Charlotte,93
+250321006,2005-03-21,Dallas Mavericks,103,New Orleans,86
+250323009,2005-03-23,Golden State,97,Dallas Mavericks,109
+250324023,2005-03-24,Sacramento,109,Dallas Mavericks,101
+250326006,2005-03-26,Dallas Mavericks,117,Cleveland,86
+250328008,2005-03-28,Detroit,88,Dallas Mavericks,95
+250330002,2005-03-30,Boston,100,Dallas Mavericks,112
+250401020,2005-04-01,Philadelphia,83,Dallas Mavericks,100
+250403005,2005-04-03,Cleveland,100,Dallas Mavericks,80
+250405006,2005-04-05,Dallas Mavericks,114,Orlando,105
+250407006,2005-04-07,Dallas Mavericks,104,San Antonio,68
+250409006,2005-04-09,Dallas Mavericks,88,Utah,81
+250411006,2005-04-11,Dallas Mavericks,110,Memphis,89
+250413025,2005-04-13,Oklahoma City,90,Dallas Mavericks,95
+250414022,2005-04-14,Portland,90,Dallas Mavericks,102
+250417013,2005-04-17,Los Angeles,112,Dallas Mavericks,114
+250419006,2005-04-19,Dallas Mavericks,101,Oklahoma City,96
+250420029,2005-04-20,Memphis,88,Dallas Mavericks,108
+241102008,2005-11-02,Detroit,87,Houston Rockets,79
+241103028,2005-11-03,Toronto,95,Houston Rockets,88
+241105029,2005-11-05,Memphis,81,Houston Rockets,89
+241106010,2005-11-06,Houston Rockets,104,Sacramento,101
+241109010,2005-11-09,Houston Rockets,90,Memphis,87
+241111010,2005-11-11,Houston Rockets,91,Minnesota,96
+241113010,2005-11-13,Houston Rockets,79,Los Angeles,84
+241115017,2005-11-15,Brooklyn,69,Houston Rockets,80
+241116001,2005-11-16,Atlanta,88,Houston Rockets,84
+241118010,2005-11-18,Houston Rockets,92,NY Knicks,93
+241120012,2005-11-20,LA,86,Houston Rockets,91
+241121022,2005-11-21,Portland,93,Houston Rockets,97
+241123023,2005-11-23,Sacramento,102,Houston Rockets,96
+241126026,2005-11-26,Utah,90,Houston Rockets,80
+241127010,2005-11-27,Houston Rockets,76,Denver,82
+241130010,2005-11-30,Houston Rockets,72,Detroit,93
+241202006,2005-12-02,Dallas,113,Houston Rockets,106
+241204010,2005-12-04,Houston Rockets,77,Philadelphia,76
+241207010,2005-12-07,Houston Rockets,89,New Orleans,81
+241209010,2005-12-09,Houston Rockets,81,San Antonio,80
+241211010,2005-12-11,Houston Rockets,78,Dallas,102
+241215010,2005-12-15,Houston Rockets,92,Atlanta,69
+241217010,2005-12-17,Houston Rockets,100,Golden State,83
+241218030,2005-12-18,Charlotte,101,Houston Rockets,100
+241220010,2005-12-20,Houston Rockets,114,Toronto,102
+241222010,2005-12-22,Houston Rockets,87,Charlotte,90
+241226010,2005-12-26,Houston Rockets,96,LA,79
+241228015,2005-12-28,Milwaukee,115,Houston Rockets,87
+241229005,2005-12-29,Cleveland,87,Houston Rockets,98
+241231010,2005-12-31,Houston Rockets,105,Milwaukee,90
+250102010,2005-01-02,Houston Rockets,99,Utah,80
+250105010,2005-01-05,Houston Rockets,98,Phoenix,108
+250107013,2005-01-07,Los Angeles,111,Houston Rockets,104
+250109007,2005-01-09,Denver,98,Houston Rockets,116
+250112006,2005-01-12,Dallas,114,Houston Rockets,124
+250113010,2005-01-13,Houston Rockets,94,Brooklyn,85
+250115010,2005-01-15,Houston Rockets,73,San Antonio,67
+250117029,2005-01-17,Memphis,99,Houston Rockets,80
+250118010,2005-01-18,Houston Rockets,74,Indiana,87
+250120019,2005-01-20,Orlando,99,Houston Rockets,108
+250121018,2005-01-21,NY Knicks,91,Houston Rockets,92
+250124010,2005-01-24,Houston Rockets,89,Orlando,78
+250126003,2005-01-26,New Orleans,77,Houston Rockets,82
+250128010,2005-01-28,Houston Rockets,111,Sacramento,117
+250130014,2005-01-30,Miami,104,Houston Rockets,95
+250131002,2005-01-31,Boston,94,Houston Rockets,97
+250202020,2005-02-02,Philadelphia,95,Houston Rockets,118
+250204016,2005-02-04,Minnesota,113,Houston Rockets,119
+250206010,2005-02-06,Houston Rockets,103,Los Angeles,102
+250209010,2005-02-09,Houston Rockets,105,Chicago,92
+250211011,2005-02-11,Indiana,83,Houston Rockets,91
+250213010,2005-02-13,Houston Rockets,81,Portland,80
+250215010,2005-02-15,Houston Rockets,123,Washington,93
+250222010,2005-02-22,Houston Rockets,85,Oklahoma City,87
+250223024,2005-02-23,San Antonio,99,Houston Rockets,81
+250227010,2005-02-27,Houston Rockets,92,Utah,99
+250301004,2005-03-01,Chicago,89,Houston Rockets,119
+250302027,2005-03-02,Washington,101,Houston Rockets,98
+250306010,2005-03-06,Houston Rockets,90,Dallas,69
+250308025,2005-03-08,Oklahoma City,95,Houston Rockets,97
+250311021,2005-03-11,Phoenix,107,Houston Rockets,127
+250313023,2005-03-13,Sacramento,96,Houston Rockets,111
+250314009,2005-03-14,Golden State,94,Houston Rockets,97
+250316010,2005-03-16,Houston Rockets,108,Portland,77
+250318010,2005-03-18,Houston Rockets,92,Boston,103
+250320016,2005-03-20,Minnesota,94,Houston Rockets,86
+250322010,2005-03-22,Houston Rockets,84,Miami,82
+250324010,2005-03-24,Houston Rockets,99,Cleveland,80
+250325003,2005-03-25,New Orleans,68,Houston Rockets,81
+250327024,2005-03-27,San Antonio,83,Houston Rockets,70
+250328026,2005-03-28,Utah,85,Houston Rockets,99
+250330022,2005-03-30,Portland,84,Houston Rockets,100
+250401010,2005-04-01,Houston Rockets,73,New Orleans,76
+250403010,2005-04-03,Houston Rockets,78,Phoenix,91
+250405009,2005-04-05,Golden State,122,Houston Rockets,117
+250407013,2005-04-07,Los Angeles,100,Houston Rockets,114
+250409021,2005-04-09,Phoenix,97,Houston Rockets,98
+250411025,2005-04-11,Oklahoma City,78,Houston Rockets,90
+250413010,2005-04-13,Houston Rockets,100,Memphis,92
+250416010,2005-04-16,Houston Rockets,115,Denver,87
+250418010,2005-04-18,Houston Rockets,115,LA,90
+250420010,2005-04-20,Houston Rockets,106,Oklahoma City,78
+241103029,2005-11-03,Memphis Grizzlies,91,Washington,103
+241105029,2005-11-05,Memphis Grizzlies,81,Houston,89
+241106006,2005-11-06,Dallas,112,Memphis Grizzlies,88
+241109010,2005-11-09,Houston,90,Memphis Grizzlies,87
+241110029,2005-11-10,Memphis Grizzlies,110,Los Angeles,87
+241112029,2005-11-12,Memphis Grizzlies,96,Golden State,67
+241114025,2005-11-14,Oklahoma City,118,Memphis Grizzlies,113
+241117022,2005-11-17,Portland,82,Memphis Grizzlies,101
+241119023,2005-11-19,Sacramento,107,Memphis Grizzlies,105
+241120009,2005-11-20,Golden State,87,Memphis Grizzlies,100
+241122029,2005-11-22,Memphis Grizzlies,93,San Antonio,90
+241124029,2005-11-24,Memphis Grizzlies,84,Oklahoma City,93
+241126016,2005-11-26,Minnesota,115,Memphis Grizzlies,90
+241127029,2005-11-27,Memphis Grizzlies,85,Dallas,98
+241130029,2005-11-30,Memphis Grizzlies,93,Sacramento,98
+241201018,2005-12-01,NY Knicks,90,Memphis Grizzlies,82
+241203029,2005-12-03,Memphis Grizzlies,94,Philadelphia,86
+241204019,2005-12-04,Orlando,96,Memphis Grizzlies,91
+241207029,2005-12-07,Memphis Grizzlies,96,NY Knicks,88
+241208001,2005-12-08,Atlanta,89,Memphis Grizzlies,97
+241210014,2005-12-10,Miami,92,Memphis Grizzlies,84
+241211029,2005-12-11,Memphis Grizzlies,72,Detroit,68
+241213029,2005-12-13,Memphis Grizzlies,86,Cleveland,92
+241215029,2005-12-15,Memphis Grizzlies,88,Chicago,96
+241217029,2005-12-17,Memphis Grizzlies,89,Brooklyn,84
+241219012,2005-12-19,LA,82,Memphis Grizzlies,92
+241220013,2005-12-20,Los Angeles,72,Memphis Grizzlies,82
+241222009,2005-12-22,Golden State,109,Memphis Grizzlies,99
+241223021,2005-12-23,Phoenix,109,Memphis Grizzlies,102
+241227029,2005-12-27,Memphis Grizzlies,96,LA,76
+241229029,2005-12-29,Memphis Grizzlies,117,Boston,109
+250101016,2005-01-01,Minnesota,95,Memphis Grizzlies,104
+250103029,2005-01-03,Memphis Grizzlies,92,Utah,82
+250106008,2005-01-06,Detroit,79,Memphis Grizzlies,101
+250107029,2005-01-07,Memphis Grizzlies,84,New Orleans,76
+250111029,2005-01-11,Memphis Grizzlies,85,Indiana,86
+250114030,2005-01-14,Charlotte,89,Memphis Grizzlies,109
+250115029,2005-01-15,Memphis Grizzlies,101,Milwaukee,82
+250117029,2005-01-17,Memphis Grizzlies,99,Houston,80
+250119021,2005-01-19,Phoenix,79,Memphis Grizzlies,88
+250121007,2005-01-21,Denver,92,Memphis Grizzlies,82
+250122026,2005-01-22,Utah,94,Memphis Grizzlies,110
+250125029,2005-01-25,Memphis Grizzlies,95,Orlando,83
+250126005,2005-01-26,Cleveland,114,Memphis Grizzlies,111
+250129029,2005-01-29,Memphis Grizzlies,84,Atlanta,83
+250131003,2005-01-31,New Orleans,91,Memphis Grizzlies,98
+250201029,2005-02-01,Memphis Grizzlies,108,Phoenix,97
+250203029,2005-02-03,Memphis Grizzlies,103,LA,106
+250208029,2005-02-08,Memphis Grizzlies,108,Minnesota,96
+250209020,2005-02-09,Philadelphia,95,Memphis Grizzlies,98
+250211029,2005-02-11,Memphis Grizzlies,88,Portland,82
+250213011,2005-02-13,Indiana,76,Memphis Grizzlies,73
+250216002,2005-02-16,Boston,90,Memphis Grizzlies,88
+250223027,2005-02-23,Washington,93,Memphis Grizzlies,83
+250225029,2005-02-25,Memphis Grizzlies,94,Denver,97
+250226024,2005-02-26,San Antonio,82,Memphis Grizzlies,84
+250301029,2005-03-01,Memphis Grizzlies,99,Golden State,97
+250304029,2005-03-04,Memphis Grizzlies,86,Toronto,75
+250307012,2005-03-07,LA,102,Memphis Grizzlies,105
+250308023,2005-03-08,Sacramento,85,Memphis Grizzlies,82
+250311026,2005-03-11,Utah,82,Memphis Grizzlies,94
+250312022,2005-03-12,Portland,80,Memphis Grizzlies,66
+250314029,2005-03-14,Memphis Grizzlies,104,Portland,83
+250316003,2005-03-16,New Orleans,82,Memphis Grizzlies,88
+250318029,2005-03-18,Memphis Grizzlies,88,Minnesota,83
+250320029,2005-03-20,Memphis Grizzlies,91,Phoenix,97
+250324017,2005-03-24,Brooklyn,96,Memphis Grizzlies,105
+250326029,2005-03-26,Memphis Grizzlies,85,New Orleans,96
+250328004,2005-03-28,Chicago,94,Memphis Grizzlies,86
+250329029,2005-03-29,Memphis Grizzlies,99,Oklahoma City,102
+250401015,2005-04-01,Milwaukee,82,Memphis Grizzlies,93
+250403029,2005-04-03,Memphis Grizzlies,102,Los Angeles,82
+250405029,2005-04-05,Memphis Grizzlies,91,Denver,94
+250406028,2005-04-06,Toronto,74,Memphis Grizzlies,104
+250408029,2005-04-08,Memphis Grizzlies,97,Miami,81
+250410029,2005-04-10,Memphis Grizzlies,102,Charlotte,95
+250411006,2005-04-11,Dallas,110,Memphis Grizzlies,89
+250413010,2005-04-13,Houston,100,Memphis Grizzlies,92
+250415007,2005-04-15,Denver,111,Memphis Grizzlies,102
+250416024,2005-04-16,San Antonio,97,Memphis Grizzlies,75
+250418029,2005-04-18,Memphis Grizzlies,94,San Antonio,92
+250420029,2005-04-20,Memphis Grizzlies,88,Dallas,108
+241103003,2005-11-03,New Orleans Pelicans,91,Dallas,106
+241105003,2005-11-05,New Orleans Pelicans,89,Orlando,90
+241106016,2005-11-06,Minnesota,99,New Orleans Pelicans,92
+241109003,2005-11-09,New Orleans Pelicans,98,Los Angeles,106
+241112003,2005-11-12,New Orleans Pelicans,95,Atlanta,96
+241113015,2005-11-13,Milwaukee,94,New Orleans Pelicans,91
+241117003,2005-11-17,New Orleans Pelicans,84,Phoenix,95
+241120003,2005-11-20,New Orleans Pelicans,94,Minnesota,99
+241122026,2005-11-22,Utah,75,New Orleans Pelicans,76
+241123009,2005-11-23,Golden State,115,New Orleans Pelicans,109
+241126021,2005-11-26,Phoenix,95,New Orleans Pelicans,86
+241128013,2005-11-28,Los Angeles,89,New Orleans Pelicans,76
+241129007,2005-11-29,Denver,76,New Orleans Pelicans,67
+241201003,2005-12-01,New Orleans Pelicans,81,Sacramento,94
+241204003,2005-12-04,New Orleans Pelicans,69,Detroit,92
+241207010,2005-12-07,Houston,89,New Orleans Pelicans,81
+241208003,2005-12-08,New Orleans Pelicans,79,NY Knicks,86
+241210017,2005-12-10,Brooklyn,94,New Orleans Pelicans,91
+241212027,2005-12-12,Washington,88,New Orleans Pelicans,69
+241214030,2005-12-14,Charlotte,94,New Orleans Pelicans,93
+241215003,2005-12-15,New Orleans Pelicans,98,Golden State,89
+241217003,2005-12-17,New Orleans Pelicans,67,San Antonio,83
+241219023,2005-12-19,Sacramento,107,New Orleans Pelicans,71
+241221012,2005-12-21,LA,100,New Orleans Pelicans,91
+241222013,2005-12-22,Los Angeles,101,New Orleans Pelicans,89
+241226005,2005-12-26,Cleveland,100,New Orleans Pelicans,91
+241227011,2005-12-27,Indiana,100,New Orleans Pelicans,82
+241229003,2005-12-29,New Orleans Pelicans,96,Phoenix,107
+250103002,2005-01-03,Boston,108,New Orleans Pelicans,90
+250105003,2005-01-05,New Orleans Pelicans,89,Chicago,95
+250107029,2005-01-07,Memphis,84,New Orleans Pelicans,76
+250108003,2005-01-08,New Orleans Pelicans,121,Sacramento,117
+250111018,2005-01-11,NY Knicks,82,New Orleans Pelicans,88
+250112008,2005-01-12,Detroit,90,New Orleans Pelicans,76
+250114003,2005-01-14,New Orleans Pelicans,112,Portland,106
+250116028,2005-01-16,Toronto,102,New Orleans Pelicans,99
+250117020,2005-01-17,Philadelphia,95,New Orleans Pelicans,91
+250119003,2005-01-19,New Orleans Pelicans,90,Indiana,87
+250122003,2005-01-22,New Orleans Pelicans,88,LA,85
+250123014,2005-01-23,Miami,97,New Orleans Pelicans,68
+250126003,2005-01-26,New Orleans Pelicans,77,Houston,82
+250128003,2005-01-28,New Orleans Pelicans,99,Philadelphia,95
+250129024,2005-01-29,San Antonio,93,New Orleans Pelicans,83
+250131003,2005-01-31,New Orleans Pelicans,91,Memphis,98
+250202003,2005-02-02,New Orleans Pelicans,82,Dallas,90
+250204009,2005-02-04,Golden State,90,New Orleans Pelicans,82
+250205026,2005-02-05,Utah,108,New Orleans Pelicans,92
+250208025,2005-02-08,Oklahoma City,108,New Orleans Pelicans,91
+250209022,2005-02-09,Portland,80,New Orleans Pelicans,91
+250211003,2005-02-11,New Orleans Pelicans,111,Golden State,108
+250213019,2005-02-13,Orlando,97,New Orleans Pelicans,94
+250214003,2005-02-14,New Orleans Pelicans,98,Washington,96
+250216003,2005-02-16,New Orleans Pelicans,78,San Antonio,101
+250223003,2005-02-23,New Orleans Pelicans,85,Oklahoma City,103
+250227003,2005-02-27,New Orleans Pelicans,93,Denver,94
+250228006,2005-02-28,Dallas,90,New Orleans Pelicans,86
+250302003,2005-03-02,New Orleans Pelicans,94,Charlotte,85
+250304003,2005-03-04,New Orleans Pelicans,92,Utah,85
+250306003,2005-03-06,New Orleans Pelicans,84,Toronto,95
+250309003,2005-03-09,New Orleans Pelicans,85,Brooklyn,86
+250312003,2005-03-12,New Orleans Pelicans,111,Milwaukee,107
+250314024,2005-03-14,San Antonio,112,New Orleans Pelicans,89
+250316003,2005-03-16,New Orleans Pelicans,82,Memphis,88
+250318004,2005-03-18,Chicago,90,New Orleans Pelicans,94
+250319003,2005-03-19,New Orleans Pelicans,100,Boston,113
+250321006,2005-03-21,Dallas,103,New Orleans Pelicans,86
+250323016,2005-03-23,Minnesota,107,New Orleans Pelicans,102
+250325003,2005-03-25,New Orleans Pelicans,68,Houston,81
+250326029,2005-03-26,Memphis,85,New Orleans Pelicans,96
+250328003,2005-03-28,New Orleans Pelicans,108,Cleveland,109
+250401010,2005-04-01,Houston,73,New Orleans Pelicans,76
+250402003,2005-04-02,New Orleans Pelicans,99,Miami,111
+250405001,2005-04-05,Atlanta,86,New Orleans Pelicans,96
+250406003,2005-04-06,New Orleans Pelicans,83,Denver,94
+250408003,2005-04-08,New Orleans Pelicans,87,Utah,98
+250410003,2005-04-10,New Orleans Pelicans,81,Portland,90
+250412021,2005-04-12,Phoenix,99,New Orleans Pelicans,85
+250413007,2005-04-13,Denver,116,New Orleans Pelicans,102
+250415025,2005-04-15,Oklahoma City,97,New Orleans Pelicans,72
+250416012,2005-04-16,LA,94,New Orleans Pelicans,89
+250418003,2005-04-18,New Orleans Pelicans,99,Minnesota,102
+250420003,2005-04-20,New Orleans Pelicans,75,LA,86
+241103024,2005-11-03,San Antonio Spurs,101,Sacramento,85
+241105013,2005-11-05,Los Angeles,96,San Antonio Spurs,105
+241107025,2005-11-07,Oklahoma City,113,San Antonio Spurs,94
+241110024,2005-11-10,San Antonio Spurs,91,Golden State,71
+241112024,2005-11-12,San Antonio Spurs,93,Miami,84
+241113001,2005-11-13,Atlanta,88,San Antonio Spurs,103
+241116024,2005-11-16,San Antonio Spurs,99,NY Knicks,81
+241118020,2005-11-18,Philadelphia,80,San Antonio Spurs,88
+241119002,2005-11-19,Boston,84,San Antonio Spurs,92
+241121028,2005-11-21,Toronto,96,San Antonio Spurs,91
+241122029,2005-11-22,Memphis,93,San Antonio Spurs,90
+241124024,2005-11-24,San Antonio Spurs,94,Dallas,80
+241126007,2005-11-26,Denver,75,San Antonio Spurs,89
+241127024,2005-11-27,San Antonio Spurs,109,Utah,76
+241130006,2005-11-30,Dallas,89,San Antonio Spurs,107
+241201024,2005-12-01,San Antonio Spurs,105,Philadelphia,72
+241203024,2005-12-03,San Antonio Spurs,80,Detroit,77
+241204015,2005-12-04,Milwaukee,83,San Antonio Spurs,104
+241206004,2005-12-06,Chicago,75,San Antonio Spurs,91
+241208024,2005-12-08,San Antonio Spurs,96,Oklahoma City,102
+241209010,2005-12-09,Houston,81,San Antonio Spurs,80
+241211024,2005-12-11,San Antonio Spurs,116,Cleveland,97
+241215024,2005-12-15,San Antonio Spurs,94,Orlando,91
+241217003,2005-12-17,New Orleans,67,San Antonio Spurs,83
+241218024,2005-12-18,San Antonio Spurs,104,Golden State,85
+241222019,2005-12-22,Orlando,93,San Antonio Spurs,87
+241223024,2005-12-23,San Antonio Spurs,96,Minnesota,82
+241226024,2005-12-26,San Antonio Spurs,107,Boston,90
+241228024,2005-12-28,San Antonio Spurs,115,Phoenix,94
+241230022,2005-12-30,Portland,80,San Antonio Spurs,114
+241231012,2005-12-31,LA,79,San Antonio Spurs,98
+250102023,2005-01-02,Sacramento,86,San Antonio Spurs,81
+250104024,2005-01-04,San Antonio Spurs,100,Los Angeles,83
+250106024,2005-01-06,San Antonio Spurs,111,Indiana,98
+250108024,2005-01-08,San Antonio Spurs,99,Denver,90
+250110026,2005-01-10,Utah,97,San Antonio Spurs,96
+250112024,2005-01-12,San Antonio Spurs,94,Milwaukee,79
+250114024,2005-01-14,San Antonio Spurs,98,Dallas,95
+250115010,2005-01-15,Houston,73,San Antonio Spurs,67
+250117024,2005-01-17,San Antonio Spurs,101,Washington,73
+250119024,2005-01-19,San Antonio Spurs,80,LA,79
+250121021,2005-01-21,Phoenix,123,San Antonio Spurs,128
+250123023,2005-01-23,Sacramento,73,San Antonio Spurs,103
+250124022,2005-01-24,Portland,107,San Antonio Spurs,99
+250127024,2005-01-27,San Antonio Spurs,90,Sacramento,80
+250129024,2005-01-29,San Antonio Spurs,93,New Orleans,83
+250131025,2005-01-31,Oklahoma City,84,San Antonio Spurs,103
+250203013,2005-02-03,Los Angeles,91,San Antonio Spurs,103
+250208030,2005-02-08,Charlotte,85,San Antonio Spurs,104
+250209027,2005-02-09,Washington,95,San Antonio Spurs,87
+250211017,2005-02-11,Brooklyn,91,San Antonio Spurs,101
+250213014,2005-02-13,Miami,96,San Antonio Spurs,92
+250216003,2005-02-16,New Orleans,78,San Antonio Spurs,101
+250223024,2005-02-23,San Antonio Spurs,99,Houston,81
+250226024,2005-02-26,San Antonio Spurs,82,Memphis,84
+250228005,2005-02-28,Cleveland,92,San Antonio Spurs,94
+250302024,2005-03-02,San Antonio Spurs,92,Toronto,86
+250304024,2005-03-04,San Antonio Spurs,102,Chicago,99
+250306024,2005-03-06,San Antonio Spurs,101,Utah,94
+250308024,2005-03-08,San Antonio Spurs,90,Brooklyn,74
+250309021,2005-03-09,Phoenix,107,San Antonio Spurs,101
+250312024,2005-03-12,San Antonio Spurs,87,Denver,90
+250314024,2005-03-14,San Antonio Spurs,112,New Orleans,89
+250316024,2005-03-16,San Antonio Spurs,89,Minnesota,73
+250318024,2005-03-18,San Antonio Spurs,93,Charlotte,76
+250320008,2005-03-20,Detroit,110,San Antonio Spurs,101
+250321018,2005-03-21,NY Knicks,88,San Antonio Spurs,75
+250323011,2005-03-23,Indiana,100,San Antonio Spurs,93
+250325024,2005-03-25,San Antonio Spurs,111,Atlanta,95
+250327024,2005-03-27,San Antonio Spurs,83,Houston,70
+250330024,2005-03-30,San Antonio Spurs,89,Oklahoma City,76
+250401007,2005-04-01,Denver,102,San Antonio Spurs,84
+250402024,2005-04-02,San Antonio Spurs,95,Los Angeles,94
+250406024,2005-04-06,San Antonio Spurs,91,LA,82
+250407006,2005-04-07,Dallas,104,San Antonio Spurs,68
+250409012,2005-04-09,LA,124,San Antonio Spurs,125
+250410009,2005-04-10,Golden State,134,San Antonio Spurs,136
+250412024,2005-04-12,San Antonio Spurs,95,Portland,89
+250413026,2005-04-13,Utah,93,San Antonio Spurs,91
+250416024,2005-04-16,San Antonio Spurs,97,Memphis,75
+250418029,2005-04-18,Memphis,94,San Antonio Spurs,92
+250420016,2005-04-20,Minnesota,95,San Antonio Spurs,73
+241103021,2005-11-03,Phoenix,112,Atlanta Hawks,82
+241105025,2005-11-05,Oklahoma City,106,Atlanta Hawks,85
+241107013,2005-11-07,Los Angeles,106,Atlanta Hawks,90
+241109001,2005-11-09,Atlanta Hawks,79,Cleveland,93
+241112003,2005-11-12,New Orleans,95,Atlanta Hawks,96
+241113001,2005-11-13,Atlanta Hawks,88,San Antonio,103
+241116001,2005-11-16,Atlanta Hawks,88,Houston,84
+241117011,2005-11-17,Indiana,93,Atlanta Hawks,86
+241120001,2005-11-20,Atlanta Hawks,79,Utah,92
+241123018,2005-11-23,NY Knicks,104,Atlanta Hawks,88
+241124001,2005-11-24,Atlanta Hawks,93,Miami,99
+241126001,2005-11-26,Atlanta Hawks,99,Orlando,117
+241127030,2005-11-27,Charlotte,107,Atlanta Hawks,92
+241130001,2005-11-30,Atlanta Hawks,109,NY Knicks,110
+241203001,2005-12-03,Atlanta Hawks,90,Washington,114
+241204017,2005-12-04,Brooklyn,109,Atlanta Hawks,88
+241206001,2005-12-06,Atlanta Hawks,96,Philadelphia,92
+241208001,2005-12-08,Atlanta Hawks,89,Memphis,97
+241210008,2005-12-10,Detroit,72,Atlanta Hawks,88
+241211001,2005-12-11,Atlanta Hawks,90,Brooklyn,95
+241214001,2005-12-14,Atlanta Hawks,97,Indiana,108
+241215010,2005-12-15,Houston,92,Atlanta Hawks,69
+241217001,2005-12-17,Atlanta Hawks,84,Portland,100
+241218006,2005-12-18,Dallas,90,Atlanta Hawks,68
+241222001,2005-12-22,Atlanta Hawks,113,Dallas,100
+241227014,2005-12-27,Miami,116,Atlanta Hawks,102
+241228001,2005-12-28,Atlanta Hawks,102,Cleveland,111
+241230001,2005-12-30,Atlanta Hawks,79,Oklahoma City,94
+250102027,2005-01-02,Washington,104,Atlanta Hawks,101
+250105005,2005-01-05,Cleveland,101,Atlanta Hawks,85
+250107001,2005-01-07,Atlanta Hawks,97,Sacramento,100
+250111001,2005-01-11,Atlanta Hawks,103,Milwaukee,80
+250114002,2005-01-14,Boston,106,Atlanta Hawks,94
+250115001,2005-01-15,Atlanta Hawks,103,Charlotte,95
+250117001,2005-01-17,Atlanta Hawks,84,Brooklyn,85
+250119014,2005-01-19,Miami,111,Atlanta Hawks,92
+250121004,2005-01-21,Chicago,95,Atlanta Hawks,85
+250122001,2005-01-22,Atlanta Hawks,100,Boston,96
+250124001,2005-01-24,Atlanta Hawks,82,Chicago,107
+250126016,2005-01-26,Minnesota,104,Atlanta Hawks,87
+250128001,2005-01-28,Atlanta Hawks,96,Miami,106
+250129029,2005-01-29,Memphis,84,Atlanta Hawks,83
+250131001,2005-01-31,Atlanta Hawks,80,Orlando,79
+250202008,2005-02-02,Detroit,99,Atlanta Hawks,84
+250204020,2005-02-04,Philadelphia,103,Atlanta Hawks,85
+250205001,2005-02-05,Atlanta Hawks,79,Indiana,84
+250207001,2005-02-07,Atlanta Hawks,114,Los Angeles,108
+250210019,2005-02-10,Orlando,101,Atlanta Hawks,96
+250212015,2005-02-12,Milwaukee,113,Atlanta Hawks,83
+250215001,2005-02-15,Atlanta Hawks,96,Denver,100
+250216005,2005-02-16,Cleveland,111,Atlanta Hawks,89
+250222023,2005-02-22,Sacramento,114,Atlanta Hawks,104
+250223009,2005-02-23,Golden State,101,Atlanta Hawks,96
+250225022,2005-02-25,Portland,102,Atlanta Hawks,101
+250227012,2005-02-27,LA,111,Atlanta Hawks,104
+250301007,2005-03-01,Denver,97,Atlanta Hawks,74
+250302026,2005-03-02,Utah,96,Atlanta Hawks,74
+250305001,2005-03-05,Atlanta Hawks,97,Philadelphia,98
+250308015,2005-03-08,Milwaukee,105,Atlanta Hawks,101
+250309002,2005-03-09,Boston,95,Atlanta Hawks,91
+250311028,2005-03-11,Toronto,112,Atlanta Hawks,116
+250312001,2005-03-12,Atlanta Hawks,92,Golden State,105
+250314001,2005-03-14,Atlanta Hawks,108,Detroit,114
+250316001,2005-03-16,Atlanta Hawks,93,Washington,122
+250318001,2005-03-18,Atlanta Hawks,92,NY Knicks,106
+250321004,2005-03-21,Chicago,105,Atlanta Hawks,91
+250322001,2005-03-22,Atlanta Hawks,94,Phoenix,105
+250325024,2005-03-25,San Antonio,111,Atlanta Hawks,95
+250326001,2005-03-26,Atlanta Hawks,104,Toronto,109
+250328019,2005-03-28,Orlando,109,Atlanta Hawks,102
+250330027,2005-03-30,Washington,102,Atlanta Hawks,99
+250401001,2005-04-01,Atlanta Hawks,100,Boston,116
+250403001,2005-04-03,Atlanta Hawks,91,LA,111
+250405001,2005-04-05,Atlanta Hawks,86,New Orleans,96
+250408028,2005-04-08,Toronto,109,Atlanta Hawks,101
+250409001,2005-04-09,Atlanta Hawks,105,Minnesota,98
+250411001,2005-04-11,Atlanta Hawks,105,Charlotte,110
+250413030,2005-04-13,Charlotte,105,Atlanta Hawks,84
+250416001,2005-04-16,Atlanta Hawks,105,Chicago,114
+250417018,2005-04-17,NY Knicks,135,Atlanta Hawks,139
+250419001,2005-04-19,Atlanta Hawks,68,Detroit,95
+250420020,2005-04-20,Philadelphia,110,Atlanta Hawks,86
+241104030,2005-11-04,Charlotte Hornets,96,Washington,103
+241106030,2005-11-06,Charlotte Hornets,111,Orlando,100
+241110015,2005-11-10,Milwaukee,102,Charlotte Hornets,100
+241112002,2005-11-12,Boston,91,Charlotte Hornets,74
+241113030,2005-11-13,Charlotte Hornets,87,Golden State,103
+241116030,2005-11-16,Charlotte Hornets,105,Utah,107
+241118030,2005-11-18,Charlotte Hornets,89,Cleveland,106
+241120005,2005-11-20,Cleveland,100,Charlotte Hornets,84
+241121008,2005-11-21,Detroit,117,Charlotte Hornets,116
+241123030,2005-11-23,Charlotte Hornets,91,Detroit,89
+241126011,2005-11-26,Indiana,82,Charlotte Hornets,77
+241127030,2005-11-27,Charlotte Hornets,107,Atlanta,92
+241130017,2005-11-30,Brooklyn,99,Charlotte Hornets,86
+241204030,2005-12-04,Charlotte Hornets,107,NY Knicks,101
+241206012,2005-12-06,LA,99,Charlotte Hornets,93
+241207023,2005-12-07,Sacramento,109,Charlotte Hornets,92
+241210021,2005-12-10,Phoenix,115,Charlotte Hornets,106
+241212009,2005-12-12,Golden State,99,Charlotte Hornets,87
+241214030,2005-12-14,Charlotte Hornets,94,New Orleans,93
+241218030,2005-12-18,Charlotte Hornets,101,Houston,100
+241221030,2005-12-21,Charlotte Hornets,91,Brooklyn,94
+241222010,2005-12-22,Houston,87,Charlotte Hornets,90
+241226018,2005-12-26,NY Knicks,91,Charlotte Hornets,82
+241227027,2005-12-27,Washington,106,Charlotte Hornets,87
+241229030,2005-12-29,Charlotte Hornets,71,Indiana,74
+241231030,2005-12-31,Charlotte Hornets,97,Oklahoma City,103
+250101014,2005-01-01,Miami,113,Charlotte Hornets,90
+250103030,2005-01-03,Charlotte Hornets,83,Cleveland,94
+250105030,2005-01-05,Charlotte Hornets,102,Minnesota,84
+250107019,2005-01-07,Orlando,111,Charlotte Hornets,91
+250111005,2005-01-11,Cleveland,100,Charlotte Hornets,98
+250114030,2005-01-14,Charlotte Hornets,89,Memphis,109
+250115001,2005-01-15,Atlanta,103,Charlotte Hornets,95
+250117030,2005-01-17,Charlotte Hornets,92,Milwaukee,99
+250119030,2005-01-19,Charlotte Hornets,105,Philadelphia,107
+250121030,2005-01-21,Charlotte Hornets,99,Dallas,105
+250123028,2005-01-23,Toronto,103,Charlotte Hornets,92
+250125030,2005-01-25,Charlotte Hornets,92,Boston,97
+250127004,2005-01-27,Chicago,101,Charlotte Hornets,93
+250128030,2005-01-28,Charlotte Hornets,101,Toronto,94
+250130013,2005-01-30,Los Angeles,101,Charlotte Hornets,90
+250201026,2005-02-01,Utah,105,Charlotte Hornets,109
+250204022,2005-02-04,Portland,101,Charlotte Hornets,89
+250205025,2005-02-05,Oklahoma City,113,Charlotte Hornets,99
+250208030,2005-02-08,Charlotte Hornets,85,San Antonio,104
+250209011,2005-02-09,Indiana,94,Charlotte Hornets,87
+250211030,2005-02-11,Charlotte Hornets,87,Miami,97
+250213018,2005-02-13,NY Knicks,102,Charlotte Hornets,99
+250214030,2005-02-14,Charlotte Hornets,77,Portland,80
+250216030,2005-02-16,Charlotte Hornets,94,Denver,88
+250222030,2005-02-22,Charlotte Hornets,102,Milwaukee,112
+250225017,2005-02-25,Brooklyn,93,Charlotte Hornets,86
+250226030,2005-02-26,Charlotte Hornets,90,Chicago,94
+250301030,2005-03-01,Charlotte Hornets,94,Sacramento,87
+250302003,2005-03-02,New Orleans,94,Charlotte Hornets,85
+250304002,2005-03-04,Boston,104,Charlotte Hornets,84
+250305030,2005-03-05,Charlotte Hornets,84,Washington,86
+250308016,2005-03-08,Minnesota,102,Charlotte Hornets,97
+250311020,2005-03-11,Philadelphia,112,Charlotte Hornets,80
+250312030,2005-03-12,Charlotte Hornets,116,Los Angeles,117
+250314030,2005-03-14,Charlotte Hornets,110,Boston,119
+250316007,2005-03-16,Denver,120,Charlotte Hornets,101
+250318024,2005-03-18,San Antonio,93,Charlotte Hornets,76
+250319006,2005-03-19,Dallas,104,Charlotte Hornets,93
+250321030,2005-03-21,Charlotte Hornets,102,Orlando,97
+250323030,2005-03-23,Charlotte Hornets,105,Phoenix,120
+250324019,2005-03-24,Orlando,94,Charlotte Hornets,108
+250326030,2005-03-26,Charlotte Hornets,94,Miami,92
+250328030,2005-03-28,Charlotte Hornets,91,Brooklyn,95
+250330030,2005-03-30,Charlotte Hornets,99,Chicago,102
+250401030,2005-04-01,Charlotte Hornets,107,Toronto,119
+250402004,2005-04-02,Chicago,112,Charlotte Hornets,97
+250405030,2005-04-05,Charlotte Hornets,102,LA,104
+250406020,2005-04-06,Philadelphia,106,Charlotte Hornets,103
+250408015,2005-04-08,Milwaukee,93,Charlotte Hornets,75
+250410029,2005-04-10,Memphis,102,Charlotte Hornets,95
+250411001,2005-04-11,Atlanta,105,Charlotte Hornets,110
+250413030,2005-04-13,Charlotte Hornets,105,Atlanta,84
+250416030,2005-04-16,Charlotte Hornets,98,NY Knicks,100
+250417027,2005-04-17,Washington,106,Charlotte Hornets,104
+250419014,2005-04-19,Miami,99,Charlotte Hornets,80
+250420030,2005-04-20,Charlotte Hornets,97,Detroit,86
+241103017,2005-11-03,Brooklyn,77,Miami Heat,100
+241104014,2005-11-04,Miami Heat,92,Cleveland,86
+241106027,2005-11-06,Washington,106,Miami Heat,118
+241109014,2005-11-09,Miami Heat,103,Washington,93
+241111014,2005-11-11,Miami Heat,93,Dallas,113
+241112024,2005-11-12,San Antonio,93,Miami Heat,84
+241114014,2005-11-14,Miami Heat,112,Milwaukee,110
+241116016,2005-11-16,Minnesota,108,Miami Heat,97
+241117015,2005-11-17,Milwaukee,106,Miami Heat,113
+241119014,2005-11-19,Miami Heat,107,Utah,105
+241121014,2005-11-21,Miami Heat,93,Philadelphia,83
+241123014,2005-11-23,Miami Heat,87,Portland,99
+241124001,2005-11-24,Atlanta,93,Miami Heat,99
+241126008,2005-11-26,Detroit,78,Miami Heat,77
+241128014,2005-11-28,Miami Heat,106,Boston,104
+241130014,2005-11-30,Miami Heat,92,Toronto,94
+241203004,2005-12-03,Chicago,81,Miami Heat,105
+241204007,2005-12-04,Denver,104,Miami Heat,95
+241206026,2005-12-06,Utah,80,Miami Heat,100
+241208015,2005-12-08,Milwaukee,96,Miami Heat,101
+241210014,2005-12-10,Miami Heat,92,Memphis,84
+241212028,2005-12-12,Toronto,98,Miami Heat,106
+241213014,2005-12-13,Miami Heat,106,Washington,83
+241215027,2005-12-15,Washington,93,Miami Heat,98
+241217014,2005-12-17,Miami Heat,107,Denver,100
+241219014,2005-12-19,Miami Heat,117,Orlando,107
+241221014,2005-12-21,Miami Heat,108,Boston,100
+241223023,2005-12-23,Sacramento,107,Miami Heat,109
+241225013,2005-12-25,Los Angeles,102,Miami Heat,104
+241227014,2005-12-27,Miami Heat,116,Atlanta,102
+241230008,2005-12-30,Detroit,78,Miami Heat,89
+250101014,2005-01-01,Miami Heat,113,Charlotte,90
+250103014,2005-01-03,Miami Heat,96,Oklahoma City,98
+250105014,2005-01-05,Miami Heat,102,NY Knicks,94
+250107022,2005-01-07,Portland,92,Miami Heat,103
+250109025,2005-01-09,Oklahoma City,108,Miami Heat,98
+250111021,2005-01-11,Phoenix,122,Miami Heat,107
+250112009,2005-01-12,Golden State,91,Miami Heat,98
+250114012,2005-01-14,LA,114,Miami Heat,112
+250119014,2005-01-19,Miami Heat,111,Atlanta,92
+250121014,2005-01-21,Miami Heat,100,Indiana,106
+250123014,2005-01-23,Miami Heat,97,New Orleans,68
+250124020,2005-01-24,Philadelphia,106,Miami Heat,98
+250126028,2005-01-26,Toronto,96,Miami Heat,111
+250128001,2005-01-28,Atlanta,96,Miami Heat,106
+250130014,2005-01-30,Miami Heat,104,Houston,95
+250201006,2005-02-01,Dallas,109,Miami Heat,104
+250203014,2005-02-03,Miami Heat,100,Cleveland,88
+250205014,2005-02-05,Miami Heat,108,Chicago,97
+250207014,2005-02-07,Miami Heat,105,Golden State,96
+250209018,2005-02-09,NY Knicks,110,Miami Heat,116
+250211030,2005-02-11,Charlotte,87,Miami Heat,97
+250213014,2005-02-13,Miami Heat,96,San Antonio,92
+250216014,2005-02-16,Miami Heat,113,LA,95
+250222004,2005-02-22,Chicago,105,Miami Heat,101
+250223011,2005-02-23,Indiana,93,Miami Heat,91
+250226014,2005-02-26,Miami Heat,101,Orlando,98
+250227019,2005-02-27,Orlando,103,Miami Heat,112
+250303017,2005-03-03,Brooklyn,90,Miami Heat,106
+250304014,2005-03-04,Miami Heat,104,Sacramento,83
+250306005,2005-03-06,Cleveland,82,Miami Heat,102
+250307014,2005-03-07,Miami Heat,108,Philadelphia,100
+250310014,2005-03-10,Miami Heat,107,Minnesota,90
+250312014,2005-03-12,Miami Heat,90,Brooklyn,65
+250314014,2005-03-14,Miami Heat,110,Milwaukee,71
+250315018,2005-03-15,NY Knicks,96,Miami Heat,98
+250317014,2005-03-17,Miami Heat,102,Los Angeles,89
+250319014,2005-03-19,Miami Heat,97,NY Knicks,82
+250322010,2005-03-22,Houston,84,Miami Heat,82
+250325014,2005-03-25,Miami Heat,125,Phoenix,115
+250326030,2005-03-26,Charlotte,94,Miami Heat,92
+250329014,2005-03-29,Miami Heat,103,Toronto,91
+250331011,2005-03-31,Indiana,114,Miami Heat,108
+250402003,2005-04-02,New Orleans,99,Miami Heat,111
+250405014,2005-04-05,Miami Heat,104,Chicago,86
+250408029,2005-04-08,Memphis,97,Miami Heat,81
+250410014,2005-04-10,Miami Heat,72,Detroit,80
+250414020,2005-04-14,Philadelphia,126,Miami Heat,119
+250415002,2005-04-15,Boston,101,Miami Heat,99
+250417014,2005-04-17,Miami Heat,84,Indiana,80
+250419014,2005-04-19,Miami Heat,99,Charlotte,80
+250420019,2005-04-20,Orlando,93,Miami Heat,98
+241103019,2005-11-03,Orlando Magic,93,Milwaukee,92
+241105003,2005-11-05,New Orleans,89,Orlando Magic,90
+241106030,2005-11-06,Charlotte,111,Orlando Magic,100
+241109019,2005-11-09,Orlando Magic,94,Dallas,84
+241110027,2005-11-10,Washington,106,Orlando Magic,96
+241112019,2005-11-12,Orlando Magic,122,Los Angeles,113
+241114020,2005-11-14,Philadelphia,96,Orlando Magic,87
+241117019,2005-11-17,Orlando Magic,107,Utah,92
+241120011,2005-11-20,Indiana,83,Orlando Magic,86
+241124019,2005-11-24,Orlando Magic,83,Portland,89
+241126001,2005-11-26,Atlanta,99,Orlando Magic,117
+241127019,2005-11-27,Orlando Magic,105,Philadelphia,99
+241129019,2005-11-29,Orlando Magic,101,Boston,117
+241201019,2005-12-01,Orlando Magic,129,Toronto,108
+241203018,2005-12-03,NY Knicks,98,Orlando Magic,104
+241204019,2005-12-04,Orlando Magic,96,Memphis,91
+241206007,2005-12-06,Denver,115,Orlando Magic,102
+241208026,2005-12-08,Utah,100,Orlando Magic,106
+241210009,2005-12-10,Golden State,109,Orlando Magic,113
+241212013,2005-12-12,Los Angeles,105,Orlando Magic,98
+241213021,2005-12-13,Phoenix,121,Orlando Magic,100
+241215024,2005-12-15,San Antonio,94,Orlando Magic,91
+241218019,2005-12-18,Orlando Magic,117,Denver,95
+241219014,2005-12-19,Miami,117,Orlando Magic,107
+241222019,2005-12-22,Orlando Magic,93,San Antonio,87
+241227019,2005-12-27,Orlando Magic,111,NY Knicks,119
+241229019,2005-12-29,Orlando Magic,105,Milwaukee,111
+250101004,2005-01-01,Chicago,105,Orlando Magic,90
+250103028,2005-01-03,Toronto,105,Orlando Magic,94
+250105019,2005-01-05,Orlando Magic,105,Oklahoma City,87
+250107019,2005-01-07,Orlando Magic,111,Charlotte,91
+250108019,2005-01-08,Orlando Magic,104,Brooklyn,101
+250110002,2005-01-10,Boston,119,Orlando Magic,101
+250112016,2005-01-12,Minnesota,80,Orlando Magic,87
+250114008,2005-01-14,Detroit,101,Orlando Magic,94
+250115011,2005-01-15,Indiana,84,Orlando Magic,85
+250118019,2005-01-18,Orlando Magic,103,Detroit,101
+250120019,2005-01-20,Orlando Magic,99,Houston,108
+250122019,2005-01-22,Orlando Magic,115,Philadelphia,111
+250124010,2005-01-24,Houston,89,Orlando Magic,78
+250125029,2005-01-25,Memphis,95,Orlando Magic,83
+250128019,2005-01-28,Orlando Magic,108,Washington,101
+250129027,2005-01-29,Washington,97,Orlando Magic,103
+250131001,2005-01-31,Atlanta,80,Orlando Magic,79
+250201019,2005-02-01,Orlando Magic,105,Cleveland,102
+250204002,2005-02-04,Boston,112,Orlando Magic,100
+250205005,2005-02-05,Cleveland,101,Orlando Magic,92
+250208019,2005-02-08,Orlando Magic,109,Golden State,113
+250210019,2005-02-10,Orlando Magic,101,Atlanta,96
+250212020,2005-02-12,Philadelphia,112,Orlando Magic,99
+250213019,2005-02-13,Orlando Magic,97,New Orleans,94
+250215019,2005-02-15,Orlando Magic,99,LA,94
+250222019,2005-02-22,Orlando Magic,84,Indiana,108
+250226014,2005-02-26,Miami,101,Orlando Magic,98
+250227019,2005-02-27,Orlando Magic,103,Miami,112
+250302019,2005-03-02,Orlando Magic,114,Sacramento,111
+250304019,2005-03-04,Orlando Magic,111,NY Knicks,89
+250305017,2005-03-05,Brooklyn,81,Orlando Magic,105
+250308005,2005-03-08,Cleveland,111,Orlando Magic,92
+250309028,2005-03-09,Toronto,106,Orlando Magic,96
+250311019,2005-03-11,Orlando Magic,96,Minnesota,101
+250313019,2005-03-13,Orlando Magic,82,Brooklyn,98
+250315023,2005-03-15,Sacramento,105,Orlando Magic,94
+250316012,2005-03-16,LA,110,Orlando Magic,102
+250318025,2005-03-18,Oklahoma City,98,Orlando Magic,90
+250319022,2005-03-19,Portland,92,Orlando Magic,97
+250321030,2005-03-21,Charlotte,102,Orlando Magic,97
+250324019,2005-03-24,Orlando Magic,94,Charlotte,108
+250326019,2005-03-26,Orlando Magic,116,Phoenix,118
+250328019,2005-03-28,Orlando Magic,109,Atlanta,102
+250330019,2005-03-30,Orlando Magic,108,Toronto,96
+250401019,2005-04-01,Orlando Magic,102,Washington,111
+250402017,2005-04-02,Brooklyn,102,Orlando Magic,103
+250405006,2005-04-05,Dallas,114,Orlando Magic,105
+250406019,2005-04-06,Orlando Magic,101,Chicago,102
+250408019,2005-04-08,Orlando Magic,102,Detroit,114
+250411019,2005-04-11,Orlando Magic,106,Cleveland,114
+250413008,2005-04-13,Detroit,103,Orlando Magic,94
+250415004,2005-04-15,Chicago,117,Orlando Magic,77
+250416015,2005-04-16,Milwaukee,113,Orlando Magic,103
+250418019,2005-04-18,Orlando Magic,92,Indiana,88
+250420019,2005-04-20,Orlando Magic,93,Miami,98
+241103029,2005-11-03,Memphis,91,Washington Wizards,103
+241104030,2005-11-04,Charlotte,96,Washington Wizards,103
+241106027,2005-11-06,Washington Wizards,106,Miami,118
+241109014,2005-11-09,Miami,103,Washington Wizards,93
+241110027,2005-11-10,Washington Wizards,106,Orlando,96
+241113005,2005-11-13,Cleveland,105,Washington Wizards,74
+241114027,2005-11-14,Washington Wizards,113,Dallas,122
+241117027,2005-11-17,Washington Wizards,110,Boston,105
+241120017,2005-11-20,Brooklyn,86,Washington Wizards,97
+241123027,2005-11-23,Washington Wizards,102,Toronto,86
+241126020,2005-11-26,Philadelphia,116,Washington Wizards,114
+241128028,2005-11-28,Toronto,109,Washington Wizards,114
+241201027,2005-12-01,Washington Wizards,95,Brooklyn,68
+241203001,2005-12-03,Atlanta,90,Washington Wizards,114
+241204027,2005-12-04,Washington Wizards,95,Chicago,88
+241208027,2005-12-08,Washington Wizards,105,Denver,111
+241210027,2005-12-10,Washington Wizards,106,NY Knicks,104
+241212027,2005-12-12,Washington Wizards,88,New Orleans,69
+241213014,2005-12-13,Miami,106,Washington Wizards,83
+241215027,2005-12-15,Washington Wizards,93,Miami,98
+241217013,2005-12-17,Los Angeles,116,Washington Wizards,120
+241218021,2005-12-18,Phoenix,110,Washington Wizards,96
+241220009,2005-12-20,Golden State,101,Washington Wizards,103
+241221023,2005-12-21,Sacramento,104,Washington Wizards,93
+241226016,2005-12-26,Minnesota,109,Washington Wizards,74
+241227027,2005-12-27,Washington Wizards,106,Charlotte,87
+241229027,2005-12-29,Washington Wizards,105,Detroit,107
+241231002,2005-12-31,Boston,108,Washington Wizards,103
+250102027,2005-01-02,Washington Wizards,104,Atlanta,101
+250104027,2005-01-04,Washington Wizards,112,Brooklyn,88
+250106027,2005-01-06,Washington Wizards,107,Oklahoma City,96
+250108027,2005-01-08,Washington Wizards,117,Minnesota,114
+250112027,2005-01-12,Washington Wizards,104,Portland,100
+250114015,2005-01-14,Milwaukee,103,Washington Wizards,105
+250115027,2005-01-15,Washington Wizards,108,Phoenix,103
+250117024,2005-01-17,San Antonio,101,Washington Wizards,73
+250118006,2005-01-18,Dallas,137,Washington Wizards,120
+250121027,2005-01-21,Washington Wizards,118,Toronto,109
+250122011,2005-01-22,Indiana,93,Washington Wizards,95
+250124005,2005-01-24,Cleveland,97,Washington Wizards,106
+250126027,2005-01-26,Washington Wizards,117,Philadelphia,107
+250128019,2005-01-28,Orlando,108,Washington Wizards,101
+250129027,2005-01-29,Washington Wizards,97,Orlando,103
+250201027,2005-02-01,Washington Wizards,96,Detroit,105
+250204028,2005-02-04,Toronto,103,Washington Wizards,100
+250205027,2005-02-05,Washington Wizards,112,Milwaukee,94
+250207027,2005-02-07,Washington Wizards,108,Indiana,104
+250209027,2005-02-09,Washington Wizards,95,San Antonio,87
+250211027,2005-02-11,Washington Wizards,94,LA,91
+250212008,2005-02-12,Detroit,107,Washington Wizards,86
+250214003,2005-02-14,New Orleans,98,Washington Wizards,96
+250215010,2005-02-15,Houston,123,Washington Wizards,93
+250223027,2005-02-23,Washington Wizards,93,Memphis,83
+250225004,2005-02-25,Chicago,97,Washington Wizards,90
+250227027,2005-02-27,Washington Wizards,108,Sacramento,110
+250302027,2005-03-02,Washington Wizards,101,Houston,98
+250304027,2005-03-04,Washington Wizards,90,Golden State,103
+250305030,2005-03-05,Charlotte,84,Washington Wizards,86
+250308018,2005-03-08,NY Knicks,93,Washington Wizards,83
+250313002,2005-03-13,Boston,105,Washington Wizards,101
+250314027,2005-03-14,Washington Wizards,95,Los Angeles,81
+250316001,2005-03-16,Atlanta,93,Washington Wizards,122
+250318015,2005-03-18,Milwaukee,99,Washington Wizards,90
+250319027,2005-03-19,Washington Wizards,96,Utah,95
+250322007,2005-03-22,Denver,127,Washington Wizards,98
+250324026,2005-03-24,Utah,84,Washington Wizards,85
+250325012,2005-03-25,LA,98,Washington Wizards,94
+250327025,2005-03-27,Oklahoma City,94,Washington Wizards,95
+250328022,2005-03-28,Portland,106,Washington Wizards,114
+250330027,2005-03-30,Washington Wizards,102,Atlanta,99
+250401019,2005-04-01,Orlando,102,Washington Wizards,111
+250403027,2005-04-03,Washington Wizards,76,Indiana,79
+250405027,2005-04-05,Washington Wizards,108,Boston,116
+250406008,2005-04-06,Detroit,105,Washington Wizards,93
+250408011,2005-04-08,Indiana,93,Washington Wizards,83
+250409027,2005-04-09,Washington Wizards,106,Philadelphia,112
+250411027,2005-04-11,Washington Wizards,119,Milwaukee,112
+250413027,2005-04-13,Washington Wizards,93,Chicago,82
+250415027,2005-04-15,Washington Wizards,119,Cleveland,111
+250417027,2005-04-17,Washington Wizards,106,Charlotte,104
+250419017,2005-04-19,Brooklyn,109,Washington Wizards,101
+250420018,2005-04-20,NY Knicks,113,Washington Wizards,105
+241102013,2005-11-02,Los Angeles,89,Denver Nuggets,78
+241104007,2005-11-04,Denver Nuggets,94,Minnesota,92
+241106007,2005-11-06,Denver Nuggets,82,Utah,106
+241108026,2005-11-08,Utah,102,Denver Nuggets,91
+241109007,2005-11-09,Denver Nuggets,88,Oklahoma City,108
+241111007,2005-11-11,Denver Nuggets,117,Detroit,109
+241114023,2005-11-14,Sacramento,101,Denver Nuggets,89
+241117007,2005-11-17,Denver Nuggets,112,Toronto,106
+241119007,2005-11-19,Denver Nuggets,99,Chicago,81
+241121007,2005-11-21,Denver Nuggets,110,Dallas,82
+241123007,2005-11-23,Denver Nuggets,90,Brooklyn,88
+241126007,2005-11-26,Denver Nuggets,75,San Antonio,89
+241127010,2005-11-27,Houston,76,Denver Nuggets,82
+241129007,2005-11-29,Denver Nuggets,76,New Orleans,67
+241202007,2005-12-02,Denver Nuggets,73,Cleveland,92
+241204007,2005-12-04,Denver Nuggets,104,Miami,95
+241206007,2005-12-06,Denver Nuggets,115,Orlando,102
+241208027,2005-12-08,Washington,105,Denver Nuggets,111
+241210028,2005-12-10,Toronto,87,Denver Nuggets,101
+241212018,2005-12-12,NY Knicks,107,Denver Nuggets,96
+241214020,2005-12-14,Philadelphia,110,Denver Nuggets,102
+241215002,2005-12-15,Boston,99,Denver Nuggets,100
+241217014,2005-12-17,Miami,107,Denver Nuggets,100
+241218019,2005-12-18,Orlando,117,Denver Nuggets,95
+241220007,2005-12-20,Denver Nuggets,105,Phoenix,107
+241222025,2005-12-22,Oklahoma City,98,Denver Nuggets,83
+241226007,2005-12-26,Denver Nuggets,88,Dallas,102
+241227009,2005-12-27,Golden State,104,Denver Nuggets,101
+241231007,2005-12-31,Denver Nuggets,97,Philadelphia,92
+250102013,2005-01-02,Los Angeles,99,Denver Nuggets,91
+250103007,2005-01-03,Denver Nuggets,98,LA,102
+250108024,2005-01-08,San Antonio,99,Denver Nuggets,90
+250109007,2005-01-09,Denver Nuggets,98,Houston,116
+250111023,2005-01-11,Sacramento,109,Denver Nuggets,100
+250112007,2005-01-12,Denver Nuggets,95,Los Angeles,83
+250114007,2005-01-14,Denver Nuggets,83,Minnesota,93
+250117009,2005-01-17,Golden State,107,Denver Nuggets,97
+250118025,2005-01-18,Oklahoma City,110,Denver Nuggets,116
+250121007,2005-01-21,Denver Nuggets,92,Memphis,82
+250123006,2005-01-23,Dallas,95,Denver Nuggets,93
+250125004,2005-01-25,Chicago,111,Denver Nuggets,107
+250126008,2005-01-26,Detroit,87,Denver Nuggets,70
+250128015,2005-01-28,Milwaukee,100,Denver Nuggets,106
+250129011,2005-01-29,Indiana,88,Denver Nuggets,95
+250201007,2005-02-01,Denver Nuggets,96,NY Knicks,76
+250202022,2005-02-02,Portland,97,Denver Nuggets,94
+250205007,2005-02-05,Denver Nuggets,107,Golden State,91
+250208007,2005-02-08,Denver Nuggets,97,Utah,87
+250209016,2005-02-09,Minnesota,98,Denver Nuggets,92
+250211005,2005-02-11,Cleveland,101,Denver Nuggets,106
+250213017,2005-02-13,Brooklyn,94,Denver Nuggets,79
+250215001,2005-02-15,Atlanta,96,Denver Nuggets,100
+250216030,2005-02-16,Charlotte,94,Denver Nuggets,88
+250223007,2005-02-23,Denver Nuggets,107,Boston,86
+250225029,2005-02-25,Memphis,94,Denver Nuggets,97
+250227003,2005-02-27,New Orleans,93,Denver Nuggets,94
+250301007,2005-03-01,Denver Nuggets,97,Atlanta,74
+250303007,2005-03-03,Denver Nuggets,96,Indiana,87
+250305012,2005-03-05,LA,89,Denver Nuggets,105
+250307007,2005-03-07,Denver Nuggets,111,Portland,98
+250312024,2005-03-12,San Antonio,87,Denver Nuggets,90
+250313007,2005-03-13,Denver Nuggets,101,Phoenix,106
+250316007,2005-03-16,Denver Nuggets,120,Charlotte,101
+250318007,2005-03-18,Denver Nuggets,115,LA,96
+250320007,2005-03-20,Denver Nuggets,114,Milwaukee,103
+250322007,2005-03-22,Denver Nuggets,127,Washington,98
+250324007,2005-03-24,Denver Nuggets,117,Los Angeles,96
+250326007,2005-03-26,Denver Nuggets,113,Sacramento,99
+250328021,2005-03-28,Phoenix,123,Denver Nuggets,114
+250330026,2005-03-30,Utah,98,Denver Nuggets,109
+250401007,2005-04-01,Denver Nuggets,102,San Antonio,84
+250402022,2005-04-02,Portland,97,Denver Nuggets,103
+250405029,2005-04-05,Memphis,91,Denver Nuggets,94
+250406003,2005-04-06,New Orleans,83,Denver Nuggets,94
+250408016,2005-04-08,Minnesota,104,Denver Nuggets,107
+250409007,2005-04-09,Denver Nuggets,121,Oklahoma City,105
+250411007,2005-04-11,Denver Nuggets,122,Golden State,106
+250413007,2005-04-13,Denver Nuggets,116,New Orleans,102
+250415007,2005-04-15,Denver Nuggets,111,Memphis,102
+250416010,2005-04-16,Houston,115,Denver Nuggets,87
+250418021,2005-04-18,Phoenix,128,Denver Nuggets,114
+250419007,2005-04-19,Denver Nuggets,119,Portland,115
+241103016,2005-11-03,Minnesota Timberwolves,99,NY Knicks,93
+241104007,2005-11-04,Denver,94,Minnesota Timberwolves,92
+241106016,2005-11-06,Minnesota Timberwolves,99,New Orleans,92
+241109016,2005-11-09,Minnesota Timberwolves,101,Indiana,102
+241111010,2005-11-11,Houston,91,Minnesota Timberwolves,96
+241116016,2005-11-16,Minnesota Timberwolves,108,Miami,97
+241117008,2005-11-17,Detroit,93,Minnesota Timberwolves,85
+241120003,2005-11-20,New Orleans,94,Minnesota Timberwolves,99
+241122006,2005-11-22,Dallas,82,Minnesota Timberwolves,83
+241123016,2005-11-23,Minnesota Timberwolves,92,Oklahoma City,103
+241125011,2005-11-25,Indiana,106,Minnesota Timberwolves,102
+241126016,2005-11-26,Minnesota Timberwolves,115,Memphis,90
+241128023,2005-11-28,Sacramento,110,Minnesota Timberwolves,121
+241201009,2005-12-01,Golden State,99,Minnesota Timberwolves,107
+241203021,2005-12-03,Phoenix,93,Minnesota Timberwolves,97
+241204012,2005-12-04,LA,100,Minnesota Timberwolves,107
+241207016,2005-12-07,Minnesota Timberwolves,87,Dallas,97
+241208020,2005-12-08,Philadelphia,84,Minnesota Timberwolves,119
+241210016,2005-12-10,Minnesota Timberwolves,113,Sacramento,105
+241211004,2005-12-11,Chicago,99,Minnesota Timberwolves,88
+241214016,2005-12-14,Minnesota Timberwolves,100,Portland,89
+241215028,2005-12-15,Toronto,96,Minnesota Timberwolves,90
+241217016,2005-12-17,Minnesota Timberwolves,113,LA,86
+241221005,2005-12-21,Cleveland,107,Minnesota Timberwolves,97
+241223024,2005-12-23,San Antonio,96,Minnesota Timberwolves,82
+241226016,2005-12-26,Minnesota Timberwolves,109,Washington,74
+241229018,2005-12-29,NY Knicks,100,Minnesota Timberwolves,87
+250101016,2005-01-01,Minnesota Timberwolves,95,Memphis,104
+250104016,2005-01-04,Minnesota Timberwolves,115,Phoenix,122
+250105030,2005-01-05,Charlotte,102,Minnesota Timberwolves,84
+250107016,2005-01-07,Minnesota Timberwolves,89,Philadelphia,84
+250108027,2005-01-08,Washington,117,Minnesota Timberwolves,114
+250110016,2005-01-10,Minnesota Timberwolves,96,Los Angeles,105
+250112016,2005-01-12,Minnesota Timberwolves,80,Orlando,87
+250114007,2005-01-14,Denver,83,Minnesota Timberwolves,93
+250115016,2005-01-15,Minnesota Timberwolves,92,Portland,84
+250117016,2005-01-17,Minnesota Timberwolves,91,Toronto,100
+250119013,2005-01-19,Los Angeles,93,Minnesota Timberwolves,90
+250121025,2005-01-21,Oklahoma City,107,Minnesota Timberwolves,112
+250122022,2005-01-22,Portland,83,Minnesota Timberwolves,92
+250124016,2005-01-24,Minnesota Timberwolves,86,Detroit,83
+250126016,2005-01-26,Minnesota Timberwolves,104,Atlanta,87
+250128016,2005-01-28,Minnesota Timberwolves,93,Utah,91
+250130016,2005-01-30,Minnesota Timberwolves,84,Sacramento,94
+250201015,2005-02-01,Milwaukee,91,Minnesota Timberwolves,86
+250202016,2005-02-02,Minnesota Timberwolves,79,Phoenix,108
+250204016,2005-02-04,Minnesota Timberwolves,113,Houston,119
+250206016,2005-02-06,Minnesota Timberwolves,100,Boston,103
+250208029,2005-02-08,Memphis,108,Minnesota Timberwolves,96
+250209016,2005-02-09,Minnesota Timberwolves,98,Denver,92
+250211026,2005-02-11,Utah,100,Minnesota Timberwolves,82
+250213016,2005-02-13,Minnesota Timberwolves,83,Chicago,87
+250215016,2005-02-15,Minnesota Timberwolves,82,Brooklyn,71
+250217016,2005-02-17,Minnesota Timberwolves,94,Cleveland,88
+250224012,2005-02-24,LA,92,Minnesota Timberwolves,86
+250225025,2005-02-25,Oklahoma City,98,Minnesota Timberwolves,88
+250227022,2005-02-27,Portland,83,Minnesota Timberwolves,91
+250302016,2005-03-02,Minnesota Timberwolves,93,Golden State,99
+250304016,2005-03-04,Minnesota Timberwolves,103,Milwaukee,97
+250306002,2005-03-06,Boston,97,Minnesota Timberwolves,99
+250308016,2005-03-08,Minnesota Timberwolves,102,Charlotte,97
+250310014,2005-03-10,Miami,107,Minnesota Timberwolves,90
+250311019,2005-03-11,Orlando,96,Minnesota Timberwolves,101
+250313016,2005-03-13,Minnesota Timberwolves,93,Dallas,102
+250315006,2005-03-15,Dallas,91,Minnesota Timberwolves,100
+250316024,2005-03-16,San Antonio,89,Minnesota Timberwolves,73
+250318029,2005-03-18,Memphis,88,Minnesota Timberwolves,83
+250320016,2005-03-20,Minnesota Timberwolves,94,Houston,86
+250323016,2005-03-23,Minnesota Timberwolves,107,New Orleans,102
+250326017,2005-03-26,Brooklyn,75,Minnesota Timberwolves,96
+250327016,2005-03-27,Minnesota Timberwolves,89,LA,85
+250331013,2005-03-31,Los Angeles,96,Minnesota Timberwolves,105
+250401021,2005-04-01,Phoenix,107,Minnesota Timberwolves,98
+250403023,2005-04-03,Sacramento,100,Minnesota Timberwolves,112
+250406016,2005-04-06,Minnesota Timberwolves,111,Utah,86
+250408016,2005-04-08,Minnesota Timberwolves,104,Denver,107
+250409001,2005-04-09,Atlanta,105,Minnesota Timberwolves,98
+250413016,2005-04-13,Minnesota Timberwolves,116,Golden State,100
+250415026,2005-04-15,Utah,84,Minnesota Timberwolves,100
+250417016,2005-04-17,Minnesota Timberwolves,94,Oklahoma City,109
+250418003,2005-04-18,New Orleans,99,Minnesota Timberwolves,102
+250420016,2005-04-20,Minnesota Timberwolves,95,San Antonio,73
+241103012,2005-11-03,LA,114,Oklahoma City Thunder,84
+241105025,2005-11-05,Oklahoma City Thunder,106,Atlanta,85
+241107025,2005-11-07,Oklahoma City Thunder,113,San Antonio,94
+241109007,2005-11-09,Denver,88,Oklahoma City Thunder,108
+241110025,2005-11-10,Oklahoma City Thunder,108,Sacramento,78
+241112025,2005-11-12,Oklahoma City Thunder,88,Toronto,87
+241114025,2005-11-14,Oklahoma City Thunder,118,Memphis,113
+241116020,2005-11-16,Philadelphia,95,Oklahoma City Thunder,103
+241117017,2005-11-17,Brooklyn,68,Oklahoma City Thunder,79
+241119028,2005-11-19,Toronto,94,Oklahoma City Thunder,101
+241121002,2005-11-21,Boston,102,Oklahoma City Thunder,83
+241123016,2005-11-23,Minnesota,92,Oklahoma City Thunder,103
+241124029,2005-11-24,Memphis,84,Oklahoma City Thunder,93
+241126025,2005-11-26,Oklahoma City Thunder,92,Brooklyn,79
+241128025,2005-11-28,Oklahoma City Thunder,103,Indiana,95
+241130022,2005-11-30,Portland,100,Oklahoma City Thunder,94
+241201025,2005-12-01,Oklahoma City Thunder,129,Utah,119
+241204025,2005-12-04,Oklahoma City Thunder,99,Portland,89
+241208024,2005-12-08,San Antonio,96,Oklahoma City Thunder,102
+241209006,2005-12-09,Dallas,102,Oklahoma City Thunder,107
+241211025,2005-12-11,Oklahoma City Thunder,84,Boston,98
+241214025,2005-12-14,Oklahoma City Thunder,108,Los Angeles,93
+241217025,2005-12-17,Oklahoma City Thunder,110,Phoenix,112
+241222025,2005-12-22,Oklahoma City Thunder,98,Denver,83
+241227026,2005-12-27,Utah,88,Oklahoma City Thunder,98
+241228025,2005-12-28,Oklahoma City Thunder,107,Philadelphia,114
+241230001,2005-12-30,Atlanta,79,Oklahoma City Thunder,94
+241231030,2005-12-31,Charlotte,97,Oklahoma City Thunder,103
+250103014,2005-01-03,Miami,96,Oklahoma City Thunder,98
+250105019,2005-01-05,Orlando,105,Oklahoma City Thunder,87
+250106027,2005-01-06,Washington,107,Oklahoma City Thunder,96
+250109025,2005-01-09,Oklahoma City Thunder,108,Miami,98
+250111025,2005-01-11,Oklahoma City Thunder,104,LA,99
+250112012,2005-01-12,LA,103,Oklahoma City Thunder,92
+250114025,2005-01-14,Oklahoma City Thunder,103,Golden State,84
+250116025,2005-01-16,Oklahoma City Thunder,105,Cleveland,97
+250118025,2005-01-18,Oklahoma City Thunder,110,Denver,116
+250121025,2005-01-21,Oklahoma City Thunder,107,Minnesota,112
+250123025,2005-01-23,Oklahoma City Thunder,122,Utah,105
+250125013,2005-01-25,Los Angeles,93,Oklahoma City Thunder,104
+250126026,2005-01-26,Utah,109,Oklahoma City Thunder,100
+250128009,2005-01-28,Golden State,85,Oklahoma City Thunder,88
+250131025,2005-01-31,Oklahoma City Thunder,84,San Antonio,103
+250201023,2005-02-01,Sacramento,101,Oklahoma City Thunder,106
+250205025,2005-02-05,Oklahoma City Thunder,113,Charlotte,99
+250208025,2005-02-08,Oklahoma City Thunder,108,New Orleans,91
+250210025,2005-02-10,Oklahoma City Thunder,115,Sacramento,107
+250211021,2005-02-11,Phoenix,105,Oklahoma City Thunder,113
+250213025,2005-02-13,Oklahoma City Thunder,92,Dallas,95
+250216025,2005-02-16,Oklahoma City Thunder,110,Golden State,117
+250222010,2005-02-22,Houston,85,Oklahoma City Thunder,87
+250223003,2005-02-23,New Orleans,85,Oklahoma City Thunder,103
+250225025,2005-02-25,Oklahoma City Thunder,98,Minnesota,88
+250227015,2005-02-27,Milwaukee,99,Oklahoma City Thunder,73
+250301011,2005-03-01,Indiana,93,Oklahoma City Thunder,101
+250302005,2005-03-02,Cleveland,86,Oklahoma City Thunder,103
+250304025,2005-03-04,Oklahoma City Thunder,95,Detroit,87
+250306025,2005-03-06,Oklahoma City Thunder,99,Phoenix,110
+250308025,2005-03-08,Oklahoma City Thunder,95,Houston,97
+250311025,2005-03-11,Oklahoma City Thunder,97,Chicago,100
+250313018,2005-03-13,NY Knicks,80,Oklahoma City Thunder,90
+250315004,2005-03-15,Chicago,93,Oklahoma City Thunder,99
+250316008,2005-03-16,Detroit,102,Oklahoma City Thunder,95
+250318025,2005-03-18,Oklahoma City Thunder,98,Orlando,90
+250320013,2005-03-20,Los Angeles,100,Oklahoma City Thunder,102
+250322025,2005-03-22,Oklahoma City Thunder,92,Milwaukee,84
+250324022,2005-03-24,Portland,91,Oklahoma City Thunder,96
+250325025,2005-03-25,Oklahoma City Thunder,109,NY Knicks,101
+250327025,2005-03-27,Oklahoma City Thunder,94,Washington,95
+250329029,2005-03-29,Memphis,99,Oklahoma City Thunder,102
+250330024,2005-03-30,San Antonio,89,Oklahoma City Thunder,76
+250401025,2005-04-01,Oklahoma City Thunder,89,Portland,87
+250403009,2005-04-03,Golden State,101,Oklahoma City Thunder,92
+250405023,2005-04-05,Sacramento,122,Oklahoma City Thunder,101
+250408025,2005-04-08,Oklahoma City Thunder,94,Los Angeles,117
+250409007,2005-04-09,Denver,121,Oklahoma City Thunder,105
+250411025,2005-04-11,Oklahoma City Thunder,78,Houston,90
+250413025,2005-04-13,Oklahoma City Thunder,90,Dallas,95
+250415025,2005-04-15,Oklahoma City Thunder,97,New Orleans,72
+250417016,2005-04-17,Minnesota,94,Oklahoma City Thunder,109
+250419006,2005-04-19,Dallas,101,Oklahoma City Thunder,96
+250420010,2005-04-20,Houston,106,Oklahoma City Thunder,78
+241103009,2005-11-03,Golden State,75,Portland Trail Blazers,78
+241105022,2005-11-05,Portland Trail Blazers,94,LA,81
+241107028,2005-11-07,Toronto,101,Portland Trail Blazers,97
+241109017,2005-11-09,Brooklyn,64,Portland Trail Blazers,60
+241110002,2005-11-10,Boston,90,Portland Trail Blazers,88
+241113022,2005-11-13,Portland Trail Blazers,105,Toronto,102
+241117022,2005-11-17,Portland Trail Blazers,82,Memphis,101
+241119022,2005-11-19,Portland Trail Blazers,110,Milwaukee,98
+241121022,2005-11-21,Portland Trail Blazers,93,Houston,97
+241123014,2005-11-23,Miami,87,Portland Trail Blazers,99
+241124019,2005-11-24,Orlando,83,Portland Trail Blazers,89
+241126006,2005-11-26,Dallas,92,Portland Trail Blazers,83
+241128022,2005-11-28,Portland Trail Blazers,83,Brooklyn,71
+241130022,2005-11-30,Portland Trail Blazers,100,Oklahoma City,94
+241204025,2005-12-04,Oklahoma City,99,Portland Trail Blazers,89
+241205022,2005-12-05,Portland Trail Blazers,99,Phoenix,121
+241209022,2005-12-09,Portland Trail Blazers,89,Boston,87
+241210026,2005-12-10,Utah,92,Portland Trail Blazers,87
+241212022,2005-12-12,Portland Trail Blazers,98,Utah,88
+241214016,2005-12-14,Minnesota,100,Portland Trail Blazers,89
+241215005,2005-12-15,Cleveland,112,Portland Trail Blazers,88
+241217001,2005-12-17,Atlanta,84,Portland Trail Blazers,100
+241218008,2005-12-18,Detroit,74,Portland Trail Blazers,75
+241220004,2005-12-20,Chicago,92,Portland Trail Blazers,87
+241222015,2005-12-22,Milwaukee,95,Portland Trail Blazers,104
+241227022,2005-12-27,Portland Trail Blazers,104,Philadelphia,111
+241230022,2005-12-30,Portland Trail Blazers,80,San Antonio,114
+250101022,2005-01-01,Portland Trail Blazers,97,Golden State,88
+250102021,2005-01-02,Phoenix,117,Portland Trail Blazers,98
+250105012,2005-01-05,LA,102,Portland Trail Blazers,98
+250107022,2005-01-07,Portland Trail Blazers,92,Miami,103
+250109018,2005-01-09,NY Knicks,113,Portland Trail Blazers,105
+250110020,2005-01-10,Philadelphia,100,Portland Trail Blazers,109
+250112027,2005-01-12,Washington,104,Portland Trail Blazers,100
+250114003,2005-01-14,New Orleans,112,Portland Trail Blazers,106
+250115016,2005-01-15,Minnesota,92,Portland Trail Blazers,84
+250118023,2005-01-18,Sacramento,113,Portland Trail Blazers,107
+250119022,2005-01-19,Portland Trail Blazers,101,Cleveland,107
+250122022,2005-01-22,Portland Trail Blazers,83,Minnesota,92
+250124022,2005-01-24,Portland Trail Blazers,107,San Antonio,99
+250126022,2005-01-26,Portland Trail Blazers,88,Dallas,95
+250128022,2005-01-28,Portland Trail Blazers,90,LA,86
+250201013,2005-02-01,Los Angeles,92,Portland Trail Blazers,79
+250202022,2005-02-02,Portland Trail Blazers,97,Denver,94
+250204022,2005-02-04,Portland Trail Blazers,101,Charlotte,89
+250205022,2005-02-05,Portland Trail Blazers,114,Sacramento,108
+250209022,2005-02-09,Portland Trail Blazers,80,New Orleans,91
+250211029,2005-02-11,Memphis,88,Portland Trail Blazers,82
+250213010,2005-02-13,Houston,81,Portland Trail Blazers,80
+250214030,2005-02-14,Charlotte,77,Portland Trail Blazers,80
+250216011,2005-02-16,Indiana,95,Portland Trail Blazers,87
+250223022,2005-02-23,Portland Trail Blazers,83,Los Angeles,86
+250225022,2005-02-25,Portland Trail Blazers,102,Atlanta,101
+250227022,2005-02-27,Portland Trail Blazers,83,Minnesota,91
+250301022,2005-03-01,Portland Trail Blazers,93,Detroit,103
+250304022,2005-03-04,Portland Trail Blazers,97,Indiana,106
+250305021,2005-03-05,Phoenix,129,Portland Trail Blazers,116
+250307007,2005-03-07,Denver,111,Portland Trail Blazers,98
+250309022,2005-03-09,Portland Trail Blazers,84,Chicago,97
+250312022,2005-03-12,Portland Trail Blazers,80,Memphis,66
+250314029,2005-03-14,Memphis,104,Portland Trail Blazers,83
+250316010,2005-03-16,Houston,108,Portland Trail Blazers,77
+250317006,2005-03-17,Dallas,98,Portland Trail Blazers,94
+250319022,2005-03-19,Portland Trail Blazers,92,Orlando,97
+250321012,2005-03-21,LA,96,Portland Trail Blazers,89
+250322023,2005-03-22,Sacramento,112,Portland Trail Blazers,93
+250324022,2005-03-24,Portland Trail Blazers,91,Oklahoma City,96
+250326022,2005-03-26,Portland Trail Blazers,103,NY Knicks,96
+250328022,2005-03-28,Portland Trail Blazers,106,Washington,114
+250330022,2005-03-30,Portland Trail Blazers,84,Houston,100
+250401025,2005-04-01,Oklahoma City,89,Portland Trail Blazers,87
+250402022,2005-04-02,Portland Trail Blazers,97,Denver,103
+250405026,2005-04-05,Utah,90,Portland Trail Blazers,79
+250406022,2005-04-06,Portland Trail Blazers,102,Golden State,104
+250408022,2005-04-08,Portland Trail Blazers,115,Sacramento,119
+250410003,2005-04-10,New Orleans,81,Portland Trail Blazers,90
+250412024,2005-04-12,San Antonio,95,Portland Trail Blazers,89
+250414022,2005-04-14,Portland Trail Blazers,90,Dallas,102
+250415009,2005-04-15,Golden State,108,Portland Trail Blazers,88
+250417022,2005-04-17,Portland Trail Blazers,100,Utah,82
+250419007,2005-04-19,Denver,119,Portland Trail Blazers,115
+250420022,2005-04-20,Portland Trail Blazers,106,Los Angeles,103
+241103026,2005-11-03,Utah Jazz,104,Los Angeles,78
+241105009,2005-11-05,Golden State,80,Utah Jazz,102
+241106007,2005-11-06,Denver,82,Utah Jazz,106
+241108026,2005-11-08,Utah Jazz,102,Denver,91
+241110026,2005-11-10,Utah Jazz,95,Toronto,104
+241113026,2005-11-13,Utah Jazz,108,Detroit,93
+241116030,2005-11-16,Charlotte,105,Utah Jazz,107
+241117019,2005-11-17,Orlando,107,Utah Jazz,92
+241119014,2005-11-19,Miami,107,Utah Jazz,105
+241120001,2005-11-20,Atlanta,79,Utah Jazz,92
+241122026,2005-11-22,Utah Jazz,75,New Orleans,76
+241124026,2005-11-24,Utah Jazz,99,Chicago,101
+241126026,2005-11-26,Utah Jazz,90,Houston,80
+241127024,2005-11-27,San Antonio,109,Utah Jazz,76
+241130026,2005-11-30,Utah Jazz,102,Phoenix,115
+241201025,2005-12-01,Oklahoma City,129,Utah Jazz,119
+241204006,2005-12-04,Dallas,109,Utah Jazz,86
+241206026,2005-12-06,Utah Jazz,80,Miami,100
+241208026,2005-12-08,Utah Jazz,100,Orlando,106
+241210026,2005-12-10,Utah Jazz,92,Portland,87
+241212022,2005-12-12,Portland,98,Utah Jazz,88
+241214026,2005-12-14,Utah Jazz,93,LA,91
+241215021,2005-12-15,Phoenix,108,Utah Jazz,86
+241217002,2005-12-17,Boston,114,Utah Jazz,106
+241219018,2005-12-19,NY Knicks,94,Utah Jazz,93
+241220020,2005-12-20,Philadelphia,101,Utah Jazz,103
+241222028,2005-12-22,Toronto,98,Utah Jazz,86
+241227026,2005-12-27,Utah Jazz,88,Oklahoma City,98
+241229012,2005-12-29,LA,101,Utah Jazz,90
+241231026,2005-12-31,Utah Jazz,102,Sacramento,109
+250102010,2005-01-02,Houston,99,Utah Jazz,80
+250103029,2005-01-03,Memphis,92,Utah Jazz,82
+250105026,2005-01-05,Utah Jazz,99,Philadelphia,106
+250107004,2005-01-07,Chicago,84,Utah Jazz,78
+250108015,2005-01-08,Milwaukee,89,Utah Jazz,86
+250110026,2005-01-10,Utah Jazz,97,San Antonio,96
+250112026,2005-01-12,Utah Jazz,115,Phoenix,108
+250113023,2005-01-13,Sacramento,107,Utah Jazz,93
+250115026,2005-01-15,Utah Jazz,71,Cleveland,84
+250117013,2005-01-17,Los Angeles,94,Utah Jazz,102
+250122026,2005-01-22,Utah Jazz,94,Memphis,110
+250123025,2005-01-23,Oklahoma City,122,Utah Jazz,105
+250126026,2005-01-26,Utah Jazz,109,Oklahoma City,100
+250128016,2005-01-28,Minnesota,93,Utah Jazz,91
+250129026,2005-01-29,Utah Jazz,82,Brooklyn,99
+250201026,2005-02-01,Utah Jazz,105,Charlotte,109
+250205026,2005-02-05,Utah Jazz,108,New Orleans,92
+250207026,2005-02-07,Utah Jazz,99,NY Knicks,102
+250208007,2005-02-08,Denver,97,Utah Jazz,87
+250211026,2005-02-11,Utah Jazz,100,Minnesota,82
+250214021,2005-02-14,Phoenix,136,Utah Jazz,128
+250215013,2005-02-15,Los Angeles,102,Utah Jazz,95
+250223026,2005-02-23,Utah Jazz,83,Dallas,101
+250225026,2005-02-25,Utah Jazz,102,Boston,109
+250227010,2005-02-27,Houston,92,Utah Jazz,99
+250228026,2005-02-28,Utah Jazz,87,LA,86
+250302026,2005-03-02,Utah Jazz,96,Atlanta,74
+250304003,2005-03-04,New Orleans,92,Utah Jazz,85
+250306024,2005-03-06,San Antonio,101,Utah Jazz,94
+250308026,2005-03-08,Utah Jazz,83,Indiana,89
+250311026,2005-03-11,Utah Jazz,82,Memphis,94
+250313008,2005-03-13,Detroit,64,Utah Jazz,62
+250315005,2005-03-15,Cleveland,92,Utah Jazz,73
+250316011,2005-03-16,Indiana,103,Utah Jazz,84
+250318017,2005-03-18,Brooklyn,94,Utah Jazz,80
+250319027,2005-03-19,Washington,96,Utah Jazz,95
+250322026,2005-03-22,Utah Jazz,115,Los Angeles,107
+250324026,2005-03-24,Utah Jazz,84,Washington,85
+250326026,2005-03-26,Utah Jazz,94,Milwaukee,89
+250328026,2005-03-28,Utah Jazz,85,Houston,99
+250330026,2005-03-30,Utah Jazz,98,Denver,109
+250401026,2005-04-01,Utah Jazz,91,Golden State,108
+250405026,2005-04-05,Utah Jazz,90,Portland,79
+250406016,2005-04-06,Minnesota,111,Utah Jazz,86
+250408003,2005-04-08,New Orleans,87,Utah Jazz,98
+250409006,2005-04-09,Dallas,88,Utah Jazz,81
+250412012,2005-04-12,LA,94,Utah Jazz,85
+250413026,2005-04-13,Utah Jazz,93,San Antonio,91
+250415026,2005-04-15,Utah Jazz,84,Minnesota,100
+250417022,2005-04-17,Portland,100,Utah Jazz,82
+250418026,2005-04-18,Utah Jazz,92,Sacramento,82
+250420009,2005-04-20,Golden State,106,Utah Jazz,89
