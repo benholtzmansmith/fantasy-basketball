@@ -17,7 +17,7 @@ object TestData {
   val agent1 = RandomAgent(Nil)
   val agent2 = MaxPointsAgent(Nil)
 
-  val allAgents = List(agent1, agent2)
+  val allAgents = List(agent2, agent1)
 }
 
 
@@ -27,7 +27,7 @@ object FantasyBasketball {
 
     val startingAgents = TestData.allAgents
 
-    val (newEnv, newAgents) = draft(startingEnv, startingAgents)
+    val (_, newAgents) = draft(startingEnv, startingAgents)
 
     val scorer = MaxPointsScorer
 
@@ -90,12 +90,12 @@ object MaxPointsScorer extends Scorer {
 
 case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
   def action(environment: Environment):(Environment, RandomAgent) = {
-    val players = environment.players
-    val randomN = Random.nextInt(players.length - 1)
-    val selectedPlayer = players(randomN)
+    val envPlayers = environment.players
+    val randomN = Random.nextInt(envPlayers.length - 1)
+    val selectedPlayer = envPlayers(randomN)
 
     //Abstract
-    val remainingPlayers = players.patch(randomN, Nil, 1)
+    val remainingPlayers = envPlayers.patch(randomN, Nil, 1)
     val newAgent = this.copy(players :+ selectedPlayer)
     val newEnv = Environment(remainingPlayers)
     (newEnv, newAgent)
