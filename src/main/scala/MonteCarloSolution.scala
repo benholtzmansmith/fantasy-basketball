@@ -103,13 +103,13 @@ trait Agent {
 }
 
 case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
-  def apply(players: List[Player]): Agent = RandomAgent(players)
+  def apply(players: List[Player]): Agent = this(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) =
     randomAction(environment, otherAgents)
 }
 
 case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent{
-  def apply(players: List[Player]): Agent = MaxPointsAgent(players)
+  def apply(players: List[Player]): Agent = this(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, MaxPointsAgent) = {
     val envPlayers = environment.players
     val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points))
