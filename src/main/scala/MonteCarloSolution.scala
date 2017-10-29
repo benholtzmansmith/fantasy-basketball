@@ -37,12 +37,14 @@ object FantasyBasketball {
 
   }
 
+  //TODO: Enable multi round drafts
   @tailrec
   def draft(environment: Environment, inAgents:List[Agent], outAgents:List[Agent] = Nil):(Environment, List[Agent]) = {
     inAgents match {
       case Nil => (environment, outAgents)
       case h :: t => {
-        val (newEnv, newAgent) = h.action(environment)
+        val allOtherAgents = t ++ outAgents
+        val (newEnv, newAgent) = h.action(environment, allOtherAgents)
         draft(newEnv, t, outAgents :+ newAgent)
       }
     }
@@ -69,12 +71,6 @@ case class Player(points:Int)
 
 case class Environment(players:List[Player])
 
-trait Agent {
-  def players:List[Player]
-
-  def action(env:Environment):(Environment, Agent)
-}
-
 trait Scorer {
   def pickWinner(agents:List[Agent]):Agent
 }
@@ -86,10 +82,14 @@ object MaxPointsScorer extends Scorer {
   }
 }
 
+trait Agent {
+  def players:List[Player]
 
+  def action(env:Environment, otherAgents:List[Agent]):(Environment, Agent)
+}
 
 case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
-  def action(environment: Environment):(Environment, RandomAgent) = {
+  def action(environment: Environment, otherAgents:List[Agent]):(Environment, RandomAgent) = {
     val envPlayers = environment.players
     val randomN = Random.nextInt(envPlayers.length - 1)
     val selectedPlayer = envPlayers(randomN)
@@ -103,7 +103,7 @@ case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
 }
 
 case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent{
-  def action(environment: Environment):(Environment, MaxPointsAgent) = {
+  def action(environment: Environment, otherAgents:List[Agent]):(Environment, MaxPointsAgent) = {
     val envPlayers = environment.players
     val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points))
     val selectedPlayer = envPlayers(selectedPlayerIndex)

@@ -12,7 +12,7 @@ class AgentSpec extends FunSuite{
 
     val environment = Environment(List(p1,p2))
 
-    val (newEnv, newAgent) = maxPointsAgent.action(environment)
+    val (newEnv, newAgent) = maxPointsAgent.action(environment, Nil)
 
     assert(newAgent.players == List(p2))
     assert(newEnv.players == List(p1))

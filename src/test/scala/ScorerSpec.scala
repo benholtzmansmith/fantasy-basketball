@@ -7,7 +7,7 @@ class ScorerSpec extends FunSuite {
 
   def mkDummy(inPlayers:List[Player]) = {
     new Agent {
-      def action(env: Environment): (Environment, Agent) = null
+      def action(env: Environment, otherAgents:List[Agent]): (Environment, Agent) = null
       def players: List[Player] = inPlayers
     }
   }
