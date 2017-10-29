@@ -9,6 +9,7 @@ class ScorerSpec extends FunSuite {
     new Agent {
       def action(env: Environment, otherAgents:List[Agent]): (Environment, Agent) = null
       def players: List[Player] = inPlayers
+      def apply(players: List[Player]): Agent = null
     }
   }
 

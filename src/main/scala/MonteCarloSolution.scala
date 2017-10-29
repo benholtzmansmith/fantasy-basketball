@@ -83,26 +83,33 @@ object MaxPointsScorer extends Scorer {
 }
 
 trait Agent {
+  def apply(players:List[Player]):Agent
+
   def players:List[Player]
 
   def action(env:Environment, otherAgents:List[Agent]):(Environment, Agent)
-}
 
-case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
-  def action(environment: Environment, otherAgents:List[Agent]):(Environment, RandomAgent) = {
-    val envPlayers = environment.players
+  def randomAction(env:Environment, otherAgents:List[Agent]):(Environment, Agent) = {
+    val envPlayers = env.players
     val randomN = Random.nextInt(envPlayers.length - 1)
     val selectedPlayer = envPlayers(randomN)
 
     //Abstract
     val remainingPlayers = envPlayers.patch(randomN, Nil, 1)
-    val newAgent = this.copy(players :+ selectedPlayer)
+    val newAgent = apply(players :+ selectedPlayer)
     val newEnv = Environment(remainingPlayers)
     (newEnv, newAgent)
   }
 }
 
+case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
+  def apply(players: List[Player]): Agent = RandomAgent(players)
+  def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) =
+    randomAction(environment, otherAgents)
+}
+
 case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent{
+  def apply(players: List[Player]): Agent = MaxPointsAgent(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, MaxPointsAgent) = {
     val envPlayers = environment.players
     val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points))
