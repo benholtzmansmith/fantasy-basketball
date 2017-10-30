@@ -52,7 +52,7 @@ object FantasyBasketball {
 }
 
 object Math {
-  def argMax(l:List[Int]):Int = {
+  def argMax(l:Seq[Int]):Int = {
     val (_, i) = l.zipWithIndex.foldLeft((0,-1)){ case (prev@(prevV, _), (vAndi)) =>
       val (value, i ) = vAndi
       if (value > prevV){
@@ -89,9 +89,9 @@ trait Agent {
 
   def action(env:Environment, otherAgents:List[Agent]):(Environment, Agent)
 
-  def randomAction(env:Environment, otherAgents:List[Agent]):(Environment, Agent) = {
+  def randomAction(env:Environment):(Environment, Agent) = {
     val envPlayers = env.players
-    val randomN = Random.nextInt(envPlayers.length - 1)
+    val randomN = Random.nextInt(envPlayers.length)
     val selectedPlayer = envPlayers(randomN)
 
     //Abstract
@@ -103,14 +103,14 @@ trait Agent {
 }
 
 case class RandomAgent(override val players:List[Player] = Nil) extends Agent{
-  def apply(players: List[Player]): Agent = this(players)
+  def apply(players: List[Player]): Agent = RandomAgent(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) =
-    randomAction(environment, otherAgents)
+    randomAction(environment)
 }
 
 case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent{
-  def apply(players: List[Player]): Agent = this(players)
-  def action(environment: Environment, otherAgents:List[Agent]):(Environment, MaxPointsAgent) = {
+  def apply(players: List[Player]): Agent = MaxPointsAgent(players)
+  def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) = {
     val envPlayers = environment.players
     val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points))
     val selectedPlayer = envPlayers(selectedPlayerIndex)
@@ -120,5 +120,73 @@ case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent
     val newAgent = this.copy(players :+ selectedPlayer)
     val newEnv = Environment(remainingPlayers)
     (newEnv, newAgent)
+  }
+}
+
+object MaxScoreMonteCarloAgent {
+  def update(score:Map[Player, Int], player:Player, value:Int):Map[Player, Int] =
+    score + (player -> score.get(player).map(_ + value).getOrElse(value))
+}
+
+case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, iters:Int = 100) extends Agent{
+  import MaxScoreMonteCarloAgent._
+
+  val playerOrdering = new Ordering[(Player, Int)] {
+    override def compare(x: (Player, Int), y: (Player, Int)): Int = {
+      if(x._2 > y._2) 1
+      else if (x._2 < y._2) -1
+      else 0
+    }
+  }
+
+  def apply(players: List[Player]): Agent = MaxScoreMonteCarloAgent(players)
+  def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) = {
+    val score = randomDraftAndScore(environment, otherAgents, Map(), iters)
+    val (selectedPlayer, _ )= score.toList.max(playerOrdering)
+    val envPlayers = environment.players
+    val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
+    val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
+    val newAgent = this.copy(players :+ selectedPlayer)
+    val newEnv = Environment(remainingPlayers)
+    (newEnv, newAgent)
+  }
+
+  @tailrec
+  private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, Int], iters:Int): Map[Player, Int] = {
+    if (iters > 0) {
+      //We draft randomly
+      val (newEnv, newAgent) = randomAction(environment)
+      //All other agents draft randomly with updated env
+      val (_, agents) = randomDraft(newEnv, otherAgents)
+      //We score the draft
+      val winner = MaxPointsScorer.pickWinner(agents :+ newAgent)
+      //We figure out what player we drafted
+      val newPlayer = newAgent
+        .players
+        .find( p => !players.contains(p))
+        .getOrElse( throw new Exception("There was no new player"))
+
+      val newScore = {
+        //If we win, we add a new point to the player who we drafted and we won with
+        if( winner == newAgent) update(score, newPlayer, 1)
+        //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
+        else update(score, newPlayer, -1)
+      }
+      // We run the draft again with the updated score
+      randomDraftAndScore(environment, otherAgents, newScore, iters - 1 )
+    }
+    //At the end of the iterations we return the score
+    else score
+  }
+
+  @tailrec
+  private def randomDraft(environment: Environment, inAgents:List[Agent], outAgents:List[Agent] = Nil):(Environment, List[Agent]) = {
+    inAgents match {
+      case Nil => (environment, outAgents)
+      case h :: t => {
+        val (newEnv, newAgent) = h.randomAction(environment)
+        randomDraft(newEnv, t, outAgents :+ newAgent)
+      }
+    }
   }
 }
