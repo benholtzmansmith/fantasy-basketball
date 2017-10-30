@@ -5,15 +5,17 @@ import org.scalatest.FunSuite
   */
 class ScorerSpec extends FunSuite {
 
-  def mkDummy(inPlayers:List[Player]) = {
+  def mkDummy(inPlayers: List[Player]) = {
     new Agent {
-      def action(env: Environment, otherAgents:List[Agent]): (Environment, Agent) = null
+      def action(env: Environment, otherAgents: List[Agent]): (Environment, Agent) = null
+
       def players: List[Player] = inPlayers
+
       def apply(players: List[Player]): Agent = null
     }
   }
 
-  test("max points scorer should take agent with max cumulative points of all its players"){
+  test("max points scorer should take agent with max cumulative points of all its players") {
     val player1 = Player(2)
     val player2 = Player(4)
     val player3 = Player(10)
@@ -24,5 +26,18 @@ class ScorerSpec extends FunSuite {
     val agent3 = mkDummy(List(player3))
 
     assert(MaxPointsScorer.pickWinner(List(agent1, agent2, agent3)) == agent2)
+  }
+
+  test("max all scorer should take agent with max cumulative points of all its players") {
+    val player1 = Player(2)
+    val player2 = Player(4)
+    val player3 = Player(10)
+    val player4 = Player(8)
+
+    val agent1 = mkDummy(List(player1))
+    val agent2 = mkDummy(List(player2, player4))
+    val agent3 = mkDummy(List(player3))
+
+    assert(MaxAllScorer.pickWinner(List(agent1, agent2, agent3)) == agent2)
   }
 }

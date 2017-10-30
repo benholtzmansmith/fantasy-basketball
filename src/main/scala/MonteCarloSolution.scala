@@ -5,6 +5,11 @@ import scala.util.Random
   * Created by benjaminsmith on 10/28/17.
   */
 
+/**
+  * TODO:
+  *   Don't have a measurement of how much better 4 points is 2 points if they both beat 1 point
+  * */
+
 object TestData {
 
   val player1 = Player(1)
@@ -66,11 +71,11 @@ object FantasyBasketball {
 }
 
 object Math {
-  def argMax(l:Seq[Int]):Int = {
-    val (_, i) = l.zipWithIndex.foldLeft((0,-1)){ case (prev@(prevV, _), (vAndi)) =>
+  def argMax(l:Seq[Int]):Option[Int] = {
+    val (_, i) = l.zipWithIndex.foldLeft((0,None:Option[Int])){ case (prev@(prevV, _), (vAndi)) =>
       val (value, i ) = vAndi
       if (value > prevV){
-        vAndi
+        (value, Some(i))
       }
       else {
         prev
@@ -79,9 +84,38 @@ object Math {
 
     i
   }
+
+  def argMin(l:Seq[Int]):Option[Int] = {
+    l match {
+      case Nil => None
+      case h :: Nil => Some(h)
+      case h :: t =>
+        val (_, i) = t.zipWithIndex.foldLeft((h, 0)) { case (prev@(prevV, _), (vAndi)) =>
+          val (value, i) = vAndi
+          if (value < prevV) {
+            (value, i + 1)
+          }
+          else {
+            prev
+          }
+        }
+
+        Some(i)
+    }
+  }
 }
 
-case class Player(points:Int)
+case class Player(
+     points:Int = 0,
+     assists:Int = 0,
+     rebounds:Int = 0,
+     steals: Int = 0,
+     blocks:Int = 0,
+     turnovers:Int = 0,
+     threePointMakes:Int = 0,
+     freeThrowAttempts:Int = 0,
+     fieldGoalPercent:Int = 0,
+     freeThrowPercent:Int = 0)
 
 case class Environment(players:List[Player])
 
@@ -91,8 +125,35 @@ trait Scorer {
 
 object MaxPointsScorer extends Scorer {
   def pickWinner(agents: List[Agent]): Agent = {
-    val winner:Int = Math.argMax(agents.map(_.players.map(_.points).sum))
+    val winner:Int = Math.argMax(agents.map(_.players.map(_.points).sum)).getOrElse(throw new Exception("need to get a player"))
     agents(winner)
+  }
+}
+
+object MaxAllScorer extends Scorer {
+  def pickWinner(agents: List[Agent]): Agent = {
+    val pointsWinner = Math.argMax(agents.map(_.players.map(_.points).sum))
+    val assistsWinner = Math.argMax(agents.map(_.players.map(_.assists).sum))
+    val reboundsWinner = Math.argMax(agents.map(_.players.map(_.rebounds).sum))
+    val stealsWinner = Math.argMax(agents.map(_.players.map(_.steals).sum))
+    val blocksWinner = Math.argMax(agents.map(_.players.map(_.blocks).sum))
+    val turnoverWinner = Math.argMin(agents.map(_.players.map(_.turnovers).sum))
+    val threePointMakesWinner = Math.argMax(agents.map(_.players.map(_.threePointMakes).sum))
+    val freeThrowAttemptsWinner = Math.argMax(agents.map(_.players.map(_.freeThrowAttempts).sum))
+
+    //TODO: Add the percent categories
+    val overallWinner = List(
+      pointsWinner,
+      assistsWinner,
+      reboundsWinner,
+      stealsWinner,
+      blocksWinner,
+      turnoverWinner,
+      threePointMakesWinner,
+      freeThrowAttemptsWinner
+    ).flatten.groupBy(identity).maxBy(_._2.size)._1
+
+    agents(overallWinner)
   }
 }
 
@@ -126,7 +187,7 @@ case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent
   def apply(players: List[Player]): Agent = MaxPointsAgent(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) = {
     val envPlayers = environment.players
-    val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points))
+    val selectedPlayerIndex:Int = Math.argMax(envPlayers.map(_.points)).getOrElse(throw new Exception("need to get a player"))
     val selectedPlayer = envPlayers(selectedPlayerIndex)
 
     //Abstract
@@ -142,8 +203,12 @@ object MaxScoreMonteCarloAgent {
     score + (player -> score.get(player).map(_ + value).getOrElse(value))
 }
 
-case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, iters:Int = 100) extends Agent{
+trait MonteCarloAgent extends Agent {
   import MaxScoreMonteCarloAgent._
+
+  def iters:Int
+
+  def scorer:Scorer
 
   val playerOrdering = new Ordering[(Player, Int)] {
     override def compare(x: (Player, Int), y: (Player, Int)): Int = {
@@ -153,14 +218,13 @@ case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, iter
     }
   }
 
-  def apply(players: List[Player]): Agent = MaxScoreMonteCarloAgent(players)
   def action(environment: Environment, otherAgents:List[Agent]):(Environment, Agent) = {
     val score = randomDraftAndScore(environment, otherAgents, Map(), iters, players.length + 1 /** Keeping track of how many players to give other agents*/)
     val (selectedPlayer, _ )= score.toList.max(playerOrdering)
     val envPlayers = environment.players
     val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
     val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
-    val newAgent = this.copy(players :+ selectedPlayer)
+    val newAgent = apply(players :+ selectedPlayer)
     val newEnv = Environment(remainingPlayers)
     (newEnv, newAgent)
   }
@@ -176,7 +240,7 @@ case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, iter
 
       val (_, agents) = randomDraft(newEnv, agentsThatNeedAnotherPlayer)
       //We score the draft
-      val winner = MaxPointsScorer.pickWinner(agents :+ newAgent)
+      val winner = scorer.pickWinner(agents :+ newAgent)
       //We figure out what player we drafted
       val newPlayer = newAgent
         .players
@@ -206,4 +270,15 @@ case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, iter
       }
     }
   }
+}
+
+case class MaxScoreMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+  override def scorer: Scorer = MaxPointsScorer
+  def apply(players: List[Player]): Agent = MaxScoreMonteCarloAgent(players)
+}
+
+case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+  override def scorer: Scorer = MaxAllScorer
+  def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players)
+
 }
