@@ -25,14 +25,14 @@ class AgentSpec extends FlatSpec {
   it should "update func should increment score for already existing player" in {
     val testPlayer = Player(1)
     val testMap = Map(testPlayer -> 1)
-    val newMap = MaxScoreMonteCarloAgent.update(testMap, testPlayer, 1)
+    val newMap = Utils.update(testMap, testPlayer, 1)
     assert(newMap == Map(testPlayer -> 2))
   }
 
   it should "make a new entry for a player" in {
     val testPlayer = Player(1)
     val testMap:Map[Player, Int] = Map()
-    val newMap = MaxScoreMonteCarloAgent.update(testMap, testPlayer, 1)
+    val newMap = Utils.update(testMap, testPlayer, 1)
     assert(newMap == Map(testPlayer -> 1))
   }
 
@@ -42,7 +42,7 @@ class AgentSpec extends FlatSpec {
 
     val environment = Environment(players = List(p1, p2))
 
-    val monteAgent = MaxScoreMonteCarloAgent()
+    val monteAgent = Utils()
 
     val competitor = RandomAgent()
 
