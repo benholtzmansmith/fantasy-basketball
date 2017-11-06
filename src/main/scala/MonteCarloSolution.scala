@@ -111,7 +111,7 @@ object FantasyBasketball {
     assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
     inAgents match {
       case _ if remainingRounds <= 0 => (environment, inAgents)
-      case Nil => draft(environment, outAgents, Nil, remainingRounds - 1)
+      case Nil => draft(environment, outAgents.reverse, Nil, remainingRounds - 1)
       case h :: t => {
         val allOtherAgents = t ++ outAgents
         val (newEnv, newAgent) = h.action(environment, allOtherAgents)
