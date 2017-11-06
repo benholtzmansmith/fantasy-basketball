@@ -25,19 +25,38 @@ object TestData {
   val agent2 = MaxPointsAgent(Nil)
   val agent3 = MaxAllMonteCarloAgent(Nil, iters = 200)
 
-  val allAgents = List(agent3, agent1, agent2)
+  val allAgents = List(agent3, agent2)
+
+
+  def playersGenerator(n:Int):List[Player] = {
+    def genValue = (math.pow(Random.nextDouble(), 2) * 100).toInt
+    List.fill(n){
+      Player(
+        points = 2,
+        assists = genValue,
+        rebounds = genValue,
+        steals = genValue,
+        blocks = genValue,
+        freeThrowAttempts = genValue,
+        threePointMakes = genValue,
+        turnovers = genValue
+      )
+    }
+  }
 }
 
 
 object FantasyBasketball {
   def main(args: Array[String]): Unit = {
-    val startingEnv = Environment(TestData.allPlayers)
+    val startingPlayers = TestData.playersGenerator(10)
+
+    val startingEnv = Environment(startingPlayers)
 
     val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
 
-    val scoreMap = runGameN(startingEnv,startingAgents, 100, Map())
+    val scoreMap = runGameN(startingEnv,startingAgents, 1000, Map())
 
-    val winner = scoreMap.toList.max(Utils.tupleOrdering)
+    val winner = scoreMap.toList.max(MaxPointsMonteCarloAgent.tupleOrdering)
 
     println(
       s"""
@@ -62,18 +81,20 @@ object FantasyBasketball {
 
       val winner = MaxAllScorer.pickWinner(newAgents)
 
-      val newmap = Utils.update(scoreTracker, winner.name, 1)
+      val newMap = MaxPointsMonteCarloAgent.update(scoreTracker, winner.name, 1)
 
-      runGameN(startingEnv, startingAgents, runCount - 1, newmap)
+      runGameN(startingEnv, startingAgents, runCount - 1, newMap)
     }
     else scoreTracker
   }
 
   //TODO: Enable multi round drafts
   @tailrec
-  def draft(environment: Environment, inAgents:List[Agent], outAgents:List[Agent] = Nil):(Environment, List[Agent]) = {
+  def draft(environment: Environment, inAgents:List[Agent], outAgents:List[Agent] = Nil, remainingRounds:Int = 1):(Environment, List[Agent]) = {
+    assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
     inAgents match {
-      case Nil => (environment, outAgents)
+      case _ if remainingRounds == 0 => (environment, outAgents)
+      case Nil => draft(environment, outAgents, Nil, remainingRounds - 1)
       case h :: t => {
         val allOtherAgents = t ++ outAgents
         val (newEnv, newAgent) = h.action(environment, allOtherAgents)
@@ -155,7 +176,7 @@ object MaxAllScorer extends Scorer {
     val freeThrowAttemptsWinner = Math.argMax(agents.map(_.players.map(_.freeThrowAttempts).sum))
 
     //TODO: Add the percent categories
-    val overallWinner = List(
+    val scoreGroup = List(
       pointsWinner,
       assistsWinner,
       reboundsWinner,
@@ -164,7 +185,9 @@ object MaxAllScorer extends Scorer {
       turnoverWinner,
       threePointMakesWinner,
       freeThrowAttemptsWinner
-    ).flatten.groupBy(identity).maxBy(_._2.size)._1
+    ).flatten.groupBy(identity)
+
+    val overallWinner = scoreGroup.maxBy(_._2.size)._1
 
     agents(overallWinner)
   }
@@ -213,7 +236,7 @@ case class MaxPointsAgent(override val players:List[Player] = Nil) extends Agent
   }
 }
 
-object Utils {
+object MaxPointsMonteCarloAgent {
   def update[A](score:Map[A, Int], player:A, value:Int):Map[A, Int] =
     score + (player -> score.get(player).map(_ + value).getOrElse(value))
 
@@ -227,7 +250,7 @@ object Utils {
 }
 
 trait MonteCarloAgent extends Agent {
-  import Utils._
+  import MaxPointsMonteCarloAgent._
 
   lazy val epsilon = .1
 
@@ -309,12 +332,12 @@ trait MonteCarloAgent extends Agent {
   }
 }
 
-case class Utils(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+case class MaxPointsMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
   override def scorer: Scorer = MaxPointsScorer
-  def apply(players: List[Player]): Agent = Utils(players)
+  def apply(players: List[Player]): Agent = MaxPointsMonteCarloAgent(players)
 }
 
-case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 1000) extends MonteCarloAgent{
   override def scorer: Scorer = MaxAllScorer
   def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players)
 
