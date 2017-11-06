@@ -14,7 +14,7 @@ class DraftSpec extends FunSuite{
 
    val (_, newAgents) = draft(startingEnv, startingAgents, Nil, remainingRounds = 1)
 
-   assert(newAgents.forall(_.players.length == 1))
+   assert(newAgents.forall(_.players.length == 1) && newAgents.nonEmpty)
   }
   test("should draft two players per agent"){
     val startingEnv = Environment(List(Player(2), Player(4), Player(10), Player(5)))
@@ -23,7 +23,7 @@ class DraftSpec extends FunSuite{
 
     val (_, newAgents) = draft(startingEnv, startingAgents, Nil, remainingRounds = 2)
 
-    assert(newAgents.forall(_.players.length == 2))
+    assert(newAgents.forall(_.players.length == 2)  && newAgents.nonEmpty)
   }
   test("should throw exception if more agents and rounds exist than players"){
     val startingEnv = Environment(List(Player(2)))

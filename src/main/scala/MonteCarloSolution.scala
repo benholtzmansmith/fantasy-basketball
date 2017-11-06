@@ -1,10 +1,38 @@
+import PlayerFormat.PlayerSerializer
+import play.api.libs.json._
+
 import scala.annotation.tailrec
+import scala.io.Source
 import scala.util.Random
 
 /**
   * Created by benjaminsmith on 10/28/17.
   */
 
+object PlayerFormat {
+  case class PlayerSerializer(
+                               Name:String,
+                               p:Int,
+                               a:Int,
+                               r:Int,
+                               `3`:Int,
+                               s:Int,
+                               b:Int,
+                               to:Int,
+                               fga:Int,
+                               fta:Int,
+                               ftm:Int,
+                               fgm:Int)
+  object PlayerSerializer {
+    implicit val playerSerializer:Format[PlayerSerializer] = Json.format[PlayerSerializer]
+  }
+
+  def test = {
+    val source: String = Source.fromFile("/Users/benjaminsmith/Programming/fantasy-basketball/src/main/resources/players_2017.json").getLines.mkString
+    val json: JsValue = Json.parse(source)
+    Json.fromJson[List[PlayerSerializer]](json)
+  }
+}
 
 object TestData {
 
@@ -19,7 +47,7 @@ object TestData {
   val agent2 = MaxPointsAgent(Nil)
   val agent3 = MaxAllMonteCarloAgent(Nil, iters = 200)
 
-  val allAgents = List(agent3, agent2)
+  val allAgents = List(agent3, agent2, agent1)
 
 
   def playersGenerator(n:Int):List[Player] = {
@@ -49,6 +77,33 @@ object TestData {
       )
     }
   }
+
+  def realPlayers:List[Player] = {
+    val source: String = Source.fromFile("/Users/benjaminsmith/Programming/fantasy-basketball/src/main/resources/players_2017.json").getLines.mkString
+    val json: JsValue = Json.parse(source)
+    Json.fromJson[List[PlayerSerializer]](json).map{
+      _.map {
+        p =>
+          Player(
+            points = p.p,
+            assists = p.a,
+            rebounds = p.r,
+            steals = p.s,
+            blocks = p.b,
+            turnovers = p.to,
+            threePointMakes = p.`3`,
+            freeThrowAttempts = p.fta,
+            freeThrowMakes = p.ftm,
+            fieldGoalAttempts = p.fga,
+            fieldGoalMakes = p.fgm,
+            name = p.Name
+          )
+      }
+    } match {
+      case JsError( e ) => println(e); Nil
+      case JsSuccess( a, _) => a
+    }
+  }
 }
 
 
@@ -56,7 +111,7 @@ object FantasyBasketball {
   def main(args: Array[String]): Unit = {
     val startTime = System.nanoTime()
 
-    val startingPlayers = TestData.playersGenerator(500)
+    val startingPlayers = TestData.realPlayers
 
     val numberOfRoundsInDraft = 10
 
@@ -106,7 +161,7 @@ object FantasyBasketball {
   def draft(environment: Environment,
             inAgents:List[Agent],
             outAgents:List[Agent] = Nil,
-            remainingRounds:Int = 1
+            remainingRounds:Int
            ):(Environment, List[Agent]) = {
     assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
     inAgents match {
@@ -167,9 +222,10 @@ case class Player(
      freeThrowAttempts:Int = 0,
      freeThrowMakes:Int = 0,
      fieldGoalAttempts:Int = 0,
-     fieldGoalMakes:Int = 0) {
-  assert(freeThrowAttempts == 0 && freeThrowMakes == 0 || freeThrowAttempts > freeThrowMakes, "need to attempt more free throws than makes")
-  assert(fieldGoalAttempts == 0 && fieldGoalMakes == 0 || fieldGoalAttempts > fieldGoalMakes, "need to attempt more field goals than makes")
+     fieldGoalMakes:Int = 0,
+     name:String = "") {
+  assert(freeThrowAttempts >= freeThrowMakes, s"${name}: need to attempt more free throws than makes")
+  assert(fieldGoalAttempts >= fieldGoalMakes, s"${name}: need to attempt more field goals than makes")
 }
 
 case class Environment(players:List[Player])
