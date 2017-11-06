@@ -25,4 +25,13 @@ class DraftSpec extends FunSuite{
 
     assert(newAgents.forall(_.players.length == 2))
   }
+  test("should throw exception if more agents and rounds exist than players"){
+    val startingEnv = Environment(List(Player(2)))
+
+    val startingAgents = List(RandomAgent(),RandomAgent())
+
+    val r = intercept[Throwable](draft(startingEnv, startingAgents, Nil, remainingRounds = 2))
+
+    assert(r.isInstanceOf[Throwable])
+  }
 }
