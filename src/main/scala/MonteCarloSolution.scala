@@ -5,12 +5,6 @@ import scala.util.Random
   * Created by benjaminsmith on 10/28/17.
   */
 
-/**
-  * TODO:
-  *   Don't have a measurement of how much better 4 points is 2 points if they both beat 1 point
-  *
-  *   Some agents getting the same players multi agents end up
-  * */
 
 object TestData {
 
