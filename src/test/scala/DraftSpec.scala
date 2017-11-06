@@ -34,4 +34,14 @@ class DraftSpec extends FunSuite{
 
     assert(r.isInstanceOf[Throwable])
   }
+
+  test("should get the same number out of the draft that you put in"){
+    val startingEnv = Environment(List(Player(2), Player(4), Player(10), Player(5)))
+
+    val startingAgents = List(RandomAgent(),RandomAgent())
+
+    val (_, newAgents) = draft(startingEnv, startingAgents, Nil, remainingRounds = 2)
+
+    assert(newAgents.length == startingAgents.length)
+  }
 }

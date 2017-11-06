@@ -48,15 +48,21 @@ object TestData {
 
 object FantasyBasketball {
   def main(args: Array[String]): Unit = {
-    val startingPlayers = TestData.playersGenerator(10)
+    val startTime = System.nanoTime()
+
+    val startingPlayers = TestData.playersGenerator(500)
+
+    val numberOfRoundsInDraft = 10
 
     val startingEnv = Environment(startingPlayers)
 
     val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
 
-    val scoreMap = runGameN(startingEnv,startingAgents, 1000, Map())
+    val scoreMap = runGameN(startingEnv,startingAgents, 40, Map(), numberOfRoundsInDraft)
 
     val winner = scoreMap.toList.max(MaxPointsMonteCarloAgent.tupleOrdering)
+
+    val endTime = System.nanoTime()
 
     println(
       s"""
@@ -71,34 +77,39 @@ object FantasyBasketball {
             }
           }
          |
+         | RunTime = ${(endTime - startTime) / (1000 * 1000 * 1000) } seconds
+         |
        """.stripMargin)
 
   }
   @tailrec
-  def runGameN(startingEnv:Environment, startingAgents:List[Agent], runCount:Int, scoreTracker:Map[String, Int]):Map[String, Int] = {
+  def runGameN(startingEnv:Environment, startingAgents:List[Agent], runCount:Int, scoreTracker:Map[String, Int], numberOfRoundsDraft:Int):Map[String, Int] = {
     if (runCount > 0){
-      val (_, newAgents) = draft(startingEnv, startingAgents)
+      val (_, newAgents) = draft(startingEnv, startingAgents, Nil, numberOfRoundsDraft)
 
       val winner = MaxAllScorer.pickWinner(newAgents)
 
       val newMap = MaxPointsMonteCarloAgent.update(scoreTracker, winner.name, 1)
 
-      runGameN(startingEnv, startingAgents, runCount - 1, newMap)
+      runGameN(startingEnv, startingAgents, runCount - 1, newMap, numberOfRoundsDraft)
     }
     else scoreTracker
   }
 
-  //TODO: Enable multi round drafts
   @tailrec
-  def draft(environment: Environment, inAgents:List[Agent], outAgents:List[Agent] = Nil, remainingRounds:Int = 1):(Environment, List[Agent]) = {
+  def draft(environment: Environment,
+            inAgents:List[Agent],
+            outAgents:List[Agent] = Nil,
+            remainingRounds:Int = 1
+           ):(Environment, List[Agent]) = {
     assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
     inAgents match {
-      case _ if remainingRounds == 0 => (environment, outAgents)
+      case _ if remainingRounds <= 0 => (environment, inAgents)
       case Nil => draft(environment, outAgents, Nil, remainingRounds - 1)
       case h :: t => {
         val allOtherAgents = t ++ outAgents
         val (newEnv, newAgent) = h.action(environment, allOtherAgents)
-        draft(newEnv, t, outAgents :+ newAgent)
+        draft(newEnv, t, outAgents :+ newAgent, remainingRounds)
       }
     }
   }
