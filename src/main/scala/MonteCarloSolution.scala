@@ -45,9 +45,9 @@ object TestData {
 
   val agent1 = RandomAgent(Nil)
   val agent2 = MaxPointsAgent(Nil)
-  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 200)
+  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 1000000)
 
-  val allAgents = List(agent3, agent2, agent1)
+  val allAgents = List(agent3, agent2)
 
 
   def playersGenerator(n:Int):List[Player] = {
@@ -59,8 +59,8 @@ object TestData {
     }
 
     def genValue = math.abs(Random.nextDouble() * 100).toInt
-    val (freeThrowAttempts, freeThrowMakes) = pair
-    val (fieldGoalAttempts, fieldGoalMakes) = pair
+    val (freeThrowAttempts, freeThrowMisses) = pair
+    val (fieldGoalAttempts, fieldGoalMisses) = pair
     List.fill(n){
       Player(
         points = 2,
@@ -71,15 +71,15 @@ object TestData {
         threePointMakes = genValue,
         turnovers = genValue,
         freeThrowAttempts = freeThrowAttempts,
-        freeThrowMakes = freeThrowMakes,
+        freeThrowMisses = freeThrowMisses,
         fieldGoalAttempts = fieldGoalAttempts,
-        fieldGoalMakes = fieldGoalMakes
+        fieldGoalMisses = fieldGoalMisses
       )
     }
   }
 
   def realPlayers:List[Player] = {
-    val source: String = Source.fromFile("/Users/benjaminsmith/Programming/fantasy-basketball/src/main/resources/players_2017.json").getLines.mkString
+    val source: String = Source.fromFile("/Users/benjaminsmith/Programming/fantasy-basketball/src/main/resources/players_2016.json").getLines.mkString
     val json: JsValue = Json.parse(source)
     Json.fromJson[List[PlayerSerializer]](json).map{
       _.map {
@@ -93,9 +93,9 @@ object TestData {
             turnovers = p.to,
             threePointMakes = p.`3`,
             freeThrowAttempts = p.fta,
-            freeThrowMakes = p.ftm,
+            freeThrowMisses = p.ftm,
             fieldGoalAttempts = p.fga,
-            fieldGoalMakes = p.fgm,
+            fieldGoalMisses = p.fgm,
             name = p.Name
           )
       }
@@ -111,7 +111,7 @@ object FantasyBasketball {
   def main(args: Array[String]): Unit = {
     val startTime = System.nanoTime()
 
-    val startingPlayers = TestData.realPlayers
+    val startingPlayers = TestData.realPlayers.take(10)
 
     val numberOfRoundsInDraft = 10
 
@@ -212,20 +212,20 @@ object Math {
 }
 
 case class Player(
-     points:Int = 0,
-     assists:Int = 0,
-     rebounds:Int = 0,
-     steals: Int = 0,
-     blocks:Int = 0,
-     turnovers:Int = 0,
-     threePointMakes:Int = 0,
-     freeThrowAttempts:Int = 0,
-     freeThrowMakes:Int = 0,
-     fieldGoalAttempts:Int = 0,
-     fieldGoalMakes:Int = 0,
-     name:String = "") {
-  assert(freeThrowAttempts >= freeThrowMakes, s"${name}: need to attempt more free throws than makes")
-  assert(fieldGoalAttempts >= fieldGoalMakes, s"${name}: need to attempt more field goals than makes")
+                   points:Int = 0,
+                   assists:Int = 0,
+                   rebounds:Int = 0,
+                   steals: Int = 0,
+                   blocks:Int = 0,
+                   turnovers:Int = 0,
+                   threePointMakes:Int = 0,
+                   freeThrowAttempts:Int = 0,
+                   freeThrowMisses:Int = 0,
+                   fieldGoalAttempts:Int = 0,
+                   fieldGoalMisses:Int = 0,
+                   name:String = "") {
+  assert(freeThrowAttempts >= freeThrowMisses, s"${name}: need to attempt more free throws than makes")
+  assert(fieldGoalAttempts >= fieldGoalMisses, s"${name}: need to attempt more field goals than makes")
 }
 
 case class Environment(players:List[Player])
@@ -253,13 +253,13 @@ object MaxAllScorer extends Scorer {
     val freeThrowAttemptsWinner = Math.argMax(agents.map(_.players.map(_.freeThrowAttempts).sum.toDouble))
     val fieldGoalPercentageWinner = Math.argMax(agents.map{ a =>
       val attempts = a.players.map(_.fieldGoalAttempts).sum
-      val makes = a.players.map(_.fieldGoalAttempts).sum
-      makes.toDouble / (makes + attempts)
+      val makes = a.players.map(_.fieldGoalMisses).sum
+      1.0 - (makes.toDouble / attempts)
     })
     val fieldThrowPercentageWinner = Math.argMax(agents.map{ a =>
       val attempts = a.players.map(_.freeThrowAttempts).sum
-      val makes = a.players.map(_.freeThrowMakes).sum
-      makes.toDouble / (makes + attempts)
+      val makes = a.players.map(_.freeThrowMisses).sum
+      1.0 - (makes.toDouble / attempts)
     })
 
     //TODO: Add the percent categories
@@ -341,7 +341,7 @@ object Utils {
 trait MonteCarloAgent extends Agent {
   import Utils._
 
-  lazy val epsilon = .1
+  lazy val epsilon = .5
 
   def iters:Int
 
@@ -414,7 +414,7 @@ trait MonteCarloAgent extends Agent {
     inAgents match {
       case Nil => (environment, outAgents)
       case h :: t => {
-        val (newEnv, newAgent) = h.randomAction(environment)
+        val (newEnv, newAgent) = h.action(environment, outAgents ++ inAgents)
         randomDraft(newEnv, t, outAgents :+ newAgent)
       }
     }
