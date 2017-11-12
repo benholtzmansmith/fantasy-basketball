@@ -113,13 +113,13 @@ object FantasyBasketball {
 
     val startingPlayers = TestData.realPlayers.take(10)
 
-    val numberOfRoundsInDraft = 10
+    val numberOfRoundsInDraft = 1
 
     val startingEnv = Environment(startingPlayers)
 
     val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
 
-    val scoreMap = runGameN(startingEnv,startingAgents, 40, Map(), numberOfRoundsInDraft)
+    val scoreMap = runGameN(startingEnv,startingAgents, 1, Map(), numberOfRoundsInDraft)
 
     val winner = scoreMap.toList.max(Utils.tupleOrdering)
 
