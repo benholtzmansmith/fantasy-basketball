@@ -55,7 +55,7 @@ class AgentSpec extends FlatSpec {
 
 
   it should "almost always find the best player" in {
-    val p1 = Player(2, 12, 50, 60, fieldGoalAttempts = 10, fieldGoalMisses = 8, freeThrowAttempts = 10, freeThrowMisses = 8)
+    val p1 = Player(2, 12, 50, 60, fieldGoalAttempts = 10, fieldGoalMisses = 4, freeThrowAttempts = 10, freeThrowMisses = 4)
     val p2 = Player(100, 8, 40, 20, fieldGoalAttempts = 10, fieldGoalMisses = 6, freeThrowAttempts = 10, freeThrowMisses = 6)
 
     val environment = Environment(players = List(p1, p2))

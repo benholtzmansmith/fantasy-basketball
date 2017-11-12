@@ -25,7 +25,7 @@ class ScorerSpec extends FunSuite {
     val agent2 = mkDummy(List(player2, player4))
     val agent3 = mkDummy(List(player3))
 
-    assert(MaxPointsScorer.pickWinner(List(agent1, agent2, agent3)) == agent2)
+    assert(MaxPointsScorer.pickWinner(List(agent1, agent2, agent3)) == Some(agent2))
   }
 
   test("max all scorer should take agent with max cumulative points of all its players") {
@@ -38,6 +38,13 @@ class ScorerSpec extends FunSuite {
     val agent2 = mkDummy(List(player2, player4))
     val agent3 = mkDummy(List(player3))
 
-    assert(MaxAllScorer.pickWinner(List(agent1, agent2, agent3)) == agent2)
+    assert(MaxAllScorer.pickWinner(List(agent1, agent2, agent3)) == Some(agent2))
+  }
+
+  test("max all works with single player, many categories, when they tie it should be None"){
+    val a2 = mkDummy(List(Player(2376,612,502,138,51,374,236,837,117,1617,907,"James Harden")))
+    val a3 = mkDummy(List(Player(2375,527,430,169,16,262,402,400,37,1596,791,"Stephen Curry")))
+
+    assert(MaxAllScorer.pickWinner(List(a3, a2)) == None)
   }
 }

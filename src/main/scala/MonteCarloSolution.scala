@@ -45,7 +45,7 @@ object TestData {
 
   val agent1 = RandomAgent(Nil)
   val agent2 = MaxPointsAgent(Nil)
-  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 1000000)
+  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 10000)
 
   val allAgents = List(agent3, agent2)
 
@@ -113,13 +113,13 @@ object FantasyBasketball {
 
     val startingPlayers = TestData.realPlayers.take(10)
 
-    val numberOfRoundsInDraft = 10
+    val numberOfRoundsInDraft = 1
 
     val startingEnv = Environment(startingPlayers)
 
     val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
 
-    val scoreMap = runGameN(startingEnv,startingAgents, 40, Map(), numberOfRoundsInDraft)
+    val scoreMap = runGameN(startingEnv,startingAgents, 1, Map(), numberOfRoundsInDraft)
 
     val winner = scoreMap.toList.max(Utils.tupleOrdering)
 
@@ -176,41 +176,6 @@ object FantasyBasketball {
   }
 }
 
-object Math {
-  def argMax(l:Seq[Double]):Option[Int] = {
-    val (_, i) = l.zipWithIndex.foldLeft((0.0,None:Option[Int])){ case (prev@(prevV, _), (vAndi)) =>
-      val (value, i ) = vAndi
-      if (value > prevV){
-        (value, Some(i))
-      }
-      else {
-        prev
-      }
-    }
-
-    i
-  }
-
-  def argMin(l:Seq[Double]):Option[Int] = {
-    l match {
-      case Nil => None
-      case h :: Nil => Some(0)
-      case h :: t =>
-        val (_, i) = t.zipWithIndex.foldLeft((h, 0)) { case (prev@(prevV, _), (vAndi)) =>
-          val (value, i) = vAndi
-          if (value < prevV) {
-            (value, i + 1)
-          }
-          else {
-            prev
-          }
-        }
-
-        Some(i)
-    }
-  }
-}
-
 case class Player(
                    points:Int = 0,
                    assists:Int = 0,
@@ -231,18 +196,18 @@ case class Player(
 case class Environment(players:List[Player])
 
 trait Scorer {
-  def pickWinner(agents:List[Agent]):Agent
+  def pickWinner(agents:List[Agent]):Option[Agent]
 }
 
 object MaxPointsScorer extends Scorer {
-  def pickWinner(agents: List[Agent]): Agent = {
-    val winner = Math.argMax(agents.map(_.players.map(_.points).sum.toDouble)).getOrElse(throw new Exception("need to get a player"))
-    agents(winner)
+  def pickWinner(agents: List[Agent]): Option[Agent] = {
+    val winner = Math.argMax(agents.map(_.players.map(_.points).sum.toDouble))
+    winner.map(agents(_))
   }
 }
 
 object MaxAllScorer extends Scorer {
-  def pickWinner(agents: List[Agent]): Agent = {
+  def pickWinner(agents: List[Agent]): Option[Agent] = {
     val pointsWinner = Math.argMax(agents.map(_.players.map(_.points).sum.toDouble))
     val assistsWinner = Math.argMax(agents.map(_.players.map(_.assists).sum.toDouble))
     val reboundsWinner = Math.argMax(agents.map(_.players.map(_.rebounds).sum.toDouble))
@@ -253,13 +218,15 @@ object MaxAllScorer extends Scorer {
     val freeThrowAttemptsWinner = Math.argMax(agents.map(_.players.map(_.freeThrowAttempts).sum.toDouble))
     val fieldGoalPercentageWinner = Math.argMax(agents.map{ a =>
       val attempts = a.players.map(_.fieldGoalAttempts).sum
-      val makes = a.players.map(_.fieldGoalMisses).sum
-      1.0 - (makes.toDouble / attempts)
+      val misses = a.players.map(_.fieldGoalMisses).sum
+      if(attempts == 0.0) 0.0
+      else 1.0 - (misses.toDouble / attempts)
     })
     val fieldThrowPercentageWinner = Math.argMax(agents.map{ a =>
       val attempts = a.players.map(_.freeThrowAttempts).sum
-      val makes = a.players.map(_.freeThrowMisses).sum
-      1.0 - (makes.toDouble / attempts)
+      val misses = a.players.map(_.freeThrowMisses).sum
+      if(attempts == 0.0) 0.0
+      else 1.0 - (misses.toDouble / attempts)
     })
 
     //TODO: Add the percent categories
@@ -276,9 +243,14 @@ object MaxAllScorer extends Scorer {
       fieldThrowPercentageWinner
     ).flatten.groupBy(identity)
 
-    val overallWinner = scoreGroup.maxBy(_._2.size)._1
+    val (potentialWinner, wins) = scoreGroup.maxBy(_._2.size)
+    //If the winner has the same number of wins as someone else, nobody wins
+    val overallWinner = {
+      if( scoreGroup.toList.map(_._2.size).count(_ == wins.size) > 1) None
+      else Some(potentialWinner)
+    }
 
-    agents(overallWinner.toInt)
+    overallWinner.map(agents(_))
   }
 }
 
@@ -341,7 +313,7 @@ object Utils {
 trait MonteCarloAgent extends Agent {
   import Utils._
 
-  lazy val epsilon = .5
+  lazy val epsilon = .1
 
   def iters:Int
 
@@ -397,10 +369,14 @@ trait MonteCarloAgent extends Agent {
         .getOrElse( throw new Exception("There was no new player"))
 
       val newScore = {
-        //If we win, we add a new point to the player who we drafted and we won with
-        if( winner == newAgent) update(score, newPlayer, 1)
-        //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
-        else update(score, newPlayer, -1)
+        winner match {
+          //If we win, we add a new point to the player who we drafted and we won with
+          case Some( w ) if w == newAgent => update(score, newPlayer, 1)
+          //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
+          case Some( w ) if w != newAgent => update(score, newPlayer, -1)
+          //If nobody wins add a zero entry
+          case _ =>  update(score, newPlayer, 0)
+        }
       }
       // We run the draft again with the updated score
       randomDraftAndScore(environment, otherAgents, newScore, iters - 1, numberOfPlayers, e)
