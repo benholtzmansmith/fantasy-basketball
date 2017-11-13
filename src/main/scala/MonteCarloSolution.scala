@@ -45,7 +45,7 @@ object TestData {
 
   val agent1 = RandomAgent(Nil)
   val agent2 = MaxPointsAgent(Nil)
-  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 1000000)
+  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 1000)
 
   val allAgents = List(agent3, agent2)
 
@@ -121,13 +121,18 @@ object FantasyBasketball {
 
     val scoreMap = runGameN(startingEnv,startingAgents, 1, Map(), numberOfRoundsInDraft)
 
-    val winner = scoreMap.toList.max(Utils.tupleOrdering)
+    val potentialWinner = scoreMap.toList.max(Utils.tupleOrdering)
 
     val endTime = System.nanoTime()
 
+    val winner = {
+      if( scoreMap.toList.map(_._2).count(_ == potentialWinner._2) > 1) None
+      else Some(potentialWinner)
+    }
+
     println(
       s"""
-         |Winner: ${startingAgents.find(_.name == winner._1).get.name}
+         |Winner: ${startingAgents.find( a => winner.exists(_._1 == a.name))}
          |
          |All Agents:
          |${scoreMap.toList.map{case (agent, score) =>
@@ -150,11 +155,13 @@ object FantasyBasketball {
 
       val winner = MaxAllScorer.pickWinner(newAgents)
 
-      val newMap = {
-        winner match {
-          case Some(w) => Utils.update(scoreTracker, w.name, 1)
-          case _ => scoreTracker
-        }
+      val results = newAgents.map{ a =>
+        if ( winner.exists(_.name == a.name) ) (a, 1)
+        else (a, 0)
+      }
+
+      val newMap = results.foldLeft(scoreTracker){ case (map, (agent, score)) =>
+        Utils.update(map, agent.name, score)
       }
 
       runGameN(startingEnv, startingAgents, runCount - 1, newMap, numberOfRoundsDraft)
@@ -251,9 +258,9 @@ object MaxAllScorer extends Scorer {
     val (potentialWinner, wins) = scoreGroup.maxBy(_._2.size)
     //If the winner has the same number of wins as someone else, nobody wins
       val overallWinner = {
-      if( scoreGroup.toList.map(_._2.size).count(_ == wins.size) > 1) None
-      else Some(potentialWinner)
-    }
+        if( scoreGroup.toList.map(_._2.size).count(_ == wins.size) > 1) None
+        else Some(potentialWinner)
+      }
 
     overallWinner.map(agents(_))
   }
@@ -315,6 +322,34 @@ object Utils {
   }
 }
 
+object MonteCarloAgentUtils {
+  import Utils._
+
+  // TODO:write test for this
+  def scoreAndUpdateMap(
+                         scorer:Scorer,
+                         allCompetitors:List[Agent],
+                         newThisAgent:Agent,
+                         players:List[Player],
+                         score:Map[Player, Int]):Map[Player, Int] = {
+    val winner = scorer.pickWinner(allCompetitors)
+    //We figure out what player we drafted
+    val newPlayer = newThisAgent
+      .players
+      .find( p => !players.contains(p))
+      .getOrElse( throw new Exception("There was no new player"))
+
+    winner match {
+      //If we win, we add a new point to the player who we drafted and we won with
+      case Some( w ) if w == newThisAgent => update(score, newPlayer, 1)
+      //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
+      case Some( w ) if w != newThisAgent => update(score, newPlayer, -1)
+      //If nobody wins add a zero entry
+      case _ =>  update(score, newPlayer, 0)
+    }
+  }
+}
+
 trait MonteCarloAgent extends Agent {
   import Utils._
 
@@ -346,7 +381,7 @@ trait MonteCarloAgent extends Agent {
   private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, Int], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, Int] = {
     if (iters > 0) {
       //We draft randomly e fraction of the time, otherwise pick player that contributes to max score
-      val (newEnv, newAgent) = {
+      val (newEnv, newThisAgent) = {
         if( e > Random.nextDouble() || score.isEmpty) {
           randomAction(environment)
         }
@@ -362,27 +397,15 @@ trait MonteCarloAgent extends Agent {
       }
       //All other agents that need another player draft randomly with updated env
 
-      val agentsThatNeedAnotherPlayer = otherAgents.filter(_.players.length < numberOfPlayers)
+      val (agentsThatNeedAnotherPlayer, agentsThatDont) = otherAgents.partition(_.players.length < numberOfPlayers)
 
-      val (_, agents) = randomDraft(newEnv, agentsThatNeedAnotherPlayer)
+      val (_, newAgents) = randomDraft(newEnv, agentsThatNeedAnotherPlayer)
       //We score the draft
-      val winner = scorer.pickWinner(agents :+ newAgent)
-      //We figure out what player we drafted
-      val newPlayer = newAgent
-        .players
-        .find( p => !players.contains(p))
-        .getOrElse( throw new Exception("There was no new player"))
 
-      val newScore = {
-        winner match {
-          //If we win, we add a new point to the player who we drafted and we won with
-          case Some( w ) if w == newAgent => update(score, newPlayer, 1)
-          //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
-          case Some( w ) if w != newAgent => update(score, newPlayer, -1)
-          //If nobody wins add a zero entry
-          case _ =>  update(score, newPlayer, 0)
-        }
-      }
+      val allCompetitors = newAgents ++ agentsThatDont :+ newThisAgent
+
+      val newScore = MonteCarloAgentUtils.scoreAndUpdateMap(scorer, allCompetitors, newThisAgent, players, score)
+
       // We run the draft again with the updated score
       randomDraftAndScore(environment, otherAgents, newScore, iters - 1, numberOfPlayers, e)
     }
