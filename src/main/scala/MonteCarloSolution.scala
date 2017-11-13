@@ -265,45 +265,36 @@ object Experiment {
 
 
 object FantasyBasketball {
+  def skip[A](l:List[A], n:Int) = l.zipWithIndex.collect {case (e,i) if ((i+1) % n) == 0 => e}
+
   def main(args: Array[String]): Unit = {
-    val startTime = System.nanoTime()
+    val players = skip((9 to 200).toList, 5)
+    val iters = 1000
 
-    val startingPlayers = TestData.realPlayers.take(10)
 
-    val numberOfRoundsInDraft = 3
+    val results = for {
+      playerCount <- players
+    } yield {
+      println(s"doing:${playerCount} players")
 
-    val startingEnv = Environment(startingPlayers)
+      val startingPlayers = TestData.realPlayers.take(playerCount)
 
-    val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
+      val numberOfRoundsInDraft = 3
 
-    val scoreMap = Experiment.runGameN(startingEnv,startingAgents, 100, Map(), numberOfRoundsInDraft)
+      val startingEnv = Environment(startingPlayers)
 
-    val potentialWinner = scoreMap.toList.max(Utils.tupleOrdering)
+      val agents = List(MaxPointsAgent(Nil),MaxAllMonteCarloAgent(Nil, iters = iters))
 
-    val endTime = System.nanoTime()
+      val startingAgents:List[Agent] = scala.util.Random.shuffle(agents)
 
-    val winner = {
-      if( scoreMap.toList.map(_._2).count(_ == potentialWinner._2) > 1) None
-      else Some(potentialWinner)
+      val scoreMap = Experiment.runGameN(startingEnv,startingAgents, 100, Map(), numberOfRoundsInDraft)
+
+      (playerCount, scoreMap(MaxAllMonteCarloAgent().name))
     }
-
-    println(
-      s"""
-         |Winner: ${startingAgents.find( a => winner.exists(_._1 == a.name))}
-         |
-         |All Agents:
-         |${scoreMap.toList.map{case (agent, score) =>
-            s"""
-               |agent:${startingAgents.find(_.name == agent).get.name}
-               |score:${score}
-               |""".stripMargin
-            }
-          }
-         |
-         | RunTime = ${(endTime - startTime) / (1000 * 1000 * 1000) } seconds
-         |
-       """.stripMargin)
-
+    println(s"number of players -> wins for ${iters} simulations")
+    results.foreach{ r =>
+      println(s"${r._1}: ${"*" * r._2}")
+    }
   }
 
 }
@@ -545,13 +536,13 @@ trait MonteCarloAgent extends Agent {
   }
 }
 
-case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .1) extends MonteCarloAgent{
+case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .2) extends MonteCarloAgent{
   override def scorer: Scorer = MaxAllScorer
 
   def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon)
 
 }
-case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .1) extends MonteCarloAgent{
+case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .2) extends MonteCarloAgent{
   override def scorer: Scorer = MaxPointsScorer
 
   def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon = epsilon )
