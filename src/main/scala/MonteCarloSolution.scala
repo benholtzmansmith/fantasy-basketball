@@ -45,7 +45,7 @@ object TestData {
 
   val agent1 = RandomAgent(Nil)
   val agent2 = MaxPointsAgent(Nil)
-  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 1000)
+  val agent3 = MaxAllMonteCarloAgent(Nil, iters = 10000)
 
   val allAgents = List(agent3, agent2)
 
@@ -106,6 +106,163 @@ object TestData {
   }
 }
 
+case class Experiment(
+                            startingNumberOfPlayers:List[Int],
+                            numberOfRoundsInDraft:List[Int],
+                            epsilons:List[Double],
+                            numberOfSimulations:List[Int],
+                            numberOfMonteCarloIters:List[Int],
+                            numberOfCompetitors:List[Int]
+                          ) {
+  val allParamsSize = List(startingNumberOfPlayers.size, numberOfRoundsInDraft.size, epsilons.size, numberOfSimulations.size)
+
+  assert(allParamsSize.forall( i => allParamsSize.headOption.contains(i)), "must have same size of list for experiment" )
+}
+
+object Experiment {
+  def run(experiment: Experiment) = {
+
+    for {
+      playerCount <- experiment.startingNumberOfPlayers
+      draftRounds <- experiment.numberOfRoundsInDraft
+      epsilon <- experiment.epsilons
+      sims <- experiment.numberOfSimulations
+      iters <- experiment.numberOfMonteCarloIters
+      competitorCount <- experiment.numberOfCompetitors
+    } yield {
+      val startTime = System.nanoTime()
+
+      val startingPlayers = TestData.realPlayers.take(playerCount)
+
+      val numberOfRoundsInDraft = draftRounds
+
+      val startingEnv = Environment(startingPlayers)
+
+      val agent1 = MaxPointsAgent(Nil)
+      val agent2 = new MaxAllMonteCarloAgent(Nil, iters = iters, epsilon = epsilon)
+      val allAgents = List(agent1, agent2)
+
+      val startingAgents:List[Agent] = scala.util.Random.shuffle(allAgents)
+
+      val scoreMap = runGameN(startingEnv,startingAgents, sims, Map(), numberOfRoundsInDraft)
+
+      val potentialWinner = scoreMap.toList.max(Utils.tupleOrdering)
+
+      val endTime = System.nanoTime()
+
+      val winner = {
+        if( scoreMap.toList.map(_._2).count(_ == potentialWinner._2) > 1) None
+        else Some(potentialWinner)
+      }
+
+      println(
+        s"""
+           |Winner: ${startingAgents.find( a => winner.exists(_._1 == a.name))}
+           |
+         |All Agents:
+           |${scoreMap.toList.map{case (agent, score) =>
+          s"""
+             |agent:${startingAgents.find(_.name == agent).get.name}
+             |score:${score}
+             |""".stripMargin
+        }
+        }
+           |
+         | RunTime = ${(endTime - startTime) / (1000 * 1000 * 1000) } seconds
+           |
+       """.stripMargin)
+    }
+
+
+    val startTime = System.nanoTime()
+
+    val startingPlayers = TestData.realPlayers.take(40)
+
+    val numberOfRoundsInDraft = 3
+
+    val startingEnv = Environment(startingPlayers)
+
+    val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
+
+    val scoreMap = runGameN(startingEnv,startingAgents, 100, Map(), numberOfRoundsInDraft)
+
+    val potentialWinner = scoreMap.toList.max(Utils.tupleOrdering)
+
+    val endTime = System.nanoTime()
+
+    val winner = {
+      if( scoreMap.toList.map(_._2).count(_ == potentialWinner._2) > 1) None
+      else Some(potentialWinner)
+    }
+
+    println(
+      s"""
+         |Winner: ${startingAgents.find( a => winner.exists(_._1 == a.name))}
+         |
+         |All Agents:
+         |${scoreMap.toList.map{case (agent, score) =>
+        s"""
+           |agent:${startingAgents.find(_.name == agent).get.name}
+           |score:${score}
+           |""".stripMargin
+      }
+      }
+         |
+         | RunTime = ${(endTime - startTime) / (1000 * 1000 * 1000) } seconds
+         |
+       """.stripMargin)
+
+  }
+
+  @tailrec
+  def runGameN(startingEnv:Environment, startingAgents:List[Agent], runCount:Int, scoreTracker:Map[String, Int], numberOfRoundsDraft:Int):Map[String, Int] = {
+    if (runCount > 0){
+      val (_, newAgents) = draft(startingEnv, startingAgents, Nil, numberOfRoundsDraft)
+
+      val winner = MaxAllScorer.pickWinner(newAgents)
+
+      //      println("winner", winner.map(_.name))
+
+      val results = newAgents.map{ a =>
+        if ( winner.exists(_.name == a.name) ) (a, 1)
+        else (a, 0)
+      }
+
+      val newMap = results.foldLeft(scoreTracker){ case (map, (agent, score)) =>
+        //        println(
+        //          s"""
+        //            |${"*" * 50}
+        //            |agent: ${agent.name}
+        //            |players:${agent.players.mkString("\n")}
+        //            |${"*" * 50}
+        //          """.stripMargin)
+        Utils.update(map, agent.name, score)
+      }
+
+      runGameN(startingEnv, startingAgents, runCount - 1, newMap, numberOfRoundsDraft)
+    }
+    else scoreTracker
+  }
+
+  @tailrec
+  def draft(environment: Environment,
+            inAgents:List[Agent],
+            outAgents:List[Agent] = Nil,
+            remainingRounds:Int
+           ):(Environment, List[Agent]) = {
+    assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
+    inAgents match {
+      case _ if remainingRounds <= 0 => (environment, inAgents)
+      case Nil => draft(environment, outAgents.reverse, Nil, remainingRounds - 1)
+      case h :: t => {
+        val allOtherAgents = t ++ outAgents
+        val (newEnv, newAgent) = h.action(environment, allOtherAgents)
+        draft(newEnv, t, outAgents :+ newAgent, remainingRounds)
+      }
+    }
+  }
+}
+
 
 object FantasyBasketball {
   def main(args: Array[String]): Unit = {
@@ -113,13 +270,13 @@ object FantasyBasketball {
 
     val startingPlayers = TestData.realPlayers.take(10)
 
-    val numberOfRoundsInDraft = 1
+    val numberOfRoundsInDraft = 3
 
     val startingEnv = Environment(startingPlayers)
 
     val startingAgents:List[Agent] = scala.util.Random.shuffle(TestData.allAgents)
 
-    val scoreMap = runGameN(startingEnv,startingAgents, 1, Map(), numberOfRoundsInDraft)
+    val scoreMap = Experiment.runGameN(startingEnv,startingAgents, 100, Map(), numberOfRoundsInDraft)
 
     val potentialWinner = scoreMap.toList.max(Utils.tupleOrdering)
 
@@ -148,44 +305,7 @@ object FantasyBasketball {
        """.stripMargin)
 
   }
-  @tailrec
-  def runGameN(startingEnv:Environment, startingAgents:List[Agent], runCount:Int, scoreTracker:Map[String, Int], numberOfRoundsDraft:Int):Map[String, Int] = {
-    if (runCount > 0){
-      val (_, newAgents) = draft(startingEnv, startingAgents, Nil, numberOfRoundsDraft)
 
-      val winner = MaxAllScorer.pickWinner(newAgents)
-
-      val results = newAgents.map{ a =>
-        if ( winner.exists(_.name == a.name) ) (a, 1)
-        else (a, 0)
-      }
-
-      val newMap = results.foldLeft(scoreTracker){ case (map, (agent, score)) =>
-        Utils.update(map, agent.name, score)
-      }
-
-      runGameN(startingEnv, startingAgents, runCount - 1, newMap, numberOfRoundsDraft)
-    }
-    else scoreTracker
-  }
-
-  @tailrec
-  def draft(environment: Environment,
-            inAgents:List[Agent],
-            outAgents:List[Agent] = Nil,
-            remainingRounds:Int
-           ):(Environment, List[Agent]) = {
-    assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
-    inAgents match {
-      case _ if remainingRounds <= 0 => (environment, inAgents)
-      case Nil => draft(environment, outAgents.reverse, Nil, remainingRounds - 1)
-      case h :: t => {
-        val allOtherAgents = t ++ outAgents
-        val (newEnv, newAgent) = h.action(environment, allOtherAgents)
-        draft(newEnv, t, outAgents :+ newAgent, remainingRounds)
-      }
-    }
-  }
 }
 
 case class Player(
@@ -353,7 +473,7 @@ object MonteCarloAgentUtils {
 trait MonteCarloAgent extends Agent {
   import Utils._
 
-  lazy val epsilon = .5
+  def epsilon = .5
 
   def iters:Int
 
@@ -425,15 +545,15 @@ trait MonteCarloAgent extends Agent {
   }
 }
 
-case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+case class MaxAllMonteCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .1) extends MonteCarloAgent{
   override def scorer: Scorer = MaxAllScorer
 
-  def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players)
+  def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon)
 
 }
-case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100) extends MonteCarloAgent{
+case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override val iters:Int = 100, override val epsilon:Double = .1) extends MonteCarloAgent{
   override def scorer: Scorer = MaxPointsScorer
 
-  def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players)
+  def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon = epsilon )
 
 }
