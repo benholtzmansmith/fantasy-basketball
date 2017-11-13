@@ -269,7 +269,8 @@ object FantasyBasketball {
 
   def main(args: Array[String]): Unit = {
     val players = skip((9 to 200).toList, 5)
-    val iters = 1000
+    val iters = 100
+    val N = 100
 
 
     val results = for {
@@ -287,13 +288,17 @@ object FantasyBasketball {
 
       val startingAgents:List[Agent] = scala.util.Random.shuffle(agents)
 
-      val scoreMap = Experiment.runGameN(startingEnv,startingAgents, 100, Map(), numberOfRoundsInDraft)
+      val scoreMap = Experiment.runGameN(startingEnv,startingAgents, N, Map(), numberOfRoundsInDraft)
 
-      (playerCount, scoreMap(MaxAllMonteCarloAgent().name))
+      val gamesWonByMonteCarlo = scoreMap(MaxAllMonteCarloAgent().name)
+
+      val fractionWon = gamesWonByMonteCarlo / N.toDouble
+
+      (playerCount, fractionWon)
     }
-    println(s"number of players -> wins for ${iters} simulations")
+    println(s"number of players -> % win for ${iters} simulations")
     results.foreach{ r =>
-      println(s"${r._1}: ${"*" * r._2}")
+      println(s"${r._1}: ${"*" * (r._2 * 100).toInt}")
     }
   }
 
@@ -547,4 +552,21 @@ case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override
 
   def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon = epsilon )
 
+}
+
+case class ExperimentF[A](e:List[A]){
+  def flatMap[B](f:A => ExperimentF[B]):ExperimentF[B] = {
+    ExperimentF(e.map(f).flatMap(_.e))
+  }
+
+  def map[B](f: A => B):ExperimentF[B] = {
+    ExperimentF(e.map(f))
+  }
+}
+
+object ExperimentF {
+  for {
+    l <- ExperimentF(List(1,2))
+    d <- ExperimentF(List("A","B"))
+  } yield (l,d)
 }
