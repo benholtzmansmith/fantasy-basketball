@@ -268,10 +268,13 @@ object FantasyBasketball {
   def skip[A](l:List[A], n:Int) = l.zipWithIndex.collect {case (e,i) if ((i+1) % n) == 0 => e}
 
   def main(args: Array[String]): Unit = {
-    val players = skip((9 to 200).toList, 5)
-    val iters = 100
-    val N = 100
+    val players = List(80)
+    val iters = 1000
+    val N = 1
+    val epsilon = .2
+    val numberOfRoundsInDraft = 3
 
+    val startTime = System.nanoTime()
 
     val results = for {
       playerCount <- players
@@ -280,11 +283,9 @@ object FantasyBasketball {
 
       val startingPlayers = TestData.realPlayers.take(playerCount)
 
-      val numberOfRoundsInDraft = 3
-
       val startingEnv = Environment(startingPlayers)
 
-      val agents = List(MaxPointsAgent(Nil),MaxAllMonteCarloAgent(Nil, iters = iters))
+      val agents = List(MaxPointsAgent(Nil),MaxAllMonteCarloAgent(Nil, iters = iters, epsilon = epsilon))
 
       val startingAgents:List[Agent] = scala.util.Random.shuffle(agents)
 
@@ -296,9 +297,11 @@ object FantasyBasketball {
 
       (playerCount, fractionWon)
     }
-    println(s"number of players -> % win for ${iters} simulations")
+    val endTime = System.nanoTime()
+
+    println(s"number of players -> % win for ${iters} simulations, for numberOfRoundsInDraft: $numberOfRoundsInDraft, epsilon: ${epsilon}, RunTime: ${(endTime - startTime) / (1000 * 1000 * 1000) } seconds")
     results.foreach{ r =>
-      println(s"${r._1}: (${r._2 * 100}%) ${"*" * (r._2 * 100).toInt}")
+      println(s"${r._1}: (${math floor (r._2 * 100)}%) ${"*" * (r._2 * 100).toInt}")
     }
   }
 
@@ -494,7 +497,16 @@ trait MonteCarloAgent extends Agent {
       players.length + 1 /** Keeping track of how many players to give other agents*/,
       e = epsilon
     )
-    val (selectedPlayer, _ )= score.toList.map{ case (p, (r, c)) => (p,r)}.max(tupleDoubleOrdering)
+
+    val estimatedRewards = score.toList.map{ case (p, (r, c)) => (p,r)}
+    val (selectedPlayer, _ )= estimatedRewards.max(tupleDoubleOrdering)
+//    println("\n")
+//    println("*" * 50 )
+//    println(estimatedRewards.mkString("\n"))
+//    println("*" * 50 )
+//    println(s"selected player:$selectedPlayer")
+//    println("*" * 50 )
+//    println("\n")
     val envPlayers = environment.players
     val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
     val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
