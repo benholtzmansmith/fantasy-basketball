@@ -298,7 +298,7 @@ object FantasyBasketball {
     }
     println(s"number of players -> % win for ${iters} simulations")
     results.foreach{ r =>
-      println(s"${r._1}: ${"*" * (r._2 * 100).toInt}")
+      println(s"${r._1}: (${r._2 * 100}%) ${"*" * (r._2 * 100).toInt}")
     }
   }
 
@@ -429,8 +429,18 @@ object Utils {
   def update[A](score:Map[A, Int], player:A, value:Int):Map[A, Int] =
     score + (player -> score.get(player).map(_ + value).getOrElse(value))
 
+  def updateCumulativeAverageReward[A](score:Map[A, (Double, Int)], player:A, value:Int):Map[A, (Double, Int)] =
+    score + (player -> score.get(player).map{ case (cumAverageReward, count) => (((cumAverageReward * count ) + value) / (count + 1), count + 1)}.getOrElse((value.toDouble, 1)))
+
   def tupleOrdering = new Ordering[(_, Int)] {
     override def compare(x: (_, Int), y: (_, Int)): Int = {
+      if(x._2 > y._2) 1
+      else if (x._2 < y._2) -1
+      else 0
+    }
+  }
+  def tupleDoubleOrdering = new Ordering[(_, Double)] {
+    override def compare(x: (_, Double), y: (_, Double)): Int = {
       if(x._2 > y._2) 1
       else if (x._2 < y._2) -1
       else 0
@@ -447,7 +457,7 @@ object MonteCarloAgentUtils {
                          allCompetitors:List[Agent],
                          newThisAgent:Agent,
                          players:List[Player],
-                         score:Map[Player, Int]):Map[Player, Int] = {
+                         score:Map[Player, (Double, Int)]):Map[Player, (Double, Int)] = {
     val winner = scorer.pickWinner(allCompetitors)
     //We figure out what player we drafted
     val newPlayer = newThisAgent
@@ -457,11 +467,11 @@ object MonteCarloAgentUtils {
 
     winner match {
       //If we win, we add a new point to the player who we drafted and we won with
-      case Some( w ) if w == newThisAgent => update(score, newPlayer, 1)
+      case Some( w ) if w == newThisAgent => updateCumulativeAverageReward(score, newPlayer, 1)
       //If we lose, we subtract a point (don't necessarily need to do this, we could just add 0)
-      case Some( w ) if w != newThisAgent => update(score, newPlayer, -1)
+      case Some( w ) if w != newThisAgent => updateCumulativeAverageReward(score, newPlayer, -1)
       //If nobody wins add a zero entry
-      case _ =>  update(score, newPlayer, 0)
+      case _ =>  updateCumulativeAverageReward(score, newPlayer, 0)
     }
   }
 }
@@ -484,7 +494,7 @@ trait MonteCarloAgent extends Agent {
       players.length + 1 /** Keeping track of how many players to give other agents*/,
       e = epsilon
     )
-    val (selectedPlayer, _ )= score.toList.max(tupleOrdering)
+    val (selectedPlayer, _ )= score.toList.map{ case (p, (r, c)) => (p,r)}.max(tupleDoubleOrdering)
     val envPlayers = environment.players
     val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
     val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
@@ -494,7 +504,7 @@ trait MonteCarloAgent extends Agent {
   }
 
   @tailrec
-  private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, Int], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, Int] = {
+  private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, (Double, Int)], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, (Double, Int)] = {
     if (iters > 0) {
       //We draft randomly e fraction of the time, otherwise pick player that contributes to max score
       val (newEnv, newThisAgent) = {
@@ -502,7 +512,7 @@ trait MonteCarloAgent extends Agent {
           randomAction(environment)
         }
         else {
-          val (selectedPlayer, _ ) = score.toList.max(tupleOrdering)
+          val (selectedPlayer, _ ) = score.toList.map{ case (p, (r, c)) => (p,r)}.max(tupleDoubleOrdering)
           val envPlayers = environment.players
           val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
           val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
@@ -552,21 +562,4 @@ case class MaxPointsCarloAgent(override val players:List[Player] = Nil, override
 
   def apply(players: List[Player]): Agent = MaxAllMonteCarloAgent(players, iters, epsilon = epsilon )
 
-}
-
-case class ExperimentF[A](e:List[A]){
-  def flatMap[B](f:A => ExperimentF[B]):ExperimentF[B] = {
-    ExperimentF(e.map(f).flatMap(_.e))
-  }
-
-  def map[B](f: A => B):ExperimentF[B] = {
-    ExperimentF(e.map(f))
-  }
-}
-
-object ExperimentF {
-  for {
-    l <- ExperimentF(List(1,2))
-    d <- ExperimentF(List("A","B"))
-  } yield (l,d)
 }

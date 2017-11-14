@@ -2,7 +2,7 @@ import org.scalatest.FunSuite
 
 import TestData._
 import FantasyBasketball._
-
+import Experiment._
 /**
   * Created by benjaminsmith on 10/29/17.
   */

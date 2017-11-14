@@ -20,7 +20,7 @@ class AgentSpec extends FlatSpec {
     assert(newEnv.players == List(p1))
   }
 
-  behavior of "Monte carlo agent"
+  behavior of "agent utils"
 
   it should "update func should increment score for already existing player" in {
     val testPlayer = Player(1)
@@ -49,6 +49,26 @@ class AgentSpec extends FlatSpec {
     val newMap = Utils.update(testMap, testPlayer, -1)
     assert(newMap == Map(testPlayer -> 0))
   }
+
+  it should "should properly track cumulative reward of positive increments" in {
+    val testPlayer = Player(1)
+    val testMap:Map[Player, (Double, Int)] = Map(testPlayer -> (1.0, 14))
+    val newMap = Utils.updateCumulativeAverageReward(testMap, testPlayer, 1)
+    assert(newMap == Map(testPlayer -> (1, 15)))
+  }
+
+  it should "should properly track cumulative reward of negative increments" in {
+    val testPlayer = Player(1)
+    val testMap:Map[Player, (Double, Int)] = Map()
+    val newMap = Utils.updateCumulativeAverageReward(testMap, testPlayer, 1)
+    val newMap2 = Utils.updateCumulativeAverageReward(newMap, testPlayer, 1)
+    val newMap3 = Utils.updateCumulativeAverageReward(newMap2, testPlayer, -1)
+    val newMap4 = Utils.updateCumulativeAverageReward(newMap3, testPlayer, 1)
+
+    assert(newMap4 == Map(testPlayer -> (.5, 4)))
+  }
+
+  behavior of "Monte carlo agent"
 
   it should "draft random" in {
     val p1 = Player(2)
