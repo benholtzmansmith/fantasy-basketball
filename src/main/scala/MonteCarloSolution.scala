@@ -515,25 +515,28 @@ trait MonteCarloAgent extends Agent {
     (newEnv, newAgent)
   }
 
+  def epsilonGreedyValueFunc(e:Double, score:Map[Player, (Double, Int)], environment: Environment)= {
+    {
+      if( e > Random.nextDouble() || score.isEmpty) {
+        randomAction(environment)
+      }
+      else {
+        val (selectedPlayer, _ ) = score.toList.map{ case (p, (r, c)) => (p,r)}.max(tupleDoubleOrdering)
+        val envPlayers = environment.players
+        val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
+        val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
+        val newAgent = apply(players :+ selectedPlayer)
+        val newEnv = Environment(remainingPlayers)
+        (newEnv, newAgent)
+      }
+    }
+  }
+
   @tailrec
   private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, (Double, Int)], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, (Double, Int)] = {
     if (iters > 0) {
       //We draft randomly e fraction of the time, otherwise pick player that contributes to max score
-      val (newEnv, newThisAgent) = {
-        if( e > Random.nextDouble() || score.isEmpty) {
-          randomAction(environment)
-        }
-        else {
-          val (selectedPlayer, _ ) = score.toList.map{ case (p, (r, c)) => (p,r)}.max(tupleDoubleOrdering)
-          val envPlayers = environment.players
-          val selectedPlayerIndex = envPlayers.indexOf(selectedPlayer)
-          val remainingPlayers = envPlayers.patch(selectedPlayerIndex, Nil, 1)
-          val newAgent = apply(players :+ selectedPlayer)
-          val newEnv = Environment(remainingPlayers)
-          (newEnv, newAgent)
-        }
-      }
-      //All other agents that need another player draft randomly with updated env
+      val (newEnv, newThisAgent) = epsilonGreedyValueFunc(e, score, environment)
 
       val (agentsThatNeedAnotherPlayer, agentsThatDont) = otherAgents.partition(_.players.length < numberOfPlayers)
 
