@@ -253,7 +253,7 @@ object Experiment {
     assert(environment.players.length >= inAgents.length * remainingRounds, "fewer players then agents * remainingRounds")
     inAgents match {
       case _ if remainingRounds <= 0 => (environment, inAgents)
-      case Nil => draft(environment, outAgents.reverse, Nil, remainingRounds - 1)
+      case Nil => draft(environment, outAgents, Nil, remainingRounds - 1)
       case h :: t => {
         val allOtherAgents = t ++ outAgents
         val (newEnv, newAgent) = h.action(environment, allOtherAgents)
@@ -529,6 +529,61 @@ trait MonteCarloAgent extends Agent {
         val newEnv = Environment(remainingPlayers)
         (newEnv, newAgent)
       }
+    }
+  }
+
+  case class RewardEstimate(estimatedReward:Double, trials:Int)
+
+  case class RewardResult(player:Player, reward:Int)
+
+  trait TreeSearchMonte extends Agent {
+
+    def action(env: Environment, otherAgents: List[Agent]): (Environment, Agent) = ???
+
+    def apply(players:List[Player]):SimpleMonte
+
+    def scorer:Scorer
+
+    def players:List[Player]
+
+    def epsilon:Double
+
+    def pickMax(score:Map[Player, RewardEstimate]):Player
+
+    def pickRandom(score:Map[Player, RewardEstimate]):Player
+
+    def updateRewardEstimate(score:Map[Player, RewardEstimate], rewardResult: RewardResult):Map[Player, RewardEstimate]
+
+    def simulateRound(
+     environment: Environment,
+     currentRewardEstimates:Map[Player, RewardEstimate],
+     otherAgents:List[Agent],
+     iters:Int
+    ):Map[Player, RewardEstimate] = {
+      val random = Random.nextDouble()
+      val pickedPlayer = if( random > epsilon ){
+        pickMax(currentRewardEstimates)
+      }
+      else pickRandom(currentRewardEstimates)
+
+      val newPlayers = players :+ pickedPlayer
+
+      val newThisAgent = apply(newPlayers)
+
+      val allAgents = newThisAgent +: otherAgents
+
+      val winningAgent = scorer.pickWinner(allAgents)
+
+      val updatedRewardEstimate = winningAgent match {
+        case Some( a ) if a.name == this.name =>
+          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 1))
+        case Some( a ) if a.name != this.name =>
+          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, -1))
+        case Some( a ) if a.name != this.name =>
+          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 0))
+      }
+
+      updatedRewardEstimate
     }
   }
 
