@@ -549,33 +549,33 @@ trait MonteCarloAgent extends Agent {
 
     def action(env: Environment, otherAgents: List[Agent]): (Environment, Agent) = ???
 
-    def apply(players:List[Player]):TreeSearchMonte
+    def apply(players: List[Player]): TreeSearchMonte
 
-    def scorer:Scorer
+    def scorer: Scorer
 
-    def players:List[Player]
+    def players: List[Player]
 
-    def epsilon:Double
+    def epsilon: Double
 
-    def pickMax(score:Map[Player, RewardEstimate]):Player
+    def pickMax(score: Map[Player, RewardEstimate]): Player
 
-    def pickRandom(score:Map[Player, RewardEstimate]):Player
+    def pickRandom(score: Map[Player, RewardEstimate]): Player
 
-    def updateRewardEstimate(score:Map[Player, RewardEstimate], rewardResult: RewardResult):Map[Player, RewardEstimate]
+    def updateRewardEstimate(score: Map[Player, RewardEstimate], rewardResult: RewardResult): Map[Player, RewardEstimate]
 
     /**
       * Need to just score the first player that was picked in the sim
-      * */
+      **/
 
     def simulateFinalRound(
-     environment: Environment,
-     currentRewardEstimates:Map[Player, RewardEstimate],
-     otherAgents:List[Agent],
-     iters:Int,
-     roundsRemaining:Int
-    ):Map[Player, RewardEstimate] = {
+                            environment: Environment,
+                            currentRewardEstimates: Map[Player, RewardEstimate],
+                            otherAgents: List[Agent],
+                            iters: Int,
+                            roundsRemaining: Int
+                          ): Map[Player, RewardEstimate] = {
       val pickedPlayer = {
-        if( Random.nextDouble() > epsilon ) pickMax(currentRewardEstimates)
+        if (Random.nextDouble() > epsilon) pickMax(currentRewardEstimates)
         else pickRandom(currentRewardEstimates)
       }
 
@@ -591,13 +591,13 @@ trait MonteCarloAgent extends Agent {
 
       val winningAgent = scorer.pickWinner(allAgents)
 
-      if ( roundsRemaining == 0 ) {
+      if (roundsRemaining == 0) {
         val updatedRewardEstimate = winningAgent match {
-          case Some( a ) if a.name == this.name =>
+          case Some(a) if a.name == this.name =>
             updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 1))
-          case Some( a ) if a.name != this.name =>
+          case Some(a) if a.name != this.name =>
             updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, -1))
-          case Some( a ) if a.name != this.name =>
+          case Some(a) if a.name != this.name =>
             updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 0))
         }
 
@@ -605,6 +605,7 @@ trait MonteCarloAgent extends Agent {
       }
       ???
     }
+  }
 
   @tailrec
   private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, (Double, Int)], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, (Double, Int)] = {
