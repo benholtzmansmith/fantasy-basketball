@@ -324,7 +324,16 @@ case class Player(
   assert(fieldGoalAttempts >= fieldGoalMisses, s"${name}: need to attempt more field goals than makes")
 }
 
-case class Environment(players:List[Player])
+case class Environment(players:List[Player]) {
+  def dropPlayer(player: Player):Environment = {
+    val index = players.indexOf(player)
+    if (index < 0) this
+    else {
+      val remainingPlayers = players.patch(index, Nil, 1)
+      Environment(remainingPlayers)
+    }
+  }
+}
 
 trait Scorer {
   def pickWinner(agents:List[Agent]):Option[Agent]
@@ -540,7 +549,7 @@ trait MonteCarloAgent extends Agent {
 
     def action(env: Environment, otherAgents: List[Agent]): (Environment, Agent) = ???
 
-    def apply(players:List[Player]):SimpleMonte
+    def apply(players:List[Player]):TreeSearchMonte
 
     def scorer:Scorer
 
@@ -554,38 +563,48 @@ trait MonteCarloAgent extends Agent {
 
     def updateRewardEstimate(score:Map[Player, RewardEstimate], rewardResult: RewardResult):Map[Player, RewardEstimate]
 
-    def simulateRound(
+    /**
+      * Need to just score the first player that was picked in the sim
+      * */
+
+    def simulateFinalRound(
      environment: Environment,
      currentRewardEstimates:Map[Player, RewardEstimate],
      otherAgents:List[Agent],
-     iters:Int
+     iters:Int,
+     roundsRemaining:Int
     ):Map[Player, RewardEstimate] = {
-      val random = Random.nextDouble()
-      val pickedPlayer = if( random > epsilon ){
-        pickMax(currentRewardEstimates)
+      val pickedPlayer = {
+        if( Random.nextDouble() > epsilon ) pickMax(currentRewardEstimates)
+        else pickRandom(currentRewardEstimates)
       }
-      else pickRandom(currentRewardEstimates)
+
+      val updatedEnv = environment.dropPlayer(pickedPlayer)
 
       val newPlayers = players :+ pickedPlayer
 
       val newThisAgent = apply(newPlayers)
 
-      val allAgents = newThisAgent +: otherAgents
+      val (newEnv, newOtherAgents) = Experiment.draft(updatedEnv, otherAgents, Nil, 1)
+
+      val allAgents = newThisAgent +: newOtherAgents
 
       val winningAgent = scorer.pickWinner(allAgents)
 
-      val updatedRewardEstimate = winningAgent match {
-        case Some( a ) if a.name == this.name =>
-          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 1))
-        case Some( a ) if a.name != this.name =>
-          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, -1))
-        case Some( a ) if a.name != this.name =>
-          updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 0))
-      }
+      if ( roundsRemaining == 0 ) {
+        val updatedRewardEstimate = winningAgent match {
+          case Some( a ) if a.name == this.name =>
+            updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 1))
+          case Some( a ) if a.name != this.name =>
+            updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, -1))
+          case Some( a ) if a.name != this.name =>
+            updateRewardEstimate(currentRewardEstimates, RewardResult(pickedPlayer, 0))
+        }
 
-      updatedRewardEstimate
+        updatedRewardEstimate
+      }
+      ???
     }
-  }
 
   @tailrec
   private def randomDraftAndScore(environment: Environment, otherAgents:List[Agent], score:Map[Player, (Double, Int)], iters:Int, numberOfPlayers:Int, e:Double): Map[Player, (Double, Int)] = {
